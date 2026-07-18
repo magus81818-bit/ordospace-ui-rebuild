@@ -1,0 +1,39 @@
+{
+  "name": "@ordospace/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5174",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4174",
+    "typecheck": "tsc -p tsconfig.json",
+    "validate:data": "node scripts/validate-seed.mjs",
+    "validate:session": "node scripts/validate-session.mjs",
+    "validate:cards": "node scripts/validate-card-routes.mjs",
+    "validate:create": "node scripts/validate-admin-create.mjs",
+    "validate:worker": "node scripts/validate-worker-update.mjs",
+    "validate:submit": "node scripts/validate-worker-submit.mjs",
+    "validate:admin-review": "node scripts/validate-admin-review.mjs",
+    "validate:client-decision": "node scripts/validate-client-decision.mjs",
+    "validate:persistence": "node scripts/validate-store-persistence.mjs",
+    "validate:activity": "node scripts/validate-activity-review.mjs",
+    "validate:forms": "node scripts/validate-form-polish.mjs",
+    "validate": "npm run validate:data && npm run validate:session && npm run validate:cards && npm run validate:create && npm run validate:worker && npm run validate:submit && npm run validate:admin-review && npm run validate:client-decision && npm run validate:persistence && npm run validate:activity && npm run validate:forms",
+    "smoke": "node scripts/smoke-browser.cjs",
+    "smoke:preview": "node scripts/smoke-browser.cjs --preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.454.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "react-router-dom": "7.18.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "6.0.3",
+    "typescript": "^5.9.0",
+    "vite": "8.1.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ordospace-ui-rebuild",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @ordospace/web",
+    "build": "npm run build --workspace @ordospace/web",
+    "preview": "npm run preview --workspace @ordospace/web",
+    "typecheck": "npm run typecheck --workspace @ordospace/web && npm run typecheck --workspace @ordospace/ui-lab",
+    "validate": "npm run validate --workspace @ordospace/web",
+    "check": "npm run typecheck && npm run validate && npm run build",
+    "smoke": "npm run smoke --workspace @ordospace/web",
+    "smoke:preview": "npm run smoke:preview --workspace @ordospace/web",
+    "ui-lab:dev": "npm run dev --workspace @ordospace/ui-lab",
+    "ui-lab:build": "npm run build --workspace @ordospace/ui-lab"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

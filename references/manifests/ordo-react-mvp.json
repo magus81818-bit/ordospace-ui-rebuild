@@ -1,0 +1,61 @@
+{
+  "sourcePath": "C:\\Users\\Admin\\Desktop\\K-디지털\\수업자료\\코덱스\\ORDOSPACE_rebuild\\react-mvp",
+  "copiedAt": "2026-07-18T18:00:00+09:00",
+  "routes": [
+    "/",
+    "/auth",
+    "/workspace",
+    "/workspace/admin",
+    "/workspace/admin/cards/:cardId",
+    "/workspace/worker",
+    "/workspace/worker/cards/:cardId",
+    "/workspace/client",
+    "/workspace/client/cards/:cardId"
+  ],
+  "contexts": [
+    "src/session/SessionContext.jsx",
+    "src/cards/ModuleCardStoreContext.jsx"
+  ],
+  "domainModules": [
+    "src/domain/module-card.model.mjs",
+    "src/data/mvp-seed.mjs",
+    "src/session/session.service.mjs",
+    "src/cards/module-card-store.service.mjs",
+    "src/cards/module-card-actions.mjs",
+    "src/cards/module-card-form-validation.mjs",
+    "src/cards/module-card-activity-review.mjs"
+  ],
+  "uiComponents": [
+    "src/ui/AccountOption.jsx",
+    "src/ui/Button.jsx",
+    "src/ui/Feedback.jsx",
+    "src/ui/ModuleDetailPanel.jsx",
+    "src/ui/ModulePreviewCard.jsx",
+    "src/ui/Panel.jsx",
+    "src/ui/SessionCard.jsx",
+    "src/ui/StatusCard.jsx",
+    "src/ui/index.js",
+    "src/App.jsx"
+  ],
+  "validationScripts": [
+    "scripts/validate-seed.mjs",
+    "scripts/validate-session.mjs",
+    "scripts/validate-card-routes.mjs",
+    "scripts/validate-admin-create.mjs",
+    "scripts/validate-worker-update.mjs",
+    "scripts/validate-worker-submit.mjs",
+    "scripts/validate-admin-review.mjs",
+    "scripts/validate-client-decision.mjs",
+    "scripts/validate-store-persistence.mjs",
+    "scripts/validate-activity-review.mjs",
+    "scripts/validate-form-polish.mjs",
+    "scripts/smoke-browser.cjs"
+  ],
+  "packageVersions": {
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "react-router-dom": "7.18.1",
+    "vite": "8.1.0",
+    "@vitejs/plugin-react": "6.0.3"
+  }
+}

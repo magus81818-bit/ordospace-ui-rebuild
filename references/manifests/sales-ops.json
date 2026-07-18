@@ -1,0 +1,47 @@
+{
+  "sourcePath": "C:\\Users\\Admin\\OneDrive\\Desktop\\모든 자료 날짜별 아카이브\\260718\\sales-ops-dashboard.zip",
+  "framework": "Next.js 16 App Router with React 19, Tailwind CSS 4, Radix/shadcn primitives, and Recharts",
+  "uiPrimitiveCount": 57,
+  "dashboardComponentCount": 15,
+  "sectionCount": 8,
+  "usedUiPrimitives": [
+    "avatar",
+    "badge",
+    "button",
+    "card",
+    "input",
+    "label",
+    "select",
+    "switch",
+    "tabs"
+  ],
+  "unusedOrUnconfirmedUiPrimitives": [
+    "accordion", "alert", "alert-dialog", "aspect-ratio", "breadcrumb", "button-group",
+    "calendar", "carousel", "chart", "checkbox", "collapsible", "command", "context-menu",
+    "dialog", "drawer", "dropdown-menu", "empty", "field", "form", "hover-card", "input-group",
+    "input-otp", "item", "kbd", "menubar", "navigation-menu", "pagination", "popover", "progress",
+    "radio-group", "resizable", "scroll-area", "separator", "sheet", "sidebar", "skeleton", "slider",
+    "sonner", "spinner", "table", "textarea", "toast", "toaster", "toggle", "toggle-group", "tooltip",
+    "use-mobile"
+  ],
+  "nextSpecificFiles": [
+    "next.config.mjs",
+    "app/layout.tsx",
+    "app/page.tsx",
+    "components/theme-provider.tsx"
+  ],
+  "styleEntryFiles": [
+    "app/globals.css",
+    "postcss.config.mjs"
+  ],
+  "packageVersions": {
+    "next": "16.0.10",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "tailwindcss": "^4.1.9",
+    "@tailwindcss/postcss": "^4.1.9",
+    "lucide-react": "^0.454.0",
+    "recharts": "2.15.4",
+    "typescript": "^5"
+  }
+}
