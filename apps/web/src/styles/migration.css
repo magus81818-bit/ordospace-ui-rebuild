@@ -1,1 +1,29 @@
-/* Migration-only overrides begin in a later round. Round 1 preserves src/styles.css. */
+html {
+  background: var(--ordo-bg-canvas);
+}
+
+body {
+  background: var(--ordo-bg-canvas);
+  color: var(--ordo-text-primary);
+  font-family: var(--ordo-font-sans);
+  font-size: var(--ordo-text-body-size);
+  line-height: var(--ordo-line-body);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: var(--ordo-focus-ring);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

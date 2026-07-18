@@ -1,0 +1,40 @@
+:root {
+  --ordo-sidebar-width: 260px;
+  --ordo-sidebar-rail-width: 72px;
+  --ordo-header-height: 64px;
+  --ordo-mobile-header-height: 56px;
+  --ordo-content-max-width: 1600px;
+  --ordo-page-gutter: 24px;
+  --ordo-page-gutter-tablet: 20px;
+  --ordo-page-gutter-mobile: 16px;
+  --ordo-breakpoint-tablet: 1024px;
+  --ordo-breakpoint-mobile: 768px;
+  --ordo-card-padding: 20px;
+  --ordo-control-height-sm: 32px;
+  --ordo-control-height-md: 36px;
+  --ordo-control-height-lg: 40px;
+  --ordo-table-row-height: 48px;
+  --ordo-focus-ring: 2px solid var(--ordo-border-focus);
+
+  --ordo-space-1: 4px;
+  --ordo-space-2: 8px;
+  --ordo-space-3: 12px;
+  --ordo-space-4: 16px;
+  --ordo-space-5: 20px;
+  --ordo-space-6: 24px;
+  --ordo-space-8: 32px;
+  --ordo-space-10: 40px;
+  --ordo-space-12: 48px;
+
+  --ordo-radius-sm: 6px;
+  --ordo-radius-md: 8px;
+  --ordo-radius-lg: 10px;
+  --ordo-radius-xl: 12px;
+  --ordo-radius-pill: 999px;
+
+  --ordo-border-width: 1px;
+  --ordo-shadow-xs: 0 1px 2px oklch(0 0 0 / 0.18);
+  --ordo-shadow-sm: 0 4px 14px oklch(0 0 0 / 0.18);
+  --ordo-shadow-md: 0 12px 28px oklch(0 0 0 / 0.24);
+  --ordo-shadow-overlay: 0 22px 60px oklch(0 0 0 / 0.42);
+}

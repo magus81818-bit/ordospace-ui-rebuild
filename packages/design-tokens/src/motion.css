@@ -1,0 +1,8 @@
+:root {
+  --ordo-duration-fast: 120ms;
+  --ordo-duration-normal: 180ms;
+  --ordo-duration-slow: 280ms;
+  --ordo-ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ordo-ease-enter: cubic-bezier(0, 0, 0.2, 1);
+  --ordo-ease-exit: cubic-bezier(0.4, 0, 1, 1);
+}

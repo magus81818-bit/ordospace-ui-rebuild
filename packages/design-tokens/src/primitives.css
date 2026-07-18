@@ -1,0 +1,16 @@
+:root {
+  --ordo-neutral-950: oklch(0.09 0.005 260);
+  --ordo-neutral-900: oklch(0.11 0.005 260);
+  --ordo-neutral-850: oklch(0.12 0.005 260);
+  --ordo-neutral-800: oklch(0.18 0.005 260);
+  --ordo-neutral-700: oklch(0.22 0.005 260);
+  --ordo-neutral-500: oklch(0.65 0 0);
+  --ordo-neutral-300: oklch(0.82 0 0);
+  --ordo-neutral-100: oklch(0.95 0 0);
+  --ordo-green-500: oklch(0.7 0.18 145);
+  --ordo-teal-400: oklch(0.74 0.14 190);
+  --ordo-amber-500: oklch(0.75 0.18 55);
+  --ordo-red-500: oklch(0.65 0.2 25);
+  --ordo-blue-500: oklch(0.7 0.18 220);
+  --ordo-violet-500: oklch(0.7 0.15 300);
+}

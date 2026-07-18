@@ -1,0 +1,24 @@
+:root {
+  --ordo-font-sans: "DM Sans", "Pretendard", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ordo-font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+
+  --ordo-text-display-size: clamp(2rem, 3.2vw, 3rem);
+  --ordo-text-page-title-size: 1.5rem;
+  --ordo-text-section-title-size: 1rem;
+  --ordo-text-card-title-size: 0.875rem;
+  --ordo-text-body-size: 0.875rem;
+  --ordo-text-support-size: 0.8125rem;
+  --ordo-text-caption-size: 0.75rem;
+  --ordo-text-label-size: 0.6875rem;
+  --ordo-text-metric-size: clamp(1.5rem, 2.2vw, 2rem);
+
+  --ordo-line-display: 1.08;
+  --ordo-line-title: 1.25;
+  --ordo-line-body: 1.55;
+  --ordo-line-compact: 1.3;
+
+  --ordo-weight-regular: 400;
+  --ordo-weight-medium: 500;
+  --ordo-weight-semibold: 600;
+  --ordo-weight-bold: 700;
+}

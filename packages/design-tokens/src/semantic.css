@@ -1,0 +1,60 @@
+:root {
+  color-scheme: dark;
+
+  --ordo-bg-canvas: var(--ordo-neutral-950);
+  --ordo-bg-sidebar: var(--ordo-neutral-900);
+  --ordo-bg-header: color-mix(in oklch, var(--ordo-neutral-950) 88%, transparent);
+  --ordo-bg-surface-1: var(--ordo-neutral-850);
+  --ordo-bg-surface-2: var(--ordo-neutral-800);
+  --ordo-bg-surface-3: color-mix(in oklch, var(--ordo-neutral-800) 78%, var(--ordo-neutral-700));
+  --ordo-bg-elevated: color-mix(in oklch, var(--ordo-neutral-850) 88%, var(--ordo-neutral-300));
+  --ordo-bg-hover: color-mix(in oklch, var(--ordo-neutral-800) 86%, var(--ordo-neutral-300));
+  --ordo-bg-selected: color-mix(in oklch, var(--ordo-green-500) 14%, var(--ordo-neutral-850));
+
+  --ordo-border-subtle: color-mix(in oklch, var(--ordo-neutral-700) 72%, transparent);
+  --ordo-border-default: var(--ordo-neutral-700);
+  --ordo-border-strong: color-mix(in oklch, var(--ordo-neutral-500) 54%, var(--ordo-neutral-700));
+  --ordo-border-focus: var(--ordo-green-500);
+
+  --ordo-text-primary: var(--ordo-neutral-100);
+  --ordo-text-secondary: var(--ordo-neutral-300);
+  --ordo-text-tertiary: var(--ordo-neutral-500);
+  --ordo-text-disabled: color-mix(in oklch, var(--ordo-neutral-500) 65%, var(--ordo-neutral-950));
+  --ordo-text-inverse: var(--ordo-neutral-950);
+
+  --ordo-accent-primary: var(--ordo-green-500);
+  --ordo-accent-primary-hover: color-mix(in oklch, var(--ordo-green-500) 86%, white);
+  --ordo-accent-primary-active: color-mix(in oklch, var(--ordo-green-500) 78%, black);
+  --ordo-accent-primary-muted: color-mix(in oklch, var(--ordo-green-500) 16%, transparent);
+  --ordo-accent-secondary: var(--ordo-blue-500);
+  --ordo-accent-secondary-muted: color-mix(in oklch, var(--ordo-blue-500) 16%, transparent);
+
+  --ordo-status-ok-fg: color-mix(in oklch, var(--ordo-green-500) 84%, white);
+  --ordo-status-ok-bg: color-mix(in oklch, var(--ordo-green-500) 12%, transparent);
+  --ordo-status-ok-border: color-mix(in oklch, var(--ordo-green-500) 38%, transparent);
+  --ordo-status-warn-fg: color-mix(in oklch, var(--ordo-amber-500) 84%, white);
+  --ordo-status-warn-bg: color-mix(in oklch, var(--ordo-amber-500) 12%, transparent);
+  --ordo-status-warn-border: color-mix(in oklch, var(--ordo-amber-500) 38%, transparent);
+  --ordo-status-crit-fg: color-mix(in oklch, var(--ordo-red-500) 80%, white);
+  --ordo-status-crit-bg: color-mix(in oklch, var(--ordo-red-500) 12%, transparent);
+  --ordo-status-crit-border: color-mix(in oklch, var(--ordo-red-500) 38%, transparent);
+  --ordo-status-pend-fg: color-mix(in oklch, var(--ordo-blue-500) 82%, white);
+  --ordo-status-pend-bg: color-mix(in oklch, var(--ordo-blue-500) 12%, transparent);
+  --ordo-status-pend-border: color-mix(in oklch, var(--ordo-blue-500) 38%, transparent);
+  --ordo-status-rej-fg: var(--ordo-neutral-300);
+  --ordo-status-rej-bg: color-mix(in oklch, var(--ordo-neutral-500) 10%, transparent);
+  --ordo-status-rej-border: color-mix(in oklch, var(--ordo-neutral-500) 30%, transparent);
+
+  --ordo-chart-primary: var(--ordo-blue-500);
+  --ordo-chart-secondary: var(--ordo-green-500);
+  --ordo-chart-tertiary: var(--ordo-violet-500);
+  --ordo-chart-positive: var(--ordo-green-500);
+  --ordo-chart-warning: var(--ordo-amber-500);
+  --ordo-chart-critical: var(--ordo-red-500);
+  --ordo-chart-muted: color-mix(in oklch, var(--ordo-neutral-500) 48%, transparent);
+  --ordo-chart-grid: var(--ordo-border-subtle);
+  --ordo-chart-axis: var(--ordo-text-tertiary);
+  --ordo-chart-tooltip-background: var(--ordo-bg-elevated);
+  --ordo-chart-tooltip-border: var(--ordo-border-default);
+  --ordo-chart-tooltip-text: var(--ordo-text-primary);
+}

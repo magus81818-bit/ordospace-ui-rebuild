@@ -1,1 +1,3 @@
-/* Round 2 will import the shared design-token package here. */
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+@import "@ordospace/design-tokens";
