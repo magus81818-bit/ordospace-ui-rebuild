@@ -8,7 +8,8 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const baseUrl = "http://127.0.0.1:5174/";
 const dashboardMode = process.argv.includes("--dashboard");
-const outputDir = path.join(root, "docs", "ui-migration", "screenshots", dashboardMode ? "round-05" : "round-04");
+const adminMode = process.argv.includes("--admin");
+const outputDir = path.join(root, "docs", "ui-migration", "screenshots", adminMode ? "round-06" : dashboardMode ? "round-05" : "round-04");
 const browserPath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 const users = {
   admin: ["user-admin-01", "Hana Lee", "admin@ordospace.test"],
@@ -39,7 +40,21 @@ const dashboardScenarios = [
   ["filtered-empty-state", 393, 852, "worker", "/workspace/worker", "filter-empty"],
   ["detail-common-surface", 1280, 800, "admin", "/workspace/admin/cards/card-002", "detail"],
 ];
-const scenarios = dashboardMode ? dashboardScenarios : shellScenarios;
+const adminScenarios = [
+  ["admin-operations-1440", 1440, 900, "admin", "/workspace/admin", "admin-root"],
+  ["admin-operations-393", 393, 852, "admin", "/workspace/admin", "admin-root"],
+  ["admin-review-queue", 1280, 800, "admin", "/workspace/admin", "admin-root"],
+  ["admin-create-panel", 1440, 900, "admin", "/workspace/admin", "admin-create"],
+  ["admin-detail-review-1440", 1440, 900, "admin", "/workspace/admin/cards/card-003", "admin-review"],
+  ["admin-detail-review-393", 393, 852, "admin", "/workspace/admin/cards/card-003", "admin-review"],
+  ["admin-detail-client-review", 1280, 800, "admin", "/workspace/admin/cards/card-002", "admin-readonly"],
+  ["admin-detail-revision", 1280, 800, "admin", "/workspace/admin/cards/card-004", "admin-readonly"],
+  ["admin-detail-approved", 1280, 800, "admin", "/workspace/admin/cards/card-001", "admin-readonly"],
+  ["admin-operations-768", 768, 1024, "admin", "/workspace/admin", "admin-root"],
+  ["admin-operations-1024", 1024, 768, "admin", "/workspace/admin", "admin-root"],
+  ["admin-operations-1920", 1920, 1080, "admin", "/workspace/admin", "admin-root"],
+];
+const scenarios = adminMode ? adminScenarios : dashboardMode ? dashboardScenarios : shellScenarios;
 
 class Cdp {
   constructor(url) { this.url = url; this.id = 0; this.pending = new Map(); }
@@ -105,6 +120,7 @@ try {
     if (action === "menu") await evaluate(client, `document.querySelector('[aria-label="메뉴 열기"]')?.click()`);
     if (action === "user") await evaluate(client, `(() => { const trigger = document.querySelector('.app-header [aria-label="사용자 메뉴 열기"]'); trigger?.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, button: 0, pointerType: 'mouse' })); trigger?.click(); })()`);
     if (action === "filter-empty") await evaluate(client, `(() => { const button = Array.from(document.querySelectorAll('.ordo-filter-tabs button')).find((item) => /0$/.test(item.textContent?.trim() || '')); button?.click(); })()`);
+    if (action === "admin-create") await evaluate(client, `document.querySelector('.admin-create-area')?.scrollIntoView({ block: 'start' })`);
     await new Promise((resolve) => setTimeout(resolve, 180));
     const metrics = await evaluate(client, `(() => ({
       width: innerWidth,
@@ -127,6 +143,11 @@ try {
     if (action === "dashboard" && !(await evaluate(client, `Boolean(document.querySelector('.ordo-status-badge'))`))) throw new Error(`Dashboard status pattern missing in ${name}`);
     if (action === "filter-empty" && !(await evaluate(client, `Boolean(document.querySelector('.ordo-empty-state'))`))) throw new Error(`Filtered empty state missing in ${name}`);
     if (action === "detail" && !(await evaluate(client, `Boolean(document.querySelector('.detail-stack .ordo-status-badge'))`))) throw new Error(`Detail common status surface missing in ${name}`);
+    if ((action === "admin-root" || action === "admin-create") && !(await evaluate(client, `Boolean(document.querySelector('.admin-review-queue'))`))) throw new Error(`Admin review queue missing in ${name}`);
+    if (action === "admin-create" && !(await evaluate(client, `Boolean(document.querySelector('.admin-create-area form'))`))) throw new Error(`Admin create form missing in ${name}`);
+    if ((action === "admin-review" || action === "admin-readonly") && !(await evaluate(client, `Boolean(document.querySelector('.admin-review-summary')) && Boolean(document.querySelector('.admin-action-panel'))`))) throw new Error(`Admin detail IA missing in ${name}`);
+    if (action === "admin-review" && !(await evaluate(client, `document.body.innerText.includes('Send to client review')`))) throw new Error(`Admin send action missing in ${name}`);
+    if (action === "admin-readonly" && await evaluate(client, `document.body.innerText.includes('Send to client review') && Boolean(document.querySelector('.admin-action-panel form'))`)) throw new Error(`Readonly admin detail exposes send action in ${name}`);
     const shot = await client.send("Page.captureScreenshot", { format: "png", fromSurface: true, captureBeyondViewport: false });
     fs.writeFileSync(path.join(outputDir, `${name}.png`), Buffer.from(shot.data, "base64"));
     if (action === "menu") {

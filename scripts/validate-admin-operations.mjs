@@ -1,0 +1,14 @@
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const files = ["AdminOperationsPage.jsx", "AdminReviewQueue.jsx", "admin-operation-view.js"];
+const source = files.map((file) => fs.readFileSync(path.join(root, "apps/web/src/features/admin", file), "utf8")).join("\n");
+const app = fs.readFileSync(path.join(root, "apps/web/src/App.jsx"), "utf8");
+const failures = [];
+for (const marker of ["ModuleCardDashboard", "AdminReviewQueue", "getAdminReviewQueue", "getAdminOverviewMetrics", "createPanel"]) if (!source.includes(marker)) failures.push(`missing Admin operations marker: ${marker}`);
+if (!/<AdminOperationsPage\b/.test(app)) failures.push("Admin root does not render AdminOperationsPage");
+if (/localStorage|useModuleCardStore|createHashRouter/.test(source)) failures.push("Admin operations contains forbidden coupling");
+if (/#[0-9a-f]{3,8}\b/i.test(source)) failures.push("hardcoded HEX found");
+if (failures.length) throw new Error(`Admin operations validation failed:\n- ${failures.join("\n- ")}`);
+console.log(`Admin operations validation passed: ${files.length} files.`);

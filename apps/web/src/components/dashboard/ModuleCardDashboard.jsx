@@ -42,10 +42,11 @@ function DetailAction({ path, title }) {
   return <Link className="dashboard-detail-link" to={path} aria-label={`${title} 상세 열기`}>상세</Link>;
 }
 
-export function ModuleCardDashboard({ cards, role, users }) {
+export function ModuleCardDashboard({ beforeList = null, cards, metricsOverride = null, role, users }) {
   const [filter, setFilter] = useState("all");
   const copy = roleCopy[role];
-  const metrics = useMemo(() => getModuleCardMetrics(cards, role), [cards, role]);
+  const defaultMetrics = useMemo(() => getModuleCardMetrics(cards, role), [cards, role]);
+  const metrics = metricsOverride ?? defaultMetrics;
   const filters = useMemo(() => getFiltersForRole(cards, role), [cards, role]);
   const visibleCards = useMemo(() => cards.filter(FILTER_GROUPS[filter] ?? FILTER_GROUPS.all), [cards, filter]);
   const rows = useMemo(() => createModuleCardViewModels(visibleCards, { role, users }), [role, users, visibleCards]);
@@ -82,6 +83,8 @@ export function ModuleCardDashboard({ cards, role, users }) {
 
       <InlineNotice className="dashboard-notice" title="현재 업무 안내" tone="pend">{copy.notice}</InlineNotice>
 
+      {beforeList}
+
       <section className="dashboard-section" aria-labelledby={`${role}-cards-title`}>
         <PanelHeader eyebrow="ModuleCards" title="모듈카드 현황" description={`현재 역할에서 확인 가능한 ${cards.length}건`} />
         <div className="dashboard-toolbar"><FilterTabs items={filters} label="모듈카드 상태 필터" onValueChange={setFilter} value={filter} /></div>
@@ -114,4 +117,3 @@ export function ModuleCardDashboard({ cards, role, users }) {
     </section>
   );
 }
-

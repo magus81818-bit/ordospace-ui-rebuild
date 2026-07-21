@@ -11,6 +11,7 @@ import "@ordospace/ui-catalog/styles.css";
 import "./styles/migration.css";
 import "./styles/shell.css";
 import "./styles/dashboard.css";
+import "./styles/admin-operations.css";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>

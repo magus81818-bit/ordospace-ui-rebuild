@@ -1,0 +1,14 @@
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const file = path.join(root, "apps/web/src/features/admin/AdminCardReviewPage.jsx");
+const source = fs.readFileSync(file, "utf8");
+const app = fs.readFileSync(path.join(root, "apps/web/src/App.jsx"), "utf8");
+const failures = [];
+for (const marker of ["Review summary", "admin-action-panel", "StatusBadge", "Progress", "InlineNotice"]) if (!source.includes(marker)) failures.push(`missing Admin detail marker: ${marker}`);
+if (!/<AdminCardReviewPage\b/.test(app) || !/<AdminReviewModuleCardPanel\b/.test(app)) failures.push("Admin detail does not compose the existing review handler panel");
+if (/localStorage|useModuleCardStore|sendAdminModuleCardToClientReview/.test(source)) failures.push("Admin detail duplicates persistence, store, or handler logic");
+if (/salesops-source-vault|from\s+["']next(?:\/|["'])|#[0-9a-f]{3,8}\b/i.test(source)) failures.push("forbidden source, Next.js import, or HEX found");
+if (failures.length) throw new Error(`Admin detail contract validation failed:\n- ${failures.join("\n- ")}`);
+console.log("Admin detail contract validation passed.");

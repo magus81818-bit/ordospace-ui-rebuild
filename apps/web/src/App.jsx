@@ -18,6 +18,7 @@ import { WorkerUpdateModuleCardPanel } from "./cards/WorkerUpdateModuleCardPanel
 import { createActivityReview } from "./cards/module-card-activity-review.mjs";
 import { mvpSeed } from "./data/mvp-seed.mjs";
 import { ModuleCardDashboard } from "./components/dashboard/index.js";
+import { AdminCardReviewPage, AdminOperationsPage } from "./features/admin/index.js";
 import {
   LIFECYCLE_STEPS,
   ROLES,
@@ -256,20 +257,23 @@ export function RoleWorkspaceScreen({ role }) {
 
   return (
     <section className="role-workspace-stack">
-      <ModuleCardDashboard cards={visibleCards} role={role} users={mvpSeed.users} />
+      {role === ROLES.ADMIN ? (
+        <AdminOperationsPage
+          cards={visibleCards}
+          createPanel={
+            <AdminCreateModuleCardPanel
+              currentUser={currentUser}
+              onCreate={(input) => createAssignedModuleCard(input, currentUser.id)}
+              workers={workers}
+            />
+          }
+          users={mvpSeed.users}
+        />
+      ) : (
+        <ModuleCardDashboard cards={visibleCards} role={role} users={mvpSeed.users} />
+      )}
 
       <ActivityReviewPanel review={activityReview} role={role} />
-
-      {role === ROLES.ADMIN ? (
-        <AdminCreateModuleCardPanel
-          currentUser={currentUser}
-          onCreate={(input) =>
-            createAssignedModuleCard(input, currentUser.id)
-          }
-          workers={workers}
-        />
-      ) : null}
-
     </section>
   );
 }
@@ -299,6 +303,34 @@ export function ModuleCardDetailScreen({ role }) {
         </p>
         <AppLink to={getWorkspacePathForRole(role)}>Back to workspace</AppLink>
       </section>
+    );
+  }
+
+  if (role === ROLES.ADMIN) {
+    const assigneeName = getDisplayNameForUser(mvpSeed.users, card.assigneeId);
+    const clientName = getDisplayNameForUser(mvpSeed.users, card.clientId);
+    return (
+      <AdminCardReviewPage
+        assigneeName={assigneeName}
+        card={card}
+        clientName={clientName}
+        detailPanel={
+          <ModuleDetailPanel
+            activities={getActivityForCard(activities, card.id)}
+            assigneeName={assigneeName}
+            card={card}
+            clientName={clientName}
+            comments={getCommentsForCard(comments, card.id)}
+            role={role}
+          />
+        }
+      >
+        <AdminReviewModuleCardPanel
+          card={card}
+          currentUser={currentUser}
+          onSend={(input) => sendAdminModuleCardToClientReview(card.id, input, currentUser.id)}
+        />
+      </AdminCardReviewPage>
     );
   }
 
@@ -334,16 +366,6 @@ export function ModuleCardDetailScreen({ role }) {
             }
           />
         </>
-      ) : null}
-
-      {role === ROLES.ADMIN ? (
-        <AdminReviewModuleCardPanel
-          card={card}
-          currentUser={currentUser}
-          onSend={(input) =>
-            sendAdminModuleCardToClientReview(card.id, input, currentUser.id)
-          }
-        />
       ) : null}
 
       {role === ROLES.CLIENT ? (
