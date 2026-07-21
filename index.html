@@ -242,6 +242,7 @@
 <link rel="stylesheet" href="./app/styles/dashboard-salesops.primitives.css" />
 <link rel="stylesheet" href="./app/styles/dashboard-salesops.shell.css" />
 <link rel="stylesheet" href="./app/styles/dashboard-salesops.admin.css" />
+<link rel="stylesheet" href="./app/styles/dashboard-salesops.client.css" />
 </head>
 
 <body class="min-h-screen auth-off role-client">
@@ -2293,7 +2294,7 @@
     <section id="clientDashboardKpis" class="grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-4 mb-5" aria-label="프로젝트 KPI"></section>
 
     <section class="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-5 mb-6">
-      <div class="bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5">
+      <div class="ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5">
         <div class="flex items-center justify-between gap-3 mb-4">
           <div>
             <h2 class="text-[16px] lg:text-[18px] font-semibold">프로젝트 Step</h2>
@@ -2304,7 +2305,7 @@
         <div id="clientDashboardStepProgress"></div>
       </div>
 
-      <aside class="bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5">
+      <aside class="ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5">
         <div class="flex items-start gap-3">
           <div class="w-10 h-10 rounded-full bg-bg-tertiary border border-bd-default flex items-center justify-center text-[14px] font-semibold shrink-0">이</div>
           <div class="min-w-0">
@@ -2319,7 +2320,7 @@
     </section>
 
     <div class="grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-5">
-      <section class="bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5">
+      <section class="ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5">
         <div class="flex items-center justify-between gap-3 mb-4">
           <div>
             <h2 class="text-[16px] lg:text-[18px] font-semibold">Chain별 진행률</h2>
@@ -2330,7 +2331,7 @@
         <div id="clientDashboardChainProgress" class="space-y-4"></div>
       </section>
 
-      <section class="bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden">
+      <section class="ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden">
         <div class="flex items-center justify-between gap-3 px-4 lg:px-5 py-4 border-b border-bd-default">
           <div>
             <h2 class="text-[16px] lg:text-[18px] font-semibold">승인 대기</h2>
@@ -2361,7 +2362,7 @@
       </a>
     </header>
 
-    <section class="bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5 mb-5">
+    <section class="ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5 mb-5">
       <div class="flex items-center justify-between gap-3 mb-4">
         <h2 class="text-[16px] lg:text-[18px] font-semibold">프로젝트 Step</h2>
         <span id="clientProjectProgressRate" class="text-[13px] font-semibold tabular text-tx-primary">0%</span>
@@ -2369,8 +2370,8 @@
       <div id="clientProjectStepProgress"></div>
     </section>
 
-    <section class="bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden">
-      <div class="flex items-stretch border-b border-bd-default">
+    <section class="ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden">
+      <div class="flex items-stretch border-b border-bd-default" role="tablist" aria-label="프로젝트 보기">
         <button type="button" data-project-tab="timeline" class="client-project-tab flex-1 h-12 text-[13px] font-semibold border-b-2 border-brand-primary text-tx-primary inline-flex items-center justify-center">타임라인</button>
         <button type="button" data-project-tab="assets" class="client-project-tab flex-1 h-12 text-[13px] font-medium border-b-2 border-transparent text-tx-tertiary inline-flex items-center justify-center">산출물</button>
       </div>
@@ -2413,7 +2414,7 @@
 
   <div id="cardDetailModal" class="fixed inset-0 z-[120] hidden bg-black/40 px-4 py-6 lg:py-10 overflow-y-auto" aria-hidden="true">
     <div class="min-h-full flex items-center justify-center">
-      <div class="w-full max-w-[760px] bg-white border border-bd-default rounded-2xl shadow-modal overflow-hidden" role="dialog" aria-modal="true" aria-labelledby="cardDetailTitle">
+      <div class="w-full max-w-[760px] bg-white border border-bd-default rounded-2xl shadow-modal overflow-hidden" role="dialog" aria-modal="true" aria-labelledby="cardDetailTitle" tabindex="-1">
         <div class="flex items-start justify-between gap-3 px-5 lg:px-6 py-4 border-b border-bd-default">
           <div>
             <p class="text-[11px] font-semibold text-tx-tertiary tracking-wide uppercase">MODULE DETAIL</p>
@@ -3389,6 +3390,7 @@
 <script src="./app/ui/components/sheet.ui.js"></script>
 <script src="./app/ui/components/primitives.ui.js"></script>
 <script src="./app/ui/components/admin.ui.js"></script>
+<script src="./app/ui/components/client.ui.js"></script>
 <script src="./app/ui/workspace.ui.js"></script>
 <script src="./app/router/hash-router.js"></script>
 <script src="./app/screens/client-workspace.screen.js"></script>
