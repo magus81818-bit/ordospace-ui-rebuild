@@ -1,0 +1,22 @@
+{
+  "status": "READY",
+  "target": "preview",
+  "projectName": "ordospace-ui-rebuild",
+  "projectId": "prj_V21zTBf2UElq03QIghf8NHNK5z9B",
+  "deploymentId": "dpl_B94aH8u6WeKBkztJMhuvreEogton",
+  "deploymentUrl": "https://ordospace-ui-rebuild-ea0flgfg5-akiryu16180339-2308s-projects.vercel.app",
+  "publicRoot": "existing-ordospace-static-product",
+  "reactMvpPublicRoot": false,
+  "remoteChecks": {
+    "landing": "PASS",
+    "auth": "PASS",
+    "inquiryDialog": "PASS",
+    "consoleErrors": 0
+  },
+  "localStaticSmoke": {
+    "routes": "12/12",
+    "runtimeQa": "20/20"
+  },
+  "productionChanged": false,
+  "mainChanged": false
+}
