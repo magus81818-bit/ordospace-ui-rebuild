@@ -106,7 +106,7 @@ async function setTokenSheetDisabled(page, disabled) {
 
 async function setDescendantSheetsDisabled(page, disabled) {
   await page.evaluate(disabledValue => {
-    const laterSheets = ['dashboard-salesops.primitives.css','dashboard-salesops.shell.css','dashboard-salesops.admin.css'];
+    const laterSheets = ['dashboard-salesops.primitives.css','dashboard-salesops.shell.css','dashboard-salesops.admin.css','dashboard-salesops.client.css'];
     Array.from(document.querySelectorAll('link[rel="stylesheet"]')).forEach(link => {
       if (laterSheets.some(name => link.href.includes(name))) link.disabled = disabledValue;
     });
