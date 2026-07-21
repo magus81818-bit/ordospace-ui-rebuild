@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@ordospace/design-tokens": "*",
+    "@ordospace/ui-catalog": "*",
     "lucide-react": "^0.454.0",
     "react": "19.2.7",
     "react-dom": "19.2.7"

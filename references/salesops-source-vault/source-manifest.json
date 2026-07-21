@@ -1,0 +1,728 @@
+{
+  "source": {
+    "zipPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\모든 자료 날짜별 아카이브\\260718\\sales-ops-dashboard.zip",
+    "siteUrl": "https://v0-sales-operations-dashboard.vercel.app/",
+    "framework": "Next.js 16 App Router, React 19, Tailwind CSS 4, Radix/shadcn",
+    "copiedAt": "2026-07-20T22:33:21+09:00",
+    "licenseStatus": "not confirmed"
+  },
+  "counts": {
+    "uiPrimitives": 57,
+    "dashboardComponents": 15,
+    "sections": 8
+  },
+  "components": [
+    {
+      "name": "Accordion",
+      "sourcePath": "components/ui/accordion.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Alert",
+      "sourcePath": "components/ui/alert.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "AlertDialog",
+      "sourcePath": "components/ui/alert-dialog.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "AspectRatio",
+      "sourcePath": "components/ui/aspect-ratio.tsx",
+      "tier": "D",
+      "usedBySalesOps": false,
+      "plannedForOrdo": false,
+      "productionStatus": "Vault only",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "No current production requirement"
+    },
+    {
+      "name": "Avatar",
+      "sourcePath": "components/ui/avatar.tsx",
+      "tier": "A",
+      "usedBySalesOps": true,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [
+        "@radix-ui/react-avatar"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based core primitive"
+    },
+    {
+      "name": "Badge",
+      "sourcePath": "components/ui/badge.tsx",
+      "tier": "A",
+      "usedBySalesOps": true,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [
+        "class-variance-authority"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based core primitive"
+    },
+    {
+      "name": "Breadcrumb",
+      "sourcePath": "components/ui/breadcrumb.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Button",
+      "sourcePath": "components/ui/button.tsx",
+      "tier": "A",
+      "usedBySalesOps": true,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [
+        "class-variance-authority"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based core primitive"
+    },
+    {
+      "name": "ButtonGroup",
+      "sourcePath": "components/ui/button-group.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Calendar",
+      "sourcePath": "components/ui/calendar.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Card",
+      "sourcePath": "components/ui/card.tsx",
+      "tier": "A",
+      "usedBySalesOps": true,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [
+        "class-variance-authority"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based core primitive"
+    },
+    {
+      "name": "Carousel",
+      "sourcePath": "components/ui/carousel.tsx",
+      "tier": "D",
+      "usedBySalesOps": false,
+      "plannedForOrdo": false,
+      "productionStatus": "Vault only",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "No current production requirement"
+    },
+    {
+      "name": "Chart",
+      "sourcePath": "components/ui/chart.tsx",
+      "tier": "D",
+      "usedBySalesOps": false,
+      "plannedForOrdo": false,
+      "productionStatus": "Rejected",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": true,
+      "notes": "No current production requirement"
+    },
+    {
+      "name": "Checkbox",
+      "sourcePath": "components/ui/checkbox.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Collapsible",
+      "sourcePath": "components/ui/collapsible.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Command",
+      "sourcePath": "components/ui/command.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "ContextMenu",
+      "sourcePath": "components/ui/context-menu.tsx",
+      "tier": "D",
+      "usedBySalesOps": false,
+      "plannedForOrdo": false,
+      "productionStatus": "Vault only",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "No current production requirement"
+    },
+    {
+      "name": "Dialog",
+      "sourcePath": "components/ui/dialog.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Drawer",
+      "sourcePath": "components/ui/drawer.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "DropdownMenu",
+      "sourcePath": "components/ui/dropdown-menu.tsx",
+      "tier": "B",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/overlays.tsx",
+      "externalDependencies": [
+        "@radix-ui/react-dropdown-menu"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based shell primitive"
+    },
+    {
+      "name": "Empty",
+      "sourcePath": "components/ui/empty.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Field",
+      "sourcePath": "components/ui/field.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Form",
+      "sourcePath": "components/ui/form.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": true,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "HoverCard",
+      "sourcePath": "components/ui/hover-card.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Input",
+      "sourcePath": "components/ui/input.tsx",
+      "tier": "A",
+      "usedBySalesOps": true,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "ORDO token based core primitive"
+    },
+    {
+      "name": "InputGroup",
+      "sourcePath": "components/ui/input-group.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "InputOtp",
+      "sourcePath": "components/ui/input-otp.tsx",
+      "tier": "D",
+      "usedBySalesOps": false,
+      "plannedForOrdo": false,
+      "productionStatus": "Vault only",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "No current production requirement"
+    },
+    {
+      "name": "Item",
+      "sourcePath": "components/ui/item.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Kbd",
+      "sourcePath": "components/ui/kbd.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Label",
+      "sourcePath": "components/ui/label.tsx",
+      "tier": "A",
+      "usedBySalesOps": true,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [
+        "@radix-ui/react-label"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based core primitive"
+    },
+    {
+      "name": "Menubar",
+      "sourcePath": "components/ui/menubar.tsx",
+      "tier": "D",
+      "usedBySalesOps": false,
+      "plannedForOrdo": false,
+      "productionStatus": "Vault only",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "No current production requirement"
+    },
+    {
+      "name": "NavigationMenu",
+      "sourcePath": "components/ui/navigation-menu.tsx",
+      "tier": "D",
+      "usedBySalesOps": false,
+      "plannedForOrdo": false,
+      "productionStatus": "Vault only",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "No current production requirement"
+    },
+    {
+      "name": "Pagination",
+      "sourcePath": "components/ui/pagination.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Popover",
+      "sourcePath": "components/ui/popover.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Progress",
+      "sourcePath": "components/ui/progress.tsx",
+      "tier": "B",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [
+        "@radix-ui/react-progress"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based shell primitive"
+    },
+    {
+      "name": "RadioGroup",
+      "sourcePath": "components/ui/radio-group.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Resizable",
+      "sourcePath": "components/ui/resizable.tsx",
+      "tier": "D",
+      "usedBySalesOps": false,
+      "plannedForOrdo": false,
+      "productionStatus": "Vault only",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "No current production requirement"
+    },
+    {
+      "name": "ScrollArea",
+      "sourcePath": "components/ui/scroll-area.tsx",
+      "tier": "B",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [
+        "@radix-ui/react-scroll-area"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based shell primitive"
+    },
+    {
+      "name": "Select",
+      "sourcePath": "components/ui/select.tsx",
+      "tier": "A",
+      "usedBySalesOps": true,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [
+        "@radix-ui/react-select"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based core primitive"
+    },
+    {
+      "name": "Separator",
+      "sourcePath": "components/ui/separator.tsx",
+      "tier": "B",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [
+        "@radix-ui/react-separator"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based shell primitive"
+    },
+    {
+      "name": "Sheet",
+      "sourcePath": "components/ui/sheet.tsx",
+      "tier": "B",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/overlays.tsx",
+      "externalDependencies": [
+        "@radix-ui/react-dialog"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based shell primitive"
+    },
+    {
+      "name": "Sidebar",
+      "sourcePath": "components/ui/sidebar.tsx",
+      "tier": "D",
+      "usedBySalesOps": false,
+      "plannedForOrdo": false,
+      "productionStatus": "Rejected",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": true,
+      "notes": "No current production requirement"
+    },
+    {
+      "name": "Skeleton",
+      "sourcePath": "components/ui/skeleton.tsx",
+      "tier": "B",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "ORDO token based shell primitive"
+    },
+    {
+      "name": "Slider",
+      "sourcePath": "components/ui/slider.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Sonner",
+      "sourcePath": "components/ui/sonner.tsx",
+      "tier": "D",
+      "usedBySalesOps": false,
+      "plannedForOrdo": false,
+      "productionStatus": "Vault only",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": true,
+      "notes": "No current production requirement"
+    },
+    {
+      "name": "Spinner",
+      "sourcePath": "components/ui/spinner.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Switch",
+      "sourcePath": "components/ui/switch.tsx",
+      "tier": "A",
+      "usedBySalesOps": true,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [
+        "@radix-ui/react-switch"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based core primitive"
+    },
+    {
+      "name": "Table",
+      "sourcePath": "components/ui/table.tsx",
+      "tier": "B",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "ORDO token based shell primitive"
+    },
+    {
+      "name": "Tabs",
+      "sourcePath": "components/ui/tabs.tsx",
+      "tier": "A",
+      "usedBySalesOps": true,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [
+        "@radix-ui/react-tabs"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based core primitive"
+    },
+    {
+      "name": "Textarea",
+      "sourcePath": "components/ui/textarea.tsx",
+      "tier": "B",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/core.tsx",
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "ORDO token based shell primitive"
+    },
+    {
+      "name": "Toast",
+      "sourcePath": "components/ui/toast.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Toaster",
+      "sourcePath": "components/ui/toaster.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Toggle",
+      "sourcePath": "components/ui/toggle.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "ToggleGroup",
+      "sourcePath": "components/ui/toggle-group.tsx",
+      "tier": "C",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Deferred",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": false,
+      "notes": "Conditional route need; review in a later round"
+    },
+    {
+      "name": "Tooltip",
+      "sourcePath": "components/ui/tooltip.tsx",
+      "tier": "B",
+      "usedBySalesOps": false,
+      "plannedForOrdo": true,
+      "productionStatus": "Ported",
+      "productionPortPath": "packages/ui-catalog/src/primitives/overlays.tsx",
+      "externalDependencies": [
+        "@radix-ui/react-tooltip"
+      ],
+      "nextSpecific": false,
+      "notes": "ORDO token based shell primitive"
+    },
+    {
+      "name": "UseMobile",
+      "sourcePath": "components/ui/use-mobile.tsx",
+      "tier": "D",
+      "usedBySalesOps": false,
+      "plannedForOrdo": false,
+      "productionStatus": "Vault only",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": true,
+      "notes": "No current production requirement"
+    },
+    {
+      "name": "UseToast",
+      "sourcePath": "components/ui/use-toast.ts",
+      "tier": "D",
+      "usedBySalesOps": false,
+      "plannedForOrdo": false,
+      "productionStatus": "Vault only",
+      "productionPortPath": null,
+      "externalDependencies": [],
+      "nextSpecific": true,
+      "notes": "No current production requirement"
+    }
+  ]
+}

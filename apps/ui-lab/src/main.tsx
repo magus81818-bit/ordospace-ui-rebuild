@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
   Activity,
@@ -12,6 +12,8 @@ import {
   X,
 } from "lucide-react";
 import "./styles.css";
+import "@ordospace/ui-catalog/styles.css";
+import { CatalogPage, type LabPage } from "./catalog-pages";
 
 type FoundationSectionProps = {
   index: string;
@@ -70,22 +72,40 @@ function TokenCode({ children }: { children: React.ReactNode }) {
 }
 
 function App() {
+  const readPage = (): LabPage => {
+    const hash = window.location.hash.slice(1) as LabPage;
+    return ["foundation", "primitives", "patterns", "states", "responsive", "source-inventory"].includes(hash) ? hash : "foundation";
+  };
+  const [page, setPage] = useState<LabPage>(readPage);
+  useEffect(() => {
+    const handleHash = () => setPage(readPage());
+    window.addEventListener("hashchange", handleHash);
+    return () => window.removeEventListener("hashchange", handleHash);
+  }, []);
+
   return (
     <div className="lab-shell">
       <header className="lab-header">
-        <a className="brand" href="#top" aria-label="ORDOSPACE UI Lab home">
+        <a className="brand" href="#foundation" aria-label="ORDOSPACE UI Lab home">
           <span className="brand-mark"><Layers3 size={17} /></span>
           <span>ORDOSPACE <b>UI Lab</b></span>
         </a>
+        <nav className="lab-nav" aria-label="UI Lab sections">
+          {([
+            ["foundation", "Foundation"], ["primitives", "Primitives"], ["patterns", "Patterns"],
+            ["states", "States"], ["responsive", "Responsive"], ["source-inventory", "Source Inventory"],
+          ] as const).map(([value, label]) => <a key={value} href={`#${value}`} aria-current={page === value ? "page" : undefined}>{label}</a>)}
+        </nav>
         <div className="release-meta" aria-label="Round settings">
-          <span>R02</span>
-          <span>Variance 4</span>
-          <span>Motion 3</span>
-          <span>Density 8</span>
+          <span>R03</span>
+          <span>V3</span>
+          <span>M2</span>
+          <span>D7</span>
         </div>
       </header>
 
       <main id="top" className="lab-main">
+        {page === "foundation" ? <>
         <div className="hero-copy">
           <div>
             <p className="eyebrow">Design foundation · 디자인 기반</p>
@@ -239,9 +259,10 @@ function App() {
         </div>
 
         <footer className="lab-footer">
-          <span>ORDOSPACE Design Foundation · Round 2</span>
-          <span>One token package · Five status tones · Zero remote fonts</span>
+          <span>ORDOSPACE Design Foundation · Round 3</span>
+          <span>One token package · Five status tones · Executable catalog</span>
         </footer>
+        </> : <CatalogPage page={page} />}
       </main>
     </div>
   );

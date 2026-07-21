@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 
 const workspaceRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const targetUrl = process.argv[2] || "http://127.0.0.1:5175/";
-const outputDir = path.join(workspaceRoot, "docs", "ui-migration", "screenshots", "round-02");
+const outputDir = path.join(workspaceRoot, "docs", "ui-migration", "screenshots", "round-03");
 const browserPath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 const viewports = [
   [393, 852],
@@ -17,6 +17,11 @@ const viewports = [
   [1440, 900],
   [1920, 1080],
 ];
+const pages = ["foundation", "primitives", "patterns", "states", "responsive", "source-inventory"];
+const representativeScreens = new Set([
+  "foundation-1440x900", "primitives-393x852", "primitives-1440x900", "patterns-1280x800",
+  "states-1024x768", "responsive-1920x1080", "source-inventory-768x1024",
+]);
 
 class CdpClient {
   constructor(url) {
@@ -100,7 +105,26 @@ async function evaluate(client, expression) {
   return result.result?.value;
 }
 
+async function waitForApp(url) {
+  for (let attempt = 0; attempt < 80; attempt += 1) {
+    try { const response = await fetch(url); if (response.ok) return; } catch {}
+    await new Promise((resolve) => setTimeout(resolve, 100));
+  }
+  throw new Error(`Timed out waiting for UI Lab at ${url}`);
+}
+
 fs.mkdirSync(outputDir, { recursive: true });
+let appServer;
+try {
+  const response = await fetch(targetUrl);
+  if (!response.ok) throw new Error("not ready");
+} catch {
+  const viteEntry = path.join(workspaceRoot, "node_modules", "vite", "bin", "vite.js");
+  appServer = childProcess.spawn(process.execPath, [viteEntry, "--host", "127.0.0.1", "--port", "5175", "--strictPort"], {
+    cwd: path.join(workspaceRoot, "apps", "ui-lab"), stdio: "ignore", windowsHide: true,
+  });
+  await waitForApp(targetUrl);
+}
 const debugPort = await getFreePort();
 const profileDir = fs.mkdtempSync(path.join(os.tmpdir(), "ordo-ui-lab-qa-"));
 const browser = childProcess.spawn(browserPath, [
@@ -135,35 +159,40 @@ try {
       screenWidth: width,
       screenHeight: height,
     });
-    const loaded = client.once("Page.loadEventFired");
-    await client.send("Page.navigate", { url: targetUrl });
-    await loaded;
-    await new Promise((resolve) => setTimeout(resolve, 300));
+    for (const page of pages) {
+      await client.send("Page.navigate", { url: `${targetUrl.replace(/#.*$/, "")}#${page}` });
+      await new Promise((resolve) => setTimeout(resolve, 240));
 
-    const metrics = await evaluate(client, `(() => ({
-      viewport: [window.innerWidth, window.innerHeight],
-      clientWidth: document.documentElement.clientWidth,
-      scrollWidth: document.documentElement.scrollWidth,
-      sectionCount: document.querySelectorAll('.foundation-section').length,
-      clippedElements: Array.from(document.querySelectorAll('main *')).filter((el) => {
-        const rect = el.getBoundingClientRect();
-        return rect.width > 0 && (rect.left < -1 || rect.right > document.documentElement.clientWidth + 1);
-      }).slice(0, 12).map((el) => el.className || el.tagName)
-    }))()`);
-    const screenshot = await client.send("Page.captureScreenshot", {
-      format: "png",
-      fromSurface: true,
-      captureBeyondViewport: false,
-    });
-    const fileName = `ui-lab-${width}x${height}.png`;
-    fs.writeFileSync(path.join(outputDir, fileName), Buffer.from(screenshot.data, "base64"));
-    results.push({ width, height, fileName, ...metrics });
+      const metrics = await evaluate(client, `(() => ({
+        viewport: [window.innerWidth, window.innerHeight],
+        clientWidth: document.documentElement.clientWidth,
+        scrollWidth: document.documentElement.scrollWidth,
+        page: location.hash.slice(1),
+        pageHeading: document.querySelector('main h1')?.textContent || '',
+        navCurrent: document.querySelector('.lab-nav [aria-current="page"]')?.textContent || '',
+        interactiveCount: document.querySelectorAll('main button, main input, main textarea, main [role="tab"], main [role="switch"]').length,
+        clippedElements: Array.from(document.querySelectorAll('main *')).filter((el) => {
+          if (el.closest('.ordo-table-wrap, .responsive-matrix, .lab-nav, .ordo-progress') || el instanceof SVGElement) return false;
+          const rect = el.getBoundingClientRect();
+          return rect.width > 0 && (rect.left < -1 || rect.right > document.documentElement.clientWidth + 1);
+        }).slice(0, 12).map((el) => typeof el.className === 'string' ? el.className : el.tagName)
+      }))()`);
+      const screenKey = `${page}-${width}x${height}`;
+      let fileName = null;
+      if (representativeScreens.has(screenKey)) {
+        const screenshot = await client.send("Page.captureScreenshot", { format: "png", fromSurface: true, captureBeyondViewport: false });
+        fileName = `${screenKey}.png`;
+        fs.writeFileSync(path.join(outputDir, fileName), Buffer.from(screenshot.data, "base64"));
+      }
+      results.push({ width, height, fileName, ...metrics });
+    }
   }
 
   console.log(JSON.stringify({ ok: true, targetUrl, results }, null, 2));
 } finally {
   client?.close();
   browser.kill();
+  appServer?.kill();
   await new Promise((resolve) => setTimeout(resolve, 200));
   fs.rmSync(profileDir, { recursive: true, force: true });
 }
