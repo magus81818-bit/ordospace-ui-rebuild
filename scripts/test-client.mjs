@@ -1,0 +1,20 @@
+import { mvpSeed } from "../apps/web/src/data/mvp-seed.mjs";
+import { MODULE_STATUS } from "../apps/web/src/domain/module-card.model.mjs";
+import { getAvailableClientActions } from "../apps/web/src/features/client/client-action-policy.js";
+import { getClientApprovalCategory, getClientApprovalMetrics, getClientCardView, getClientReviewQueue } from "../apps/web/src/features/client/client-approval-view.js";
+const cards = mvpSeed.moduleCards;
+const before = JSON.stringify(cards);
+const clientId = "user-client-01";
+const checks = [];
+function check(name, condition) { if (!condition) throw new Error(`Client test failed: ${name}`); checks.push(name); }
+check("queue contains only client review", getClientReviewQueue(cards).every(({ card }) => card.status === MODULE_STATUS.CLIENT_REVIEW));
+check("queue uses stable order", getClientReviewQueue(cards)[0]?.card.id === "card-002");
+check("metrics preserve client scope", getClientApprovalMetrics(cards).total === cards.length);
+check("metrics count decisions", getClientApprovalMetrics(cards).awaitingDecision === 1);
+check("client review actions available", getAvailableClientActions(cards[1], { userId: clientId }).canApprove);
+check("approved is readonly", getAvailableClientActions(cards[0], { userId: clientId }).readonly);
+check("revision requested is readonly", getAvailableClientActions(cards[3], { userId: clientId }).readonly);
+check("category fallback is in delivery", getClientApprovalCategory(cards[4]).id === "in_delivery");
+check("assignee remains suppressed", getClientCardView(cards[1], { userId: clientId, users: mvpSeed.users }).assigneeLabel === null);
+check("source cards are not mutated", JSON.stringify(cards) === before);
+console.log(`Client tests passed: ${checks.length} assertions.`);

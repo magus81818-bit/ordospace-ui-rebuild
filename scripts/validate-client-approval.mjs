@@ -1,0 +1,14 @@
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const files = ["ClientApprovalPage.jsx", "ClientDecisionQueue.jsx", "client-approval-view.js"];
+const source = files.map((file) => fs.readFileSync(path.join(root, "apps/web/src/features/client", file), "utf8")).join("\n");
+const app = fs.readFileSync(path.join(root, "apps/web/src/App.jsx"), "utf8");
+const failures = [];
+for (const marker of ["ModuleCardDashboard", "ClientDecisionQueue", "getClientReviewQueue", "getClientApprovalMetrics"]) if (!source.includes(marker)) failures.push(`missing Client approval marker: ${marker}`);
+if (!/<ClientApprovalPage\b/.test(app)) failures.push("Client root does not render ClientApprovalPage");
+if (/localStorage|useModuleCardStore|createHashRouter/.test(source)) failures.push("Client approval contains forbidden coupling");
+if (/#[0-9a-f]{3,8}\b/i.test(source)) failures.push("hardcoded HEX found");
+if (failures.length) throw new Error(`Client approval validation failed:\n- ${failures.join("\n- ")}`);
+console.log(`Client approval validation passed: ${files.length} files.`);

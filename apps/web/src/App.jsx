@@ -19,6 +19,7 @@ import { createActivityReview } from "./cards/module-card-activity-review.mjs";
 import { mvpSeed } from "./data/mvp-seed.mjs";
 import { ModuleCardDashboard } from "./components/dashboard/index.js";
 import { AdminCardReviewPage, AdminOperationsPage } from "./features/admin/index.js";
+import { ClientApprovalDetailPage, ClientApprovalPage } from "./features/client/index.js";
 import {
   LIFECYCLE_STEPS,
   ROLES,
@@ -269,6 +270,8 @@ export function RoleWorkspaceScreen({ role }) {
           }
           users={mvpSeed.users}
         />
+      ) : role === ROLES.CLIENT ? (
+        <ClientApprovalPage cards={visibleCards} users={mvpSeed.users} />
       ) : (
         <ModuleCardDashboard cards={visibleCards} role={role} users={mvpSeed.users} />
       )}
@@ -334,6 +337,23 @@ export function ModuleCardDetailScreen({ role }) {
     );
   }
 
+  if (role === ROLES.CLIENT) {
+    return (
+      <ClientApprovalDetailPage
+        activities={getActivityForCard(activities, card.id)}
+        card={card}
+        comments={getCommentsForCard(comments, card.id)}
+        currentUser={currentUser}
+      >
+        <ClientDecisionModuleCardPanel
+          card={card}
+          currentUser={currentUser}
+          onDecide={(input) => decideClientModuleCard(card.id, input, currentUser.id)}
+        />
+      </ClientApprovalDetailPage>
+    );
+  }
+
   return (
     <section className="page-stack">
       <p className="eyebrow">{role} card detail</p>
@@ -366,16 +386,6 @@ export function ModuleCardDetailScreen({ role }) {
             }
           />
         </>
-      ) : null}
-
-      {role === ROLES.CLIENT ? (
-        <ClientDecisionModuleCardPanel
-          card={card}
-          currentUser={currentUser}
-          onDecide={(input) =>
-            decideClientModuleCard(card.id, input, currentUser.id)
-          }
-        />
       ) : null}
 
       <ModuleDetailPanel

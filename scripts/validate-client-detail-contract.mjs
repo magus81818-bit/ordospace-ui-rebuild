@@ -1,0 +1,13 @@
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const detail = fs.readFileSync(path.join(root, "apps/web/src/features/client/ClientApprovalDetailPage.jsx"), "utf8");
+const app = fs.readFileSync(path.join(root, "apps/web/src/App.jsx"), "utf8");
+const failures = [];
+for (const marker of ["client-delivery-summary", "client-delivered-work", "client-decision-area", "getAvailableClientActions"]) if (!detail.includes(marker)) failures.push(`missing Client detail marker: ${marker}`);
+if (!/<ClientApprovalDetailPage\b/.test(app) || !/<ClientDecisionModuleCardPanel\b/.test(app)) failures.push("Client detail composition missing");
+if (/localStorage|useModuleCardStore|AdminReviewModuleCardPanel|WorkerUpdateModuleCardPanel|WorkerSubmitModuleCardPanel/.test(detail)) failures.push("Client detail contains forbidden role/store coupling");
+if (/#[0-9a-f]{3,8}\b/i.test(detail)) failures.push("hardcoded HEX found");
+if (failures.length) throw new Error(`Client detail contract validation failed:\n- ${failures.join("\n- ")}`);
+console.log("Client detail contract validation passed.");

@@ -9,7 +9,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const baseUrl = "http://127.0.0.1:5174/";
 const dashboardMode = process.argv.includes("--dashboard");
 const adminMode = process.argv.includes("--admin");
-const outputDir = path.join(root, "docs", "ui-migration", "screenshots", adminMode ? "round-06" : dashboardMode ? "round-05" : "round-04");
+const clientMode = process.argv.includes("--client");
+const outputDir = path.join(root, "docs", "ui-migration", "screenshots", clientMode ? "round-07" : adminMode ? "round-06" : dashboardMode ? "round-05" : "round-04");
 const browserPath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 const users = {
   admin: ["user-admin-01", "Hana Lee", "admin@ordospace.test"],
@@ -54,7 +55,21 @@ const adminScenarios = [
   ["admin-operations-1024", 1024, 768, "admin", "/workspace/admin", "admin-root"],
   ["admin-operations-1920", 1920, 1080, "admin", "/workspace/admin", "admin-root"],
 ];
-const scenarios = adminMode ? adminScenarios : dashboardMode ? dashboardScenarios : shellScenarios;
+const clientScenarios = [
+  ["client-approval-root-1440", 1440, 900, "client", "/workspace/client", "client-root"],
+  ["client-approval-root-393", 393, 852, "client", "/workspace/client", "client-root"],
+  ["client-decision-queue", 1280, 800, "client", "/workspace/client", "client-root"],
+  ["client-detail-review-1440", 1440, 900, "client", "/workspace/client/cards/card-002", "client-review"],
+  ["client-detail-review-393", 393, 852, "client", "/workspace/client/cards/card-002", "client-review"],
+  ["client-revision-form", 1280, 800, "client", "/workspace/client/cards/card-002", "client-revision-form"],
+  ["client-revision-error", 1280, 800, "client", "/workspace/client/cards/card-002", "client-revision-error"],
+  ["client-detail-approved", 1280, 800, "client", "/workspace/client/cards/card-001", "client-readonly"],
+  ["client-detail-revision-requested", 1280, 800, "client", "/workspace/client/cards/card-004", "client-readonly"],
+  ["client-approval-root-768", 768, 1024, "client", "/workspace/client", "client-root"],
+  ["client-approval-root-1024", 1024, 768, "client", "/workspace/client", "client-root"],
+  ["client-approval-root-1920", 1920, 1080, "client", "/workspace/client", "client-root"],
+];
+const scenarios = clientMode ? clientScenarios : adminMode ? adminScenarios : dashboardMode ? dashboardScenarios : shellScenarios;
 
 class Cdp {
   constructor(url) { this.url = url; this.id = 0; this.pending = new Map(); }
@@ -121,7 +136,16 @@ try {
     if (action === "user") await evaluate(client, `(() => { const trigger = document.querySelector('.app-header [aria-label="사용자 메뉴 열기"]'); trigger?.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, button: 0, pointerType: 'mouse' })); trigger?.click(); })()`);
     if (action === "filter-empty") await evaluate(client, `(() => { const button = Array.from(document.querySelectorAll('.ordo-filter-tabs button')).find((item) => /0$/.test(item.textContent?.trim() || '')); button?.click(); })()`);
     if (action === "admin-create") await evaluate(client, `document.querySelector('.admin-create-area')?.scrollIntoView({ block: 'start' })`);
+    if (action === "client-revision-form" || action === "client-revision-error") await evaluate(client, `document.querySelectorAll('.client-decision-panel input[type="radio"]')[1]?.click()`);
     await new Promise((resolve) => setTimeout(resolve, 180));
+    if (action === "client-revision-error") {
+      await evaluate(client, `document.querySelector('.client-decision-panel form')?.dispatchEvent(new SubmitEvent('submit', { bubbles: true, cancelable: true }))`);
+      await new Promise((resolve) => setTimeout(resolve, 120));
+    }
+    if (action === "client-revision-form" || action === "client-revision-error") {
+      await evaluate(client, `document.querySelector(${action === "client-revision-error" ? "'.form-feedback'" : "'.client-decision-panel'"})?.scrollIntoView({ block: 'center' })`);
+      await new Promise((resolve) => setTimeout(resolve, 120));
+    }
     const metrics = await evaluate(client, `(() => ({
       width: innerWidth,
       documentOverflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
@@ -148,6 +172,11 @@ try {
     if ((action === "admin-review" || action === "admin-readonly") && !(await evaluate(client, `Boolean(document.querySelector('.admin-review-summary')) && Boolean(document.querySelector('.admin-action-panel'))`))) throw new Error(`Admin detail IA missing in ${name}`);
     if (action === "admin-review" && !(await evaluate(client, `document.body.innerText.includes('Send to client review')`))) throw new Error(`Admin send action missing in ${name}`);
     if (action === "admin-readonly" && await evaluate(client, `document.body.innerText.includes('Send to client review') && Boolean(document.querySelector('.admin-action-panel form'))`)) throw new Error(`Readonly admin detail exposes send action in ${name}`);
+    if (action === "client-root" && !(await evaluate(client, `Boolean(document.querySelector('.client-decision-queue')) && document.querySelectorAll('.ordo-metric-card').length >= 4`))) throw new Error(`Client approval root IA missing in ${name}`);
+    if ((action === "client-review" || action === "client-revision-form" || action === "client-revision-error" || action === "client-readonly") && !(await evaluate(client, `Boolean(document.querySelector('.client-delivery-summary')) && Boolean(document.querySelector('.client-decision-area'))`))) throw new Error(`Client detail IA missing in ${name}`);
+    if ((action === "client-review" || action === "client-revision-form" || action === "client-revision-error") && !(await evaluate(client, `Boolean(document.querySelector('.client-decision-panel form'))`))) throw new Error(`Client decision form missing in ${name}`);
+    if (action === "client-revision-error" && !(await evaluate(client, `document.body.innerText.includes('Revision note is required')`))) throw new Error(`Client revision validation missing in ${name}`);
+    if (action === "client-readonly" && await evaluate(client, `Boolean(document.querySelector('.client-decision-panel form'))`)) throw new Error(`Readonly Client detail exposes decision form in ${name}`);
     const shot = await client.send("Page.captureScreenshot", { format: "png", fromSurface: true, captureBeyondViewport: false });
     fs.writeFileSync(path.join(outputDir, `${name}.png`), Buffer.from(shot.data, "base64"));
     if (action === "menu") {

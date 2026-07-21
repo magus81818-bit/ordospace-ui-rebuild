@@ -12,6 +12,7 @@ import "./styles/migration.css";
 import "./styles/shell.css";
 import "./styles/dashboard.css";
 import "./styles/admin-operations.css";
+import "./styles/client-approval.css";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
