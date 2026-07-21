@@ -1,0 +1,19 @@
+{
+  "round": 2,
+  "status": "ready-for-review",
+  "zipFiles": 96,
+  "zipSha256": "460EAEBAE2E41C4FAA67C45391425C6047E44AAA07E8FBBD5FFB51238916D24C",
+  "suppliedScreenshots": 8,
+  "salesopsScreens": 8,
+  "salesopsViewportObservations": 24,
+  "salesopsStateObservations": 8,
+  "salesopsScreenshots": 33,
+  "salesopsRuntimeErrors": {"console":0,"page":0,"request":0,"http":0},
+  "tokenCounts": {"Color":27,"Typography":12,"Geometry":16,"Shadow":2,"Interaction":10,"Responsive":8,"Chart":5},
+  "catalog": {"total":55,"Layout":3,"Primitive":22,"State":13,"Composite":11,"Chart":6,"live":43,"codeOnly":12,"notPresent":0},
+  "matrix": {"rows":73,"Exact":10,"Adapted":42,"Derived":21,"missing":0,"duplicate":0,"additional":0,"unresolved":0},
+  "roundAllocation": {"Round 3":3,"Round 4":10,"Round 5":9,"Round 6":21,"Round 7":12,"Round 8":10,"Round 9":8},
+  "ordospaceProductParity": true,
+  "ordospaceProductDifferences": 0,
+  "writes": {"product":false,"public":false,"original":false,"main":false,"production":false}
+}
