@@ -1,0 +1,247 @@
+{
+  "generatedAt": "2026-07-21T11:01:30.936Z",
+  "count": 10,
+  "primitives": [
+    {
+      "id": "UI-013",
+      "name": "ModuleCard",
+      "category": "Card",
+      "source": "app/ui/components/module-card.ui.js",
+      "factory": "ModuleCardListItem",
+      "css": "ordo-c-module-card",
+      "variants": [
+        "default",
+        "selected",
+        "interactive",
+        "locked"
+      ],
+      "states": [
+        "default",
+        "hover",
+        "focus-visible",
+        "selected",
+        "disabled",
+        "long content",
+        "desktop",
+        "tablet",
+        "mobile"
+      ],
+      "specimen": "Cards"
+    },
+    {
+      "id": "UI-014",
+      "name": "EmptyState",
+      "category": "Empty/Feedback",
+      "source": "app/ui/components/metric.ui.js",
+      "factory": "EmptyState",
+      "css": "ordo-c-empty-state",
+      "variants": [
+        "panel",
+        "inline",
+        "detail",
+        "detail-lg",
+        "detail-emphasis"
+      ],
+      "states": [
+        "empty",
+        "filtered empty",
+        "permission empty",
+        "action",
+        "no action",
+        "long content"
+      ],
+      "specimen": "Empty / loading / error / success"
+    },
+    {
+      "id": "UI-015",
+      "name": "FilterGroup",
+      "category": "Filter",
+      "source": "app/styles/dashboard-salesops.primitives.css",
+      "factory": "existing data filter events",
+      "css": "ordo-c-filter-group",
+      "variants": [
+        "pill",
+        "toolbar"
+      ],
+      "states": [
+        "default",
+        "hover",
+        "focus-visible",
+        "selected",
+        "disabled",
+        "loading",
+        "overflow",
+        "mobile"
+      ],
+      "specimen": "Filters and tabs"
+    },
+    {
+      "id": "UI-016",
+      "name": "TabGroup",
+      "category": "Tab",
+      "source": "app/styles/dashboard-salesops.primitives.css",
+      "factory": "existing tab events",
+      "css": "ordo-c-tabs",
+      "variants": [
+        "tablist",
+        "filter semantics preserved"
+      ],
+      "states": [
+        "default",
+        "hover",
+        "focus-visible",
+        "selected",
+        "disabled",
+        "overflow",
+        "long label",
+        "mobile"
+      ],
+      "specimen": "Filters and tabs"
+    },
+    {
+      "id": "UI-017",
+      "name": "Dialog",
+      "category": "Dialog",
+      "source": "app/ui/components/primitives.ui.js",
+      "factory": "OverlayController",
+      "css": "ordo-c-dialog",
+      "variants": [
+        "standard",
+        "destructive"
+      ],
+      "states": [
+        "closed",
+        "open",
+        "validation error",
+        "submitting",
+        "success",
+        "long content",
+        "mobile"
+      ],
+      "specimen": "Dialog"
+    },
+    {
+      "id": "UI-018",
+      "name": "Sheet",
+      "category": "Sheet",
+      "source": "app/ui/components/primitives.ui.js",
+      "factory": "OverlayController plus existing SheetController",
+      "css": "ordo-c-sheet",
+      "variants": [
+        "desktop side",
+        "mobile bottom"
+      ],
+      "states": [
+        "closed",
+        "open",
+        "validation",
+        "submitting",
+        "long content",
+        "mobile"
+      ],
+      "specimen": "Sheet"
+    },
+    {
+      "id": "UI-019",
+      "name": "TableShell",
+      "category": "Table",
+      "source": "app/ui/components/primitives.ui.js",
+      "factory": "TableShell",
+      "css": "ordo-c-table-shell",
+      "variants": [
+        "populated",
+        "empty"
+      ],
+      "states": [
+        "default",
+        "hover",
+        "focus-visible",
+        "empty",
+        "loading",
+        "long cell",
+        "overflow",
+        "desktop",
+        "tablet",
+        "mobile"
+      ],
+      "specimen": "Table"
+    },
+    {
+      "id": "UI-020",
+      "name": "FormControls",
+      "category": "Form",
+      "source": "app/ui/components/form.ui.js",
+      "factory": "FormField/CheckboxRow/OptionList plus Button/FieldMessage",
+      "css": "ordo-c-form-field",
+      "variants": [
+        "input",
+        "textarea",
+        "select",
+        "checkbox",
+        "radio",
+        "label",
+        "helper",
+        "validation",
+        "button"
+      ],
+      "states": [
+        "default",
+        "hover",
+        "focus-visible",
+        "filled",
+        "placeholder",
+        "disabled",
+        "readonly",
+        "required",
+        "invalid",
+        "valid",
+        "submitting",
+        "long content"
+      ],
+      "specimen": "Form controls"
+    },
+    {
+      "id": "UI-064",
+      "name": "ProfileNotificationTabs",
+      "category": "Tab",
+      "source": "index.html",
+      "factory": "existing data-prof-tab behavior",
+      "css": "data-prof-tab",
+      "variants": [
+        "notification",
+        "my"
+      ],
+      "states": [
+        "default",
+        "hover",
+        "focus-visible",
+        "selected",
+        "unread",
+        "empty",
+        "overflow",
+        "mobile"
+      ],
+      "specimen": "Filters and tabs"
+    },
+    {
+      "id": "UI-073",
+      "name": "ExistingComponentGallery",
+      "category": "QA",
+      "source": "index.html",
+      "factory": "existing dev_mode route plus app/qa/ui-lab.js",
+      "css": "ordo-ui-lab",
+      "variants": [
+        "existing gallery",
+        "separate SalesOps UI Lab section"
+      ],
+      "states": [
+        "denied",
+        "dev-enabled",
+        "desktop",
+        "tablet",
+        "mobile"
+      ],
+      "specimen": "Foundations"
+    }
+  ]
+}

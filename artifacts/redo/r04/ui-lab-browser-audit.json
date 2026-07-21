@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-07-21T11:01:19.889Z",
+  "guard": {
+    "devOnly": true,
+    "officialMenuHidden": true,
+    "screenCount": 19,
+    "beforeStorage": "{\"dev_mode\":\"on\",\"ordo_active_role\":\"admin\",\"ordo_theme\":\"dark\"}",
+    "afterStorage": "{\"dev_mode\":\"on\",\"ordo_active_role\":\"admin\",\"ordo_theme\":\"dark\"}",
+    "apiCalls": 0
+  },
+  "inventory": [
+    {
+      "id": "UI-013",
+      "present": true
+    },
+    {
+      "id": "UI-014",
+      "present": true
+    },
+    {
+      "id": "UI-015",
+      "present": true
+    },
+    {
+      "id": "UI-016",
+      "present": true
+    },
+    {
+      "id": "UI-017",
+      "present": true
+    },
+    {
+      "id": "UI-018",
+      "present": true
+    },
+    {
+      "id": "UI-019",
+      "present": true
+    },
+    {
+      "id": "UI-020",
+      "present": true
+    },
+    {
+      "id": "UI-064",
+      "present": true
+    },
+    {
+      "id": "UI-073",
+      "present": true
+    }
+  ],
+  "sections": [
+    "FoundationsUI-073 · SO-CARD-001 · Derived · --ordo-so-*Surface / border / radius / shadow / typography tokens",
+    "TypographyUI-073 · Derived공통 제목 계층본문과 보조 텍스트, 강조 텍스트",
+    "Color and statusUI-073 · Derived정상주의위험진행",
+    "ButtonsUI-020 · SO-INPUT-001 · Exactprimarysecondaryoutlineghostdestructivesuccessloadingdisabled알림",
+    "Form controlsUI-020 · SO-INPUT-001 · Exact모듈 이름운영 데이터에 저장되지 않습니다.필수 입력입니다.상태대기진행중 검수 항목 확인검증Loading 전환",
+    "Badges and progressUI-010/011/012 · Round 3 bridge승인완료",
+    "CardsUI-013 · SO-SHELL-001 · Adapted검토중긴 한글 제목이 포함된 인증 모듈 요구사항 검토 카드담당자 · MH 28/40 · D-2 · QC 3/5",
+    "Filters and tabsUI-015/UI-016/UI-064 · SO-FILTER-001/SO-TAB-001전체검토중비활성알림마이알림 탭 선택됨",
+    "Empty / loading / error / successUI-014 · SO-STATE-005 · Exact (code-only)◇표시할 모듈이 없습니다필터를 바꾸거나 새 모듈을 만드세요.EmptyLoadingErrorSuccess",
+    "TableUI-019 · SO-TABLE-001 · Exact모듈상태담당자긴 한글 제목이 포함된 로그인 보안 모듈검토중정다은파일 업로드완료김태윤",
+    "DialogUI-017 · SO-DIALOG-001 · Exact (code-only)삭제 확인 열기",
+    "SheetUI-018 · SO-SHEET-001 · Exact (code-only)상세 시트 열기",
+    "Long contentUI-013/014/019/020 · Adapted긴 콘텐츠 전환아주 긴 한국어 콘텐츠에서도 제목, 설명, 메타데이터, 상태와 작업 버튼의 의미와 순서가 유지되는지를 확인하기 위한 반복 가능한 검증 문장입니다. 줄바꿈과 오버플로가 기존 화면 폭을 바꾸지 않아야 합니다.",
+    "Responsive specimensUI-013~020/064/073 · D/T/M1440×1000 · 1024×1366 · 390×844",
+    "Accessibility states10 IDs · keyboard/focus/contrast/reduced motionTab focusaria-disabled상태 메시지 영역",
+    "모듈 삭제 확인삭제는 되돌릴 수 없습니다. UI Lab에서는 실제 삭제가 발생하지 않습니다.삭제취소",
+    "모듈 상세Desktop side sheet / Mobile bottom sheet긴 콘텐츠와 모바일 키보드 동작을 확인합니다.닫기"
+  ],
+  "interactions": [
+    "validation invalid/valid",
+    "tab selection",
+    "feedback error",
+    "dialog focus/Escape/return",
+    "sheet open/close",
+    "long content toggle"
+  ],
+  "screenshots": [
+    "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png",
+    "evidence/redo/r04/ui-lab/desktop/form-states-1440x1000.png",
+    "evidence/redo/r04/ui-lab/desktop/cards-filters-1440x1000.png",
+    "evidence/redo/r04/ui-lab/desktop/dialog-1440x1000.png",
+    "evidence/redo/r04/ui-lab/desktop/sheet-1440x1000.png",
+    "evidence/redo/r04/ui-lab/desktop/long-content-1440x1000.png",
+    "evidence/redo/r04/ui-lab/desktop/disabled-loading-error-1440x1000.png",
+    "evidence/redo/r04/ui-lab/tablet/full-1024x1366.png",
+    "evidence/redo/r04/ui-lab/tablet/form-states-1024x1366.png",
+    "evidence/redo/r04/ui-lab/tablet/cards-filters-1024x1366.png",
+    "evidence/redo/r04/ui-lab/tablet/dialog-1024x1366.png",
+    "evidence/redo/r04/ui-lab/tablet/sheet-1024x1366.png",
+    "evidence/redo/r04/ui-lab/tablet/long-content-1024x1366.png",
+    "evidence/redo/r04/ui-lab/tablet/disabled-loading-error-1024x1366.png",
+    "evidence/redo/r04/ui-lab/mobile/full-390x844.png",
+    "evidence/redo/r04/ui-lab/mobile/form-states-390x844.png",
+    "evidence/redo/r04/ui-lab/mobile/cards-filters-390x844.png",
+    "evidence/redo/r04/ui-lab/mobile/dialog-390x844.png",
+    "evidence/redo/r04/ui-lab/mobile/sheet-390x844.png",
+    "evidence/redo/r04/ui-lab/mobile/long-content-390x844.png",
+    "evidence/redo/r04/ui-lab/mobile/disabled-loading-error-390x844.png"
+  ],
+  "errors": [],
+  "finishedAt": "2026-07-21T11:01:30.010Z"
+}

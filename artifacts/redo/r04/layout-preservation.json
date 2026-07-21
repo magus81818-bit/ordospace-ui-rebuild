@@ -1,0 +1,2071 @@
+{
+  "generatedAt": "2026-07-21T11:00:37.875Z",
+  "tolerancePx": 1,
+  "routes": [
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "desktop",
+      "before": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 946.125,
+            "display": "block"
+          },
+          "#screen-admin-home": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 842.125,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "Module 관리",
+          "인력",
+          "감사 로그"
+        ],
+        "token": "",
+        "rootBackground": "rgb(11, 14, 24)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "rootForeground": "rgb(238, 242, 255)",
+        "fontFamily": "\"Pretendard Variable\", Pretendard, Inter, system-ui, sans-serif"
+      },
+      "after": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 946.125,
+            "display": "block"
+          },
+          "#screen-admin-home": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 842.125,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "Module 관리",
+          "인력",
+          "감사 로그"
+        ],
+        "token": "oklch(0.09 0.005 260)",
+        "rootBackground": "oklch(0.09 0.005 260)",
+        "mainBackground": "oklch(0.09 0.005 260)",
+        "rootForeground": "oklch(0.95 0 0)",
+        "fontFamily": "\"DM Sans\", \"Pretendard Variable\", Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+      },
+      "maxBoxDelta": 0,
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "desktop",
+      "before": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1550.0625,
+            "display": "block"
+          },
+          "#screen-admin-projects": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 1446.0625,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "Module 관리",
+          "인력",
+          "감사 로그"
+        ],
+        "token": "",
+        "rootBackground": "rgb(11, 14, 24)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "rootForeground": "rgb(238, 242, 255)",
+        "fontFamily": "\"Pretendard Variable\", Pretendard, Inter, system-ui, sans-serif"
+      },
+      "after": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1550.0625,
+            "display": "block"
+          },
+          "#screen-admin-projects": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 1446.0625,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "Module 관리",
+          "인력",
+          "감사 로그"
+        ],
+        "token": "oklch(0.09 0.005 260)",
+        "rootBackground": "oklch(0.09 0.005 260)",
+        "mainBackground": "oklch(0.09 0.005 260)",
+        "rootForeground": "oklch(0.95 0 0)",
+        "fontFamily": "\"DM Sans\", \"Pretendard Variable\", Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+      },
+      "maxBoxDelta": 0,
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "desktop",
+      "before": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1175.125,
+            "display": "block"
+          },
+          "#screen-admin-cards": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 1071.125,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0",
+          "adminBulkCreateSheet"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "Module 관리",
+          "인력",
+          "감사 로그"
+        ],
+        "token": "",
+        "rootBackground": "rgb(11, 14, 24)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "rootForeground": "rgb(238, 242, 255)",
+        "fontFamily": "\"Pretendard Variable\", Pretendard, Inter, system-ui, sans-serif"
+      },
+      "after": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1175.125,
+            "display": "block"
+          },
+          "#screen-admin-cards": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 1071.125,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0",
+          "adminBulkCreateSheet"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "Module 관리",
+          "인력",
+          "감사 로그"
+        ],
+        "token": "oklch(0.09 0.005 260)",
+        "rootBackground": "oklch(0.09 0.005 260)",
+        "mainBackground": "oklch(0.09 0.005 260)",
+        "rootForeground": "oklch(0.95 0 0)",
+        "fontFamily": "\"DM Sans\", \"Pretendard Variable\", Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+      },
+      "maxBoxDelta": 0,
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "desktop",
+      "before": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1459.390625,
+            "display": "block"
+          },
+          "#screen-admin-team": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 1355.390625,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0",
+          "invitePartnerSheet",
+          "reassignModal"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "Module 관리",
+          "인력",
+          "감사 로그"
+        ],
+        "token": "",
+        "rootBackground": "rgb(11, 14, 24)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "rootForeground": "rgb(238, 242, 255)",
+        "fontFamily": "\"Pretendard Variable\", Pretendard, Inter, system-ui, sans-serif"
+      },
+      "after": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1459.390625,
+            "display": "block"
+          },
+          "#screen-admin-team": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 1355.390625,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0",
+          "invitePartnerSheet",
+          "reassignModal"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "Module 관리",
+          "인력",
+          "감사 로그"
+        ],
+        "token": "oklch(0.09 0.005 260)",
+        "rootBackground": "oklch(0.09 0.005 260)",
+        "mainBackground": "oklch(0.09 0.005 260)",
+        "rootForeground": "oklch(0.95 0 0)",
+        "fontFamily": "\"DM Sans\", \"Pretendard Variable\", Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+      },
+      "maxBoxDelta": 0,
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "desktop",
+      "before": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 3037.9375,
+            "display": "block"
+          },
+          "#screen-admin-audit": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 2933.9375,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "Module 관리",
+          "인력",
+          "감사 로그"
+        ],
+        "token": "",
+        "rootBackground": "rgb(11, 14, 24)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "rootForeground": "rgb(238, 242, 255)",
+        "fontFamily": "\"Pretendard Variable\", Pretendard, Inter, system-ui, sans-serif"
+      },
+      "after": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 3037.9375,
+            "display": "block"
+          },
+          "#screen-admin-audit": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 2933.9375,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "Module 관리",
+          "인력",
+          "감사 로그"
+        ],
+        "token": "oklch(0.09 0.005 260)",
+        "rootBackground": "oklch(0.09 0.005 260)",
+        "mainBackground": "oklch(0.09 0.005 260)",
+        "rootForeground": "oklch(0.95 0 0)",
+        "fontFamily": "\"DM Sans\", \"Pretendard Variable\", Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+      },
+      "maxBoxDelta": 0,
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "desktop",
+      "before": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 956.375,
+            "display": "block"
+          },
+          "#screen-dashboard": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 852.375,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "승인함",
+          "알림"
+        ],
+        "token": "",
+        "rootBackground": "rgb(11, 14, 24)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "rootForeground": "rgb(238, 242, 255)",
+        "fontFamily": "\"Pretendard Variable\", Pretendard, Inter, system-ui, sans-serif"
+      },
+      "after": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 956.375,
+            "display": "block"
+          },
+          "#screen-dashboard": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 852.375,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "승인함",
+          "알림"
+        ],
+        "token": "oklch(0.09 0.005 260)",
+        "rootBackground": "oklch(0.09 0.005 260)",
+        "mainBackground": "oklch(0.09 0.005 260)",
+        "rootForeground": "oklch(0.95 0 0)",
+        "fontFamily": "\"DM Sans\", \"Pretendard Variable\", Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+      },
+      "maxBoxDelta": 0,
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "desktop",
+      "before": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1403.921875,
+            "display": "block"
+          },
+          "#screen-project": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 1299.921875,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0",
+          "cardDetailModal"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "승인함",
+          "알림"
+        ],
+        "token": "",
+        "rootBackground": "rgb(11, 14, 24)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "rootForeground": "rgb(238, 242, 255)",
+        "fontFamily": "\"Pretendard Variable\", Pretendard, Inter, system-ui, sans-serif"
+      },
+      "after": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1403.921875,
+            "display": "block"
+          },
+          "#screen-project": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 1299.921875,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0",
+          "cardDetailModal"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "승인함",
+          "알림"
+        ],
+        "token": "oklch(0.09 0.005 260)",
+        "rootBackground": "oklch(0.09 0.005 260)",
+        "mainBackground": "oklch(0.09 0.005 260)",
+        "rootForeground": "oklch(0.95 0 0)",
+        "fontFamily": "\"DM Sans\", \"Pretendard Variable\", Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+      },
+      "maxBoxDelta": 0,
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "desktop",
+      "before": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 994.25,
+            "display": "block"
+          },
+          "#screen-approvals": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 890.25,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "승인함",
+          "알림"
+        ],
+        "token": "",
+        "rootBackground": "rgb(11, 14, 24)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "rootForeground": "rgb(238, 242, 255)",
+        "fontFamily": "\"Pretendard Variable\", Pretendard, Inter, system-ui, sans-serif"
+      },
+      "after": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 994.25,
+            "display": "block"
+          },
+          "#screen-approvals": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 890.25,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "승인함",
+          "알림"
+        ],
+        "token": "oklch(0.09 0.005 260)",
+        "rootBackground": "oklch(0.09 0.005 260)",
+        "mainBackground": "oklch(0.09 0.005 260)",
+        "rootForeground": "oklch(0.95 0 0)",
+        "fontFamily": "\"DM Sans\", \"Pretendard Variable\", Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+      },
+      "maxBoxDelta": 0,
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "profile",
+      "viewport": "desktop",
+      "before": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 545.03125,
+            "display": "block"
+          },
+          "#screen-profile": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 441.03125,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "승인함",
+          "알림"
+        ],
+        "token": "",
+        "rootBackground": "rgb(11, 14, 24)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "rootForeground": "rgb(238, 242, 255)",
+        "fontFamily": "\"Pretendard Variable\", Pretendard, Inter, system-ui, sans-serif"
+      },
+      "after": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 545.03125,
+            "display": "block"
+          },
+          "#screen-profile": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 441.03125,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "프로젝트",
+          "승인함",
+          "알림"
+        ],
+        "token": "oklch(0.09 0.005 260)",
+        "rootBackground": "oklch(0.09 0.005 260)",
+        "mainBackground": "oklch(0.09 0.005 260)",
+        "rootForeground": "oklch(0.95 0 0)",
+        "fontFamily": "\"DM Sans\", \"Pretendard Variable\", Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+      },
+      "maxBoxDelta": 0,
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "desktop",
+      "before": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 885.6875,
+            "display": "block"
+          },
+          "#screen-worker-home": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 781.6875,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "내 작업",
+          "알림"
+        ],
+        "token": "",
+        "rootBackground": "rgb(11, 14, 24)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "rootForeground": "rgb(238, 242, 255)",
+        "fontFamily": "\"Pretendard Variable\", Pretendard, Inter, system-ui, sans-serif"
+      },
+      "after": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 885.6875,
+            "display": "block"
+          },
+          "#screen-worker-home": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 781.6875,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "내 작업",
+          "알림"
+        ],
+        "token": "oklch(0.09 0.005 260)",
+        "rootBackground": "oklch(0.09 0.005 260)",
+        "mainBackground": "oklch(0.09 0.005 260)",
+        "rootForeground": "oklch(0.95 0 0)",
+        "fontFamily": "\"DM Sans\", \"Pretendard Variable\", Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+      },
+      "maxBoxDelta": 0,
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "desktop",
+      "before": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1049.3125,
+            "display": "block"
+          },
+          "#screen-worker-cards": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 945.3125,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "내 작업",
+          "알림"
+        ],
+        "token": "",
+        "rootBackground": "rgb(11, 14, 24)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "rootForeground": "rgb(238, 242, 255)",
+        "fontFamily": "\"Pretendard Variable\", Pretendard, Inter, system-ui, sans-serif"
+      },
+      "after": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1049.3125,
+            "display": "block"
+          },
+          "#screen-worker-cards": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 945.3125,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "내 작업",
+          "알림"
+        ],
+        "token": "oklch(0.09 0.005 260)",
+        "rootBackground": "oklch(0.09 0.005 260)",
+        "mainBackground": "oklch(0.09 0.005 260)",
+        "rootForeground": "oklch(0.95 0 0)",
+        "fontFamily": "\"DM Sans\", \"Pretendard Variable\", Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+      },
+      "maxBoxDelta": 0,
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "profile",
+      "viewport": "desktop",
+      "before": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 545.03125,
+            "display": "block"
+          },
+          "#screen-profile": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 441.03125,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "내 작업",
+          "알림"
+        ],
+        "token": "",
+        "rootBackground": "rgb(11, 14, 24)",
+        "mainBackground": "rgba(0, 0, 0, 0)",
+        "rootForeground": "rgb(238, 242, 255)",
+        "fontFamily": "\"Pretendard Variable\", Pretendard, Inter, system-ui, sans-serif"
+      },
+      "after": {
+        "boxes": {
+          "#sidebar": {
+            "x": 0,
+            "y": 0,
+            "width": 240,
+            "height": 1000,
+            "display": "flex"
+          },
+          "#topbar": {
+            "x": 240,
+            "y": 0,
+            "width": 1200,
+            "height": 64,
+            "display": "flex"
+          },
+          "#mheader": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mtab": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "display": "none"
+          },
+          "#mainArea": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 545.03125,
+            "display": "block"
+          },
+          "#screen-profile": {
+            "x": 240,
+            "y": 64,
+            "width": 1200,
+            "height": 441.03125,
+            "display": "block"
+          }
+        },
+        "directOrder": [
+          "div:0"
+        ],
+        "screenIds": [
+          "screen-landing",
+          "screen-auth",
+          "screen-terms",
+          "screen-privacy",
+          "screen-support",
+          "screen-dashboard",
+          "screen-project",
+          "screen-approvals",
+          "screen-worker-cards",
+          "screen-admin-cards",
+          "screen-admin-team",
+          "screen-admin-home",
+          "screen-admin-projects",
+          "screen-admin-audit",
+          "screen-profile",
+          "screen-select-workspace",
+          "screen-forbidden-403",
+          "screen-worker-home",
+          "screen-components-gallery"
+        ],
+        "horizontalOverflow": 0,
+        "menu": [
+          "홈",
+          "내 작업",
+          "알림"
+        ],
+        "token": "oklch(0.09 0.005 260)",
+        "rootBackground": "oklch(0.09 0.005 260)",
+        "mainBackground": "oklch(0.09 0.005 260)",
+        "rootForeground": "oklch(0.95 0 0)",
+        "fontFamily": "\"DM Sans\", \"Pretendard Variable\", Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif"
+      },
+      "maxBoxDelta": 0,
+      "pass": true
+    }
+  ],
+  "finishedAt": "2026-07-21T11:01:19.875Z"
+}

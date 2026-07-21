@@ -1,0 +1,297 @@
+{
+  "generatedAt": "2026-07-21T11:01:30.936Z",
+  "count": 10,
+  "ids": [
+    "UI-013",
+    "UI-014",
+    "UI-015",
+    "UI-016",
+    "UI-017",
+    "UI-018",
+    "UI-019",
+    "UI-020",
+    "UI-064",
+    "UI-073"
+  ],
+  "items": [
+    {
+      "inventoryId": "UI-013",
+      "existingComponent": "ModuleCard factory",
+      "salesopsId": "SO-SHELL-001",
+      "classification": "Adapted",
+      "implementationFiles": [
+        "app/ui/components/module-card.ui.js",
+        "app/styles/dashboard-salesops.primitives.css"
+      ],
+      "status": "complete",
+      "supportedStates": [
+        "default",
+        "hover",
+        "focus-visible",
+        "selected",
+        "disabled",
+        "long content",
+        "desktop",
+        "tablet",
+        "mobile"
+      ],
+      "uiLabSpecimen": "Cards",
+      "operationalRoutes": "shared",
+      "evidence": [
+        "artifacts/redo/r04/ui-lab-browser-audit.json",
+        "evidence/redo/r04/ui-lab/"
+      ],
+      "followUp": "Round 9 verification"
+    },
+    {
+      "inventoryId": "UI-014",
+      "existingComponent": "empty-state panel",
+      "salesopsId": "SO-STATE-005",
+      "classification": "Exact",
+      "implementationFiles": [
+        "app/ui/components/metric.ui.js",
+        "app/styles/dashboard-salesops.primitives.css"
+      ],
+      "status": "complete",
+      "supportedStates": [
+        "empty",
+        "filtered empty",
+        "permission empty",
+        "action",
+        "no action",
+        "long content"
+      ],
+      "uiLabSpecimen": "Empty / loading / error / success",
+      "operationalRoutes": "shared",
+      "evidence": [
+        "artifacts/redo/r04/ui-lab-browser-audit.json",
+        "evidence/redo/r04/ui-lab/"
+      ],
+      "followUp": "Round 9 verification"
+    },
+    {
+      "inventoryId": "UI-015",
+      "existingComponent": "toolbar/filter group",
+      "salesopsId": "SO-FILTER-001",
+      "classification": "Exact",
+      "implementationFiles": [
+        "app/styles/dashboard-salesops.primitives.css",
+        "app/styles/dashboard-salesops.primitives.css"
+      ],
+      "status": "complete",
+      "supportedStates": [
+        "default",
+        "hover",
+        "focus-visible",
+        "selected",
+        "disabled",
+        "loading",
+        "overflow",
+        "mobile"
+      ],
+      "uiLabSpecimen": "Filters and tabs",
+      "operationalRoutes": "shared",
+      "evidence": [
+        "artifacts/redo/r04/ui-lab-browser-audit.json",
+        "evidence/redo/r04/ui-lab/"
+      ],
+      "followUp": "Round 9 verification"
+    },
+    {
+      "inventoryId": "UI-016",
+      "existingComponent": "tab group",
+      "salesopsId": "SO-TAB-001",
+      "classification": "Exact",
+      "implementationFiles": [
+        "app/styles/dashboard-salesops.primitives.css",
+        "app/styles/dashboard-salesops.primitives.css"
+      ],
+      "status": "complete",
+      "supportedStates": [
+        "default",
+        "hover",
+        "focus-visible",
+        "selected",
+        "disabled",
+        "overflow",
+        "long label",
+        "mobile"
+      ],
+      "uiLabSpecimen": "Filters and tabs",
+      "operationalRoutes": "shared",
+      "evidence": [
+        "artifacts/redo/r04/ui-lab-browser-audit.json",
+        "evidence/redo/r04/ui-lab/"
+      ],
+      "followUp": "Round 9 verification"
+    },
+    {
+      "inventoryId": "UI-017",
+      "existingComponent": "modal/dialog shell",
+      "salesopsId": "SO-DIALOG-001",
+      "classification": "Exact",
+      "implementationFiles": [
+        "app/ui/components/primitives.ui.js",
+        "app/styles/dashboard-salesops.primitives.css"
+      ],
+      "status": "complete",
+      "supportedStates": [
+        "closed",
+        "open",
+        "validation error",
+        "submitting",
+        "success",
+        "long content",
+        "mobile"
+      ],
+      "uiLabSpecimen": "Dialog",
+      "operationalRoutes": "shared",
+      "evidence": [
+        "artifacts/redo/r04/ui-lab-browser-audit.json",
+        "evidence/redo/r04/ui-lab/"
+      ],
+      "followUp": "Round 9 verification"
+    },
+    {
+      "inventoryId": "UI-018",
+      "existingComponent": "side/bottom sheet shell",
+      "salesopsId": "SO-SHEET-001",
+      "classification": "Exact",
+      "implementationFiles": [
+        "app/ui/components/primitives.ui.js",
+        "app/styles/dashboard-salesops.primitives.css"
+      ],
+      "status": "complete",
+      "supportedStates": [
+        "closed",
+        "open",
+        "validation",
+        "submitting",
+        "long content",
+        "mobile"
+      ],
+      "uiLabSpecimen": "Sheet",
+      "operationalRoutes": "shared",
+      "evidence": [
+        "artifacts/redo/r04/ui-lab-browser-audit.json",
+        "evidence/redo/r04/ui-lab/"
+      ],
+      "followUp": "Round 9 verification"
+    },
+    {
+      "inventoryId": "UI-019",
+      "existingComponent": "table shell",
+      "salesopsId": "SO-TABLE-001",
+      "classification": "Exact",
+      "implementationFiles": [
+        "app/ui/components/primitives.ui.js",
+        "app/styles/dashboard-salesops.primitives.css"
+      ],
+      "status": "complete",
+      "supportedStates": [
+        "default",
+        "hover",
+        "focus-visible",
+        "empty",
+        "loading",
+        "long cell",
+        "overflow",
+        "desktop",
+        "tablet",
+        "mobile"
+      ],
+      "uiLabSpecimen": "Table",
+      "operationalRoutes": "shared",
+      "evidence": [
+        "artifacts/redo/r04/ui-lab-browser-audit.json",
+        "evidence/redo/r04/ui-lab/"
+      ],
+      "followUp": "Round 9 verification"
+    },
+    {
+      "inventoryId": "UI-020",
+      "existingComponent": "form controls",
+      "salesopsId": "SO-INPUT-001",
+      "classification": "Exact",
+      "implementationFiles": [
+        "app/ui/components/form.ui.js",
+        "app/styles/dashboard-salesops.primitives.css"
+      ],
+      "status": "complete",
+      "supportedStates": [
+        "default",
+        "hover",
+        "focus-visible",
+        "filled",
+        "placeholder",
+        "disabled",
+        "readonly",
+        "required",
+        "invalid",
+        "valid",
+        "submitting",
+        "long content"
+      ],
+      "uiLabSpecimen": "Form controls",
+      "operationalRoutes": "shared",
+      "evidence": [
+        "artifacts/redo/r04/ui-lab-browser-audit.json",
+        "evidence/redo/r04/ui-lab/"
+      ],
+      "followUp": "Round 9 verification"
+    },
+    {
+      "inventoryId": "UI-064",
+      "existingComponent": "notification/My tabs",
+      "salesopsId": "SO-TAB-001",
+      "classification": "Adapted",
+      "implementationFiles": [
+        "index.html",
+        "app/styles/dashboard-salesops.primitives.css"
+      ],
+      "status": "complete",
+      "supportedStates": [
+        "default",
+        "hover",
+        "focus-visible",
+        "selected",
+        "unread",
+        "empty",
+        "overflow",
+        "mobile"
+      ],
+      "uiLabSpecimen": "Filters and tabs",
+      "operationalRoutes": "shared/profile",
+      "evidence": [
+        "artifacts/redo/r04/ui-lab-browser-audit.json",
+        "evidence/redo/r04/ui-lab/"
+      ],
+      "followUp": "Round 9 verification"
+    },
+    {
+      "inventoryId": "UI-073",
+      "existingComponent": "component gallery",
+      "salesopsId": "SO-CARD-001",
+      "classification": "Derived",
+      "implementationFiles": [
+        "index.html",
+        "app/styles/dashboard-salesops.primitives.css"
+      ],
+      "status": "complete",
+      "supportedStates": [
+        "denied",
+        "dev-enabled",
+        "desktop",
+        "tablet",
+        "mobile"
+      ],
+      "uiLabSpecimen": "Foundations",
+      "operationalRoutes": "QA",
+      "evidence": [
+        "artifacts/redo/r04/ui-lab-browser-audit.json",
+        "evidence/redo/r04/ui-lab/"
+      ],
+      "followUp": "Round 9 verification"
+    }
+  ]
+}

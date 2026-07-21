@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-07-21T11:01:30.936Z",
+  "guard": "existing components-gallery dev_mode",
+  "screenId": "components-gallery",
+  "separateMount": "salesopsUiLab",
+  "sections": 15,
+  "specimens": 10,
+  "interactions": [
+    "validation invalid/valid",
+    "tab selection",
+    "feedback error",
+    "dialog focus/Escape/return",
+    "sheet open/close",
+    "long content toggle"
+  ],
+  "apiCalls": 0,
+  "localStorageMutation": 0,
+  "inventoryIds": [
+    "UI-013",
+    "UI-014",
+    "UI-015",
+    "UI-016",
+    "UI-017",
+    "UI-018",
+    "UI-019",
+    "UI-020",
+    "UI-064",
+    "UI-073"
+  ],
+  "evidence": [
+    "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png",
+    "evidence/redo/r04/ui-lab/desktop/form-states-1440x1000.png",
+    "evidence/redo/r04/ui-lab/desktop/cards-filters-1440x1000.png",
+    "evidence/redo/r04/ui-lab/desktop/dialog-1440x1000.png",
+    "evidence/redo/r04/ui-lab/desktop/sheet-1440x1000.png",
+    "evidence/redo/r04/ui-lab/desktop/long-content-1440x1000.png",
+    "evidence/redo/r04/ui-lab/desktop/disabled-loading-error-1440x1000.png",
+    "evidence/redo/r04/ui-lab/tablet/full-1024x1366.png",
+    "evidence/redo/r04/ui-lab/tablet/form-states-1024x1366.png",
+    "evidence/redo/r04/ui-lab/tablet/cards-filters-1024x1366.png",
+    "evidence/redo/r04/ui-lab/tablet/dialog-1024x1366.png",
+    "evidence/redo/r04/ui-lab/tablet/sheet-1024x1366.png",
+    "evidence/redo/r04/ui-lab/tablet/long-content-1024x1366.png",
+    "evidence/redo/r04/ui-lab/tablet/disabled-loading-error-1024x1366.png",
+    "evidence/redo/r04/ui-lab/mobile/full-390x844.png",
+    "evidence/redo/r04/ui-lab/mobile/form-states-390x844.png",
+    "evidence/redo/r04/ui-lab/mobile/cards-filters-390x844.png",
+    "evidence/redo/r04/ui-lab/mobile/dialog-390x844.png",
+    "evidence/redo/r04/ui-lab/mobile/sheet-390x844.png",
+    "evidence/redo/r04/ui-lab/mobile/long-content-390x844.png",
+    "evidence/redo/r04/ui-lab/mobile/disabled-loading-error-390x844.png"
+  ]
+}

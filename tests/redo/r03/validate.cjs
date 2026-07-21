@@ -137,13 +137,21 @@ for (const core of ['--ordo-so-bg-dashboard', '--ordo-so-text-primary', '--ordo-
 
 const branch = git(['branch', '--show-current']);
 const mergeBase = git(['merge-base', 'redo/r02-salesops-audit', 'HEAD']);
-check(branch === 'redo/r03-dashboard-tokens', 'current branch', branch);
+const approvedRound3 = '9c559913d43efea9d4b7d5a5831b8cf14e636763';
+const descendantRound = /^redo\/r(?:0[4-9]|10)-/.test(branch);
+check(branch === 'redo/r03-dashboard-tokens' || descendantRound, 'current or approved descendant branch', branch);
+if (descendantRound) check(git(['merge-base', approvedRound3, 'HEAD']) === approvedRound3, 'approved Round 3 ancestry', approvedRound3);
 check(mergeBase === base, 'Round 2 merge-base', mergeBase);
 const diffChanged = git(['diff', '--name-only', base]).split(/\r?\n/).filter(Boolean).map(value => value.replaceAll('\\', '/'));
 const statusChanged = git(['status', '--porcelain=v1', '--untracked-files=all']).split(/\r?\n/).filter(Boolean).map(value => value.slice(3).replaceAll('\\', '/'));
 const changed = [...new Set([...diffChanged, ...statusChanged])];
 const productChanged = changed.filter(file => /^(index\.html|app\/)/.test(file));
-check(productChanged.every(file => ['index.html', tokenRelative].includes(file)), 'product scope is limited to entry plus token stylesheet', productChanged.join(', '));
+if (descendantRound) {
+  check(git(['show', `${approvedRound3}:${tokenRelative}`]) === tokenCss, 'approved Round 3 token stylesheet remains unchanged');
+  check(index.includes('dashboard-salesops.tokens.css'), 'approved Round 3 token entry remains loaded');
+} else {
+  check(productChanged.every(file => ['index.html', tokenRelative].includes(file)), 'product scope is limited to entry plus token stylesheet', productChanged.join(', '));
+}
 const baselineIndex = git(['show', `${base}:index.html`]);
 const ids = text => [...text.matchAll(/\sid="([^"]+)"/g)].map(match => match[1]);
 check(JSON.stringify(ids(index)) === JSON.stringify(ids(baselineIndex)), 'DOM IDs remain byte-for-byte ordered');

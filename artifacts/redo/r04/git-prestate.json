@@ -1,0 +1,19 @@
+{
+  "capturedAt": "2026-07-21T19:47:00+09:00",
+  "repository": "https://github.com/magus81818-bit/ordospace-ui-rebuild.git",
+  "branch": "redo/r04-primitives-ui-lab",
+  "head": "9c559913d43efea9d4b7d5a5831b8cf14e636763",
+  "approvedRound3Head": "9c559913d43efea9d4b7d5a5831b8cf14e636763",
+  "round3MergeBase": "9c559913d43efea9d4b7d5a5831b8cf14e636763",
+  "workingTreeBeforePromptPreservation": "clean",
+  "workingTreeAfterPromptPreservation": ["?? references/prompts/round-4.md"],
+  "protectedOriginal": {
+    "path": "C:/Users/Admin/Desktop/K-디지털/수업자료/코덱스/ORDOSPACE_rebuild",
+    "branch": "main",
+    "head": "ea1dc111440207608401c529b5bc27ebc5e61fd7",
+    "status": "clean",
+    "remote": "https://github.com/magus81818-bit/ordospace-rebuild.git"
+  },
+  "deploymentChanged": false,
+  "mainChanged": false
+}

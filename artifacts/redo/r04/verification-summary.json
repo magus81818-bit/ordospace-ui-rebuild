@@ -1,0 +1,307 @@
+{
+  "generatedAt": "2026-07-21T11:01:30.936Z",
+  "ok": true,
+  "branch": "redo/r04-primitives-ui-lab",
+  "mergeBase": "9c559913d43efea9d4b7d5a5831b8cf14e636763",
+  "inventoryCount": 10,
+  "primitiveCount": 10,
+  "uiLabSections": 15,
+  "tokenDependencies": 64,
+  "unresolvedTokens": 0,
+  "rawColors": 0,
+  "importantBefore": 16,
+  "importantAfter": 16,
+  "publicComparisons": 18,
+  "desktopRoutes": 12,
+  "responsiveChecks": 6,
+  "uiLabScreenshots": 21,
+  "browserErrors": 0,
+  "checks": [
+    {
+      "name": "current branch",
+      "pass": true,
+      "detail": "redo/r04-primitives-ui-lab"
+    },
+    {
+      "name": "Round 3 merge-base",
+      "pass": true,
+      "detail": "9c559913d43efea9d4b7d5a5831b8cf14e636763"
+    },
+    {
+      "name": "official inventory count",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "name": "official inventory unique",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no out-of-round inventory completed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "primitive inventory count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "primitive IDs exact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Round 3 token consumption",
+      "pass": true,
+      "detail": "64"
+    },
+    {
+      "name": "unresolved token references",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no raw color duplication",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no unscoped root tokens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no public selectors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no Round 5 shell completion selectors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Round 4 important additions",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "Round 3 important count unchanged",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "name": "UI Lab inventory UI-013",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab inventory UI-014",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab inventory UI-015",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab inventory UI-016",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab inventory UI-017",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab inventory UI-018",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab inventory UI-019",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab inventory UI-020",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab inventory UI-064",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab inventory UI-073",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Foundations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Typography",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Color and status",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Buttons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Form controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Badges and progress",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Cards",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Filters and tabs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Empty / loading / error / success",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Table",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Dialog",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Sheet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Long content",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Responsive specimens",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab section Accessibility states",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab has no API or storage mutation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "existing config retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "official screen ID count",
+      "pass": true,
+      "detail": "19"
+    },
+    {
+      "name": "screen IDs unique",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact dashboard-browser-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact ui-lab-browser-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact layout-preservation.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact frozen-public-regression.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact accessibility-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public 18/18",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "layout 12/12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive 6/6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser errors zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab errors zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab D/T/M state screenshots",
+      "pass": true,
+      "detail": "21"
+    },
+    {
+      "name": "UI Lab interactions",
+      "pass": true,
+      "detail": "6"
+    },
+    {
+      "name": "accessibility checks pass",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "failures": []
+}

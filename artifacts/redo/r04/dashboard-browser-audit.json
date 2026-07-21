@@ -1,0 +1,283 @@
+{
+  "generatedAt": "2026-07-21T11:00:37.875Z",
+  "consoleErrors": [],
+  "pageErrors": [],
+  "requestFailures": [],
+  "responses4xx5xx": [],
+  "routes": [
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "desktop",
+      "screenshot": "dashboard/admin/admin-home-desktop-1440x1000.png",
+      "tokenApplied": true,
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "desktop",
+      "screenshot": "dashboard/admin/admin-projects-desktop-1440x1000.png",
+      "tokenApplied": true,
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "desktop",
+      "screenshot": "dashboard/admin/admin-cards-desktop-1440x1000.png",
+      "tokenApplied": true,
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "desktop",
+      "screenshot": "dashboard/admin/admin-team-desktop-1440x1000.png",
+      "tokenApplied": true,
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "desktop",
+      "screenshot": "dashboard/admin/admin-audit-desktop-1440x1000.png",
+      "tokenApplied": true,
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "desktop",
+      "screenshot": "dashboard/client/dashboard-desktop-1440x1000.png",
+      "tokenApplied": true,
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "desktop",
+      "screenshot": "dashboard/client/project-desktop-1440x1000.png",
+      "tokenApplied": true,
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "desktop",
+      "screenshot": "dashboard/client/approvals-desktop-1440x1000.png",
+      "tokenApplied": true,
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "profile",
+      "viewport": "desktop",
+      "screenshot": "dashboard/client/profile-desktop-1440x1000.png",
+      "tokenApplied": true,
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "desktop",
+      "screenshot": "dashboard/worker/worker-home-desktop-1440x1000.png",
+      "tokenApplied": true,
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "desktop",
+      "screenshot": "dashboard/worker/worker-cards-desktop-1440x1000.png",
+      "tokenApplied": true,
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "profile",
+      "viewport": "desktop",
+      "screenshot": "dashboard/worker/profile-desktop-1440x1000.png",
+      "tokenApplied": true,
+      "pass": true
+    }
+  ],
+  "menus": [
+    {
+      "role": "admin",
+      "labels": [
+        "홈",
+        "프로젝트",
+        "Module 관리",
+        "인력",
+        "감사 로그"
+      ],
+      "pass": true
+    },
+    {
+      "role": "client",
+      "labels": [
+        "홈",
+        "프로젝트",
+        "승인함",
+        "알림"
+      ],
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "labels": [
+        "홈",
+        "내 작업",
+        "알림"
+      ],
+      "pass": true
+    }
+  ],
+  "responsive": [
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "tablet",
+      "sidebar": true,
+      "topbar": true,
+      "mheader": false,
+      "mtab": false,
+      "horizontalOverflow": 0,
+      "fixed260MobileSidebar": false,
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "tablet",
+      "sidebar": true,
+      "topbar": true,
+      "mheader": false,
+      "mtab": false,
+      "horizontalOverflow": 0,
+      "fixed260MobileSidebar": false,
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "tablet",
+      "sidebar": true,
+      "topbar": true,
+      "mheader": false,
+      "mtab": false,
+      "horizontalOverflow": 0,
+      "fixed260MobileSidebar": false,
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "mobile",
+      "sidebar": false,
+      "topbar": false,
+      "mheader": true,
+      "mtab": true,
+      "horizontalOverflow": 0,
+      "fixed260MobileSidebar": false,
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "mobile",
+      "sidebar": false,
+      "topbar": false,
+      "mheader": true,
+      "mtab": true,
+      "horizontalOverflow": 0,
+      "fixed260MobileSidebar": false,
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "mobile",
+      "sidebar": false,
+      "topbar": false,
+      "mheader": true,
+      "mtab": true,
+      "horizontalOverflow": 0,
+      "fixed260MobileSidebar": false,
+      "pass": true
+    }
+  ],
+  "tokenChecks": [],
+  "functionChecks": [
+    {
+      "feature": "logged-out scope removal",
+      "pass": true
+    },
+    {
+      "feature": "sidebar navigation",
+      "pass": true
+    },
+    {
+      "feature": "notification dropdown",
+      "pass": true
+    },
+    {
+      "feature": "role switch and token persistence",
+      "pass": true
+    },
+    {
+      "feature": "403 guard and authenticated scope",
+      "pass": true
+    },
+    {
+      "feature": "QA gallery remains dev-only",
+      "pass": true
+    },
+    {
+      "feature": "mobile tabs and drawer navigation",
+      "pass": true
+    }
+  ],
+  "screenshots": [
+    "evidence/redo/r04/frozen-public/landing-desktop-1440x1000.png",
+    "evidence/redo/r04/frozen-public/auth-desktop-1440x1000.png",
+    "evidence/redo/r04/frozen-public/terms-desktop-1440x1000.png",
+    "evidence/redo/r04/frozen-public/privacy-desktop-1440x1000.png",
+    "evidence/redo/r04/frozen-public/support-desktop-1440x1000.png",
+    "evidence/redo/r04/frozen-public/select-workspace-desktop-1440x1000.png",
+    "evidence/redo/r04/frozen-public/landing-tablet-1024x1366.png",
+    "evidence/redo/r04/frozen-public/auth-tablet-1024x1366.png",
+    "evidence/redo/r04/frozen-public/terms-tablet-1024x1366.png",
+    "evidence/redo/r04/frozen-public/privacy-tablet-1024x1366.png",
+    "evidence/redo/r04/frozen-public/support-tablet-1024x1366.png",
+    "evidence/redo/r04/frozen-public/select-workspace-tablet-1024x1366.png",
+    "evidence/redo/r04/frozen-public/landing-mobile-390x844.png",
+    "evidence/redo/r04/frozen-public/auth-mobile-390x844.png",
+    "evidence/redo/r04/frozen-public/terms-mobile-390x844.png",
+    "evidence/redo/r04/frozen-public/privacy-mobile-390x844.png",
+    "evidence/redo/r04/frozen-public/support-mobile-390x844.png",
+    "evidence/redo/r04/frozen-public/select-workspace-mobile-390x844.png",
+    "evidence/redo/r04/dashboard/admin/admin-home-desktop-1440x1000.png",
+    "evidence/redo/r04/dashboard/admin/admin-projects-desktop-1440x1000.png",
+    "evidence/redo/r04/dashboard/admin/admin-cards-desktop-1440x1000.png",
+    "evidence/redo/r04/dashboard/admin/admin-team-desktop-1440x1000.png",
+    "evidence/redo/r04/dashboard/admin/admin-audit-desktop-1440x1000.png",
+    "evidence/redo/r04/dashboard/client/dashboard-desktop-1440x1000.png",
+    "evidence/redo/r04/dashboard/client/project-desktop-1440x1000.png",
+    "evidence/redo/r04/dashboard/client/approvals-desktop-1440x1000.png",
+    "evidence/redo/r04/dashboard/client/profile-desktop-1440x1000.png",
+    "evidence/redo/r04/dashboard/worker/worker-home-desktop-1440x1000.png",
+    "evidence/redo/r04/dashboard/worker/worker-cards-desktop-1440x1000.png",
+    "evidence/redo/r04/dashboard/worker/profile-desktop-1440x1000.png",
+    "evidence/redo/r04/dashboard/admin/admin-home-tablet-1024x1366.png",
+    "evidence/redo/r04/dashboard/client/dashboard-tablet-1024x1366.png",
+    "evidence/redo/r04/dashboard/worker/worker-home-tablet-1024x1366.png",
+    "evidence/redo/r04/dashboard/admin/admin-home-mobile-390x844.png",
+    "evidence/redo/r04/dashboard/client/dashboard-mobile-390x844.png",
+    "evidence/redo/r04/dashboard/worker/worker-home-mobile-390x844.png",
+    "evidence/redo/r04/dashboard/shared/forbidden-403-desktop-1440x1000.png",
+    "evidence/redo/r04/dashboard/shared/components-gallery-dev-desktop-1440x1000.png"
+  ],
+  "finishedAt": "2026-07-21T11:01:19.875Z"
+}

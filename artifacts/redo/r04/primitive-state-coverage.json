@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-07-21T11:01:30.936Z",
+  "states": [
+    {
+      "state": "default",
+      "implemented": [
+        "UI-013",
+        "UI-015",
+        "UI-016",
+        "UI-019",
+        "UI-020",
+        "UI-064"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "hover",
+      "implemented": [
+        "UI-013",
+        "UI-015",
+        "UI-016",
+        "UI-019",
+        "UI-020",
+        "UI-064"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "focus-visible",
+      "implemented": [
+        "UI-013",
+        "UI-015",
+        "UI-016",
+        "UI-019",
+        "UI-020",
+        "UI-064"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "active",
+      "implemented": [],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "selected",
+      "implemented": [
+        "UI-013",
+        "UI-015",
+        "UI-016",
+        "UI-064"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "disabled",
+      "implemented": [
+        "UI-013",
+        "UI-015",
+        "UI-016",
+        "UI-020"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "loading",
+      "implemented": [
+        "UI-015",
+        "UI-019"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "empty",
+      "implemented": [
+        "UI-014",
+        "UI-019",
+        "UI-064"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "error",
+      "implemented": [],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "success",
+      "implemented": [
+        "UI-017"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "invalid",
+      "implemented": [
+        "UI-020"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "long content",
+      "implemented": [
+        "UI-013",
+        "UI-014",
+        "UI-017",
+        "UI-018",
+        "UI-020"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "overflow",
+      "implemented": [
+        "UI-015",
+        "UI-016",
+        "UI-019",
+        "UI-064"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "Desktop",
+      "implemented": [
+        "UI-013",
+        "UI-019",
+        "UI-073"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "Tablet",
+      "implemented": [
+        "UI-013",
+        "UI-019",
+        "UI-073"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "state": "Mobile",
+      "implemented": [
+        "UI-013",
+        "UI-015",
+        "UI-016",
+        "UI-017",
+        "UI-018",
+        "UI-019",
+        "UI-064",
+        "UI-073"
+      ],
+      "notApplicable": [],
+      "deferred": [],
+      "missing": []
+    }
+  ],
+  "deferred": 0,
+  "missing": 0
+}
