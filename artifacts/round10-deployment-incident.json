@@ -1,0 +1,17 @@
+{
+  "status": "blocked",
+  "reason": "Vercel classified a deploy command without a production flag as target production",
+  "cliVersion": "56.4.1",
+  "scope": "akiryu16180339-2308s-projects",
+  "projectName": "ordospace-ui-rebuild",
+  "projectId": "prj_V21zTBf2UElq03QIghf8NHNK5z9B",
+  "deploymentId": "dpl_7qx63LED1u6ivJ4WvoTfjCVDXxzp",
+  "deploymentUrl": "https://ordospace-ui-rebuild-qh63jadmm-akiryu16180339-2308s-projects.vercel.app",
+  "reportedTarget": "production",
+  "readyState": "READY",
+  "productionFlagUsed": false,
+  "furtherDeploymentStopped": true,
+  "mainFastForwardPerformed": false,
+  "defaultBranchChanged": false,
+  "existingOrdoProjectsChanged": false
+}

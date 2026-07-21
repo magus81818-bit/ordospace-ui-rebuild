@@ -1,5 +1,5 @@
 # Preview Smoke and Visual QA
 
-Status: pending Preview URL.
+Status: BLOCKED. The first no-flag deployment was unexpectedly classified by Vercel as Production, so the Preview-only stop condition fired before remote browser QA.
 
-Planned automated evidence: 15-step lifecycle smoke plus 15 Preview visual scenarios covering public/auth/not-found, Admin/Client/Worker root/detail, validation/readonly/disabled states and 393/768/1440/1920 shell modes. Every scenario must report no console/runtime error and `documentOverflow=false`.
+Planned automated evidence remains available through `smoke:deployment` and `visual:deployment`, but neither was run against the non-compliant deployment. No Round 10 screenshots were created and `validate:preview-evidence` was intentionally not reported as passed.

@@ -12,4 +12,11 @@ Target `ordospace-ui-rebuild` was absent. The authenticated scope was `akiryu161
 
 ## Target / after audit
 
-Pending creation and read-only post-deployment comparison. The final record must prove a distinct target ID and unchanged existing IDs/domains. `.vercel/project.json` remains ignored and must never be committed.
+- New project: `ordospace-ui-rebuild`, ID `prj_V21zTBf2UElq03QIghf8NHNK5z9B`, Org ID `team_O2xSuBYK4SOjtmZndemvPw8u`.
+- The target ID differs from every recorded existing project ID.
+- Framework Vite, root `.`, install `npm ci`, build `npm run build`, output `apps/web/dist`.
+- `.vercel/project.json` exactly names `ordospace-ui-rebuild`; it and generated `.env.local` remain ignored and uncommitted.
+- Read-only post-incident inspection confirmed `ordospace-rebuild` and `ordospace-sprint5` retain the same IDs, roots and production URLs recorded before creation.
+- No existing ORDO project command changed settings, environment, deployment or domain.
+
+The new target itself received an unexpected Production-target deployment; see the deployment record. This violates the Preview-only gate but does not cross the isolation boundary.
