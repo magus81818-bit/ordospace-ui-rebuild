@@ -32,7 +32,7 @@ npm run build
 npm run preview
 ```
 
-The web app uses Vite. Build output is `apps/web/dist`.
+The public Preview is the copied and visually modernized existing ORDOSPACE static product. `npm run build` publishes it to `dist/product-static`. The React MVP remains in `apps/web` as a non-public experiment and can be built with `npm run build:react-mvp`.
 
 ## Validation and QA
 
@@ -60,7 +60,7 @@ Each remote scenario resets its own browser profile/localStorage fixture. Do not
 
 ## Isolated Vercel Preview
 
-The repository-root `vercel.json` installs the workspace with `npm ci`, builds only `apps/web`, and publishes only `apps/web/dist`. UI Lab, docs, artifacts, scripts and the Source Vault are not in the output.
+The repository-root `vercel.json` installs with `npm ci`, runs the existing-site product build and publishes only `dist/product-static`. The React MVP, UI Lab, docs, artifacts, scripts and Source Vault are not in the public output.
 
 Safety rules:
 

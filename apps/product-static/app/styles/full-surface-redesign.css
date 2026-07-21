@@ -1,0 +1,185 @@
+/* Existing ORDOSPACE full-surface redesign bridge.
+   This file intentionally changes presentation only. Route, action, session,
+   role and backend contracts remain owned by the copied product scripts. */
+
+:root {
+  --bg-primary: var(--ordo-bg-canvas);
+  --bg-secondary: var(--ordo-bg-surface-1);
+  --bg-tertiary: var(--ordo-bg-surface-2);
+  --bg-elevated: var(--ordo-bg-elevated);
+  --tx-primary: var(--ordo-text-primary);
+  --tx-secondary: var(--ordo-text-secondary);
+  --tx-tertiary: var(--ordo-text-tertiary);
+  --bd-default: var(--ordo-border-default);
+  --bd-emphasis: var(--ordo-border-strong);
+  --brand-primary: var(--ordo-accent-primary);
+  --brand-hover: var(--ordo-accent-primary-hover);
+  color-scheme: dark;
+}
+
+html { background: var(--ordo-bg-canvas); }
+body {
+  background: var(--ordo-bg-canvas);
+  color: var(--ordo-text-primary);
+  font-family: "Pretendard Variable", Pretendard, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body:not(.auth-off),
+body.auth-on { background: var(--ordo-bg-canvas); }
+
+:focus-visible {
+  outline-color: var(--ordo-border-focus) !important;
+  box-shadow: 0 0 0 4px var(--ordo-accent-primary-muted);
+}
+
+body.auth-on .bg-white,
+body.auth-on [class~="bg-white"],
+body.auth-on .bg-bg-primary { background-color: var(--ordo-bg-surface-1) !important; }
+body.auth-on .bg-bg-secondary { background-color: var(--ordo-bg-surface-2) !important; }
+body.auth-on .bg-bg-tertiary { background-color: var(--ordo-bg-surface-3) !important; }
+body.auth-on .text-tx-primary { color: var(--ordo-text-primary) !important; }
+body.auth-on .text-tx-secondary { color: var(--ordo-text-secondary) !important; }
+body.auth-on .text-tx-tertiary { color: var(--ordo-text-tertiary) !important; }
+body.auth-on .border-bd-default { border-color: var(--ordo-border-default) !important; }
+body.auth-on .border-bd-emphasis { border-color: var(--ordo-border-strong) !important; }
+
+body.auth-on input,
+body.auth-on select,
+body.auth-on textarea {
+  color: var(--ordo-text-primary) !important;
+  background: var(--ordo-bg-surface-2) !important;
+  border-color: var(--ordo-border-default) !important;
+}
+body.auth-on input::placeholder,
+body.auth-on textarea::placeholder { color: var(--ordo-text-tertiary) !important; }
+
+body.auth-on aside,
+body.auth-on .app-sidebar,
+body.auth-on [data-sidebar] {
+  background: var(--ordo-bg-sidebar) !important;
+  border-color: var(--ordo-border-subtle) !important;
+}
+
+body.auth-on header:not(.public-header),
+body.auth-on .app-header {
+  background: var(--ordo-bg-header) !important;
+  border-color: var(--ordo-border-subtle) !important;
+  backdrop-filter: blur(18px);
+}
+
+body.auth-on .shadow-sm,
+body.auth-on .shadow-subtle,
+body.auth-on [class*="shadow-"] {
+  box-shadow: 0 1px 0 rgb(255 255 255 / .03), 0 18px 42px rgb(0 0 0 / .18) !important;
+}
+
+body.auth-on .rounded-xl,
+body.auth-on .rounded-2xl { border-radius: 12px !important; }
+
+body.auth-on button,
+body.auth-on a { transition: color .16s ease, background-color .16s ease, border-color .16s ease, transform .14s ease; }
+body.auth-on button:active,
+body.auth-on a[role="button"]:active { transform: translateY(1px); }
+
+body.auth-on .bg-brand-primary,
+body.auth-on [class*="bg-brand-primary"] {
+  color: var(--ordo-text-inverse) !important;
+  background-color: var(--ordo-accent-primary) !important;
+  border-color: var(--ordo-accent-primary) !important;
+  box-shadow: none !important;
+}
+body.auth-on .bg-brand-primary:hover,
+body.auth-on [class*="bg-brand-primary"]:hover { background-color: var(--ordo-accent-primary-hover) !important; }
+
+body.auth-on .ordo-c-kpi-card,
+body.auth-on .ordo-c-action-card,
+body.auth-on .ordo-c-module-card,
+body.auth-on .detail-pane,
+body.auth-on .list-pane,
+body.auth-on [role="dialog"] {
+  background: var(--ordo-bg-surface-1) !important;
+  border-color: var(--ordo-border-default) !important;
+}
+body.auth-on .ordo-c-action-card:hover,
+body.auth-on .ordo-c-module-card:hover {
+  background: var(--ordo-bg-hover) !important;
+  border-color: var(--ordo-border-strong) !important;
+  box-shadow: 0 12px 30px rgb(0 0 0 / .24) !important;
+}
+
+body.auth-on table { color: var(--ordo-text-primary); }
+body.auth-on thead { background: var(--ordo-bg-surface-2) !important; }
+body.auth-on th,
+body.auth-on td { border-color: var(--ordo-border-subtle) !important; }
+body.auth-on tbody tr:hover { background: var(--ordo-bg-hover) !important; }
+
+/* Landing keeps its content and anchors but adopts the same ORDO operations palette. */
+#screen-landing.landing-dark {
+  --landing-bg: var(--ordo-bg-canvas);
+  --landing-bg-deep: var(--ordo-neutral-950);
+  --landing-surface: color-mix(in oklch, var(--ordo-bg-surface-1) 90%, transparent);
+  --landing-surface-strong: var(--ordo-bg-surface-1);
+  --landing-border: color-mix(in oklch, var(--ordo-accent-secondary) 26%, var(--ordo-border-default));
+  --landing-border-soft: var(--ordo-border-subtle);
+  --landing-text: var(--ordo-text-primary);
+  --landing-muted: var(--ordo-text-secondary);
+  --landing-muted-soft: var(--ordo-text-tertiary);
+  --landing-glow: color-mix(in oklch, var(--ordo-accent-primary) 22%, transparent);
+}
+#screen-landing.landing-dark::before {
+  background:
+    radial-gradient(720px 420px at 76% 15%, color-mix(in oklch, var(--ordo-accent-secondary) 18%, transparent), transparent 68%),
+    radial-gradient(760px 500px at 6% 5%, color-mix(in oklch, var(--ordo-accent-primary) 14%, transparent), transparent 70%),
+    linear-gradient(180deg, var(--ordo-neutral-900) 0%, var(--ordo-neutral-950) 72%) !important;
+}
+#screen-landing.landing-dark::after {
+  background-image:
+    linear-gradient(rgb(255 255 255 / .025) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / .025) 1px, transparent 1px) !important;
+  background-size: 56px 56px !important;
+  opacity: .32 !important;
+}
+#screen-landing.landing-dark .landing-gradient-title {
+  background-image: linear-gradient(104deg, var(--ordo-text-primary) 8%, var(--ordo-text-primary) 54%, var(--ordo-teal-400) 100%) !important;
+  background-color: transparent !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+#screen-landing .landing-cta-primary {
+  color: var(--ordo-text-inverse) !important;
+  background: var(--ordo-accent-primary) !important;
+  border-color: var(--ordo-accent-primary) !important;
+  box-shadow: 0 12px 34px color-mix(in oklch, var(--ordo-accent-primary) 22%, transparent) !important;
+}
+#screen-landing .landing-cta-primary:hover { background: var(--ordo-accent-primary-hover) !important; }
+#screen-landing .landing-glow-card,
+#screen-landing .landing-demo-card,
+#screen-landing [data-liquid-card] {
+  border-color: var(--ordo-border-default) !important;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .05), 0 26px 64px rgb(0 0 0 / .34) !important;
+}
+#screen-landing .landing-eyebrow-pill,
+#screen-landing .landing-demo-step.is-active {
+  color: var(--ordo-status-ok-fg) !important;
+  border-color: var(--ordo-status-ok-border) !important;
+  background: var(--ordo-status-ok-bg) !important;
+}
+
+@media (max-width: 1023px) {
+  body.auth-on .app-sidebar,
+  body.auth-on [data-sidebar] { max-width: min(88vw, 320px); }
+  body.auth-on main { min-width: 0; }
+  body.auth-on table { min-width: 680px; }
+}
+
+@media (max-width: 639px) {
+  #screen-landing .landing-hero-shell { min-height: auto !important; padding-top: 6.25rem !important; }
+  #screen-landing .landing-gradient-title { font-size: clamp(2rem, 10vw, 2.75rem) !important; line-height: 1.08 !important; }
+  #screen-landing .landing-cta { width: 100%; justify-content: center; }
+  body.auth-on [role="dialog"] { width: calc(100vw - 24px) !important; max-height: calc(100dvh - 24px) !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
