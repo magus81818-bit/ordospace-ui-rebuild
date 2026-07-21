@@ -104,6 +104,16 @@ async function setTokenSheetDisabled(page, disabled) {
   await page.waitForTimeout(60);
 }
 
+async function setDescendantSheetsDisabled(page, disabled) {
+  await page.evaluate(disabledValue => {
+    const laterSheets = ['dashboard-salesops.primitives.css','dashboard-salesops.shell.css','dashboard-salesops.admin.css'];
+    Array.from(document.querySelectorAll('link[rel="stylesheet"]')).forEach(link => {
+      if (laterSheets.some(name => link.href.includes(name))) link.disabled = disabledValue;
+    });
+  }, disabled);
+  await page.waitForTimeout(60);
+}
+
 async function visualSignature(page, route) {
   return page.evaluate(routeId => {
     const screen = document.getElementById(`screen-${routeId}`);
@@ -231,6 +241,7 @@ test('dashboard foundation applies to required routes without layout or responsi
     runtime.menus.push({ role, labels, pass: true });
     for (const route of routes) {
       await goRoleRoute(page, role, route);
+      await setDescendantSheetsDisabled(page, true);
       await setTokenSheetDisabled(page, true);
       const before = await dashboardLayoutSnapshot(page, route);
       await setTokenSheetDisabled(page, false);
@@ -242,6 +253,7 @@ test('dashboard foundation applies to required routes without layout or responsi
       expect(after.menu).toEqual(before.menu);
       expect(delta).toBeLessThanOrEqual(1);
       expect(after.horizontalOverflow).toBeLessThanOrEqual(1);
+      await setDescendantSheetsDisabled(page, false);
       const relative = `dashboard/${role}/${route}-desktop-1440x1000.png`;
       await screenshot(page, relative);
       layout.routes.push({ role, route, viewport: 'desktop', before, after, maxBoxDelta: delta, pass: true });

@@ -1,0 +1,117 @@
+{
+  "generatedAt": "2026-07-21T13:55:38.286Z",
+  "cases": [
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "1440x1000",
+      "adminClasses": 0,
+      "domParity": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r06/non-admin/client-dashboard-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "1024x1366",
+      "adminClasses": 0,
+      "domParity": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r06/non-admin/client-dashboard-tablet-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "390x844",
+      "adminClasses": 0,
+      "domParity": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r06/non-admin/client-dashboard-mobile-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "1440x1000",
+      "adminClasses": 0,
+      "domParity": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r06/non-admin/client-project-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "1440x1000",
+      "adminClasses": 0,
+      "domParity": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r06/non-admin/client-approvals-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "profile",
+      "viewport": "1440x1000",
+      "adminClasses": 0,
+      "domParity": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r06/non-admin/client-profile-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "1440x1000",
+      "adminClasses": 0,
+      "domParity": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r06/non-admin/worker-worker-home-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "1024x1366",
+      "adminClasses": 0,
+      "domParity": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r06/non-admin/worker-worker-home-tablet-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "390x844",
+      "adminClasses": 0,
+      "domParity": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r06/non-admin/worker-worker-home-mobile-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "1440x1000",
+      "adminClasses": 0,
+      "domParity": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r06/non-admin/worker-worker-cards-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "profile",
+      "viewport": "1440x1000",
+      "adminClasses": 0,
+      "domParity": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r06/non-admin/worker-profile-desktop-1440x1000.png",
+      "pass": true
+    }
+  ],
+  "adminClassLeakCount": 0,
+  "pass": true
+}

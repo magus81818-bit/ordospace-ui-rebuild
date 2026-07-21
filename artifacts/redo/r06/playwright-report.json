@@ -1,0 +1,263 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Admin\\Desktop\\K-디지털\\수업자료\\코덱스\\ordospace-ui-rebuild\\tests\\redo\\r04\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config",
+      "playwright.config.cjs"
+    ],
+    "configFile": "C:\\Users\\Admin\\Desktop\\K-디지털\\수업자료\\코덱스\\ordospace-ui-rebuild\\tests\\redo\\r06\\playwright.config.cjs",
+    "rootDir": "C:/Users/Admin/Desktop/K-디지털/수업자료/코덱스/ordospace-ui-rebuild/tests/redo/r06",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Admin/Desktop/K-디지털/수업자료/코덱스/ordospace-ui-rebuild/artifacts/redo/r06/playwright-output",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/Admin/Desktop/K-디지털/수업자료/코덱스/ordospace-ui-rebuild/tests/redo/r06",
+        "testIgnore": [],
+        "testMatch": [
+          "admin-audit.spec.cjs"
+        ],
+        "timeout": 900000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "C:\\Users\\Admin\\Desktop\\K-디지털\\수업자료\\코덱스\\ordospace-ui-rebuild\\artifacts\\redo\\r06\\playwright-report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.61.1",
+    "workers": 1,
+    "webServer": {
+      "command": "node tests/redo/r06/static-server.cjs",
+      "cwd": "C:\\Users\\Admin\\Desktop\\K-디지털\\수업자료\\코덱스\\ordospace-ui-rebuild",
+      "url": "http://127.0.0.1:4181/",
+      "reuseExistingServer": false,
+      "timeout": 30000
+    }
+  },
+  "suites": [
+    {
+      "title": "admin-audit.spec.cjs",
+      "file": "admin-audit.spec.cjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "five Admin screens preserve shell geometry across six viewports",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 900000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10789,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-21T13:55:38.303Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b77b9d7e1d900daa865a-396b027291829672321d",
+          "file": "admin-audit.spec.cjs",
+          "line": 94,
+          "column": 1
+        },
+        {
+          "title": "Admin interactions, empty, validation, disabled and long-content states are inspectable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 900000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4472,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-21T13:55:49.480Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b77b9d7e1d900daa865a-10c5394a36a69984d56c",
+          "file": "admin-audit.spec.cjs",
+          "line": 139,
+          "column": 1
+        },
+        {
+          "title": "Admin tables, tabs, filters, forms and overlays expose accessible contracts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 900000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1493,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-21T13:55:53.968Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b77b9d7e1d900daa865a-dc3908e66d3c8ff24577",
+          "file": "admin-audit.spec.cjs",
+          "line": 186,
+          "column": 1
+        },
+        {
+          "title": "Client and Worker routes have no Admin class, DOM or visual leakage",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 900000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3016,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-21T13:55:55.476Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b77b9d7e1d900daa865a-056268b722d941cd1c29",
+          "file": "admin-audit.spec.cjs",
+          "line": 208,
+          "column": 1
+        },
+        {
+          "title": "18 frozen public cases remain pixel and computed-style isolated",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 900000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8772,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-21T13:55:58.508Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b77b9d7e1d900daa865a-3bb216119d6bb819ce3a",
+          "file": "admin-audit.spec.cjs",
+          "line": 233,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-07-21T13:55:37.551Z",
+    "duration": 30181.02,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

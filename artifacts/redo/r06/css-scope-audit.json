@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-07-21T13:57:52.137Z",
+  "scope": "body.auth-on plus five Admin screen IDs",
+  "adminOnly": true,
+  "publicLeak": false,
+  "clientLeak": false,
+  "workerLeak": false,
+  "shellSelectorChanges": 0,
+  "rawColors": 0,
+  "unresolvedTokens": 0,
+  "remoteFonts": 0,
+  "importantAdded": 0
+}

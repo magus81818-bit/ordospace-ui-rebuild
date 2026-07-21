@@ -1,0 +1,2348 @@
+{
+  "generatedAt": "2026-07-21T13:55:38.286Z",
+  "baseline": "65465846487065b861756a8c7353c8df8c63ccc5",
+  "shellTolerancePx": 0,
+  "checks": [
+    {
+      "route": "admin-home",
+      "viewport": "1440x1000",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1000
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1200,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 963.38
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1000
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1200,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 946.13
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "adminHomeKpis",
+        "SECTION:mb-6",
+        "DIV:grid grid-cols-1 xl:grid-cols-3 gap-6 lg:gap-8"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-projects",
+      "viewport": "1440x1000",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1000
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1200,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 1560.06
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1000
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1200,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 1550.06
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex items-start justify-between gap-3 mb-5 flex-wrap",
+        "adminProjectBoardView",
+        "adminProjectTableView",
+        "adminProjectDetail"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-cards",
+      "viewport": "1440x1000",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1000
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1200,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 1191.13
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1000
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1200,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 1181.13
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5",
+        "adminGateBanner",
+        "SECTION:ordo-c-list-detail grid grid-cols-1 lg:grid-cols-[420px_minmax(0,1fr)] gap-4 bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-team",
+      "viewport": "1440x1000",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1000
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1200,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 1476.8
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1000
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1200,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 1459.39
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "DIV:flex items-center gap-1 p-1 bg-bg-tertiary rounded-lg border border-bd-default w-fit mb-5",
+        "adminTeamPartnersPanel",
+        "adminTeamHeatmapPanel"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-audit",
+      "viewport": "1440x1000",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1000
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1200,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 3470.55
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1000
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1200,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 3037.94
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex items-start justify-between gap-3 mb-5 flex-wrap",
+        "DIV:mb-5 p-4 rounded-xl bg-bg-tertiary border border-bd-default flex items-start gap-3",
+        "DIV:ordo-admin-audit-toolbar ordo-c-toolbar bg-white border border-bd-default rounded-xl p-3 mb-5 shadow-subtle flex items-center gap-2 flex-wrap",
+        "DIV:flex items-center justify-between mb-3",
+        "DIV:bg-white border border-bd-default rounded-xl shadow-subtle p-5 lg:p-7"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-home",
+      "viewport": "1280x900",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 900
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1040,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 963.38
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 900
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1040,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 946.13
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "adminHomeKpis",
+        "SECTION:mb-6",
+        "DIV:grid grid-cols-1 xl:grid-cols-3 gap-6 lg:gap-8"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-projects",
+      "viewport": "1280x900",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 900
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1040,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 1560.06
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 900
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1040,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 1550.06
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex items-start justify-between gap-3 mb-5 flex-wrap",
+        "adminProjectBoardView",
+        "adminProjectTableView",
+        "adminProjectDetail"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-cards",
+      "viewport": "1280x900",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 900
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1040,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 1091.13
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 900
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1040,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 1081.13
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5",
+        "adminGateBanner",
+        "SECTION:ordo-c-list-detail grid grid-cols-1 lg:grid-cols-[420px_minmax(0,1fr)] gap-4 bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-team",
+      "viewport": "1280x900",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 900
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1040,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 1560.8
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 900
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1040,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 1536.31
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "DIV:flex items-center gap-1 p-1 bg-bg-tertiary rounded-lg border border-bd-default w-fit mb-5",
+        "adminTeamPartnersPanel",
+        "adminTeamHeatmapPanel"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-audit",
+      "viewport": "1280x900",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 900
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1040,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 3470.55
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 900
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 1040,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 3037.94
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex items-start justify-between gap-3 mb-5 flex-wrap",
+        "DIV:mb-5 p-4 rounded-xl bg-bg-tertiary border border-bd-default flex items-start gap-3",
+        "DIV:ordo-admin-audit-toolbar ordo-c-toolbar bg-white border border-bd-default rounded-xl p-3 mb-5 shadow-subtle flex items-center gap-2 flex-wrap",
+        "DIV:flex items-center justify-between mb-3",
+        "DIV:bg-white border border-bd-default rounded-xl shadow-subtle p-5 lg:p-7"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-home",
+      "viewport": "1024x1366",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1366
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 784,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 1311.5
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1366
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 784,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 1294.25
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "adminHomeKpis",
+        "SECTION:mb-6",
+        "DIV:grid grid-cols-1 xl:grid-cols-3 gap-6 lg:gap-8"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-projects",
+      "viewport": "1024x1366",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1366
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 784,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 1560.06
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1366
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 784,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 1550.06
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex items-start justify-between gap-3 mb-5 flex-wrap",
+        "adminProjectBoardView",
+        "adminProjectTableView",
+        "adminProjectDetail"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-cards",
+      "viewport": "1024x1366",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1366
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 784,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 1557.13
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1366
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 784,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 1547.13
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5",
+        "adminGateBanner",
+        "SECTION:ordo-c-list-detail grid grid-cols-1 lg:grid-cols-[420px_minmax(0,1fr)] gap-4 bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-team",
+      "viewport": "1024x1366",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1366
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 784,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 1660.8
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1366
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 784,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 1544.34
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "DIV:flex items-center gap-1 p-1 bg-bg-tertiary rounded-lg border border-bd-default w-fit mb-5",
+        "adminTeamPartnersPanel",
+        "adminTeamHeatmapPanel"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-audit",
+      "viewport": "1024x1366",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1366
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 784,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 3531.55
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 1366
+        },
+        "header": {
+          "x": 240,
+          "y": 0,
+          "width": 784,
+          "height": 64
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 3098.94
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex items-start justify-between gap-3 mb-5 flex-wrap",
+        "DIV:mb-5 p-4 rounded-xl bg-bg-tertiary border border-bd-default flex items-start gap-3",
+        "DIV:ordo-admin-audit-toolbar ordo-c-toolbar bg-white border border-bd-default rounded-xl p-3 mb-5 shadow-subtle flex items-center gap-2 flex-wrap",
+        "DIV:flex items-center justify-between mb-3",
+        "DIV:bg-white border border-bd-default rounded-xl shadow-subtle p-5 lg:p-7"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-home",
+      "viewport": "768x1024",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1459.64
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 960,
+          "width": 768,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1426.58
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 960,
+          "width": 768,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "adminHomeKpis",
+        "SECTION:mb-6",
+        "DIV:grid grid-cols-1 xl:grid-cols-3 gap-6 lg:gap-8"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-projects",
+      "viewport": "768x1024",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 2280.09
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 960,
+          "width": 768,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 2262.28
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 960,
+          "width": 768,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex items-start justify-between gap-3 mb-5 flex-wrap",
+        "adminProjectBoardView",
+        "adminProjectTableView",
+        "adminProjectDetail"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-cards",
+      "viewport": "768x1024",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 2281.2
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 960,
+          "width": 768,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 2263.39
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 960,
+          "width": 768,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5",
+        "adminGateBanner",
+        "SECTION:ordo-c-list-detail grid grid-cols-1 lg:grid-cols-[420px_minmax(0,1fr)] gap-4 bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-team",
+      "viewport": "768x1024",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1716.77
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 960,
+          "width": 768,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1592.5
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 960,
+          "width": 768,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "DIV:flex items-center gap-1 p-1 bg-bg-tertiary rounded-lg border border-bd-default w-fit mb-5",
+        "adminTeamPartnersPanel",
+        "adminTeamHeatmapPanel"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-audit",
+      "viewport": "768x1024",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 3523.55
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 960,
+          "width": 768,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 3083.14
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 960,
+          "width": 768,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex items-start justify-between gap-3 mb-5 flex-wrap",
+        "DIV:mb-5 p-4 rounded-xl bg-bg-tertiary border border-bd-default flex items-start gap-3",
+        "DIV:ordo-admin-audit-toolbar ordo-c-toolbar bg-white border border-bd-default rounded-xl p-3 mb-5 shadow-subtle flex items-center gap-2 flex-wrap",
+        "DIV:flex items-center justify-between mb-3",
+        "DIV:bg-white border border-bd-default rounded-xl shadow-subtle p-5 lg:p-7"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-home",
+      "viewport": "390x844",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 1528.33
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 780,
+          "width": 390,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 1505.27
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 780,
+          "width": 390,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "adminHomeKpis",
+        "SECTION:mb-6",
+        "DIV:grid grid-cols-1 xl:grid-cols-3 gap-6 lg:gap-8"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-projects",
+      "viewport": "390x844",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 2344.89
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 780,
+          "width": 390,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 2337.08
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 780,
+          "width": 390,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex items-start justify-between gap-3 mb-5 flex-wrap",
+        "adminProjectBoardView",
+        "adminProjectTableView",
+        "adminProjectDetail"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-cards",
+      "viewport": "390x844",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 2244.25
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 780,
+          "width": 390,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 2374.44
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 780,
+          "width": 390,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5",
+        "adminGateBanner",
+        "SECTION:ordo-c-list-detail grid grid-cols-1 lg:grid-cols-[420px_minmax(0,1fr)] gap-4 bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-team",
+      "viewport": "390x844",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 2003.48
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 780,
+          "width": 390,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 1873.22
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 780,
+          "width": 390,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "DIV:flex items-center gap-1 p-1 bg-bg-tertiary rounded-lg border border-bd-default w-fit mb-5",
+        "adminTeamPartnersPanel",
+        "adminTeamHeatmapPanel"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-audit",
+      "viewport": "390x844",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 3743.73
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 780,
+          "width": 390,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 3282.14
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 780,
+          "width": 390,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex items-start justify-between gap-3 mb-5 flex-wrap",
+        "DIV:mb-5 p-4 rounded-xl bg-bg-tertiary border border-bd-default flex items-start gap-3",
+        "DIV:ordo-admin-audit-toolbar ordo-c-toolbar bg-white border border-bd-default rounded-xl p-3 mb-5 shadow-subtle flex items-center gap-2 flex-wrap",
+        "DIV:flex items-center justify-between mb-3",
+        "DIV:bg-white border border-bd-default rounded-xl shadow-subtle p-5 lg:p-7"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-home",
+      "viewport": "360x800",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 1528.33
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 736,
+          "width": 360,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 1505.27
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 736,
+          "width": 360,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "adminHomeKpis",
+        "SECTION:mb-6",
+        "DIV:grid grid-cols-1 xl:grid-cols-3 gap-6 lg:gap-8"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-projects",
+      "viewport": "360x800",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 2364.08
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 736,
+          "width": 360,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 2356.27
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 736,
+          "width": 360,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex items-start justify-between gap-3 mb-5 flex-wrap",
+        "adminProjectBoardView",
+        "adminProjectTableView",
+        "adminProjectDetail"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-cards",
+      "viewport": "360x800",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 2244.25
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 736,
+          "width": 360,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 2340.44
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 736,
+          "width": 360,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5",
+        "adminGateBanner",
+        "SECTION:ordo-c-list-detail grid grid-cols-1 lg:grid-cols-[420px_minmax(0,1fr)] gap-4 bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-team",
+      "viewport": "360x800",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 2003.48
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 736,
+          "width": 360,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 1873.22
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 736,
+          "width": 360,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "DIV:flex items-center gap-1 p-1 bg-bg-tertiary rounded-lg border border-bd-default w-fit mb-5",
+        "adminTeamPartnersPanel",
+        "adminTeamHeatmapPanel"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    },
+    {
+      "route": "admin-audit",
+      "viewport": "360x800",
+      "enabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 4064.61
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 736,
+          "width": 360,
+          "height": 64
+        }
+      },
+      "disabledBoxes": {
+        "sidebar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "main": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 3409.95
+        },
+        "mobileHeader": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 56
+        },
+        "bottomTabs": {
+          "x": 0,
+          "y": 736,
+          "width": 360,
+          "height": 64
+        }
+      },
+      "shellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex items-start justify-between gap-3 mb-5 flex-wrap",
+        "DIV:mb-5 p-4 rounded-xl bg-bg-tertiary border border-bd-default flex items-start gap-3",
+        "DIV:ordo-admin-audit-toolbar ordo-c-toolbar bg-white border border-bd-default rounded-xl p-3 mb-5 shadow-subtle flex items-center gap-2 flex-wrap",
+        "DIV:flex items-center justify-between mb-3",
+        "DIV:bg-white border border-bd-default rounded-xl shadow-subtle p-5 lg:p-7"
+      ],
+      "sectionOrderPreserved": true,
+      "mainOriginDelta": 0,
+      "reason": "Admin body token and component styling only"
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,330 @@
+{
+  "generatedAt": "2026-07-21T13:57:52.137Z",
+  "ok": true,
+  "branch": "redo/r06-admin-dashboard",
+  "mergeBase": "65465846487065b861756a8c7353c8df8c63ccc5",
+  "inventoryCount": 21,
+  "adminResponsiveCases": 30,
+  "stateGroups": 5,
+  "nonAdminCases": 11,
+  "publicCases": 18,
+  "layoutCases": 30,
+  "accessibilityCases": 5,
+  "browserErrors": 0,
+  "rawColors": 0,
+  "importantAdded": 0,
+  "unresolvedTokens": 0,
+  "checks": [
+    {
+      "name": "current or approved descendant branch",
+      "pass": true,
+      "detail": "redo/r06-admin-dashboard"
+    },
+    {
+      "name": "Round 5 approved merge-base",
+      "pass": true,
+      "detail": "65465846487065b861756a8c7353c8df8c63ccc5"
+    },
+    {
+      "name": "official inventory count",
+      "pass": true,
+      "detail": "21"
+    },
+    {
+      "name": "official inventory unique",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no out-of-round inventory completed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required file app/styles/dashboard-salesops.admin.css",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required file app/ui/components/admin.ui.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required file references/prompts/round-6.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "authenticated scope",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "five Admin screen namespaces",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no Round 5 shell selector",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no Client Worker or public selector",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "raw color additions zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "important additions zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "unresolved tokens zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Round 3 token consumption",
+      "pass": true,
+      "detail": "38"
+    },
+    {
+      "name": "Admin decorator has no API or storage mutation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no backend API Client Worker or Shell change",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parity app/data/workspace.data.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parity app/data/room.data.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parity app/services/session.service.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parity app/config/api.config.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parity app/layout/app-shell.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Admin project fixture deep equality",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Audit fixture deep equality",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "19 existing screen IDs retained",
+      "pass": true,
+      "detail": "19"
+    },
+    {
+      "name": "baseline screen IDs subset",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Admin route admin-home",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Admin route admin-projects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Admin route admin-cards",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Admin route admin-team",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Admin route admin-audit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Round 6 assets linked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact admin-browser-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact non-admin-regression.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact layout-preservation.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact frozen-public-regression.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact accessibility-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Admin 5 x 6 responsive routes",
+      "pass": true,
+      "detail": "30"
+    },
+    {
+      "name": "Admin state evidence groups",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "name": "browser errors zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Client Worker 11 regression cases",
+      "pass": true,
+      "detail": "11"
+    },
+    {
+      "name": "public 18 regression cases",
+      "pass": true,
+      "detail": "18"
+    },
+    {
+      "name": "shell geometry 30 checks",
+      "pass": true,
+      "detail": "30"
+    },
+    {
+      "name": "accessibility five screens",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "name": "document README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document inventory-scope.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document admin-architecture.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document admin-home-implementation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document admin-projects-implementation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document admin-cards-implementation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document admin-team-implementation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document admin-audit-implementation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document derived-component-decisions.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document css-isolation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document layout-review.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document non-admin-regression.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document public-regression.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document accessibility-review.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document verification-results.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document change-manifest.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document implementation-report.md",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "failures": []
+}

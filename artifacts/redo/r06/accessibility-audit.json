@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-07-21T13:55:38.286Z",
+  "checks": [
+    {
+      "route": "admin-home",
+      "unnamedButtons": 0,
+      "headers": true,
+      "unlabeledControls": 0,
+      "overflowNames": true,
+      "tabs": true,
+      "dialogs": true,
+      "reducedMotion": true,
+      "pass": true
+    },
+    {
+      "route": "admin-projects",
+      "unnamedButtons": 0,
+      "headers": true,
+      "unlabeledControls": 0,
+      "overflowNames": true,
+      "tabs": true,
+      "dialogs": true,
+      "reducedMotion": true,
+      "pass": true
+    },
+    {
+      "route": "admin-cards",
+      "unnamedButtons": 0,
+      "headers": true,
+      "unlabeledControls": 0,
+      "overflowNames": true,
+      "tabs": true,
+      "dialogs": true,
+      "reducedMotion": true,
+      "pass": true
+    },
+    {
+      "route": "admin-team",
+      "unnamedButtons": 0,
+      "headers": true,
+      "unlabeledControls": 0,
+      "overflowNames": true,
+      "tabs": true,
+      "dialogs": true,
+      "reducedMotion": true,
+      "pass": true
+    },
+    {
+      "route": "admin-audit",
+      "unnamedButtons": 0,
+      "headers": true,
+      "unlabeledControls": 0,
+      "overflowNames": true,
+      "tabs": true,
+      "dialogs": true,
+      "reducedMotion": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-07-21T13:57:52.137Z",
+  "pass": true,
+  "checks": {
+    "routes": true,
+    "menu": true,
+    "koreanText": true,
+    "metrics": true,
+    "projectFixture": true,
+    "cardFixture": true,
+    "teamFixture": true,
+    "auditFixture": true,
+    "statusMapping": true,
+    "filterOptions": true,
+    "tableColumns": true,
+    "cta": true,
+    "formControls": true,
+    "localStorageKeys": true,
+    "apiEndpoints": true,
+    "roleGuard": true,
+    "lifecycle": true
+  },
+  "forbiddenChanged": []
+}

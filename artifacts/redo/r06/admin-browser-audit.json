@@ -1,0 +1,383 @@
+{
+  "generatedAt": "2026-07-21T13:55:38.286Z",
+  "routes": [
+    {
+      "route": "admin-home",
+      "viewport": "1440x1000",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-projects",
+      "viewport": "1440x1000",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-cards",
+      "viewport": "1440x1000",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-team",
+      "viewport": "1440x1000",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-audit",
+      "viewport": "1440x1000",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-home",
+      "viewport": "1280x900",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-projects",
+      "viewport": "1280x900",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-cards",
+      "viewport": "1280x900",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-team",
+      "viewport": "1280x900",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-audit",
+      "viewport": "1280x900",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-home",
+      "viewport": "1024x1366",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-projects",
+      "viewport": "1024x1366",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-cards",
+      "viewport": "1024x1366",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-team",
+      "viewport": "1024x1366",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-audit",
+      "viewport": "1024x1366",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-home",
+      "viewport": "768x1024",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-projects",
+      "viewport": "768x1024",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-cards",
+      "viewport": "768x1024",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-team",
+      "viewport": "768x1024",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-audit",
+      "viewport": "768x1024",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-home",
+      "viewport": "390x844",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-projects",
+      "viewport": "390x844",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-cards",
+      "viewport": "390x844",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-team",
+      "viewport": "390x844",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-audit",
+      "viewport": "390x844",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-home",
+      "viewport": "360x800",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-projects",
+      "viewport": "360x800",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-cards",
+      "viewport": "360x800",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-team",
+      "viewport": "360x800",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    },
+    {
+      "route": "admin-audit",
+      "viewport": "360x800",
+      "state": "default",
+      "horizontalOverflow": 0,
+      "adminCss": true,
+      "pass": true
+    }
+  ],
+  "states": [
+    {
+      "inventory": [
+        "UI-043",
+        "UI-044",
+        "UI-045",
+        "UI-046"
+      ],
+      "state": "long content",
+      "pass": true,
+      "evidence": "evidence/redo/r06/admin/states/admin-home-long-content-desktop-1440x1000.png"
+    },
+    {
+      "inventory": [
+        "UI-047",
+        "UI-048",
+        "UI-049",
+        "UI-050"
+      ],
+      "state": "selected/keyboard/tab",
+      "pass": true,
+      "evidence": "evidence/redo/r06/admin/states/admin-projects-table-selected-tabs-desktop-1440x1000.png"
+    },
+    {
+      "inventory": [
+        "UI-051",
+        "UI-052",
+        "UI-053",
+        "UI-054",
+        "UI-055"
+      ],
+      "state": "no-result/overlay/validation",
+      "pass": true,
+      "evidence": [
+        "evidence/redo/r06/admin/states/admin-cards-bulk-validation-desktop-1440x1000.png",
+        "evidence/redo/r06/admin/states/admin-cards-no-result-desktop-1440x1000.png"
+      ]
+    },
+    {
+      "inventory": [
+        "UI-056",
+        "UI-057",
+        "UI-058",
+        "UI-059",
+        "UI-060"
+      ],
+      "state": "tabs/validation/modal/disabled",
+      "pass": true,
+      "evidence": [
+        "evidence/redo/r06/admin/states/admin-team-reassign-disabled-desktop-1440x1000.png",
+        "evidence/redo/r06/admin/states/admin-team-invite-validation-desktop-1440x1000.png"
+      ]
+    },
+    {
+      "inventory": [
+        "UI-061",
+        "UI-062",
+        "UI-063"
+      ],
+      "state": "long/focus/export",
+      "pass": true,
+      "evidence": "evidence/redo/r06/admin/states/admin-audit-long-focus-desktop-1440x1000.png"
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "requestFailures": [],
+  "responses4xx5xx": [],
+  "screenshots": [
+    "evidence/redo/r06/admin/home/admin-home-default-desktop1440-1440x1000.png",
+    "evidence/redo/r06/admin/projects/admin-projects-default-desktop1440-1440x1000.png",
+    "evidence/redo/r06/admin/cards/admin-cards-default-desktop1440-1440x1000.png",
+    "evidence/redo/r06/admin/team/admin-team-default-desktop1440-1440x1000.png",
+    "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
+    "evidence/redo/r06/admin/home/admin-home-default-desktop1280-1280x900.png",
+    "evidence/redo/r06/admin/projects/admin-projects-default-desktop1280-1280x900.png",
+    "evidence/redo/r06/admin/cards/admin-cards-default-desktop1280-1280x900.png",
+    "evidence/redo/r06/admin/team/admin-team-default-desktop1280-1280x900.png",
+    "evidence/redo/r06/admin/audit/admin-audit-default-desktop1280-1280x900.png",
+    "evidence/redo/r06/admin/home/admin-home-default-tablet1024-1024x1366.png",
+    "evidence/redo/r06/admin/projects/admin-projects-default-tablet1024-1024x1366.png",
+    "evidence/redo/r06/admin/cards/admin-cards-default-tablet1024-1024x1366.png",
+    "evidence/redo/r06/admin/team/admin-team-default-tablet1024-1024x1366.png",
+    "evidence/redo/r06/admin/audit/admin-audit-default-tablet1024-1024x1366.png",
+    "evidence/redo/r06/admin/home/admin-home-default-tablet768-768x1024.png",
+    "evidence/redo/r06/admin/projects/admin-projects-default-tablet768-768x1024.png",
+    "evidence/redo/r06/admin/cards/admin-cards-default-tablet768-768x1024.png",
+    "evidence/redo/r06/admin/team/admin-team-default-tablet768-768x1024.png",
+    "evidence/redo/r06/admin/audit/admin-audit-default-tablet768-768x1024.png",
+    "evidence/redo/r06/admin/home/admin-home-default-mobile390-390x844.png",
+    "evidence/redo/r06/admin/projects/admin-projects-default-mobile390-390x844.png",
+    "evidence/redo/r06/admin/cards/admin-cards-default-mobile390-390x844.png",
+    "evidence/redo/r06/admin/team/admin-team-default-mobile390-390x844.png",
+    "evidence/redo/r06/admin/audit/admin-audit-default-mobile390-390x844.png",
+    "evidence/redo/r06/admin/home/admin-home-default-mobile360-360x800.png",
+    "evidence/redo/r06/admin/projects/admin-projects-default-mobile360-360x800.png",
+    "evidence/redo/r06/admin/cards/admin-cards-default-mobile360-360x800.png",
+    "evidence/redo/r06/admin/team/admin-team-default-mobile360-360x800.png",
+    "evidence/redo/r06/admin/audit/admin-audit-default-mobile360-360x800.png",
+    "evidence/redo/r06/admin/states/admin-home-long-content-desktop-1440x1000.png",
+    "evidence/redo/r06/admin/states/admin-projects-table-selected-tabs-desktop-1440x1000.png",
+    "evidence/redo/r06/admin/states/admin-cards-no-result-desktop-1440x1000.png",
+    "evidence/redo/r06/admin/states/admin-cards-bulk-validation-desktop-1440x1000.png",
+    "evidence/redo/r06/admin/states/admin-team-invite-validation-desktop-1440x1000.png",
+    "evidence/redo/r06/admin/states/admin-team-reassign-disabled-desktop-1440x1000.png",
+    "evidence/redo/r06/admin/states/admin-audit-long-focus-desktop-1440x1000.png",
+    "evidence/redo/r06/non-admin/client-dashboard-desktop-1440x1000.png",
+    "evidence/redo/r06/non-admin/client-dashboard-tablet-1024x1366.png",
+    "evidence/redo/r06/non-admin/client-dashboard-mobile-390x844.png",
+    "evidence/redo/r06/non-admin/client-project-desktop-1440x1000.png",
+    "evidence/redo/r06/non-admin/client-approvals-desktop-1440x1000.png",
+    "evidence/redo/r06/non-admin/client-profile-desktop-1440x1000.png",
+    "evidence/redo/r06/non-admin/worker-worker-home-desktop-1440x1000.png",
+    "evidence/redo/r06/non-admin/worker-worker-home-tablet-1024x1366.png",
+    "evidence/redo/r06/non-admin/worker-worker-home-mobile-390x844.png",
+    "evidence/redo/r06/non-admin/worker-worker-cards-desktop-1440x1000.png",
+    "evidence/redo/r06/non-admin/worker-profile-desktop-1440x1000.png",
+    "evidence/redo/r06/frozen-public/landing-desktop-1440x1000.png",
+    "evidence/redo/r06/frozen-public/auth-desktop-1440x1000.png",
+    "evidence/redo/r06/frozen-public/terms-desktop-1440x1000.png",
+    "evidence/redo/r06/frozen-public/privacy-desktop-1440x1000.png",
+    "evidence/redo/r06/frozen-public/support-desktop-1440x1000.png",
+    "evidence/redo/r06/frozen-public/select-workspace-desktop-1440x1000.png",
+    "evidence/redo/r06/frozen-public/landing-tablet-1024x1366.png",
+    "evidence/redo/r06/frozen-public/auth-tablet-1024x1366.png",
+    "evidence/redo/r06/frozen-public/terms-tablet-1024x1366.png",
+    "evidence/redo/r06/frozen-public/privacy-tablet-1024x1366.png",
+    "evidence/redo/r06/frozen-public/support-tablet-1024x1366.png",
+    "evidence/redo/r06/frozen-public/select-workspace-tablet-1024x1366.png",
+    "evidence/redo/r06/frozen-public/landing-mobile-390x844.png",
+    "evidence/redo/r06/frozen-public/auth-mobile-390x844.png",
+    "evidence/redo/r06/frozen-public/terms-mobile-390x844.png",
+    "evidence/redo/r06/frozen-public/privacy-mobile-390x844.png",
+    "evidence/redo/r06/frozen-public/support-mobile-390x844.png",
+    "evidence/redo/r06/frozen-public/select-workspace-mobile-390x844.png"
+  ],
+  "finishedAt": "2026-07-21T13:56:07.299Z",
+  "pass": true
+}

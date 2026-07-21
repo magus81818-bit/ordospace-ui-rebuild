@@ -1,0 +1,1645 @@
+{
+  "generatedAt": "2026-07-21T13:57:52.137Z",
+  "inventoryCount": 21,
+  "states": [
+    "default",
+    "hover",
+    "focus-visible",
+    "active",
+    "selected",
+    "disabled",
+    "loading",
+    "empty",
+    "no-result",
+    "error",
+    "success",
+    "validation error",
+    "long content",
+    "overflow",
+    "Desktop",
+    "Tablet",
+    "Mobile",
+    "reduced motion"
+  ],
+  "deferred": 0,
+  "missing": 0,
+  "items": [
+    {
+      "inventoryId": "UI-043",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-044",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-045",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-046",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-047",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-048",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-049",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-050",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-051",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-052",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-053",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-054",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-055",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-056",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-057",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-058",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-059",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-060",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-061",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-062",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-063",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "hover": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "focus-visible": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "active": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "selected": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "disabled": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "loading": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "empty": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "no-result": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "error": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "success": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "validation error": {
+          "status": "not applicable",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "long content": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "overflow": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Desktop": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Tablet": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "Mobile": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "reason": "Existing renderer state plus Round 6 Admin visual/semantic contract; non-operating states are covered by QA evidence when applicable."
+        }
+      }
+    }
+  ]
+}
