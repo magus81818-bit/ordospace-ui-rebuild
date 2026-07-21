@@ -1,0 +1,460 @@
+{
+  "startedAt": "2026-07-21T09:10:39.913Z",
+  "consoleErrors": [
+    {
+      "url": "http://127.0.0.1:4176/#landing",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "url": "http://127.0.0.1:4176/#landing",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "url": "http://127.0.0.1:4176/#select-workspace",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "url": "http://127.0.0.1:4176/#components-gallery",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "url": "http://127.0.0.1:4176/#components-gallery",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "url": "http://127.0.0.1:4176/#landing",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    }
+  ],
+  "pageErrors": [],
+  "requestFailures": [],
+  "responses4xx5xx": [
+    {
+      "url": "http://127.0.0.1:4176/api/module-cards",
+      "status": 404,
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4176/api/module-cards",
+      "status": 404,
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4176/api/module-cards",
+      "status": 404,
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4176/api/module-cards",
+      "status": 404,
+      "method": "GET"
+    },
+    {
+      "url": "http://127.0.0.1:4176/api/module-cards",
+      "status": 404,
+      "method": "GET"
+    }
+  ],
+  "routes": [
+    {
+      "role": "public",
+      "route": "landing",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "ORDOSPACE THE RISK WHY ORDO HOW IT WORKS FAQ 도입 문의 로그인 클라이언트 · PM · 작업자를 위한 워크스페이스 프로젝트 운영 과정을 ORDOSPACE로 구조화하세요. 의사결정에만"
+    },
+    {
+      "role": "public",
+      "route": "auth",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "홈으로 ORDOSPACE STRUCTURED PROJECT OPERATIONS 운영의 모든 흐름을 한 화면에서 연결하다. 프로젝트, 승인, 작업, 이슈, 보고까지 — 끊긴 맥락 없이 관리되는 워크스페이스. 맥락 보존"
+    },
+    {
+      "role": "public",
+      "route": "terms",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "ORDOSPACE 홈으로 TERMS OF SERVICE 이용약관 본 약관은 Ordo Systems가 제공하는 ORDOSPACE 서비스의 이용 조건, 계정 권한, 프로젝트 운영 기록, 승인 절차, 산출물 관리 및 책임"
+    },
+    {
+      "role": "public",
+      "route": "privacy",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "ORDOSPACE 홈으로 PRIVACY POLICY 개인정보처리방침 Ordo Systems는 ORDOSPACE 서비스를 제공하면서 이용자의 개인정보를 적법하고 안전하게 처리합니다. 본 방침은 서비스 이용, 프로젝트 "
+    },
+    {
+      "role": "public",
+      "route": "support",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "ORDOSPACE 홈으로 SUPPORT CENTER 고객지원 ORDOSPACE 이용 중 발생하는 도입 문의, 계정·권한 문제, 프로젝트 운영 문의, 장애 신고, 데이터 요청을 접수합니다. 지원 채널 [확정 필요] 운"
+    },
+    {
+      "role": "public",
+      "route": "select-workspace",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "로그인으로 돌아가기 WORKSPACE ROLE 접속할 워크스페이스를 선택하세요 데모 계정에 여러 역할이 연결된 경우, 확인할 화면을 직접 선택할 수 있습니다. ORDOSPACE v3.0 클라이언트 프로젝트 진행률, "
+    },
+    {
+      "role": "public",
+      "route": "landing",
+      "viewport": "tablet",
+      "ok": true,
+      "textSample": "ORDOSPACE THE RISK WHY ORDO HOW IT WORKS FAQ 도입 문의 로그인 클라이언트 · PM · 작업자를 위한 워크스페이스 프로젝트 운영 과정을 ORDOSPACE로 구조화하세요. 의사결정에만"
+    },
+    {
+      "role": "public",
+      "route": "auth",
+      "viewport": "tablet",
+      "ok": true,
+      "textSample": "홈으로 ORDOSPACE STRUCTURED PROJECT OPERATIONS 운영의 모든 흐름을 한 화면에서 연결하다. 프로젝트, 승인, 작업, 이슈, 보고까지 — 끊긴 맥락 없이 관리되는 워크스페이스. 맥락 보존"
+    },
+    {
+      "role": "public",
+      "route": "terms",
+      "viewport": "tablet",
+      "ok": true,
+      "textSample": "ORDOSPACE 홈으로 TERMS OF SERVICE 이용약관 본 약관은 Ordo Systems가 제공하는 ORDOSPACE 서비스의 이용 조건, 계정 권한, 프로젝트 운영 기록, 승인 절차, 산출물 관리 및 책임"
+    },
+    {
+      "role": "public",
+      "route": "privacy",
+      "viewport": "tablet",
+      "ok": true,
+      "textSample": "ORDOSPACE 홈으로 PRIVACY POLICY 개인정보처리방침 Ordo Systems는 ORDOSPACE 서비스를 제공하면서 이용자의 개인정보를 적법하고 안전하게 처리합니다. 본 방침은 서비스 이용, 프로젝트 "
+    },
+    {
+      "role": "public",
+      "route": "support",
+      "viewport": "tablet",
+      "ok": true,
+      "textSample": "ORDOSPACE 홈으로 SUPPORT CENTER 고객지원 ORDOSPACE 이용 중 발생하는 도입 문의, 계정·권한 문제, 프로젝트 운영 문의, 장애 신고, 데이터 요청을 접수합니다. 지원 채널 [확정 필요] 운"
+    },
+    {
+      "role": "public",
+      "route": "select-workspace",
+      "viewport": "tablet",
+      "ok": true,
+      "textSample": "로그인으로 돌아가기 WORKSPACE ROLE 접속할 워크스페이스를 선택하세요 데모 계정에 여러 역할이 연결된 경우, 확인할 화면을 직접 선택할 수 있습니다. ORDOSPACE v3.0 클라이언트 프로젝트 진행률, "
+    },
+    {
+      "role": "public",
+      "route": "landing",
+      "viewport": "mobile",
+      "ok": true,
+      "textSample": "ORDOSPACE 도입 문의 로그인 클라이언트 · PM · 작업자를 위한 워크스페이스 프로젝트 운영 과정을 ORDOSPACE로 구조화하세요. 의사결정에만 집중하세요. 프로젝트 요청부터 승인까지 하나의 타임라인으로 관"
+    },
+    {
+      "role": "public",
+      "route": "auth",
+      "viewport": "mobile",
+      "ok": true,
+      "textSample": "홈으로 ORDOSPACE STRUCTURED PROJECT OPERATIONS 운영의 모든 흐름을 한 화면에서 연결하다. 프로젝트, 승인, 작업, 이슈, 보고까지 — 끊긴 맥락 없이 관리되는 워크스페이스. 맥락 보존"
+    },
+    {
+      "role": "public",
+      "route": "terms",
+      "viewport": "mobile",
+      "ok": true,
+      "textSample": "ORDOSPACE 홈으로 TERMS OF SERVICE 이용약관 본 약관은 Ordo Systems가 제공하는 ORDOSPACE 서비스의 이용 조건, 계정 권한, 프로젝트 운영 기록, 승인 절차, 산출물 관리 및 책임"
+    },
+    {
+      "role": "public",
+      "route": "privacy",
+      "viewport": "mobile",
+      "ok": true,
+      "textSample": "ORDOSPACE 홈으로 PRIVACY POLICY 개인정보처리방침 Ordo Systems는 ORDOSPACE 서비스를 제공하면서 이용자의 개인정보를 적법하고 안전하게 처리합니다. 본 방침은 서비스 이용, 프로젝트 "
+    },
+    {
+      "role": "public",
+      "route": "support",
+      "viewport": "mobile",
+      "ok": true,
+      "textSample": "ORDOSPACE 홈으로 SUPPORT CENTER 고객지원 ORDOSPACE 이용 중 발생하는 도입 문의, 계정·권한 문제, 프로젝트 운영 문의, 장애 신고, 데이터 요청을 접수합니다. 지원 채널 [확정 필요] 운"
+    },
+    {
+      "role": "public",
+      "route": "select-workspace",
+      "viewport": "mobile",
+      "ok": true,
+      "textSample": "로그인으로 돌아가기 WORKSPACE ROLE 접속할 워크스페이스를 선택하세요 데모 계정에 여러 역할이 연결된 경우, 확인할 화면을 직접 선택할 수 있습니다. ORDOSPACE v3.0 클라이언트 프로젝트 진행률, "
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "CLIENT DASHBOARD ○○커머스 리빌드 Module 승인 흐름, Gate 진행률, 담당 PM 상태를 한 화면에서 확인합니다. 프로젝트 보기 전체 카드 12건 proj-001 Module 전체 진행중 2건 진행/검토/수정요청 승인 대기 1건 완"
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "PROJECT ○○커머스 리빌드 PM: 이매니저 │ 계약 MH: 480 승인함 보기 프로젝트 Step 42% 스코핑 ✓ 완료 계약 ✓ 완료 제작 ◉ 42% 납품 ○ 대기 타임라인 산출물 전체 Design Dev Ops 상태 전체 승인완료 완료 진행중 "
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "APPROVALS 승인함 완료된 Module 산출물을 검토하고 승인 또는 코멘트를 남깁니다. 프로젝트 보기 승인 대기 1건 status가 done인 Module만 최신순으로 표시합니다. 커스텀 디자인 UI Design · Design Lock · 20"
+    },
+    {
+      "role": "client",
+      "route": "profile",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "PROFILE 알림 · 마이페이지 역할별 알림과 계정 정보를 확인합니다. 로그인 화면 알림 마이 새 승인 요청과 작업 알림을 이곳에서 확인합니다. 상단 알림 드롭다운과 같은 목적의 전체 보기 화면입니다. 오늘 ORDOSPACE 워크스페이스 알림이 동기"
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "WORKER HOME 오늘의 작업 흐름 수정 필요 항목을 먼저 처리하고, 진행 중 Module과 대기 항목을 이어서 확인합니다. 내 작업 전체 진행중 1건 현재 작업 중 수정 필요 0건 PM 수정 요청 오늘 마감 0건 완료/승인 제외 이번주 MH 28"
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "MY MODULES 내 작업 배정된 Module의 QC, 작업 기록, 산출물, 리뷰 요청을 처리합니다. 작업자 홈 전체 수정필요 0 진행중 리뷰중 대기 완료 정렬: 마감 임박순 5건 승인완료 Dev · Auth · Build Complete 소셜—Go"
+    },
+    {
+      "role": "worker",
+      "route": "profile",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "PROFILE 알림 · 마이페이지 역할별 알림과 계정 정보를 확인합니다. 로그인 화면 알림 마이 새 승인 요청과 작업 알림을 이곳에서 확인합니다. 상단 알림 드롭다운과 같은 목적의 전체 보기 화면입니다. 오늘 ORDOSPACE 워크스페이스 알림이 동기"
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "ADMIN COMMAND 운영 홈 마감, 리뷰 적체, MH 소진, 프로젝트 진행 상태를 ModuleCard 기준으로 집계합니다. 2026-06-08 기준 마감 초과 0건 dueDate < 기준일 · 완료/승인 제외 리뷰 적체 1건 review 상태 4"
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "PROJECT CONTROL 프로젝트 감독 보드와 테이블을 오가며 프로젝트별 Module 진행률과 하단 상세를 확인합니다. 보드 테이블 제안 (1) 고객 포털 고도화 박준호 PM · 테크컴퍼스 주의 IA 재정의와 디자인 벤더 투입 검토 Module 진"
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "PM MODULE CONTROL Module 작업 관리 PM이 리뷰 요청, 마감 위험, Worker 배정, Client 전달을 처리하는 핵심 작업 화면입니다. 카드 일괄 생성 인력 보기 전체 12 리뷰요청 1 마감초과 0 진행중 1 대기 4 완료 6 "
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "TEAM 파트너 · 배정 파트너 상태와 주간 배정 밀도를 한 화면에서 확인합니다. 파트너 초대 Module 관리 파트너 목록 배정 히트맵 활성 28 가동 가능 파트너 대기 3 초대/검증 대기 이번 달 5 신규 온보딩 파트너 테이블 아바타, 스킬, 가동"
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "감사 로그 ORDO 전사 활동 기록. 승인 트레일의 최종 증거. CSV 내보내기 읽기 전용 영역 — 이 로그는 수정·삭제할 수 없습니다. 모든 감사 기록은 7년간 원본 그대로 보관되며, 클라이언트 분쟁 시 증거로 제출될 수 있습니다. 로그 조작 시도 "
+    },
+    {
+      "role": "admin",
+      "route": "profile",
+      "viewport": "desktop",
+      "ok": true,
+      "textSample": "PROFILE 알림 · 마이페이지 역할별 알림과 계정 정보를 확인합니다. 로그인 화면 알림 마이 새 승인 요청과 작업 알림을 이곳에서 확인합니다. 상단 알림 드롭다운과 같은 목적의 전체 보기 화면입니다. 오늘 ORDOSPACE 워크스페이스 알림이 동기"
+    }
+  ],
+  "menus": [
+    {
+      "role": "client",
+      "labels": [
+        "홈",
+        "프로젝트",
+        "승인함",
+        "알림"
+      ],
+      "ok": true
+    },
+    {
+      "role": "worker",
+      "labels": [
+        "홈",
+        "내 작업",
+        "알림"
+      ],
+      "ok": true
+    },
+    {
+      "role": "admin",
+      "labels": [
+        "홈",
+        "프로젝트",
+        "Module 관리",
+        "인력",
+        "감사 로그"
+      ],
+      "ok": true
+    }
+  ],
+  "accessChecks": [
+    {
+      "role": "client",
+      "target": "admin-home",
+      "result": "forbidden-403",
+      "ok": true
+    },
+    {
+      "role": "client",
+      "target": "worker-home",
+      "result": "forbidden-403",
+      "ok": true
+    },
+    {
+      "role": "worker",
+      "target": "admin-home",
+      "result": "forbidden-403",
+      "ok": true
+    },
+    {
+      "role": "worker",
+      "target": "dashboard",
+      "result": "forbidden-403",
+      "ok": true
+    },
+    {
+      "role": "admin",
+      "target": "dashboard",
+      "result": "forbidden-403",
+      "ok": true
+    },
+    {
+      "role": "admin",
+      "target": "worker-home",
+      "result": "forbidden-403",
+      "ok": true
+    },
+    {
+      "role": "qa",
+      "target": "components-gallery",
+      "result": "DEV flag required",
+      "ok": true
+    }
+  ],
+  "responsiveChecks": [
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "tablet",
+      "sidebar": true,
+      "topbar": true,
+      "mobileHeader": false,
+      "mobileTabs": false,
+      "ok": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "tablet",
+      "sidebar": true,
+      "topbar": true,
+      "mobileHeader": false,
+      "mobileTabs": false,
+      "ok": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "tablet",
+      "sidebar": true,
+      "topbar": true,
+      "mobileHeader": false,
+      "mobileTabs": false,
+      "ok": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "mobile",
+      "sidebar": false,
+      "topbar": false,
+      "mobileHeader": true,
+      "mobileTabs": true,
+      "ok": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "mobile",
+      "sidebar": false,
+      "topbar": false,
+      "mobileHeader": true,
+      "mobileTabs": true,
+      "ok": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "mobile",
+      "sidebar": false,
+      "topbar": false,
+      "mobileHeader": true,
+      "mobileTabs": true,
+      "ok": true
+    }
+  ],
+  "screenshots": [
+    "evidence/redo/r01/frozen-public/landing-desktop-1440x1000.png",
+    "evidence/redo/r01/frozen-public/auth-desktop-1440x1000.png",
+    "evidence/redo/r01/frozen-public/terms-desktop-1440x1000.png",
+    "evidence/redo/r01/frozen-public/privacy-desktop-1440x1000.png",
+    "evidence/redo/r01/frozen-public/support-desktop-1440x1000.png",
+    "evidence/redo/r01/frozen-public/select-workspace-desktop-1440x1000.png",
+    "evidence/redo/r01/frozen-public/landing-tablet-1024x1366.png",
+    "evidence/redo/r01/frozen-public/auth-tablet-1024x1366.png",
+    "evidence/redo/r01/frozen-public/terms-tablet-1024x1366.png",
+    "evidence/redo/r01/frozen-public/privacy-tablet-1024x1366.png",
+    "evidence/redo/r01/frozen-public/support-tablet-1024x1366.png",
+    "evidence/redo/r01/frozen-public/select-workspace-tablet-1024x1366.png",
+    "evidence/redo/r01/frozen-public/landing-mobile-390x844.png",
+    "evidence/redo/r01/frozen-public/auth-mobile-390x844.png",
+    "evidence/redo/r01/frozen-public/terms-mobile-390x844.png",
+    "evidence/redo/r01/frozen-public/privacy-mobile-390x844.png",
+    "evidence/redo/r01/frozen-public/support-mobile-390x844.png",
+    "evidence/redo/r01/frozen-public/select-workspace-mobile-390x844.png",
+    "evidence/redo/r01/frozen-public/inquiry-modal-desktop-1440x1000.png",
+    "evidence/redo/r01/frozen-public/auth-forgot-desktop-1440x1000.png",
+    "evidence/redo/r01/frozen-public/auth-forgot-sent-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/client/dashboard-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/client/project-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/client/approvals-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/client/profile-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/worker/worker-home-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/worker/worker-cards-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/worker/profile-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/admin/admin-home-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/admin/admin-projects-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/admin/admin-cards-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/admin/admin-team-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/admin/admin-audit-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/admin/profile-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/client/dashboard-tablet-1024x1366.png",
+    "evidence/redo/r01/dashboard/worker/worker-home-tablet-1024x1366.png",
+    "evidence/redo/r01/dashboard/admin/admin-home-tablet-1024x1366.png",
+    "evidence/redo/r01/dashboard/client/dashboard-mobile-390x844.png",
+    "evidence/redo/r01/dashboard/worker/worker-home-mobile-390x844.png",
+    "evidence/redo/r01/dashboard/admin/admin-home-mobile-390x844.png",
+    "evidence/redo/r01/dashboard/shared/forbidden-403-desktop-1440x1000.png",
+    "evidence/redo/r01/dashboard/shared/components-gallery-dev-desktop-1440x1000.png"
+  ],
+  "finishedAt": "2026-07-21T09:11:12.073Z"
+}

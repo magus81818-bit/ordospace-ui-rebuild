@@ -1,0 +1,1153 @@
+{
+  "sourceCommit": "ea1dc111440207608401c529b5bc27ebc5e61fd7",
+  "resultCommit": "937d38b92d5b062f6110dba42bc4690c35f3ff15",
+  "algorithm": "git-blob-sha1",
+  "files": [
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "dcd386a77756b7b86acfb368523514f0e72544f7",
+      "path": ".gitignore"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "5ea97bfd0f0341dba21fe36f15fc496de969e7d5",
+      "path": ".vercelignore"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "953e57d9d4ae6329864ca5a9fbbc797e22ad3353",
+      "path": "BUILD.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "c9e86f4cfc80a4741f60b74f52af4a6a5acbceb6",
+      "path": "CLAUDE_ANNOTATION_HANDOFF_FOR_OPUS.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "6fbd06f4fc38c1ca85d76332abb10a3ea047ee4e",
+      "path": "CLAUDE_CODE_ANNOTATION_PLAN_KO.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "5deeb70c560f8648ef40b36e23efd36edf608936",
+      "path": "CLAUDE_CODE_REVIEW_AND_COMPONENT_PROMPT_KO.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "d75e5a734d6bba38afc499233328cda412cb6c49",
+      "path": "CLAUDE_CODE_REVIEW_REPORT_KO.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "6c7fea40a429b43fff5c48829e610a8a033a6caf",
+      "path": "CLAUDE_COMPONENTIZATION_HANDOFF.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "3962e1d4873e55fa461e5fdf3ae5d2766c765262",
+      "path": "CLAUDE_COMPONENT_SPLIT_DESIGN_KO.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "4b3dce50fff1e7a137283ce25313cf777c2caa17",
+      "path": "COMPONENTIZATION_REFACTOR_PLAN.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "191ab56555417e50d5263844681870f70772d9aa",
+      "path": "COWORK_HANDOFF_R12_ONWARDS.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "eae28c22c1d31eaa776b891ed9794045db79b5c1",
+      "path": "HANDOFF_FOR_CLAUDE_CODE.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "72a7ed3223689f89d6d94c7d7de7c3bfd44261b4",
+      "path": "HARNESS_ENGINEERING_REPORT.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "d4505138bdbe8161450aa30c035f47795351a1b1",
+      "path": "ORDOSPACE_FEATURE_SPEC_AND_USER_FLOW_KO.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "75112b3e1d07991d9ddb36d9f7707d9634178bda",
+      "path": "ORDOSPACE_GITHUB_COMMIT_SEQUENCE_KO.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "2fc7fce0e2bdf458250ed1946d6b3e9adf62f432",
+      "path": "ORDOSPACE_MVP_SUBMISSION_REQUIREMENTS_REPORT.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "579b7e407becdecb476adda938ff90cc9afa330c",
+      "path": "ORDOSPACE_SUBMISSION_REPORT_KO.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "6849bd41ef2efca6a2795b06dfb5af434f05dee8",
+      "path": "QA_REPORT_FEEDBACK_ITEMS_1_5.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "0eaba214a2c16289365d4ae415878bb40f0c3d16",
+      "path": "REACT_MVP_RELEASE_CANDIDATE.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "376c4dd8d8487a7f13ea06ac5f1dde656393c870",
+      "path": "REACT_MVP_SCOPE.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "88332173d886c4321e8370e519f3255d60a2737b",
+      "path": "README.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "48b37d3984abcc1e46081235050a6a16d248fcb7",
+      "path": "STRUCTURE.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "415836931c4d25e9e6036f10eb31962a8dc414d1",
+      "path": "api/_lib/module-card-repository.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "7d04d340b4715ac1ef1f548c5f76289ecfe43577",
+      "path": "api/_schema/module-cards.sql"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "aabab8c9f5021b33fa838d217c35cce55c4a81ce",
+      "path": "api/module-cards.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "ab049175983591c89888379dbc8c38915b0f56a7",
+      "path": "app/README.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "65bd151f2d5ac2b65b7bc0f88ca5a4d3bfc60b19",
+      "path": "app/config/api.config.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "281727081d608e10a3e496031b6442c0242af94a",
+      "path": "app/config/app.config.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "9f20641447881725768e60ffd9b59bc0842eceb5",
+      "path": "app/data/README.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "3421d4cc7f82a747b76616dc2c8eff079b2b00a1",
+      "path": "app/data/room.data.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "7902910c679d535d2c607fdebf162cc2a66da042",
+      "path": "app/data/workspace.data.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "7135346e5fb8c769925e87a5f187dc2b0b4dd019",
+      "path": "app/domain/README.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "61390d6a7a9e420ce4c5fcf1c56b9b80eedf0496",
+      "path": "app/layout/README.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "5bd9b70cffc34525d273fbbb300b9df956690ff7",
+      "path": "app/layout/app-shell.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "c9499afebe304b984a47db6ae91e347207363cfa",
+      "path": "app/main.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "7af481810bdfa688c6a82367ac97fa568bf63579",
+      "path": "app/qa/runtime-qa.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "723cf3755a72198c285ac34ac79cd9bc4b29fccd",
+      "path": "app/qa/smoke-check.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "62c7addc31fc36b9c5dd31bb1c43115be301e027",
+      "path": "app/qa/smoke-checklist.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "0e4ecd8005734a2070a54fc7ec4233f4a465929b",
+      "path": "app/repos/README.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "f8417cb7abd301cfd4f9b3f1abc5e08bcfdba6ae",
+      "path": "app/repos/room.repo.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "4b3c7150521b73a440a7d414c45cc03bc708d394",
+      "path": "app/router/README.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "66dc1c916c901b20134fce02bd80c01d0d77e6eb",
+      "path": "app/router/hash-router.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "c8369a66a36434f38451e3ebeb8235ace463912f",
+      "path": "app/screens/README.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "36965a2ac818280b3cde718113a23b278a7901b4",
+      "path": "app/screens/admin-workspace.screen.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "cec82ab01b64546b51cf6f35e26ffe96edad5aa3",
+      "path": "app/screens/auth.screen.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "7874c3500ed89084bf34fa196e6fefdca3a82079",
+      "path": "app/screens/client-workspace.screen.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "13813b8686c825c71a361df08ef1de142f1f65fb",
+      "path": "app/screens/documents.screen.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "8af04da875b302718652866551da9298ff75259a",
+      "path": "app/screens/report-center.screen.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "e99098d22befec9b9c38b3a5721d3fdc02926d4c",
+      "path": "app/screens/worker-workspace.screen.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "ca9681758bdcb24d44964e18b3d6e61d41d95c26",
+      "path": "app/services/README.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "7e967a2b28ad0144dcb9a0a0eb181f56f81781e7",
+      "path": "app/services/api.service.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "c2729039f8fa282e1bd6d1cb80a209c755d6265f",
+      "path": "app/services/app-boot.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "3540df1394d8bc525026dbd0f9f93732f76fa53a",
+      "path": "app/services/module-card-actions.backend.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "07e8029fdfbc19154feaa81e1e8110bf44392570",
+      "path": "app/services/module-card-backend.sync.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "a1f1db726503b24f1e34b431f7f14e884f632172",
+      "path": "app/services/module-card-lifecycle.service.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "2abd687ba4051f6454bb6b67f79bce433f8321e9",
+      "path": "app/services/module-card.adapter.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "3ca78f6ecb910943c014b8a25427b170917be677",
+      "path": "app/services/session.service.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "656b34e6a1ad01accc5df8d3501aaece34358d1a",
+      "path": "app/styles/app.css"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "68667409670c5410d2a65d31cc1866b5ac382051",
+      "path": "app/styles/tailwind.build.css"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "b5c61c956711f981a41e95f7fcf0038436cfbb22",
+      "path": "app/styles/tailwind.input.css"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "d41a2c412253bb33462049e61f0c44379568b6f0",
+      "path": "app/ui/README.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "7a90914f5f4a77c297073c0691ed5ba2d4aac42a",
+      "path": "app/ui/components/base.ui.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "ef0ced3854a3a299b4adbba6e87b1dfdb8577906",
+      "path": "app/ui/components/detail.ui.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "4c4ceb7b6f1593b908fa3614289b688b68e61a4a",
+      "path": "app/ui/components/form.ui.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "0c9b2efc8f93e2fa36ac6c1cadb3f8f8cd8043e9",
+      "path": "app/ui/components/metric.ui.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "ff743e9ab88012d3f1c6906c5fe819bc7ee8854a",
+      "path": "app/ui/components/module-card.ui.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "10ee6479f75dee0208cae6ceca5516018d781610",
+      "path": "app/ui/components/sheet.ui.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "09d41271bc19e524d00283ee6ee328ec5433e697",
+      "path": "app/ui/components/status.ui.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "3cfc7d070da1a647944986e0eb923b24efdcbec7",
+      "path": "app/ui/room.ui.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "abe36d326b02d50e0daf9da0efbb2b88729b4546",
+      "path": "app/ui/workspace.ui.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "0c8c741e906a5c216f7dbe028a28473790c7208f",
+      "path": "app/vendor/lucide/lucide.min.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "d851329eaa3ca5d6f048dac72575140bfbd04da5",
+      "path": "backend/.env.example"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "8a407bb3ed78d166e9597d3ea01975f8d62d97c5",
+      "path": "backend/.gitignore"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "0769932660bcae1e0afd877474c33f14a1d32336",
+      "path": "backend/API_SPEC.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "debad75ec086bef056d638ddab8c6ca5bb152fce",
+      "path": "backend/DEPLOY.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "024ca41eacbdc64e3495ddcb29b6d31c34b36d18",
+      "path": "backend/README.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "018a63591043a3c6112f6008f6fd4a032e5c5cc8",
+      "path": "backend/jest.config.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "276a9f11c655558a3448d3659e354954ff23d7a3",
+      "path": "backend/package-lock.json"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "77fe89bcc165078925d63dd85333a74d0befe638",
+      "path": "backend/package.json"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "4b87e5603a7e333ad5052469df0fd3b5b556b8fd",
+      "path": "backend/prisma.config.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "a27d766a85fc0e2ec9f691436248befda2477742",
+      "path": "backend/prisma/migrations/20260714024652_init/migration.sql"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "044d57cdb0d5b5bff3475112359a4ee70439bf78",
+      "path": "backend/prisma/migrations/migration_lock.toml"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "e87be03168f6ffe007cbbf962a48142e0b3dd4c2",
+      "path": "backend/prisma/schema.prisma"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "ff2dd06c8bfe518602c75361bc38006f83300411",
+      "path": "backend/prisma/seed.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "aded8a5e0b8c1c4bc07d79efb0f8dd09765337eb",
+      "path": "backend/render.yaml"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "3f933bcafb1982da13dec3fcefc5cb1b13b79f71",
+      "path": "backend/smoke-test.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "d578737d296063ad37b2a3e6fd7b2077ba05f1a1",
+      "path": "backend/src/application/contracts/activity-repo.contract.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "8053aa840cb9ab9b2da92ee98cd5db197261c753",
+      "path": "backend/src/application/contracts/module-card-repo.contract.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "f131199b9d3018f0d912a88fae96ce61d5af4305",
+      "path": "backend/src/application/contracts/user-repo.contract.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "e99341a96dee2aab170b7b46c1811d2efcd9cda7",
+      "path": "backend/src/application/domain/module-card-status.test.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "84eda82e6b1db333dc6f7187b45e87a224df1a45",
+      "path": "backend/src/application/domain/module-card-status.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "551ca1dfd8756b3b240c13a8f7b671058e8505ca",
+      "path": "backend/src/application/services/auth.service.test.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "b9d1df6ca299992a31356a6db148382f1f2d807f",
+      "path": "backend/src/application/services/auth.service.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "9444f064be24a9b976c56b22e15013717b29d47f",
+      "path": "backend/src/application/services/module-card.service.test.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "b80e12581527e91eeb9d48738a92d24a527cb52b",
+      "path": "backend/src/application/services/module-card.service.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "db4fdf7789031ebec366f5daca21549e73852763",
+      "path": "backend/src/application/services/user.service.test.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "5d6bf81e7b6d839c558b09af58c30fa67e581cf1",
+      "path": "backend/src/application/services/user.service.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "06aa3c2bbf017fda0bfa8647356d1e4a50b99d42",
+      "path": "backend/src/bootstrap.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "44014c5a695a8674932bdcd15c665b3370fd23fb",
+      "path": "backend/src/inbound/controllers/auth.controller.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "137b16166f04a774926e6af5a90544551edbbc56",
+      "path": "backend/src/inbound/controllers/module-card.controller.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "421ddee4823211c93a4d323ade5b1edf3a80bd8e",
+      "path": "backend/src/inbound/controllers/user.controller.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "6d2ee7e6fb9e3e97ac554477fff9fea52fc60a1b",
+      "path": "backend/src/inbound/middlewares/auth.middleware.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "c665f8c770c9acd9642840b04aaa32ba17d84c05",
+      "path": "backend/src/inbound/middlewares/error.middleware.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "6f42dfb10eae31011d2333f6e85c8f143f2c49b1",
+      "path": "backend/src/inbound/middlewares/role.middleware.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "a45585bf86b35759028364e45233b3adffa66b92",
+      "path": "backend/src/inbound/schemas/auth.schemas.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "f45b0159054d07abbf5c8fa854fbd85f3f9ab7c0",
+      "path": "backend/src/inbound/schemas/module-card.schemas.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "9819ceba6a40b9b659f3383cf0c63efa1ac6003c",
+      "path": "backend/src/index.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "4edfaf82b476d44bb90f2a67cc0047876aba0598",
+      "path": "backend/src/outbound/repos/activity.repo.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "acdcffd1105eefb9319ceef9cf4a9185380548eb",
+      "path": "backend/src/outbound/repos/module-card.repo.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "91ba435aa5a418015a4fd9510a4d2b4f85de304b",
+      "path": "backend/src/outbound/repos/prismaClient.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "3e3b3fea7738a737f7cc6968dc928f7911df58fe",
+      "path": "backend/src/outbound/repos/user.repo.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "2224d6384f2db7bbd48041e5e5e94e9e97486892",
+      "path": "backend/src/shared/contracts/hash-util.contract.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "171cda572eb256dd808d2533c4d7c04d5a231802",
+      "path": "backend/src/shared/contracts/jwt-util.contract.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "132cc6ba6f4de36f898e4cf234801fc5eff01689",
+      "path": "backend/src/shared/exceptions/business.exception.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "fb74217ed5d1151e94451042df5d253f2d6624e3",
+      "path": "backend/src/shared/exceptions/technical.exception.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "23072d3ed34018f10edbd4a203cf099d8fafe620",
+      "path": "backend/src/shared/express.d.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "8a6cfa153977895b0c17511a797d8951b22dc25d",
+      "path": "backend/src/shared/utils/bcrypt.util.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "7db0fe2cc4137d84280efc1f24f5cce5a8fb6ca2",
+      "path": "backend/src/shared/utils/jwt.util.ts"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "2161eed8e4952983be04599f7cb91c868836b7e7",
+      "path": "backend/tsconfig.json"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "029f23b62e06dbfc91cdda1defef6ceee38a72bc",
+      "path": "docs/CODE_GUIDE_00_시작하기.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "d79c846fa3f204d5c3fa356a6fa2081d3db7bcb9",
+      "path": "docs/CODE_GUIDE_01_앱이_켜질_때.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "3004ae38ce0821bf3067beebb38d463c067e82b5",
+      "path": "docs/CODE_GUIDE_02_데이터_사전.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "602d957d7839b174707e27090944f66c30f69b38",
+      "path": "docs/CODE_GUIDE_03_컴포넌트_사전.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "fdc0171759e2bb54b4e329d918e5d3faebfe68ea",
+      "path": "docs/CODE_GUIDE_04_카드의_일생.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "a1785970344373fa69a9c6ddf0acb5eded384ff3",
+      "path": "docs/CODE_GUIDE_05_저장의_여정.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "7a328abdb3e637327fbb768ed6c892494acb1a01",
+      "path": "docs/CODE_GUIDE_06_품질을_지키는_법.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "ede7fceba6b2ea665457d7c72175a33c6e5bfafc",
+      "path": "docs/CODE_GUIDE_07_총정리.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "a9b6ad471f663ef7f7533ac4ba4ae4f495a8ae79",
+      "path": "docs/GLOSSARY.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "0f3d259556de6a25f046dfe4cd82af6de1c500b0",
+      "path": "docs/INTERACTIVE_QUIZ.html"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "992f5b4f450ecdff24dfd4cded05b5e1e9619ffb",
+      "path": "docs/LITERATE_DIFF_변경_해설서.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "a9bf2d1b4ca5817345a3623f59bb5d4c96e3a69a",
+      "path": "docs/MICRO_WORLD_카드_시뮬레이터.html"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "0aaef0ed498a6eed7b8abfe95765c7aad2da09a0",
+      "path": "index.html"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "fa73422b5d3eff9794e683085beff9bd8ada8ac8",
+      "path": "package-lock.json"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "ca4b203ecbc9371098b4f5ca1f2b40afaaf26758",
+      "path": "package.json"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "8c4497b5edc0a03f69b54d5a3b0fb6aac5b8bcfc",
+      "path": "react-mvp/README.md"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "41119fa15168a04067a33cd5d6a44fcfe46c9fcd",
+      "path": "react-mvp/index.html"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "c3104639931e14290eb00dd9293f68ce1dade309",
+      "path": "react-mvp/scripts/smoke-browser.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "c565b7382973987b4a79c3e875b63c3faa34ea1c",
+      "path": "react-mvp/scripts/validate-activity-review.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "6e2d418aaeacaa74ab586e017757d90e988f0f6e",
+      "path": "react-mvp/scripts/validate-admin-create.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "c1ee7af69bb3213d440932baf6153e6b1397d498",
+      "path": "react-mvp/scripts/validate-admin-review.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "47d715d73f82cca24bfdc2f8c308ec9135fe917d",
+      "path": "react-mvp/scripts/validate-card-routes.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "4f1c590ee6ce790eadac40e87d8e4cf212b53bc9",
+      "path": "react-mvp/scripts/validate-client-decision.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "44ea22f1d95caf6b98e7094404ec9e353ea4be19",
+      "path": "react-mvp/scripts/validate-form-polish.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "efc4dd46ed6cf16aea56a3f7d0db39d38dab185d",
+      "path": "react-mvp/scripts/validate-seed.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "5551aeb1613134911a0feae5cc3722bcce33d854",
+      "path": "react-mvp/scripts/validate-session.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "3ed1cb6bd9d2ab4c36c975e3850637332c9189a1",
+      "path": "react-mvp/scripts/validate-store-persistence.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "7c13b2b942602fd6c4072067183dcf55d4a7b02e",
+      "path": "react-mvp/scripts/validate-worker-submit.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "0549a68d6b659a328c8cec01d3d40942e7012438",
+      "path": "react-mvp/scripts/validate-worker-update.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "c58d73bc7885b379af9871ef7750180ac3f779c6",
+      "path": "react-mvp/src/App.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "a249aea3c4dac59bb28147ef00ea6525aac96c19",
+      "path": "react-mvp/src/cards/ActivityReviewPanel.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "d00c3662b364142eadaf17cc814d3b34a47bdf8e",
+      "path": "react-mvp/src/cards/AdminCreateModuleCardPanel.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "f8872a5f761d80a2bab98cf1391822eeca6bfe46",
+      "path": "react-mvp/src/cards/AdminReviewModuleCardPanel.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "b37ea071781d2d4b3b1386b044b26ebc3bdbaf44",
+      "path": "react-mvp/src/cards/ClientDecisionModuleCardPanel.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "174f8b43064e64fd1bb4284f6d3db8f390973e73",
+      "path": "react-mvp/src/cards/ModuleCardStoreContext.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "62fe5c0e6be0c8b17ea2024c4149df90b5d97535",
+      "path": "react-mvp/src/cards/WorkerSubmitModuleCardPanel.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "7f539a0acd7b76aef28d61573833e75040ea6317",
+      "path": "react-mvp/src/cards/WorkerUpdateModuleCardPanel.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "48ae50d2118db75a32905812ec929afe4963fdc7",
+      "path": "react-mvp/src/cards/module-card-actions.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "6b42cfe4756d0f21046ce03db7ce4713e6a0ceb6",
+      "path": "react-mvp/src/cards/module-card-activity-review.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "150b9f75a98ece86ab88cbcee5e934d82b94440e",
+      "path": "react-mvp/src/cards/module-card-form-validation.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "4e9458fa025bc024950285ebc712005f4b55c5f1",
+      "path": "react-mvp/src/cards/module-card-store.service.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "5bfa586a82fa42135d406387ae1fc574cd35c64b",
+      "path": "react-mvp/src/data/mvp-seed.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "962c925f58435ad0c11995212b099a6aaeef9dee",
+      "path": "react-mvp/src/domain/module-card.model.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "4b96952396513c15cd4e78bcf4438c374d77bb47",
+      "path": "react-mvp/src/main.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "127dff9945ae1625c98e089463c20fdfda65e396",
+      "path": "react-mvp/src/router.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "cfaaf29ef4bb0e4b54b9fc5fd0f80f4c119c1955",
+      "path": "react-mvp/src/session/SessionContext.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "2d48f8ef4860a5db87a3e2b819cb1dea964f688e",
+      "path": "react-mvp/src/session/session.service.mjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "bbf933bbad344009b9379a7d0c7a03c9b50421d5",
+      "path": "react-mvp/src/styles.css"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "7fc81fda2c63245a0fad180e49aade7447bbd78a",
+      "path": "react-mvp/src/ui/AccountOption.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "84bffc2889773ab1947610260eeb8dd4d19f88ba",
+      "path": "react-mvp/src/ui/Button.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "39990bc827f4ce2ca7745d56fc22eaedba3fee69",
+      "path": "react-mvp/src/ui/Feedback.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "d141db04b18b9dc743e9f4f233d974a70ec42053",
+      "path": "react-mvp/src/ui/ModuleDetailPanel.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "12cf9b2b0c9611749d17a0e453a28ee26f84b8fa",
+      "path": "react-mvp/src/ui/ModulePreviewCard.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "514e037170b1efb2baca55db89496a8a85401dcc",
+      "path": "react-mvp/src/ui/Panel.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "e0ee8ba3704a69ceba4a8f511728fd77b1c77922",
+      "path": "react-mvp/src/ui/SessionCard.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "fe04ace56cd0ec461f3ff9502b0d1f96408dfd52",
+      "path": "react-mvp/src/ui/StatusCard.jsx"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "8b705afc0103e6e4f7dc0805aceffbf0e8d10ab9",
+      "path": "react-mvp/src/ui/index.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "28c449a24017dff47689d023b703d37a8b18c407",
+      "path": "tailwind.config.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "782785280ebc91ccdf121654137a89c6bbec8c0c",
+      "path": "tools/copy-lucide.js"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "3f386d53f2ba35d487e5c08a4ccacc87090837ed",
+      "path": "tools/seed-module-cards-db.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "5ac42ad1072b4d04be5059438ea760b509d87aac",
+      "path": "tools/validate-admin-module-card-server-persistence.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "1ae1aacb3dbf2f24d68609458716abd02a6bdc58",
+      "path": "tools/validate-client-module-card-server-persistence.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "6bcd64433cf6b7b3114f5c3d1493b991083d6eb0",
+      "path": "tools/validate-cross-role-module-card-server-flow.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "0c29effaa5daf6d49f442d6540b608d3d0c075a3",
+      "path": "tools/validate-module-card-api-contract.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "26d2234496ac7f899f70d0fa465befe3444fab9b",
+      "path": "tools/validate-module-card-api-db.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "9eca265ebee3403f16b0cbbf8e35f2d2f135c15c",
+      "path": "tools/validate-module-card-db-connection.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "5982e9d412ac69187bbd7e7157f38c5e0bcc55a6",
+      "path": "tools/validate-module-card-refresh-recovery.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "30011ee95d421c2d4e77be31474161fb2761c5fd",
+      "path": "tools/validate-static-components.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "102f3ece2d8ea3c30e0e5ca75bdcffc182d21287",
+      "path": "tools/validate-static-module-lifecycle.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "fe5a96a331db985585cc8316bdc756af21f09931",
+      "path": "tools/validate-worker-module-card-server-persistence.cjs"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "647a5d45b345b35eb4c5a8f1abfc99a8369525ec",
+      "path": "vercel.json"
+    },
+    {
+      "mode": "100644",
+      "type": "blob",
+      "object": "e7e34ca7ceda4bc01099015d3e947ef181fb34fa",
+      "path": "vite.config.js"
+    }
+  ]
+}

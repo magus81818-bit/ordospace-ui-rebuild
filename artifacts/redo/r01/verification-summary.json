@@ -1,0 +1,46 @@
+{
+  "round": 1,
+  "status": "ready-for-review",
+  "productParity": true,
+  "sourceEntries": 191,
+  "resultEntries": 191,
+  "differenceCount": 0,
+  "root": {
+    "npmCi": "pass",
+    "build": "pass",
+    "checkJs": "pass",
+    "staticComponents": "pass",
+    "staticLifecycle": "pass",
+    "smokeRoutes": 12,
+    "runtimeQaPassed": 20,
+    "runtimeQaTotal": 20
+  },
+  "browser": {
+    "playwrightTestsPassed": 4,
+    "playwrightTestsTotal": 4,
+    "screenshots": 42,
+    "routeObservations": 31,
+    "menuComparisons": 3,
+    "accessChecks": 7,
+    "responsiveChecks": 6,
+    "pageErrors": 0,
+    "requestFailures": 0,
+    "expectedLocalApi404Responses": 5,
+    "relatedConsoleErrors": 6
+  },
+  "backend": {
+    "unitSuitesPassed": 4,
+    "unitSuitesTotal": 4,
+    "unitTestsPassed": 18,
+    "unitTestsTotal": 18,
+    "typeCheckAfterPrismaGenerate": "pass",
+    "buildAfterPrismaGenerate": "pass",
+    "npmAuditModerate": 3
+  },
+  "writes": {
+    "protectedSource": false,
+    "main": false,
+    "deployment": false,
+    "productionAlias": false
+  }
+}
