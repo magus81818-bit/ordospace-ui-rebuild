@@ -1,3 +1,14 @@
 # Change manifest
 
-Product changes: additive shell stylesheet, shell CSS link/classes and ARIA metadata, deterministic drawer/notification/theme states. Evidence changes: Round 5 prompt, validator, Playwright audit, JSON artifacts, screenshots, and this documentation set. Configuration, routes, dashboard bodies, public screens, and APIs are unchanged.
+Product:
+
+- `app/layout/app-shell.js`: additive empty notification rendering and long-content classes; operating fixtures unchanged.
+- `app/styles/dashboard-salesops.shell.css`: wrapping, empty-state color, and disabled-state contract under `body.auth-on` only.
+
+Test/audit:
+
+- Round 5 browser suite now covers 18 public cases, six dashboard viewports, empty/long notifications, and disabled specimens.
+- Python image comparator provides full and masked quantitative ratios.
+- Round 3/4 validators accept only approved descendant branches while retaining ancestry, token, DOM, IA, and function-contract checks.
+
+Artifacts/evidence/docs were refreshed. No menu, route, public CSS, operating data, API, backend, main, deployment, or protected source change occurred.

@@ -1,11 +1,69 @@
 {
-  "generatedAt": "2026-07-21T11:25:31.896Z",
+  "generatedAt": "2026-07-21T13:29:53.929Z",
   "checks": [
     {
       "kind": "interaction",
       "drawer": "open/Escape/focus-return",
       "notification": "open/Escape/focus-return",
       "theme": "light/dark/system persisted",
+      "pass": true
+    },
+    {
+      "kind": "interaction",
+      "viewport": "desktop",
+      "notificationEmpty": {
+        "openClose": true,
+        "escape": true,
+        "focusReturn": true,
+        "outsideClick": true,
+        "contained": true
+      },
+      "notificationLong": {
+        "wrap": true,
+        "internalScroll": true,
+        "unreadRead": true,
+        "escape": true,
+        "focusReturn": true,
+        "contained": true
+      },
+      "disabled": {
+        "target": "theme-control",
+        "semantic": true,
+        "clickBlocked": true,
+        "keyboardBlocked": true,
+        "tabOrder": "native disabled excluded",
+        "cursor": "not-allowed",
+        "accessibleName": true
+      },
+      "pass": true
+    },
+    {
+      "kind": "interaction",
+      "viewport": "mobile",
+      "notificationEmpty": {
+        "openClose": true,
+        "escape": true,
+        "focusReturn": true,
+        "outsideClick": true,
+        "contained": true
+      },
+      "notificationLong": {
+        "wrap": true,
+        "internalScroll": true,
+        "unreadRead": true,
+        "escape": true,
+        "focusReturn": true,
+        "contained": true
+      },
+      "disabled": {
+        "target": "drawer-control",
+        "semantic": true,
+        "clickBlocked": true,
+        "keyboardBlocked": true,
+        "tabOrder": "native disabled excluded",
+        "cursor": "not-allowed",
+        "accessibleName": true
+      },
       "pass": true
     }
   ],

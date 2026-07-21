@@ -1,3 +1,5 @@
 # Accessibility review
 
-Drawer and notification controls expose `aria-controls`, `aria-expanded`, and corresponding `aria-hidden` state. Drawer dialog semantics, current breadcrumb, theme `aria-pressed`, Escape close, focus return, focus-visible outline, 44px mobile targets, and reduced-motion behavior were verified.
+Drawer and notification controls retain accessible names and expose controls/expanded/hidden state. Empty notification uses a named status; long items retain screen-reader text while wrapping visually. Escape closes each overlay and returns focus. Native disabled semantics remove the QA specimens from activation and tab order; cursor and opacity communicate state without relying only on color. Reduced motion and focus-visible rules remain active.
+
+Desktop and mobile evidence is recorded in `artifacts/redo/r05/accessibility-audit.json` and `evidence/redo/r05/shell-states/`.

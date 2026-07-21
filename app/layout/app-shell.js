@@ -115,6 +115,15 @@ function renderNotifList(role){
   const ul = document.getElementById('notifList');
   if (!ul) return;
   const items = (window.ORDO_NOTIFICATIONS && window.ORDO_NOTIFICATIONS[role]) || [];
+  if (!items.length) {
+    ul.innerHTML = `<li class="ordo-shell-notification__empty p-6 text-center" role="status" aria-label="새 알림 없음">
+      <i data-lucide="bell-off" class="w-5 h-5 mx-auto mb-2 text-tx-tertiary" aria-hidden="true"></i>
+      <div class="text-[13px] font-semibold">새 알림이 없습니다</div>
+      <div class="mt-1 text-[11px] text-tx-tertiary">새로운 소식이 도착하면 여기에 표시됩니다.</div>
+    </li>`;
+    refreshIcons();
+    return;
+  }
   const toneColor = { crit:'text-st-critfg', warn:'text-st-warnfg', pend:'text-st-pendfg', ok:'text-st-okfg' };
   ul.innerHTML = items.map(n => {
     const iconColor = toneColor[n.tone] || 'text-tx-secondary';
@@ -125,8 +134,8 @@ function renderNotifList(role){
       <a href="${href}"${profileTab} class="flex gap-2 p-3 hover:bg-bg-secondary">
         <i data-lucide="${n.icon}" class="w-4 h-4 ${iconColor} shrink-0 mt-0.5"></i>
         <div class="flex-1 min-w-0">
-          <div class="truncate">${n.title}</div>
-          <div class="text-[11px] text-tx-tertiary">${n.sub}</div>
+          <div class="ordo-shell-notification__title">${n.title}</div>
+          <div class="ordo-shell-notification__description text-[11px] text-tx-tertiary">${n.sub}</div>
         </div>
       </a>
     </li>`;

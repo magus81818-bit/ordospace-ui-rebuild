@@ -11,7 +11,10 @@ fs.mkdirSync(artifactRoot,{recursive:true});
 
 const branch=git(['branch','--show-current']);
 const base='9c559913d43efea9d4b7d5a5831b8cf14e636763';
-check(branch==='redo/r04-primitives-ui-lab','current branch',branch);
+const approvedRound4='e063545f45caa4c0c9e01b65202cad38cb3ae5ee';
+const descendantRound=/^redo\/r(?:0[5-9]|10)-/.test(branch);
+check(branch==='redo/r04-primitives-ui-lab'||descendantRound,'current or approved descendant branch',branch);
+if(descendantRound)check(git(['merge-base',approvedRound4,'HEAD'])===approvedRound4,'approved Round 4 ancestry',approvedRound4);
 check(git(['merge-base',base,'HEAD'])===base,'Round 3 merge-base',base);
 
 const ids=['UI-013','UI-014','UI-015','UI-016','UI-017','UI-018','UI-019','UI-020','UI-064','UI-073'];

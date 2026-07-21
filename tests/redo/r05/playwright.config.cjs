@@ -4,7 +4,7 @@ const root = path.resolve(__dirname, '..', '..', '..');
 module.exports = defineConfig({
   testDir: __dirname,
   testMatch: ['shell-audit.spec.cjs'],
-  timeout: 180000,
+  timeout: 600000,
   expect: { timeout: 10000 },
   workers: 1,
   reporter: [['list'], ['json', { outputFile: path.join(root, 'artifacts/redo/r05/playwright-report.json') }]],

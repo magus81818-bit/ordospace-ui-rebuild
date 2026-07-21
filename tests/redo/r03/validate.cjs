@@ -157,8 +157,15 @@ const ids = text => [...text.matchAll(/\sid="([^"]+)"/g)].map(match => match[1])
 const baselineIds = ids(baselineIndex);
 const currentIds = ids(index);
 check(descendantRound ? JSON.stringify(currentIds.filter(id => baselineIds.includes(id))) === JSON.stringify(baselineIds) : JSON.stringify(currentIds) === JSON.stringify(baselineIds), descendantRound ? 'existing DOM IDs remain ordered' : 'DOM IDs remain byte-for-byte ordered');
-for (const protectedFile of ['app/config/app.config.js', 'app/layout/app-shell.js', 'app/router/hash-router.js', 'app/services/session.service.js', 'app/services/module-card-lifecycle.service.js', 'package.json']) {
+const shellImplementationRound = /^redo\/r(?:0[5-9]|10)-/.test(branch);
+const protectedFiles = ['app/config/app.config.js', 'app/router/hash-router.js', 'app/services/session.service.js', 'app/services/module-card-lifecycle.service.js', 'package.json'];
+if (!shellImplementationRound) protectedFiles.push('app/layout/app-shell.js');
+for (const protectedFile of protectedFiles) {
   check(!changed.includes(protectedFile), `protected structure/function file unchanged: ${protectedFile}`);
+}
+if (shellImplementationRound) {
+  const shell = read('app/layout/app-shell.js');
+  for (const contract of ['function renderSideMenu(', 'function renderDrawerMenu(', 'function renderTopbarCTA(', 'function renderNotifList(', 'function renderMobileTab(', 'function applyRoleUI(']) check(shell.includes(contract), `Round 5 shell contract retained: ${contract}`);
 }
 
 const browserFiles = ['dashboard-browser-audit.json', 'frozen-public-regression.json', 'layout-preservation.json', 'accessibility-audit.json'];

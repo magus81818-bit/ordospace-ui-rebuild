@@ -1,36 +1,72 @@
 {
+  "generatedAt": "2026-07-21T13:29:53.929Z",
   "states": {
-    "navigation": [
-      "default",
-      "hover",
-      "active",
-      "focus-visible"
-    ],
-    "drawer": [
-      "closed",
-      "open",
-      "Escape",
-      "backdrop",
-      "focus-return"
-    ],
-    "notification": [
-      "closed",
-      "open",
-      "unread",
-      "Escape",
-      "focus-return"
-    ],
-    "theme": [
-      "light",
-      "dark",
-      "system",
-      "persisted"
-    ],
-    "responsive": [
-      "desktop",
-      "tablet",
-      "mobile"
-    ]
+    "notificationEmpty": {
+      "status": "implemented",
+      "desktop": "PASS",
+      "mobile": "PASS",
+      "evidence": [
+        "evidence/redo/r05/shell-states/notification-empty-desktop-1440x1000.png",
+        "evidence/redo/r05/shell-states/notification-empty-mobile-390x844.png"
+      ]
+    },
+    "notificationLong": {
+      "status": "implemented",
+      "desktop": "PASS",
+      "mobile": "PASS",
+      "evidence": [
+        "evidence/redo/r05/shell-states/notification-long-desktop-1440x1000.png",
+        "evidence/redo/r05/shell-states/notification-long-mobile-390x844.png"
+      ]
+    },
+    "disabled": {
+      "status": "implemented",
+      "desktop": "PASS",
+      "mobile": "PASS",
+      "evidence": [
+        "evidence/redo/r05/shell-states/shell-disabled-desktop-1440x1000.png",
+        "evidence/redo/r05/shell-states/shell-disabled-mobile-390x844.png"
+      ]
+    }
   },
+  "disabledApplicability": [
+    {
+      "component": "Sidebar item",
+      "classification": "Not applicable",
+      "basis": "route navigation entries have no unavailable operating state"
+    },
+    {
+      "component": "Header icon button",
+      "classification": "UI Lab/QA contract",
+      "basis": "native disabled control contract"
+    },
+    {
+      "component": "Primary Role CTA",
+      "classification": "UI Lab contract",
+      "basis": "async permission/loading states are represented by primitive contract"
+    },
+    {
+      "component": "Theme Control",
+      "classification": "QA fixture implemented",
+      "basis": "desktop disabled specimen"
+    },
+    {
+      "component": "Mobile Tab",
+      "classification": "Not applicable",
+      "basis": "role-filtered tabs are omitted rather than disabled"
+    },
+    {
+      "component": "Notification item/action",
+      "classification": "UI Lab/QA contract",
+      "basis": "empty and long fixtures remain non-operating data"
+    },
+    {
+      "component": "Drawer control",
+      "classification": "QA fixture implemented",
+      "basis": "mobile disabled specimen"
+    }
+  ],
+  "deferred": 0,
+  "missing": 0,
   "pass": true
 }
