@@ -1,0 +1,24 @@
+{
+  "round": 4,
+  "status": "pass",
+  "checks": [
+    {"command":"npm ci","exitCode":0,"status":"PASS","detail":"0 vulnerabilities"},
+    {"command":"npm run build","exitCode":0,"status":"PASS","detail":"generated files restored; existing Browserslist notice"},
+    {"command":"npm run check:js","exitCode":0,"status":"PASS"},
+    {"command":"node --check Round 4 JS","exitCode":0,"status":"PASS"},
+    {"command":"npm run static:validate-components","exitCode":0,"status":"PASS","detail":"35 namespace and 19 escaped factory outputs"},
+    {"command":"npm run static:validate-lifecycle","exitCode":0,"status":"PASS"},
+    {"command":"npm run smoke","exitCode":0,"status":"PASS","detail":"12 routes; runtime QA 20/20"},
+    {"command":"npm --prefix tests/redo/r01 run audit","exitCode":0,"status":"PASS","detail":"4/4 in isolated worktree"},
+    {"command":"npm --prefix tests/redo/r02 run validate","exitCode":0,"status":"PASS","detail":"73/73 inventory and migration; unresolved 0"},
+    {"command":"npm --prefix tests/redo/r03 run validate","exitCode":0,"status":"PASS","detail":"4/4 plus 219-token validator in fresh isolated worktree"},
+    {"command":"npm --prefix tests/redo/r04 run validate","exitCode":0,"status":"PASS","detail":"9/9 plus static validator"},
+    {"command":"npm --prefix backend test -- --runInBand","exitCode":0,"status":"PASS","detail":"8 suites; 36 tests"},
+    {"command":"npm --prefix backend run type","exitCode":0,"status":"PASS"},
+    {"command":"npm --prefix backend run build","exitCode":0,"status":"PASS"}
+  ],
+  "failed": [],
+  "skipped": [],
+  "blocked": [],
+  "warnings": ["Existing Browserslist data-age notice", "Backend dependency audit retains three pre-existing moderate vulnerabilities"]
+}
