@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-07-21T09:29:07.848Z",
+  "baseline": "937d38b92d5b062f6110dba42bc4690c35f3ff15",
+  "captures": [
+    "evidence/redo/r02/ordospace-unchanged/landing-desktop-1440x1000.png",
+    "evidence/redo/r02/ordospace-unchanged/auth-desktop-1440x1000.png",
+    "evidence/redo/r02/ordospace-unchanged/landing-tablet-1024x1366.png",
+    "evidence/redo/r02/ordospace-unchanged/auth-tablet-1024x1366.png",
+    "evidence/redo/r02/ordospace-unchanged/landing-mobile-390x844.png",
+    "evidence/redo/r02/ordospace-unchanged/auth-mobile-390x844.png",
+    "evidence/redo/r02/ordospace-unchanged/dashboard-desktop-1440x1000.png",
+    "evidence/redo/r02/ordospace-unchanged/project-desktop-1440x1000.png",
+    "evidence/redo/r02/ordospace-unchanged/approvals-desktop-1440x1000.png"
+  ],
+  "pageErrors": [],
+  "finishedAt": "2026-07-21T09:29:14.829Z"
+}

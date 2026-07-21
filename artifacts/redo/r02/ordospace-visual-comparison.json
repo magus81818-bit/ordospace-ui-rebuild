@@ -1,0 +1,19 @@
+{
+  "baselineCommit": "937d38b92d5b062f6110dba42bc4690c35f3ff15",
+  "method": "SHA-256 equality plus side-by-side review for dynamic captures",
+  "pairs": [
+    {"name":"auth-desktop-1440x1000.png","sha256Equal":true},
+    {"name":"auth-tablet-1024x1366.png","sha256Equal":true},
+    {"name":"auth-mobile-390x844.png","sha256Equal":true},
+    {"name":"dashboard-desktop-1440x1000.png","sha256Equal":true},
+    {"name":"project-desktop-1440x1000.png","sha256Equal":true},
+    {"name":"approvals-desktop-1440x1000.png","sha256Equal":true},
+    {"name":"landing-desktop-1440x1000.png","sha256Equal":false,"reason":"same autoplay demo sampled at a different frame"},
+    {"name":"landing-tablet-1024x1366.png","sha256Equal":false,"reason":"same autoplay demo sampled at a different frame"},
+    {"name":"landing-mobile-390x844.png","sha256Equal":false,"reason":"same autoplay demo sampled at a different frame"}
+  ],
+  "exactPairs": 6,
+  "dynamicReviewedPairs": 3,
+  "structuralOrStyleRegression": false,
+  "productGitObjectDifferences": 0
+}
