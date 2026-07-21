@@ -6,7 +6,10 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const baseUrl = "http://127.0.0.1:5174/";
+const urlArgIndex = process.argv.indexOf("--url");
+const externalUrl = urlArgIndex >= 0 ? process.argv[urlArgIndex + 1] : "";
+if (urlArgIndex >= 0 && !/^https:\/\//.test(externalUrl)) throw new Error("--url requires an HTTPS deployment URL");
+const baseUrl = externalUrl ? `${externalUrl.replace(/\/$/, "")}/` : "http://127.0.0.1:5174/";
 const dashboardMode = process.argv.includes("--dashboard");
 const adminMode = process.argv.includes("--admin");
 const clientMode = process.argv.includes("--client");
@@ -14,9 +17,12 @@ const workerMode = process.argv.includes("--worker");
 const allMode = process.argv.includes("--all");
 const accessibilityMode = process.argv.includes("--accessibility");
 const longContentMode = process.argv.includes("--long-content");
-const qualityMode = allMode || accessibilityMode || longContentMode;
+const deploymentMode = Boolean(externalUrl);
+const qualityMode = allMode || accessibilityMode || longContentMode || deploymentMode;
 const outputDir = qualityMode
-  ? path.join(root, "artifacts", "ui-screenshots", "round09", accessibilityMode ? "accessibility" : longContentMode ? "long-content" : "regression")
+  ? deploymentMode
+    ? path.join(root, "artifacts", "ui-screenshots", "round10", "preview")
+    : path.join(root, "artifacts", "ui-screenshots", "round09", accessibilityMode ? "accessibility" : longContentMode ? "long-content" : "regression")
   : path.join(root, "docs", "ui-migration", "screenshots", workerMode ? "round-08" : clientMode ? "round-07" : adminMode ? "round-06" : dashboardMode ? "round-05" : "round-04");
 const browserPath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 const users = {
@@ -134,7 +140,24 @@ const round09Scenarios = [
   ...accessibilityScenarios,
   ...longContentScenarios,
 ];
-const scenarios = allMode ? round09Scenarios : accessibilityMode ? accessibilityScenarios : longContentMode ? longContentScenarios : workerMode ? workerScenarios : clientMode ? clientScenarios : adminMode ? adminScenarios : dashboardMode ? dashboardScenarios : shellScenarios;
+const deploymentScenarios = [
+  ["preview-public-root-393", 393, 852, "admin", "/", "public"],
+  ["preview-auth-393", 393, 852, "admin", "/auth", "auth"],
+  ["preview-admin-root-1440", 1440, 900, "admin", "/workspace/admin", "admin-root"],
+  ["preview-admin-detail-393", 393, 852, "admin", "/workspace/admin/cards/card-003", "admin-review"],
+  ["preview-client-root-1440", 1440, 900, "client", "/workspace/client", "client-root"],
+  ["preview-client-detail-393", 393, 852, "client", "/workspace/client/cards/card-002", "client-review"],
+  ["preview-client-revision-error", 393, 852, "client", "/workspace/client/cards/card-002", "client-revision-error"],
+  ["preview-worker-root-1440", 1440, 900, "worker", "/workspace/worker", "worker-root", "workerDev"],
+  ["preview-worker-detail-393", 393, 852, "worker", "/workspace/worker/cards/card-005", "worker-editable", "workerDev"],
+  ["preview-worker-disabled-reason", 393, 852, "worker", "/workspace/worker/cards/card-005", "worker-disabled", "workerDev"],
+  ["preview-tablet-rail-768", 768, 1024, "admin", "/workspace/admin", "admin-root"],
+  ["preview-mobile-sheet-open-393", 393, 852, "admin", "/workspace/admin", "menu"],
+  ["preview-user-menu-open", 1440, 900, "admin", "/workspace/admin", "user"],
+  ["preview-not-found", 393, 852, "admin", "/preview-not-found", "not-found"],
+  ["preview-wide-1920", 1920, 1080, "admin", "/workspace/admin", "admin-root"],
+];
+const scenarios = deploymentMode ? deploymentScenarios : allMode ? round09Scenarios : accessibilityMode ? accessibilityScenarios : longContentMode ? longContentScenarios : workerMode ? workerScenarios : clientMode ? clientScenarios : adminMode ? adminScenarios : dashboardMode ? dashboardScenarios : shellScenarios;
 
 class Cdp {
   constructor(url) { this.url = url; this.id = 0; this.pending = new Map(); }
@@ -174,8 +197,13 @@ async function evaluate(client, expression) {
 }
 
 fs.mkdirSync(outputDir, { recursive: true });
-const vite = childProcess.spawn(process.execPath, [path.join(root, "node_modules", "vite", "bin", "vite.js"), "--host", "127.0.0.1", "--port", "5174", "--strictPort"], { cwd: path.join(root, "apps", "web"), stdio: "ignore", windowsHide: true });
-await waitFor(baseUrl);
+const vite = deploymentMode ? null : childProcess.spawn(process.execPath, [path.join(root, "node_modules", "vite", "bin", "vite.js"), "--host", "127.0.0.1", "--port", "5174", "--strictPort"], { cwd: path.join(root, "apps", "web"), stdio: "ignore", windowsHide: true });
+if (deploymentMode) {
+  const response = await fetch(baseUrl);
+  if (!response.ok) throw new Error(`Deployment returned HTTP ${response.status}`);
+} else {
+  await waitFor(baseUrl);
+}
 const debugPort = await freePort();
 const profile = fs.mkdtempSync(path.join(os.tmpdir(), "ordo-shell-qa-"));
 const chrome = childProcess.spawn(browserPath, [`--remote-debugging-port=${debugPort}`, `--user-data-dir=${profile}`, "--headless=new", "--disable-gpu", "--disable-background-networking", "--disable-extensions", "--no-first-run", "--window-size=1440,900", baseUrl], { stdio: "ignore", windowsHide: true });
@@ -319,7 +347,7 @@ try {
   }
   console.log(JSON.stringify({ ok: true, scenarios: results }, null, 2));
 } finally {
-  client?.close(); chrome.kill(); vite.kill();
+  client?.close(); chrome.kill(); vite?.kill();
   await new Promise((resolve) => setTimeout(resolve, 200));
   fs.rmSync(profile, { recursive: true, force: true });
 }
