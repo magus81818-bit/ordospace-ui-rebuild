@@ -1,0 +1,31 @@
+{
+  "round": 7,
+  "recordedAt": "2026-07-21T23:53:00+09:00",
+  "branch": "redo/r07-client-dashboard",
+  "baseCommit": "6c4413e68c5239672bc01a1fe18dd926f663506b",
+  "overall": "PASS",
+  "commands": [
+    { "command": "npm ci", "exitCode": 0, "result": "PASS", "detail": "94 packages audited; 0 vulnerabilities" },
+    { "command": "npm run build", "exitCode": 0, "result": "PASS" },
+    { "command": "npm run check:js", "exitCode": 0, "result": "PASS" },
+    { "command": "npm run static:validate-components", "exitCode": 0, "result": "PASS" },
+    { "command": "npm run static:validate-lifecycle", "exitCode": 0, "result": "PASS" },
+    { "command": "npm run smoke", "exitCode": 0, "result": "PASS", "detail": "12 routes; runtime QA 20/20" },
+    { "command": "npm --prefix tests/redo/r01 run audit", "exitCode": 0, "result": "PASS", "detail": "4/4" },
+    { "command": "npm --prefix tests/redo/r02 run validate", "exitCode": 0, "result": "PASS", "detail": "73/73; product parity true" },
+    { "command": "npm --prefix tests/redo/r03 run validate", "exitCode": 0, "result": "PASS", "detail": "4/4; token inventory 219" },
+    { "command": "npm --prefix tests/redo/r04 run validate", "exitCode": 0, "result": "PASS", "detail": "9/9; primitives 10; public 18; routes 12; responsive 6; UI Lab screenshots 21" },
+    { "command": "npm --prefix tests/redo/r05 run validate", "exitCode": 0, "result": "PASS", "detail": "4/4; inventory 9; public 18" },
+    { "command": "npm --prefix tests/redo/r06 run validate", "exitCode": 0, "result": "PASS", "detail": "5/5; Admin 30; states 5; non-Admin 11; public 18; layout 30; accessibility 5" },
+    { "command": "npm --prefix tests/redo/r07 run validate", "exitCode": 0, "result": "PASS", "detail": "3/3; Client responsive 18; interactions 3 groups; non-Client 8; public 18; browser errors 0" },
+    { "command": "npm --prefix backend test -- --runInBand", "exitCode": 0, "result": "PASS", "detail": "8 suites; 36 tests" },
+    { "command": "npm --prefix backend run type", "exitCode": 0, "result": "PASS" },
+    { "command": "npm --prefix backend run build", "exitCode": 0, "result": "PASS" }
+  ],
+  "notes": [
+    "Round 3 and Round 4 validators explicitly disable approved descendant styles while measuring their original layer contracts.",
+    "Round 6 validator permits Client product changes only on approved Round 7+ descendants while continuing to reject backend, API, Worker, and Shell changes.",
+    "Public regression disables animation in audit context and compares stable DOM, computed color/background/border/radius, bounding boxes, auth-off state, and overflow with Client CSS enabled and disabled.",
+    "No production database or production API mutation test was executed."
+  ]
+}
