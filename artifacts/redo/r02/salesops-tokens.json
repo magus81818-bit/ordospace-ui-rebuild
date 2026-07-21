@@ -1,0 +1,747 @@
+{
+  "metadata": {
+    "generatedAt": "2026-07-21T09:36:48.111Z",
+    "authoritativeCss": "app/globals.css",
+    "mode": "dark values duplicated in :root and .dark",
+    "liveEvidence": "artifacts/redo/r02/salesops-browser-audit.json"
+  },
+  "Color": [
+    {
+      "id": "background",
+      "variable": "--background",
+      "value": "oklch(0.09 0.005 260)",
+      "use": "Dashboard background",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "foreground",
+      "variable": "--foreground",
+      "value": "oklch(0.95 0 0)",
+      "use": "Primary text",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "card",
+      "variable": "--card",
+      "value": "oklch(0.12 0.005 260)",
+      "use": "Surface",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "cardForeground",
+      "variable": "--card-foreground",
+      "value": "oklch(0.95 0 0)",
+      "use": "Card text",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "popover",
+      "variable": "--popover",
+      "value": "oklch(0.12 0.005 260)",
+      "use": "Elevated surface",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "popoverForeground",
+      "variable": "--popover-foreground",
+      "value": "oklch(0.95 0 0)",
+      "use": "Overlay text",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "primary",
+      "variable": "--primary",
+      "value": "oklch(0.95 0 0)",
+      "use": "Primary control",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "primaryForeground",
+      "variable": "--primary-foreground",
+      "value": "oklch(0.09 0.005 260)",
+      "use": "Primary control text",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "secondary",
+      "variable": "--secondary",
+      "value": "oklch(0.18 0.005 260)",
+      "use": "Muted surface",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "secondaryForeground",
+      "variable": "--secondary-foreground",
+      "value": "oklch(0.95 0 0)",
+      "use": "Secondary text",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "muted",
+      "variable": "--muted",
+      "value": "oklch(0.18 0.005 260)",
+      "use": "Muted surface",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "mutedForeground",
+      "variable": "--muted-foreground",
+      "value": "oklch(0.65 0 0)",
+      "use": "Muted text",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "accent",
+      "variable": "--accent",
+      "value": "oklch(0.7 0.18 145)",
+      "use": "Accent/success",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "accentForeground",
+      "variable": "--accent-foreground",
+      "value": "oklch(0.09 0.005 260)",
+      "use": "Accent text",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "destructive",
+      "variable": "--destructive",
+      "value": "oklch(0.65 0.2 25)",
+      "use": "Error/critical",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "destructiveForeground",
+      "variable": "--destructive-foreground",
+      "value": "oklch(0.95 0 0)",
+      "use": "Critical text",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "border",
+      "variable": "--border",
+      "value": "oklch(0.22 0.005 260)",
+      "use": "Border/divider",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "input",
+      "variable": "--input",
+      "value": "oklch(0.18 0.005 260)",
+      "use": "Input surface",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "ring",
+      "variable": "--ring",
+      "value": "oklch(0.7 0.18 145)",
+      "use": "Focus ring",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "sidebar",
+      "variable": "--sidebar",
+      "value": "oklch(0.11 0.005 260)",
+      "use": "Sidebar background",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "sidebarForeground",
+      "variable": "--sidebar-foreground",
+      "value": "oklch(0.95 0 0)",
+      "use": "Sidebar text",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "sidebarAccent",
+      "variable": "--sidebar-accent",
+      "value": "oklch(0.18 0.005 260)",
+      "use": "Sidebar selected surface",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "sidebarBorder",
+      "variable": "--sidebar-border",
+      "value": "oklch(0.22 0.005 260)",
+      "use": "Sidebar divider",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "success",
+      "variable": "--success",
+      "value": "oklch(0.7 0.18 145)",
+      "use": "Success",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "warning",
+      "variable": "--warning",
+      "value": "oklch(0.75 0.18 55)",
+      "use": "Warning",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "overlay",
+      "variable": "inferred",
+      "value": "rgba(0,0,0,0.8)",
+      "use": "Dialog/drawer overlay",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    },
+    {
+      "id": "disabled",
+      "variable": "inferred",
+      "value": "opacity 0.5",
+      "use": "Disabled controls",
+      "modes": [
+        "root",
+        "dark"
+      ],
+      "file": "app/globals.css",
+      "evidence": "ZIP",
+      "confidence": "Declared",
+      "live": "computed where rendered"
+    }
+  ],
+  "Typography": [
+    {
+      "id": "fontSans",
+      "value": "'DM Sans', 'DM Sans Fallback', system-ui, sans-serif",
+      "use": "body",
+      "source": "Declared classes",
+      "file": "app/globals.css + components/**/*.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "fontMono",
+      "value": "'JetBrains Mono', 'JetBrains Mono Fallback', monospace",
+      "use": "numbers/code",
+      "source": "Declared classes",
+      "file": "app/globals.css + components/**/*.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "pageTitle",
+      "value": "1.25rem/1.75rem 600",
+      "use": "header h1",
+      "source": "Declared classes",
+      "file": "app/globals.css + components/**/*.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "sectionTitle",
+      "value": "1.25rem/1.75rem 600",
+      "use": "section h2",
+      "source": "Declared classes",
+      "file": "app/globals.css + components/**/*.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "metricValue",
+      "value": "1.5rem–1.875rem 700",
+      "use": "metric value",
+      "source": "Declared classes",
+      "file": "app/globals.css + components/**/*.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "body",
+      "value": "0.875rem/1.25rem 400",
+      "use": "body",
+      "source": "Declared classes",
+      "file": "app/globals.css + components/**/*.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "label",
+      "value": "0.875rem/1.25rem 500",
+      "use": "labels",
+      "source": "Declared classes",
+      "file": "app/globals.css + components/**/*.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "caption",
+      "value": "0.75rem/1rem 400",
+      "use": "captions",
+      "source": "Declared classes",
+      "file": "app/globals.css + components/**/*.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "tableHeader",
+      "value": "0.75rem uppercase 600 tracking-wider",
+      "use": "thead",
+      "source": "Declared classes",
+      "file": "app/globals.css + components/**/*.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "tableText",
+      "value": "0.875rem/1.25rem",
+      "use": "tbody",
+      "source": "Declared classes",
+      "file": "app/globals.css + components/**/*.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "badge",
+      "value": "0.75rem 500",
+      "use": "badges",
+      "source": "Declared classes",
+      "file": "app/globals.css + components/**/*.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "button",
+      "value": "0.875rem 500",
+      "use": "buttons",
+      "source": "Declared classes",
+      "file": "app/globals.css + components/**/*.tsx",
+      "confidence": "Declared"
+    }
+  ],
+  "Geometry": [
+    {
+      "id": "radiusBase",
+      "value": "0.5rem",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "radiusSm",
+      "value": "calc(base - 4px)",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "radiusMd",
+      "value": "calc(base - 2px)",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "radiusLg",
+      "value": "0.5rem",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "radiusXl",
+      "value": "0.75rem",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "border",
+      "value": "1px",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "sidebarExpanded",
+      "value": "260px",
+      "file": "components/dashboard/sidebar.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "sidebarCollapsed",
+      "value": "72px",
+      "file": "components/dashboard/sidebar.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "headerHeight",
+      "value": "64px",
+      "file": "components/dashboard/header.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "contentPadding",
+      "value": "24px",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "gridGap",
+      "value": "24px primary / 16px compact",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "cardPadding",
+      "value": "20px metric / 24px general",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "controlHeight",
+      "value": "36px common",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "icon",
+      "value": "16–20px",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "avatar",
+      "value": "36px header / 80px settings",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared or measured"
+    },
+    {
+      "id": "tableRow",
+      "value": "64px deals",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared or measured"
+    }
+  ],
+  "Shadow": [
+    {
+      "id": "card",
+      "value": "none; border defines elevation",
+      "file": "components/ui/card.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "overlay",
+      "value": "Radix overlay + content elevation utilities",
+      "file": "components/ui/dialog.tsx",
+      "confidence": "Code only"
+    }
+  ],
+  "Interaction": [
+    {
+      "id": "hover",
+      "value": "accent/50 border or secondary surface",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared classes"
+    },
+    {
+      "id": "focusVisible",
+      "value": "ring-2 ring-ring/20 + accent border",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared classes"
+    },
+    {
+      "id": "active",
+      "value": "accent indicator/selected surface",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared classes"
+    },
+    {
+      "id": "selected",
+      "value": "data-[state=active] card surface",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared classes"
+    },
+    {
+      "id": "disabled",
+      "value": "pointer-events-none opacity-50",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared classes"
+    },
+    {
+      "id": "loading",
+      "value": "spinner/animate-spin and disabled action",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared classes"
+    },
+    {
+      "id": "transitionFast",
+      "value": "150–200ms",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared classes"
+    },
+    {
+      "id": "transitionStandard",
+      "value": "300ms ease-out",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared classes"
+    },
+    {
+      "id": "transitionEmphasis",
+      "value": "500ms fade/slide",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared classes"
+    },
+    {
+      "id": "overlayOpacity",
+      "value": "black/80",
+      "file": "components/**/*.tsx",
+      "confidence": "Declared"
+    }
+  ],
+  "Responsive": [
+    {
+      "id": "sm",
+      "value": "640px",
+      "file": "filter stacking",
+      "confidence": "Declared"
+    },
+    {
+      "id": "md",
+      "value": "768px",
+      "file": "header date/search and two-column settings",
+      "confidence": "Declared"
+    },
+    {
+      "id": "lg",
+      "value": "1024px",
+      "file": "metric type/grid expansion",
+      "confidence": "Declared"
+    },
+    {
+      "id": "xl",
+      "value": "1280px",
+      "file": "overview four-column metrics",
+      "confidence": "Declared"
+    },
+    {
+      "id": "sidebar",
+      "value": "No mobile replacement; fixed 260/72 px at all widths",
+      "file": "app/page.tsx",
+      "confidence": "Declared; responsive risk"
+    },
+    {
+      "id": "header",
+      "value": "Search remains; date hidden below md",
+      "file": "components/dashboard/header.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "table",
+      "value": "overflow-x-auto",
+      "file": "components/dashboard/sections/deals.tsx",
+      "confidence": "Declared"
+    },
+    {
+      "id": "chart",
+      "value": "ResponsiveContainer width/height",
+      "file": "components/dashboard/charts/*.tsx",
+      "confidence": "Declared"
+    }
+  ],
+  "Chart": [
+    {
+      "id": "chart1",
+      "variable": "--chart-1",
+      "value": "oklch(0.7 0.18 220)",
+      "file": "app/globals.css",
+      "confidence": "Declared"
+    },
+    {
+      "id": "chart2",
+      "variable": "--chart-2",
+      "value": "oklch(0.7 0.18 145)",
+      "file": "app/globals.css",
+      "confidence": "Declared"
+    },
+    {
+      "id": "chart3",
+      "variable": "--chart-3",
+      "value": "oklch(0.75 0.18 55)",
+      "file": "app/globals.css",
+      "confidence": "Declared"
+    },
+    {
+      "id": "chart4",
+      "variable": "--chart-4",
+      "value": "oklch(0.65 0.2 25)",
+      "file": "app/globals.css",
+      "confidence": "Declared"
+    },
+    {
+      "id": "chart5",
+      "variable": "--chart-5",
+      "value": "oklch(0.7 0.15 300)",
+      "file": "app/globals.css",
+      "confidence": "Declared"
+    }
+  ]
+}

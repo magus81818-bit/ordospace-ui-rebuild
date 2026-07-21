@@ -1,0 +1,18 @@
+{
+  "capturedAt": "2026-07-21T18:20:30+09:00",
+  "branch": "redo/r02-salesops-audit",
+  "startHead": "f10779ef7dcb0e419c85497eebf45888303b557a",
+  "round1Branch": "redo/r01-baseline-audit",
+  "round1MergeBase": "f10779ef7dcb0e419c85497eebf45888303b557a",
+  "remote": "https://github.com/magus81818-bit/ordospace-ui-rebuild.git",
+  "statusAtStart": [
+    "untracked references/prompts/round-2.md"
+  ],
+  "recentHistory": [
+    "f10779e docs(redo-r01): publish implementation report",
+    "bf595c5 test(redo-r01): add frozen visual baseline evidence",
+    "1f30f22 docs(redo-r01): record baseline inventories and verification",
+    "937d38b chore(redo-r01): establish clean source baseline"
+  ],
+  "forbiddenHistoryUsed": false
+}
