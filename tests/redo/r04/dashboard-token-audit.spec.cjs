@@ -251,7 +251,7 @@ test('dashboard foundation applies to required routes without layout or responsi
       expect(after.directOrder).toEqual(before.directOrder);
       expect(after.screenIds).toEqual(before.screenIds);
       expect(after.menu).toEqual(before.menu);
-      expect(delta).toBeLessThanOrEqual(1);
+      expect(delta, role+'/'+route+' '+JSON.stringify({before:before.boxes,after:after.boxes})).toBeLessThanOrEqual(1);
       expect(after.horizontalOverflow).toBeLessThanOrEqual(1);
       await setDescendantSheetsDisabled(page, false);
       const relative = `dashboard/${role}/${route}-desktop-1440x1000.png`;
