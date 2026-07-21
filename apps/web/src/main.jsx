@@ -7,7 +7,9 @@ import { router } from "./router.jsx";
 import { SessionProvider } from "./session/SessionContext.jsx";
 import "./styles.css";
 import "./design-system/tokens.css";
+import "@ordospace/ui-catalog/styles.css";
 import "./styles/migration.css";
+import "./styles/shell.css";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>

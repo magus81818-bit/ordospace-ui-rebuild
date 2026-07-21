@@ -558,6 +558,8 @@ async function waitForReactReady(cdp) {
           title: document.title || "",
           hasAppShell: !!document.querySelector(".app-shell"),
           hasRoot: !!document.querySelector("#root"),
+          rootHtml: document.querySelector("#root")?.innerHTML?.slice(0, 500) || "",
+          bodyText: body.slice(0, 500),
           hasVercelLogin:
             /Login\\s+[–-]\\s+Vercel/i.test(document.title || "") ||
             (body.includes("Continue with Email") && body.includes("Vercel")),
@@ -571,7 +573,7 @@ async function waitForReactReady(cdp) {
       );
     }
 
-    throw error;
+    throw new Error(`${error.message}\nDiagnostic: ${JSON.stringify(diagnostic)}`);
   }
 }
 
@@ -961,8 +963,15 @@ function getPostRefreshScript() {
           record("localStorage persisted after refresh", "card-005 revision_requested");
         }
 
-        const logout = queryAll("button").find((button) =>
-          String(button.textContent || "").trim().includes("Log out")
+        const userMenu = document.querySelector('.app-header [aria-label="사용자 메뉴 열기"]');
+        if (userMenu) {
+          userMenu.dispatchEvent(new PointerEvent("pointerdown", { bubbles: true, button: 0, pointerType: "mouse" }));
+          userMenu.click();
+          await waitFor("user menu open", () => Boolean(document.querySelector('[role="menu"]')));
+        }
+
+        const logout = queryAll('[role="menuitem"], button').find((button) =>
+          /Log out|로그아웃/.test(String(button.textContent || "").trim())
         );
 
         if (!logout) {
@@ -1023,7 +1032,11 @@ async function runSmoke(args) {
     await cdp.send("Page.enable");
     const usedVercelBypass = await applyVercelBypassHeaders(cdp, args.vercelBypassSecret);
     await cdp.send("Page.navigate", { url: targetUrl });
-    await waitForReactReady(cdp);
+    try {
+      await waitForReactReady(cdp);
+    } catch (error) {
+      throw new Error(`${error.message}\nRuntime: ${runtimeExceptions.join(" | ")}\nLogs: ${logErrors.join(" | ")}`);
+    }
 
     const flow = await evaluate(cdp, getBrowserFlowScript());
     await cdp.send("Page.reload", { ignoreCache: true });

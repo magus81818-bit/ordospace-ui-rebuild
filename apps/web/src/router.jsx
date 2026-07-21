@@ -1,7 +1,7 @@
 import { createHashRouter } from "react-router-dom";
 
+import { AppShell } from "./components/shell/index.js";
 import {
-  AppShell,
   AuthScreen,
   ModuleCardDetailScreen,
   NotFoundScreen,

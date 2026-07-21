@@ -2,8 +2,6 @@ import { useMemo, useState } from "react";
 import {
   Link,
   Navigate,
-  NavLink,
-  Outlet,
   useLocation,
   useNavigate,
   useParams,
@@ -52,14 +50,6 @@ import {
   StatusGrid,
 } from "./ui/index.js";
 
-const navItems = [
-  { to: "/", label: "Overview", public: true },
-  { to: "/auth", label: "Login", public: true },
-  { to: "/workspace/admin", label: "Admin", role: "admin" },
-  { to: "/workspace/worker", label: "Worker", role: "worker" },
-  { to: "/workspace/client", label: "Client", role: "client" },
-];
-
 const roleNotes = {
   admin: [
     "Create and assign ModuleCards.",
@@ -74,60 +64,6 @@ const roleNotes = {
     "Approve or request a revision.",
   ],
 };
-
-export function AppShell() {
-  const { session, currentUser, isAuthenticated, signOut } = useSession();
-  const navigate = useNavigate();
-  const visibleNavItems = navItems.filter(
-    (item) => item.public || item.role === session?.role,
-  );
-
-  function handleSignOut() {
-    signOut();
-    navigate("/auth", { replace: true });
-  }
-
-  return (
-    <div className="app-shell">
-      <aside className="sidebar" aria-label="React MVP navigation">
-        <Link className="brand" to="/">
-          <span className="brand-mark" aria-hidden="true">
-            O
-          </span>
-          <span>
-            <strong>ORDOSPACE</strong>
-            <small>React MVP</small>
-          </span>
-        </Link>
-
-        <nav className="nav-list">
-          {visibleNavItems.map((item) => (
-            <NavLink
-              key={item.to}
-              to={item.to}
-              className={({ isActive }) =>
-                isActive ? "nav-link is-active" : "nav-link"
-              }
-              end={item.to === "/"}
-            >
-              {item.label}
-            </NavLink>
-          ))}
-        </nav>
-
-        <SessionCard
-          currentUser={currentUser}
-          isAuthenticated={isAuthenticated}
-          onSignOut={handleSignOut}
-        />
-      </aside>
-
-      <main className="main-panel">
-        <Outlet />
-      </main>
-    </div>
-  );
-}
 
 export function OverviewScreen() {
   const { isAuthenticated, currentUser } = useSession();

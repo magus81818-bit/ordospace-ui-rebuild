@@ -30,11 +30,11 @@ export const SheetTitle = React.forwardRef<React.ElementRef<typeof DialogPrimiti
 SheetTitle.displayName = "SheetTitle";
 export const SheetDescription = React.forwardRef<React.ElementRef<typeof DialogPrimitive.Description>, React.ComponentPropsWithoutRef<typeof DialogPrimitive.Description>>(({ className, ...props }, ref) => <DialogPrimitive.Description ref={ref} className={cn("ordo-sheet__description", className)} {...props} />);
 SheetDescription.displayName = "SheetDescription";
-export const SheetContent = React.forwardRef<React.ElementRef<typeof DialogPrimitive.Content>, React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content> & { side?: "left" | "right" }>(({ className, side = "right", children, ...props }, ref) => (
+export const SheetContent = React.forwardRef<React.ElementRef<typeof DialogPrimitive.Content>, React.ComponentPropsWithoutRef<typeof DialogPrimitive.Content> & { side?: "left" | "right"; closeLabel?: string }>(({ className, side = "right", closeLabel = "패널 닫기", children, ...props }, ref) => (
   <DialogPrimitive.Portal>
     <DialogPrimitive.Overlay className="ordo-sheet__overlay" />
     <DialogPrimitive.Content ref={ref} className={cn("ordo-sheet__content", `ordo-sheet__content--${side}`, className)} {...props}>
-      {children}<DialogPrimitive.Close className="ordo-sheet__close" aria-label="패널 닫기">×</DialogPrimitive.Close>
+      {children}<DialogPrimitive.Close className="ordo-sheet__close" aria-label={closeLabel}>×</DialogPrimitive.Close>
     </DialogPrimitive.Content>
   </DialogPrimitive.Portal>
 ));
