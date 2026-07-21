@@ -303,17 +303,17 @@ function renderPartnerTable(){
   if (!tbody) return;
   tbody.innerHTML = PARTNER_DATA.map(p => {
     const sv = statusVisual(p.status);
-    const utilColor = p.util >= 95 ? '#EF4444' : (p.util >= 80 ? '#F59E0B' : '#10B981');
+    const utilClass = p.util >= 95 ? 'bg-st-critfg' : (p.util >= 80 ? 'bg-st-warnfg' : 'bg-st-okfg');
     const rating = p.rating ? `<span class="tabular">${p.rating.toFixed(1)}</span><span class="text-tx-tertiary text-[11px]">/5.0</span>` : '<span class="text-tx-tertiary">–</span>';
     const actionMain = p.status === 'pending'
       ? `<button onclick="alert('${p.name}에게 초대 메일을 재발송했습니다.')" class="h-7 px-2.5 text-[11px] font-semibold rounded-md border border-bd-default hover:bg-bg-secondary">초대 재발송</button>`
       : (p.status === 'active'
         ? `<button onclick="if(confirm('${p.name} 작업자를 휴직 처리할까요?')) alert('${p.name}의 상태가 휴직으로 전환되었습니다.')" class="h-7 px-2.5 text-[11px] font-semibold rounded-md border border-bd-default hover:bg-bg-secondary">휴직 전환</button>`
         : `<button onclick="alert('${p.name} 상세 화면으로 이동')" class="h-7 px-2.5 text-[11px] font-semibold rounded-md border border-bd-default hover:bg-bg-secondary">복귀 요청</button>`);
-    return `<tr class="hover:bg-bg-secondary">
+    return `<tr class="ordo-admin-table-row hover:bg-bg-secondary">
       <td class="px-4 py-3 whitespace-nowrap">
         <div class="flex items-center gap-2.5">
-          <div class="w-8 h-8 rounded-full bg-bg-tertiary border border-bd-default flex items-center justify-center text-[12px] font-semibold shrink-0">${p.initial}</div>
+          <div class="ordo-admin-avatar w-8 h-8 rounded-full bg-bg-tertiary border border-bd-default flex items-center justify-center text-[12px] font-semibold shrink-0">${p.initial}</div>
           <div>
             <div class="text-[13px] font-semibold">${p.name}</div>
             <div class="text-[11px] text-tx-tertiary font-mono">${p.id}</div>
@@ -323,12 +323,12 @@ function renderPartnerTable(){
       <td class="px-4 py-3 text-tx-secondary whitespace-nowrap">${p.role}</td>
       <td class="px-4 py-3">
         <div class="flex flex-wrap gap-1 max-w-[260px]">
-          ${p.skills.map(s => `<span class="inline-flex items-center h-5 px-1.5 rounded bg-bg-tertiary border border-bd-default text-[10px] font-medium text-tx-secondary">${s}</span>`).join('')}
+          ${p.skills.map(s => `<span class="ordo-admin-skill-chip inline-flex items-center h-5 px-1.5 rounded bg-bg-tertiary border border-bd-default text-[10px] font-medium text-tx-secondary">${s}</span>`).join('')}
         </div>
       </td>
       <td class="px-4 py-3 whitespace-nowrap">
         ${p.util > 0 ? `<div class="flex items-center gap-2 w-32">
-          <div class="progress-track ordo-c-progress-track flex-1" style="height:5px;"><div class="progress-fill" style="width:${p.util}%; background:${utilColor};"></div></div>
+          <div class="progress-track ordo-c-progress-track flex-1" style="height:5px;"><div class="progress-fill ${utilClass}" style="width:${p.util}%;"></div></div>
           <span class="tabular text-[11px] font-semibold w-8 text-right">${p.util}%</span>
         </div>` : '<span class="text-[11px] text-tx-tertiary">–</span>'}
       </td>
@@ -350,21 +350,52 @@ function renderPartnerTable(){
   refreshIcons();
 }
 
-// 파트너 초대 바텀시트
-document.getElementById('btnInvitePartner')?.addEventListener('click', () => {
-  document.getElementById('invitePartnerSheet')?.classList.remove('hidden');
-  setTimeout(() => document.querySelector('#invitePartnerSheet .sheet')?.classList.add('open'), 10);
+// 파트너 초대 바텀시트 — 기존 성공 동작을 유지하면서 검증과 focus return을 보강합니다.
+let adminInviteReturnFocus = null;
+function closeAdminInviteSheet(){
+  const root = document.getElementById('invitePartnerSheet');
+  document.querySelector('#invitePartnerSheet .sheet')?.classList.remove('open');
+  root?.setAttribute('aria-hidden','true');
+  setTimeout(() => {
+    root?.classList.add('hidden');
+    adminInviteReturnFocus?.focus();
+  }, 200);
+}
+document.getElementById('btnInvitePartner')?.addEventListener('click', (event) => {
+  adminInviteReturnFocus = event.currentTarget;
+  const root = document.getElementById('invitePartnerSheet');
+  root?.classList.remove('hidden');
+  root?.setAttribute('aria-hidden','false');
+  setTimeout(() => {
+    document.querySelector('#invitePartnerSheet .sheet')?.classList.add('open');
+    document.getElementById('invitePartnerName')?.focus();
+  }, 10);
   refreshIcons();
 });
-document.getElementById('invitePartnerSheet')?.addEventListener('click', (e) => {
-  if (e.target.matches('[data-close-invite]')) {
-    document.querySelector('#invitePartnerSheet .sheet')?.classList.remove('open');
-    setTimeout(() => document.getElementById('invitePartnerSheet')?.classList.add('hidden'), 200);
+document.getElementById('invitePartnerSheet')?.addEventListener('click', (event) => {
+  if (event.target.matches('[data-close-invite]')) closeAdminInviteSheet();
+});
+document.getElementById('invitePartnerSheet')?.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') {
+    event.preventDefault();
+    closeAdminInviteSheet();
   }
 });
 document.getElementById('invitePartnerSubmit')?.addEventListener('click', () => {
-  document.querySelector('#invitePartnerSheet .sheet')?.classList.remove('open');
-  setTimeout(() => document.getElementById('invitePartnerSheet')?.classList.add('hidden'), 200);
+  const fields = [...document.querySelectorAll('#invitePartnerSheet input[required]')];
+  const invalid = fields.filter((field) => !field.value.trim());
+  const message = document.getElementById('invitePartnerValidation');
+  fields.forEach((field) => field.setAttribute('aria-invalid', String(invalid.includes(field))));
+  if (invalid.length) {
+    if (message) {
+      message.textContent = '이름, 역할, 스킬을 모두 입력하세요.';
+      message.classList.remove('hidden');
+    }
+    invalid[0].focus();
+    return;
+  }
+  message?.classList.add('hidden');
+  closeAdminInviteSheet();
   alert('초대 메일을 발송했습니다. 온보딩 대기 목록에 추가됩니다.');
 });
 
@@ -378,7 +409,7 @@ document.getElementById('invitePartnerSubmit')?.addEventListener('click', () => 
 function cellVisual(h){
   if (h === 0) return { bg:'bg-bg-tertiary', border:'border-bd-default', text:'text-tx-tertiary', label:'–' };
   if (h <= 6)  return { bg:'bg-st-okbg',      border:'border-st-okbd',    text:'text-st-okfg',     label:h+'h' };
-  if (h <= 8)  return { bg:'',                border:'',                  text:'',                 label:h+'h', custom:'background:#D1FAE5;border:1px solid #6EE7B7;color:#047857;' };
+  if (h <= 8)  return { bg:'bg-st-okbg',      border:'border-st-okbd',    text:'text-st-okfg',     label:h+'h' };
   if (h <= 9)  return { bg:'bg-st-warnbg',    border:'border-st-warnbd',  text:'text-st-warnfg',   label:h+'h' };
   return         { bg:'bg-st-critbg',    border:'border-st-critbd',  text:'text-st-critfg',   label:h+'h' };
 }
@@ -436,20 +467,48 @@ function renderHeatmap(){
   });
 }
 
-document.addEventListener('input', (e) => {
-  if (e.target.id === 'reassignHoursRange') {
-    const v = parseInt(e.target.value);
-    document.getElementById('reassignHoursLabel').textContent = v + 'h';
-    document.getElementById('reassignWarn').classList.toggle('hidden', v < 10);
+let adminReassignReturnFocus = null;
+document.addEventListener('click', (event) => {
+  const cell = event.target.closest('.heat-cell');
+  if (!cell) return;
+  adminReassignReturnFocus = cell;
+  setTimeout(() => {
+    const modal = document.getElementById('reassignModal');
+    const range = document.getElementById('reassignHoursRange');
+    const submit = document.getElementById('reassignSubmit');
+    if (!modal || !range || !submit) return;
+    range.dataset.initialValue = range.value;
+    submit.disabled = true;
+    modal.setAttribute('aria-hidden','false');
+    range.focus();
+  });
+});
+document.addEventListener('input', (event) => {
+  if (event.target.id === 'reassignHoursRange') {
+    const value = parseInt(event.target.value);
+    document.getElementById('reassignHoursLabel').textContent = value + 'h';
+    document.getElementById('reassignWarn').classList.toggle('hidden', value < 10);
+    const submit = document.getElementById('reassignSubmit');
+    if (submit) submit.disabled = event.target.value === event.target.dataset.initialValue;
   }
 });
+function closeAdminReassignModal(){
+  const modal = document.getElementById('reassignModal');
+  modal?.classList.add('hidden');
+  modal?.setAttribute('aria-hidden','true');
+  adminReassignReturnFocus?.focus();
+}
 document.getElementById('reassignModal')?.addEventListener('click', (e) => {
-  if (e.target.matches('[data-close-reassign]')) {
-    document.getElementById('reassignModal')?.classList.add('hidden');
+  if (e.target.matches('[data-close-reassign]')) closeAdminReassignModal();
+});
+document.getElementById('reassignModal')?.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') {
+    event.preventDefault();
+    closeAdminReassignModal();
   }
 });
 document.getElementById('reassignSubmit')?.addEventListener('click', () => {
-  document.getElementById('reassignModal')?.classList.add('hidden');
+  closeAdminReassignModal();
   alert('배정이 저장되었습니다. 작업자에게 변경 알림이 발송됩니다.');
 });
 
@@ -547,7 +606,7 @@ function renderAuditTimeline(){
         <i data-lucide="arrow-right" class="w-3 h-3 text-tx-tertiary"></i>
         <span class="inline-flex items-center h-5 px-2 rounded ${badgeCls} border font-mono font-semibold">${e.change.to}</span>
       </div>` : '';
-    return `<li class="relative">
+    return `<li class="ordo-admin-audit-event relative" tabindex="0">
       <span class="absolute -left-[29px] lg:-left-[38px] top-1 w-3.5 h-3.5 rounded-full ${dotColor} ring-4 ring-white"></span>
       <div class="flex items-start justify-between gap-3 flex-wrap">
         <div class="flex items-center gap-2 flex-wrap">
@@ -603,16 +662,16 @@ function adminProjectStatusLabel(p){const remain=adminRemainingDays(p);if(p.tone
 function adminProjectSummaryRows(){return adminProjects().slice(0,3);}
 function adminActionCard(title,count,sub,tone,icon,href){return '<a href="'+moduleEsc(href||'#admin-cards')+'" class="action-card group relative bg-white border border-bd-default rounded-xl pl-5 pr-4 py-4 hover:border-bd-emphasis transition shadow-subtle block ordo-c-action-card"><span class="bar-l '+moduleDot(tone)+'"></span><div class="flex items-center gap-2 mb-2">'+adminBadge(title,tone)+'<span class="text-[12px] text-tx-tertiary">즉시 조치</span></div><div class="flex items-end justify-between gap-3"><div><p class="text-[24px] font-semibold tabular">'+moduleEsc(count)+'<span class="text-[13px] text-tx-secondary font-medium ml-0.5">건</span></p><p class="text-[12px] text-tx-secondary mt-1 leading-relaxed">'+moduleEsc(sub)+'</p></div><i data-lucide="'+moduleEsc(icon||'chevron-right')+'" class="w-4 h-4 text-tx-tertiary group-hover:text-tx-primary"></i></div></a>';}
 function renderAdminHome(){const cards=moduleCards(),todayMs=adminDateTime(adminTodayText());const open=function(c){return !['done','approved'].includes(c.status);};const overdue=cards.filter(function(c){return c.dueDate&&adminDateTime(c.dueDate)<todayMs&&open(c);});const reviewBacklog=cards.filter(function(c){return c.status==='review'&&adminHoursSince(c.reviewRequestedAt||c.startedAt||c.createdAt)>=48;});const review3d=cards.filter(function(c){return c.status==='review'&&adminHoursSince(c.reviewRequestedAt||c.startedAt||c.createdAt)>=72;});const mhRows=cards.map(function(c){const cap=adminMhCap(c.mhEstimate),actual=adminMhActual(c.mhActual);return {card:c,cap:cap,actual:actual,ratio:cap?actual/cap:0};});const mhActual=mhRows.reduce(function(s,r){return s+r.actual;},0);const mhCap=mhRows.reduce(function(s,r){return s+r.cap;},0);const overburn=mhRows.filter(function(r){return r.cap&&r.ratio>1.5;}).map(function(r){return r.card;});const byProject={};cards.forEach(function(c){if(!c.projectId)return;byProject[c.projectId]=byProject[c.projectId]||[];byProject[c.projectId].push(c);});const activeProjects=Object.keys(byProject).filter(function(id){return byProject[id].some(open);}).length;setHtml('adminHomeKpis',moduleMetric('마감 초과',overdue.length+'건','dueDate < 기준일 · 완료/승인 제외',overdue.length?'text-st-critfg':'')+moduleMetric('리뷰 적체',reviewBacklog.length+'건','review 상태 48h+ 경과',reviewBacklog.length?'text-st-warnfg':'')+moduleMetric('MH 소진율',safePct(mhActual,mhCap)+'%','Σ 실제 MH / Σ estimate 상한')+moduleMetric('진행 프로젝트',activeProjects+'건','ModuleCard가 남아 있는 프로젝트'));const today=document.getElementById('adminHomeToday');if(today)today.textContent=adminTodayText()+' 기준';const actions=[];if(overdue.length)actions.push(adminActionCard('마감 초과',overdue.length,overdue[0].spec+' · '+overdue[0].module+' 포함', 'crit','alarm-clock','#admin-cards?filter=overdue'));if(overburn.length)actions.push(adminActionCard('MH 150% 초과',overburn.length,overburn[0].spec+' · '+overburn[0].module+' 포함', 'crit','gauge','#admin-cards'));if(review3d.length)actions.push(adminActionCard('리뷰 3일+ 적체',review3d.length,review3d[0].spec+' · '+review3d[0].module+' 리뷰 대기', 'warn','message-square-warning','#admin-cards?filter=review'));setHtml('adminHomeActions',actions.slice(0,3).join('')||'<div class="lg:col-span-3 rounded-xl border border-dashed border-bd-default bg-bg-secondary p-6 text-[13px] font-semibold text-st-okfg">즉시 조치가 필요한 ModuleCard가 없습니다.</div>');setHtml('adminHomeProjectRows',adminProjectSummaryRows().map(function(p){const prog=adminProjectProgress(p),remain=adminRemainingDays(p),tone=remain<0?'crit':p.tone;return '<tr data-admin-home-project="'+moduleEsc(p.id)+'" class="hover:bg-bg-secondary cursor-pointer"><td class="px-4 py-3"><div class="font-semibold text-tx-primary">'+moduleEsc(p.name)+'</div><div class="text-[11px] text-tx-tertiary mt-0.5">'+moduleEsc(p.pm)+' · '+moduleEsc(p.client)+'</div></td><td class="px-4 py-3 text-tx-secondary">'+moduleEsc(p.step)+'</td><td class="px-4 py-3"><div class="flex items-center gap-2"><div class="progress-track ordo-c-progress-track flex-1" style="height:6px;"><div class="progress-fill" style="width:'+prog.pct+'%"></div></div><span class="text-[12px] tabular font-semibold w-10 text-right">'+prog.pct+'%</span></div></td><td class="px-4 py-3 text-right tabular font-semibold '+(remain<0?'text-st-critfg':'text-tx-primary')+'">'+(remain<0?'D+'+Math.abs(remain):'D-'+remain)+'</td><td class="px-4 py-3">'+adminBadge(adminProjectStatusLabel(p),tone)+'</td></tr>';}).join(''));document.querySelectorAll('[data-admin-home-project]').forEach(function(row){row.onclick=function(){location.hash='#admin-projects?projectId='+encodeURIComponent(row.getAttribute('data-admin-home-project'));if(typeof navigate==='function')navigate(location.hash);};});const people=Object.entries(ORDO_MODULE_PEOPLE).filter(function(x){return x[0]!=='unassigned';}).slice(0,3);setHtml('adminHomeResourceRows',people.map(function(entry){const id=entry[0],p=entry[1],mine=cards.filter(function(c){return c.assignedTo===id;}),progress=mine.filter(function(c){return ['in_progress','review','revision'].includes(c.status);}).length,pending=mine.filter(function(c){return c.status==='pending';}).length,weekly=mine.reduce(function(sum,c){return sum+(c.workLogs||[]).reduce(function(s,l){return s+adminMhActual(l.hours||l.text);},0);},0)||mine.reduce(function(sum,c){return sum+adminMhActual(c.mhActual);},0);return '<button type="button" data-admin-home-worker="'+moduleEsc(id)+'" class="w-full px-4 lg:px-5 py-4 text-left hover:bg-bg-secondary"><div class="flex items-center justify-between gap-3"><div class="flex items-center gap-3 min-w-0"><div class="w-9 h-9 rounded-full bg-bg-tertiary border border-bd-default flex items-center justify-center text-[12px] font-semibold shrink-0">'+moduleEsc(p.name.slice(0,1))+'</div><div class="min-w-0"><div class="text-[13px] font-semibold truncate">'+moduleEsc(p.name)+'</div><div class="text-[11px] text-tx-tertiary truncate">'+moduleEsc(p.role)+'</div></div></div><div class="grid grid-cols-3 gap-3 text-right text-[12px] shrink-0"><span><b class="tabular">'+progress+'</b><em class="block not-italic text-[10px] text-tx-tertiary">진행</em></span><span><b class="tabular">'+pending+'</b><em class="block not-italic text-[10px] text-tx-tertiary">대기</em></span><span><b class="tabular">'+weekly+'</b><em class="block not-italic text-[10px] text-tx-tertiary">MH</em></span></div></div></button>';}).join(''));document.querySelectorAll('[data-admin-home-worker]').forEach(function(btn){btn.onclick=function(){location.hash='#admin-team?worker='+encodeURIComponent(btn.getAttribute('data-admin-home-worker'));if(typeof navigate==='function')navigate(location.hash);};});if(window.refreshIcons)window.refreshIcons();else if(window.lucide)window.lucide.createIcons();}
-function adminProjectCardHtml(p){const prog=adminProjectProgress(p),remain=adminRemainingDays(p),tone=remain<0?'crit':p.tone;return '<button type="button" data-admin-project-card="'+moduleEsc(p.id)+'" class="w-full text-left bg-white border '+(p.id===_adminProjectSelectedId?'border-brand-primary':'border-bd-default')+' rounded-xl p-4 shadow-subtle hover:border-bd-emphasis transition"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><h3 class="text-[14px] font-semibold leading-snug truncate">'+moduleEsc(p.name)+'</h3><p class="text-[11px] text-tx-tertiary mt-1 truncate">'+moduleEsc(p.pm)+' · '+moduleEsc(p.client)+'</p></div>'+adminBadge(adminProjectStatusLabel(p),tone)+'</div><p class="text-[12px] text-tx-secondary mt-3 leading-relaxed">'+moduleEsc(p.summary)+'</p><div class="mt-4">'+progressTrackHtml('Module 진행률',prog.approved,prog.total,'approved / total 기준')+'</div><div class="mt-3 flex items-center justify-between text-[11px] text-tx-tertiary"><span>'+moduleEsc(p.step)+'</span><span class="tabular '+(remain<0?'text-st-critfg font-semibold':'')+'">'+(remain<0?'D+'+Math.abs(remain):'D-'+remain)+'</span></div></button>';}
+function adminProjectCardHtml(p){const prog=adminProjectProgress(p),remain=adminRemainingDays(p),tone=remain<0?'crit':p.tone,selected=p.id===_adminProjectSelectedId;return '<button type="button" data-admin-project-card="'+moduleEsc(p.id)+'" data-state="'+(selected?'selected':'default')+'" aria-pressed="'+selected+'" class="ordo-admin-project-card w-full text-left bg-white border '+(selected?'border-brand-primary':'border-bd-default')+' rounded-xl p-4 shadow-subtle hover:border-bd-emphasis transition"><div class="flex items-start justify-between gap-3"><div class="min-w-0"><h3 class="text-[14px] font-semibold leading-snug">'+moduleEsc(p.name)+'</h3><p class="text-[11px] text-tx-tertiary mt-1">'+moduleEsc(p.pm)+' · '+moduleEsc(p.client)+'</p></div>'+adminBadge(adminProjectStatusLabel(p),tone)+'</div><p class="text-[12px] text-tx-secondary mt-3 leading-relaxed">'+moduleEsc(p.summary)+'</p><div class="mt-4">'+progressTrackHtml('Module 진행률',prog.approved,prog.total,'approved / total 기준')+'</div><div class="mt-3 flex items-center justify-between text-[11px] text-tx-tertiary"><span>'+moduleEsc(p.step)+'</span><span class="tabular '+(remain<0?'text-st-critfg font-semibold':'')+'">'+(remain<0?'D+'+Math.abs(remain):'D-'+remain)+'</span></div></button>';}
 function renderAdminProjects(){const projects=adminProjects();const requested=new URLSearchParams((location.hash.split('?')[1]||'')).get('projectId');if(requested&&projects.some(function(p){return p.id===requested;}))_adminProjectSelectedId=requested;document.querySelectorAll('[data-admin-project-view]').forEach(function(btn){const active=btn.getAttribute('data-admin-project-view')===_adminProjectView;btn.classList.toggle('bg-white',active);btn.classList.toggle('shadow-subtle',active);btn.classList.toggle('text-tx-secondary',!active);btn.onclick=function(){_adminProjectView=btn.getAttribute('data-admin-project-view');renderAdminProjects();};});document.getElementById('adminProjectBoardView')?.classList.toggle('hidden',_adminProjectView!=='board');document.getElementById('adminProjectTableView')?.classList.toggle('hidden',_adminProjectView!=='table');const columns=[['proposal','제안','pend'],['contract','계약','warn'],['execution','실행','pend'],['qa','검수','ok'],['closed','종료','default']];setHtml('adminProjectBoard',columns.map(function(col){const list=projects.filter(function(p){return p.stage===col[0];});return '<section class="bg-bg-tertiary/60 border border-bd-default rounded-xl p-3"><div class="flex items-center justify-between mb-3 px-1"><div class="flex items-center gap-2"><span class="w-2 h-2 rounded-full '+moduleDot(col[2])+'"></span><h2 class="text-[13px] font-semibold">'+moduleEsc(col[1])+'</h2><span class="text-[11px] text-tx-tertiary tabular">('+list.length+')</span></div></div><div class="space-y-2">'+(list.map(adminProjectCardHtml).join('')||'<div class="rounded-lg border border-dashed border-bd-default bg-white/60 p-4 text-[12px] text-tx-tertiary">해당 단계 프로젝트 없음</div>')+'</div></section>';}).join(''));setHtml('adminProjectTableBody',projects.map(function(p){const prog=adminProjectProgress(p),remain=adminRemainingDays(p),tone=remain<0?'crit':p.tone;return '<tr data-admin-project-row="'+moduleEsc(p.id)+'" class="hover:bg-bg-secondary cursor-pointer"><td class="px-4 py-3"><div class="font-semibold">'+moduleEsc(p.name)+'</div><div class="text-[11px] text-tx-tertiary mt-0.5">'+moduleEsc(p.client)+'</div></td><td class="px-4 py-3 text-tx-secondary">'+moduleEsc(p.pm)+'</td><td class="px-4 py-3 text-tx-secondary">'+moduleEsc(p.step)+'</td><td class="px-4 py-3"><div class="flex items-center gap-2"><div class="progress-track ordo-c-progress-track flex-1" style="height:6px;"><div class="progress-fill" style="width:'+prog.pct+'%"></div></div><span class="text-[12px] font-semibold tabular w-10 text-right">'+prog.pct+'%</span></div></td><td class="px-4 py-3 text-right tabular font-semibold '+(remain<0?'text-st-critfg':'')+'">'+(remain<0?'D+'+Math.abs(remain):'D-'+remain)+'</td><td class="px-4 py-3">'+adminBadge(adminProjectStatusLabel(p),tone)+'</td><td class="px-4 py-3 text-tx-secondary">'+moduleEsc(p.gate)+'</td><td class="px-4 py-3 text-right tabular">'+moduleEsc(p.contractMh)+'</td></tr>';}).join(''));document.querySelectorAll('[data-admin-project-card], [data-admin-project-row]').forEach(function(el){el.onclick=function(){_adminProjectSelectedId=el.getAttribute('data-admin-project-card')||el.getAttribute('data-admin-project-row');_adminProjectDetailTab='timeline';renderAdminProjects();document.getElementById('adminProjectDetail')?.scrollIntoView({block:'nearest'});};});renderAdminProjectDetail(projects.find(function(p){return p.id===_adminProjectSelectedId;})||projects[0]);if(window.refreshIcons)window.refreshIcons();else if(window.lucide)window.lucide.createIcons();}
 function adminProjectTimelineHtml(p){if(p.id!=='proj-001')return '<div class="rounded-xl border border-dashed border-bd-default bg-bg-secondary p-6 text-[13px] text-tx-secondary">샘플 프로젝트입니다. 상세 ModuleCard는 proj-001 기준 화면에서 확인합니다.</div>';const cards=adminProjectCards(p.id).slice().sort(function(a,b){return (Number(a.step||0)-Number(b.step||0))||(dateRank(a.createdAt)-dateRank(b.createdAt));});const steps=[...new Set(cards.map(function(c){return c.step||3;}))];const design=cards.filter(function(c){return c.chain==='design';});const gatePassed=design.length&&design.every(function(c){return c.status==='approved';});return steps.map(function(step){const group=cards.filter(function(c){return (c.step||3)===step;});return '<section><div class="flex items-center gap-3 mb-3"><span class="text-[13px] font-semibold text-tx-primary whitespace-nowrap">Step '+moduleEsc(step)+': '+moduleEsc(ORDO_STEP_LABELS[step]||'제작')+'</span><span class="h-px bg-bd-default flex-1"></span></div><div class="grid grid-cols-1 lg:grid-cols-2 gap-3">'+group.map(moduleCard).join('')+'</div><div class="flex items-center gap-3 mt-5"><span class="h-px bg-bd-default flex-1"></span><span class="text-[12px] font-semibold text-tx-secondary whitespace-nowrap">Gate 2: Design Lock</span><span class="text-[12px] font-semibold '+(gatePassed?'text-st-okfg':'text-st-warnfg')+'">'+(gatePassed?'통과':'미통과')+'</span><span class="h-px bg-bd-default flex-1"></span></div></section>';}).join('');}
 function adminScopedPlaceholder(title,body){return '<section data-role-scope="admin" class="rounded-xl border border-bd-default bg-white p-5 shadow-subtle"><h3 class="text-[15px] font-semibold">'+moduleEsc(title)+'</h3><p class="text-[13px] text-tx-secondary mt-2 leading-relaxed">'+moduleEsc(body)+'</p></section>';}
 function adminProjectDetailTabs(){return [['timeline','타임라인'],['finance','재무'],['resource','투입'],['contract','계약']];}
 function adminProjectDetailBodyHtml(p){return _adminProjectDetailTab==='timeline'?adminProjectTimelineHtml(p):_adminProjectDetailTab==='finance'?adminScopedPlaceholder('재무',p.name+'의 계약 MH, 소진 MH, 추가비 정산 위험을 확인하는 관리자 전용 영역입니다.'): _adminProjectDetailTab==='resource'?adminScopedPlaceholder('투입',p.name+'의 PM/Worker 배정, 가동률, 병목을 확인하는 관리자 전용 영역입니다.'):adminScopedPlaceholder('계약',p.name+'의 계약 범위, 변경 요청, Gate 조건을 확인하는 관리자 전용 영역입니다.');}
 function adminProjectDetailHeaderHtml(p){return '<div class="px-4 lg:px-5 py-4 border-b border-bd-default flex items-start justify-between gap-3 flex-wrap"><div><p class="text-[11px] text-tx-tertiary">'+moduleEsc(p.client)+' \u00B7 '+moduleEsc(p.pm)+' \u00B7 \uACC4\uC57D MH '+moduleEsc(p.contractMh)+'</p><h2 class="text-[20px] lg:text-[22px] font-semibold mt-1">'+moduleEsc(p.name)+'</h2></div>'+adminBadge(adminProjectStatusLabel(p),p.tone)+'</div>';}
-function adminProjectDetailTabButtonHtml(tab){const active=tab[0]===_adminProjectDetailTab;return '<button type="button" data-admin-project-detail-tab="'+tab[0]+'" class="h-9 px-3 text-[13px] font-semibold border-b-2 whitespace-nowrap '+(active?'border-brand-primary text-tx-primary':'border-transparent text-tx-tertiary hover:text-tx-primary')+'">'+tab[1]+'</button>';}
+function adminProjectDetailTabButtonHtml(tab){const active=tab[0]===_adminProjectDetailTab;return '<button type="button" role="tab" aria-selected="'+active+'" aria-controls="adminProjectDetailPanel" data-admin-project-detail-tab="'+tab[0]+'" class="h-9 px-3 text-[13px] font-semibold border-b-2 whitespace-nowrap '+(active?'border-brand-primary text-tx-primary':'border-transparent text-tx-tertiary hover:text-tx-primary')+'">'+tab[1]+'</button>';}
 function bindAdminProjectDetailTabs(p){document.querySelectorAll('[data-admin-project-detail-tab]').forEach(function(btn){btn.onclick=function(){_adminProjectDetailTab=btn.getAttribute('data-admin-project-detail-tab');renderAdminProjectDetail(p);if(window.refreshIcons)window.refreshIcons();else if(window.lucide)window.lucide.createIcons();};});}
-function renderAdminProjectDetail(p){if(!p)return;const tabs=adminProjectDetailTabs();const body=adminProjectDetailBodyHtml(p);setHtml('adminProjectDetail','<article class="bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden">'+adminProjectDetailHeaderHtml(p)+'<div class="px-4 lg:px-5 pt-4 flex items-center gap-1 border-b border-bd-default overflow-x-auto">'+tabs.map(adminProjectDetailTabButtonHtml).join('')+'</div><div class="p-4 lg:p-5">'+body+'</div></article>');bindAdminProjectDetailTabs(p);}
+function renderAdminProjectDetail(p){if(!p)return;const tabs=adminProjectDetailTabs();const body=adminProjectDetailBodyHtml(p);setHtml('adminProjectDetail','<article class="ordo-admin-detail bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden">'+adminProjectDetailHeaderHtml(p)+'<div role="tablist" aria-label="프로젝트 상세" class="px-4 lg:px-5 pt-4 flex items-center gap-1 border-b border-bd-default overflow-x-auto">'+tabs.map(adminProjectDetailTabButtonHtml).join('')+'</div><div id="adminProjectDetailPanel" role="tabpanel" class="p-4 lg:p-5">'+body+'</div></article>');bindAdminProjectDetailTabs(p);}
 function adminWorkerMappedId(worker){return ({'W-101':'worker-001','W-102':'worker-002','W-103':'worker-003'})[worker.id]||'';}
 function renderAdminTeamHeatmap(){const tbody=document.getElementById('heatmapBody');if(!tbody||typeof WORKERS==='undefined')return;tbody.innerHTML=WORKERS.map(function(w,wi){const row=(typeof HEATMAP_DATA!=='undefined'&&HEATMAP_DATA[wi])||[[0,''],[0,''],[0,''],[0,''],[0,'']];const total=row.reduce(function(s,c){return s+c[0];},0);const mapped=adminWorkerMappedId(w),count=mapped?moduleCards().filter(function(c){return c.assignedTo===mapped;}).length:0;const totalColor=total>=46?'text-st-critfg':(total>=41?'text-st-warnfg':(total===0?'text-tx-tertiary':'text-tx-primary'));const cells=row.map(function(c,di){const v=typeof cellVisual==='function'?cellVisual(c[0]):{bg:'bg-bg-tertiary',border:'border-bd-default',text:'text-tx-tertiary',label:c[0]+'h'};const inlineStyle=v.custom?'style="'+v.custom+'"':'';return '<td class="px-2 py-2 text-center"><button class="heat-cell w-full h-12 rounded-md border text-[12px] font-semibold flex flex-col items-center justify-center transition hover:scale-[1.03] '+(v.bg||'')+' '+(v.border||'')+' '+(v.text||'')+'" '+inlineStyle+' data-worker="'+moduleEsc(w.name)+'" data-worker-initial="'+moduleEsc(w.initial)+'" data-day="'+di+'" data-hours="'+c[0]+'" data-project="'+moduleEsc(c[1]||'')+'"><span>'+moduleEsc(v.label)+'</span>'+(c[1]?'<span class="text-[9px] font-medium opacity-80 truncate w-full px-1">'+moduleEsc(c[1])+'</span>':'')+'</button></td>';}).join('');return '<tr class="hover:bg-bg-secondary"><td class="px-4 py-2 whitespace-nowrap sticky left-0 bg-white z-10 border-r border-bd-default"><div class="flex items-center gap-2.5"><div class="w-8 h-8 rounded-full bg-bg-tertiary border border-bd-default flex items-center justify-center text-[12px] font-semibold">'+moduleEsc(w.initial)+'</div><div><div class="text-[13px] font-semibold">'+moduleEsc(w.name)+'</div><div class="text-[10px] text-tx-tertiary">'+moduleEsc(w.role)+' · Module '+count+'건</div></div></div></td>'+cells+'<td class="px-4 py-2 text-right font-semibold tabular whitespace-nowrap '+totalColor+'">'+total+'h</td></tr>';}).join('');tbody.querySelectorAll('.heat-cell').forEach(function(btn){btn.addEventListener('click',function(){const days=['월 6/8','화 6/9','수 6/10','목 6/11','금 6/12'];const cur=parseInt(btn.dataset.hours,10)||0;const ids=['reassignWorkerName','reassignWorkerInitial','reassignSlot','reassignCurrent','reassignHoursLabel'];if(!ids.every(function(id){return document.getElementById(id);}))return;document.getElementById('reassignWorkerName').textContent=btn.dataset.worker;document.getElementById('reassignWorkerInitial').textContent=btn.dataset.workerInitial;document.getElementById('reassignSlot').textContent=days[parseInt(btn.dataset.day,10)]||'';document.getElementById('reassignCurrent').textContent=cur+'h';const range=document.getElementById('reassignHoursRange');if(range)range.value=cur;document.getElementById('reassignHoursLabel').textContent=cur+'h';document.getElementById('reassignWarn')?.classList.toggle('hidden',cur<10);document.getElementById('reassignModal')?.classList.remove('hidden');if(window.refreshIcons)window.refreshIcons();else if(window.lucide)window.lucide.createIcons();});});}
 function renderAdminTeam(){const partners=typeof PARTNER_DATA!=='undefined'?PARTNER_DATA:[];setHtml('adminTeamPartnerKpis',moduleMetric('활성','28','가동 가능 파트너')+moduleMetric('대기','3','초대/검증 대기','text-st-pendfg')+moduleMetric('이번 달','5','신규 온보딩'));const allCells=typeof HEATMAP_DATA!=='undefined'?HEATMAP_DATA.flat():[];const over=allCells.filter(function(c){return c[0]>=10;}).length,idle=allCells.filter(function(c){return c[0]===0;}).length;setHtml('adminTeamHeatmapKpis',moduleMetric('Worker','8명','월~금 히트맵')+moduleMetric('과배정',over+'칸','10h 이상','text-st-critfg')+moduleMetric('유휴',idle+'칸','0h 슬롯','text-tx-secondary')+moduleMetric('Module',moduleCards().filter(function(c){return c.assignedTo;}).length+'건','담당자 지정'));document.querySelectorAll('[data-admin-team-tab]').forEach(function(btn){const active=btn.getAttribute('data-admin-team-tab')===_adminTeamTab;btn.classList.toggle('bg-white',active);btn.classList.toggle('shadow-subtle',active);btn.classList.toggle('text-tx-secondary',!active);btn.onclick=function(){_adminTeamTab=btn.getAttribute('data-admin-team-tab');renderAdminTeam();};});document.querySelectorAll('[data-admin-team-panel]').forEach(function(panel){panel.classList.toggle('hidden',panel.getAttribute('data-admin-team-panel')!==_adminTeamTab);});if(typeof renderPartnerTable==='function')renderPartnerTable();renderAdminTeamHeatmap();if(window.refreshIcons)window.refreshIcons();else if(window.lucide)window.lucide.createIcons();}
@@ -643,7 +702,7 @@ function adminCardStatusFilters(cards){return [
 ];}
 function adminFilterCards(cards){return adminSortCards(cards.filter(function(c){if(_adminCardFilter==='review'&&c.status!=='review')return false;if(_adminCardFilter==='overdue'&&!adminCardIsOverdue(c))return false;if(_adminCardFilter==='in_progress'&&c.status!=='in_progress')return false;if(_adminCardFilter==='pending'&&c.status!=='pending')return false;if(_adminCardFilter==='done'&&!['done','approved'].includes(c.status))return false;if(_adminCardProjectFilter!=='all'&&c.projectId!==_adminCardProjectFilter)return false;if(_adminCardWorkerFilter==='unassigned'&&c.assignedTo)return false;if(_adminCardWorkerFilter!=='all'&&_adminCardWorkerFilter!=='unassigned'&&c.assignedTo!==_adminCardWorkerFilter)return false;if(_adminCardChainFilter!=='all'&&c.chain!==_adminCardChainFilter)return false;return true;}));}
 function adminSortCards(cards){return cards.slice().sort(function(a,b){return (adminDateTime(a.dueDate||'2999-12-31')-adminDateTime(b.dueDate||'2999-12-31'))||(dateRank(b.createdAt)-dateRank(a.createdAt));});}
-function adminFilterPillHtml(item){const active=item.id===_adminCardFilter,tone=item.tone==='crit'?'crit':(item.tone==='warn'?'warn':(item.tone==='ok'?'ok':'default'));const activeCls=active?'bg-brand-primary text-white border-brand-primary':(tone==='crit'?'bg-st-critbg text-st-critfg border-st-critbd':tone==='warn'?'bg-st-warnbg text-st-warnfg border-st-warnbd':tone==='ok'?'bg-st-okbg text-st-okfg border-st-okbd':'bg-white text-tx-secondary border-bd-default');return '<button type="button" data-admin-card-filter="'+item.id+'" class="h-8 px-3 rounded-full border text-[12px] font-semibold inline-flex items-center gap-1.5 '+activeCls+'">'+moduleEsc(item.label)+'<span class="tabular">'+item.count+'</span></button>';}
+function adminFilterPillHtml(item){const active=item.id===_adminCardFilter,tone=item.tone==='crit'?'crit':(item.tone==='warn'?'warn':(item.tone==='ok'?'ok':'default'));const activeCls=active?'bg-brand-primary text-white border-brand-primary':(tone==='crit'?'bg-st-critbg text-st-critfg border-st-critbd':tone==='warn'?'bg-st-warnbg text-st-warnfg border-st-warnbd':tone==='ok'?'bg-st-okbg text-st-okfg border-st-okbd':'bg-white text-tx-secondary border-bd-default');return '<button type="button" data-admin-card-filter="'+item.id+'" aria-pressed="'+active+'" class="h-8 px-3 rounded-full border text-[12px] font-semibold inline-flex items-center gap-1.5 '+activeCls+'">'+moduleEsc(item.label)+'<span class="tabular">'+item.count+'</span></button>';}
 function adminSelectOptionsHtml(type,cards){if(type==='project'){const ids=[...new Set(cards.map(function(c){return c.projectId;}).filter(Boolean))];return '<option value="all">프로젝트: 전체</option>'+ids.map(function(id){const p=adminProjects().find(function(x){return x.id===id;});return '<option value="'+moduleEsc(id)+'">'+moduleEsc(p?p.name:id)+'</option>';}).join('');}if(type==='worker'){const people=Object.entries(ORDO_MODULE_PEOPLE).filter(function(x){return x[0]!=='unassigned';});return '<option value="all">Worker: 전체</option><option value="unassigned">미배정</option>'+people.map(function(entry){return '<option value="'+moduleEsc(entry[0])+'">'+moduleEsc(entry[1].name)+'</option>';}).join('');}return '<option value="all">Chain: 전체</option>'+['design','dev','ops'].map(function(chain){return '<option value="'+chain+'">'+moduleEsc(ORDO_CHAIN_LABELS[chain]||chain)+'</option>';}).join('');}
 function adminCardListItemHtml(c,selected){
   // Screen logic keeps the overdue-tone decision; markup comes from the shared factory.
@@ -751,7 +810,7 @@ function adminCardDetailHtml(c){
 
 function adminGateReadyGroup(){const cards=moduleCards(),selected=cards.find(function(c){return c.id===_adminSelectedCardId;});const groups={};cards.forEach(function(c){if(!c.projectId||!c.gateRef)return;const key=c.projectId+'|'+c.gateRef;groups[key]=groups[key]||[];groups[key].push(c);});const keys=Object.keys(groups);const preferred=selected?[selected.projectId+'|'+selected.gateRef]:[];return preferred.concat(keys).filter(Boolean).map(function(key){const list=groups[key]||[],parts=key.split('|'),projectId=parts[0],gateRef=parts.slice(1).join('|');return {key:key,projectId:projectId,gateRef:gateRef,cards:list,approved:list.filter(function(c){return c.status==='approved';}).length,total:list.length};}).find(function(g){return g.total>0&&g.approved===g.total&&!adminIsGatePassed(g.projectId,g.gateRef);})||null;}
 function adminIsGatePassed(projectId,gateRef){const p=(window.ORDO_PROJECTS||[]).find(function(x){return x.id===projectId;});return !!(p&&p.gates&&p.gates[gateRef]&&p.gates[gateRef].status==='passed');}
-function renderAdminGateBanner(){const g=adminGateReadyGroup();if(!g){setHtml('adminGateBanner','');return;}setHtml('adminGateBanner','<article class="rounded-xl border border-st-okbd bg-st-okbg p-4 shadow-subtle flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3"><div class="flex items-start gap-3"><div class="w-9 h-9 rounded-full bg-st-okfg text-white flex items-center justify-center shrink-0"><i data-lucide="check" class="w-4 h-4"></i></div><div><h2 class="text-[15px] font-semibold text-st-okfg">'+moduleEsc(g.gateRef)+' 통과 가능</h2><p class="text-[12px] text-tx-secondary mt-1">연결 카드 '+g.approved+'/'+g.total+' approved</p></div></div><button type="button" data-admin-gate-pass="'+moduleEsc(g.key)+'" class="h-10 px-4 rounded-lg bg-brand-primary text-white hover:bg-brand-hover text-[13px] font-semibold inline-flex items-center justify-center gap-1.5"><i data-lucide="milestone" class="w-4 h-4"></i>Gate 통과 처리</button></article>');document.querySelector('[data-admin-gate-pass]')?.addEventListener('click',function(){if(!confirm(g.gateRef+' Gate를 통과 처리할까요?'))return;let project=(window.ORDO_PROJECTS||[]).find(function(p){return p.id===g.projectId;});if(!project){project={id:g.projectId,gates:{}};window.ORDO_PROJECTS.push(project);}project.gates=project.gates||{};project.gates[g.gateRef]={status:'passed',passedAt:nowDisplayText(),approved:g.approved,total:g.total};window.ORDO_TIMELINE_EVENTS=window.ORDO_TIMELINE_EVENTS||[];window.ORDO_TIMELINE_EVENTS.push({eventType:'gate.passed',time:nowDisplayText(),occurredAt:new Date().toISOString(),actor:'이매니저 PM',visibility:'public',milestoneId:'m3',target:'gate-'+g.gateRef.toLowerCase().replace(/\s+/g,'-'),title:'Gate 통과',summary:g.gateRef+' Gate가 PM에 의해 통과 처리되었습니다.',tone:'ok'});renderAdminCards();renderAdminProjects();window.ordoToast?.('Gate 통과 처리되었습니다','ok');});if(window.refreshIcons)window.refreshIcons();else if(window.lucide)window.lucide.createIcons();}
+function renderAdminGateBanner(){const g=adminGateReadyGroup();if(!g){setHtml('adminGateBanner','');return;}setHtml('adminGateBanner','<article role="status" class="ordo-admin-state-banner rounded-xl border border-st-okbd bg-st-okbg p-4 shadow-subtle flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3"><div class="flex items-start gap-3"><div class="w-9 h-9 rounded-full bg-st-okfg text-white flex items-center justify-center shrink-0"><i data-lucide="check" class="w-4 h-4"></i></div><div><h2 class="text-[15px] font-semibold text-st-okfg">'+moduleEsc(g.gateRef)+' 통과 가능</h2><p class="text-[12px] text-tx-secondary mt-1">연결 카드 '+g.approved+'/'+g.total+' approved</p></div></div><button type="button" data-admin-gate-pass="'+moduleEsc(g.key)+'" class="h-10 px-4 rounded-lg bg-brand-primary text-white hover:bg-brand-hover text-[13px] font-semibold inline-flex items-center justify-center gap-1.5"><i data-lucide="milestone" class="w-4 h-4"></i>Gate 통과 처리</button></article>');document.querySelector('[data-admin-gate-pass]')?.addEventListener('click',function(){if(!confirm(g.gateRef+' Gate를 통과 처리할까요?'))return;let project=(window.ORDO_PROJECTS||[]).find(function(p){return p.id===g.projectId;});if(!project){project={id:g.projectId,gates:{}};window.ORDO_PROJECTS.push(project);}project.gates=project.gates||{};project.gates[g.gateRef]={status:'passed',passedAt:nowDisplayText(),approved:g.approved,total:g.total};window.ORDO_TIMELINE_EVENTS=window.ORDO_TIMELINE_EVENTS||[];window.ORDO_TIMELINE_EVENTS.push({eventType:'gate.passed',time:nowDisplayText(),occurredAt:new Date().toISOString(),actor:'이매니저 PM',visibility:'public',milestoneId:'m3',target:'gate-'+g.gateRef.toLowerCase().replace(/\s+/g,'-'),title:'Gate 통과',summary:g.gateRef+' Gate가 PM에 의해 통과 처리되었습니다.',tone:'ok'});renderAdminCards();renderAdminProjects();window.ordoToast?.('Gate 통과 처리되었습니다','ok');});if(window.refreshIcons)window.refreshIcons();else if(window.lucide)window.lucide.createIcons();}
 /* Legacy direct-mutation adminAfterCardMutation/bindAdminCardActions removed in round 7.
    The lifecycle-service versions below are now the only implementations. */
 
@@ -967,9 +1026,17 @@ function submitAdminBulkCreate(){
     .map(function(input){ return SAMPLE_MODULES[Number(input.getAttribute('data-admin-bulk-module'))]; })
     .filter(Boolean);
   if (!selected.length) {
+    const validation = document.getElementById('adminBulkValidation');
+    if (validation) {
+      validation.textContent = '생성할 Module을 하나 이상 선택하세요.';
+      validation.classList.remove('hidden');
+    }
+    document.getElementById('adminBulkModuleList')?.setAttribute('aria-invalid','true');
     alert('생성할 Module을 선택하세요.');
     return;
   }
+  document.getElementById('adminBulkValidation')?.classList.add('hidden');
+  document.getElementById('adminBulkModuleList')?.setAttribute('aria-invalid','false');
 
   const projectId = document.getElementById('adminBulkProject')?.value || 'proj-001';
   const worker = document.getElementById('adminBulkWorker')?.value || null;

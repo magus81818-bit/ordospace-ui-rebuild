@@ -241,6 +241,7 @@
 <link rel="stylesheet" href="./app/styles/dashboard-salesops.tokens.css" />
 <link rel="stylesheet" href="./app/styles/dashboard-salesops.primitives.css" />
 <link rel="stylesheet" href="./app/styles/dashboard-salesops.shell.css" />
+<link rel="stylesheet" href="./app/styles/dashboard-salesops.admin.css" />
 </head>
 
 <body class="min-h-screen auth-off role-client">
@@ -2498,7 +2499,7 @@
     </section>
   </div>
 </section>
-<section id="screen-admin-cards" data-screen="admin-cards" data-allowed-roles="admin" class="screen hidden">
+<section id="screen-admin-cards" data-screen="admin-cards" data-allowed-roles="admin" data-role-scope="admin" class="screen hidden ordo-admin-screen">
   <div class="max-w-[1400px] mx-auto px-4 lg:px-6 py-5 lg:py-8">
     <header class="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5">
       <div>
@@ -2521,18 +2522,18 @@
     <section class="ordo-c-list-detail grid grid-cols-1 lg:grid-cols-[420px_minmax(0,1fr)] gap-4 bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden">
       <aside class="border-b lg:border-b-0 lg:border-r border-bd-default bg-bg-secondary/40">
         <div class="p-4 border-b border-bd-default bg-white space-y-3">
-          <div id="adminCardFilterPills" class="flex flex-wrap gap-1.5"></div>
+          <div id="adminCardFilterPills" class="ordo-c-filter-group flex flex-wrap gap-1.5" aria-label="Module 상태 필터"></div>
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
             <label class="relative">
-              <select id="adminCardProjectFilter" class="w-full h-9 pl-3 pr-8 rounded-lg border border-bd-default bg-white text-[12px] appearance-none focus:outline-none focus:border-brand-primary"></select>
+              <select id="adminCardProjectFilter" aria-label="프로젝트 필터" class="w-full h-9 pl-3 pr-8 rounded-lg border border-bd-default bg-white text-[12px] appearance-none focus:outline-none focus:border-brand-primary"></select>
               <i data-lucide="chevron-down" class="w-3.5 h-3.5 absolute right-2.5 top-1/2 -translate-y-1/2 text-tx-tertiary pointer-events-none"></i>
             </label>
             <label class="relative">
-              <select id="adminCardWorkerFilter" class="w-full h-9 pl-3 pr-8 rounded-lg border border-bd-default bg-white text-[12px] appearance-none focus:outline-none focus:border-brand-primary"></select>
+              <select id="adminCardWorkerFilter" aria-label="Worker 필터" class="w-full h-9 pl-3 pr-8 rounded-lg border border-bd-default bg-white text-[12px] appearance-none focus:outline-none focus:border-brand-primary"></select>
               <i data-lucide="chevron-down" class="w-3.5 h-3.5 absolute right-2.5 top-1/2 -translate-y-1/2 text-tx-tertiary pointer-events-none"></i>
             </label>
             <label class="relative">
-              <select id="adminCardChainFilter" class="w-full h-9 pl-3 pr-8 rounded-lg border border-bd-default bg-white text-[12px] appearance-none focus:outline-none focus:border-brand-primary"></select>
+              <select id="adminCardChainFilter" aria-label="Chain 필터" class="w-full h-9 pl-3 pr-8 rounded-lg border border-bd-default bg-white text-[12px] appearance-none focus:outline-none focus:border-brand-primary"></select>
               <i data-lucide="chevron-down" class="w-3.5 h-3.5 absolute right-2.5 top-1/2 -translate-y-1/2 text-tx-tertiary pointer-events-none"></i>
             </label>
           </div>
@@ -2549,13 +2550,13 @@
 
   <div id="adminBulkCreateSheet" class="fixed inset-0 z-[95] hidden" aria-hidden="true">
     <div data-close-admin-bulk class="absolute inset-0 bg-black/35"></div>
-    <div class="absolute left-1/2 top-1/2 w-[calc(100%-32px)] max-w-[720px] max-h-[calc(100vh-48px)] -translate-x-1/2 -translate-y-1/2 rounded-2xl bg-white border border-bd-default shadow-xl overflow-hidden">
+    <div class="ordo-admin-overlay absolute left-1/2 top-1/2 w-[calc(100%-32px)] max-w-[720px] max-h-[calc(100vh-48px)] -translate-x-1/2 -translate-y-1/2 rounded-2xl bg-white border border-bd-default shadow-xl overflow-hidden" role="dialog" aria-modal="true" aria-labelledby="adminBulkCreateTitle" tabindex="-1">
       <div class="px-5 py-4 border-b border-bd-default flex items-start justify-between gap-3">
         <div>
-          <h2 class="text-[18px] font-semibold">카드 일괄 생성</h2>
+          <h2 id="adminBulkCreateTitle" class="text-[18px] font-semibold">카드 일괄 생성</h2>
           <p class="text-[12px] text-tx-secondary mt-1">SAMPLE_MODULES에서 작업 단위를 선택해 ORDO_MODULE_CARDS에 추가합니다.</p>
         </div>
-        <button type="button" data-close-admin-bulk class="w-9 h-9 rounded-lg hover:bg-bg-secondary inline-flex items-center justify-center"><i data-lucide="x" class="w-4 h-4"></i></button>
+        <button type="button" data-close-admin-bulk aria-label="카드 일괄 생성 닫기" class="w-9 h-9 rounded-lg hover:bg-bg-secondary inline-flex items-center justify-center"><i data-lucide="x" class="w-4 h-4"></i></button>
       </div>
       <div class="p-5 overflow-y-auto max-h-[calc(100vh-188px)] space-y-5">
         <label class="block">
@@ -2582,6 +2583,7 @@
           </label>
         </section>
         <p class="text-[12px] text-tx-tertiary">비워두면 개별 할당으로 생성 후 설정합니다.</p>
+        <p id="adminBulkValidation" class="ordo-admin-validation hidden px-3 py-2 text-[12px]" role="alert"></p>
       </div>
       <div class="px-5 py-4 border-t border-bd-default flex flex-col sm:flex-row sm:justify-end gap-2 bg-bg-secondary">
         <button type="button" data-close-admin-bulk class="h-10 px-4 rounded-lg border border-bd-default bg-white hover:bg-bg-secondary text-[13px] font-semibold">취소</button>
@@ -2591,7 +2593,7 @@
   </div>
 </section>
 
-<section id="screen-admin-team" data-screen="admin-team" data-allowed-roles="admin" class="screen hidden">
+<section id="screen-admin-team" data-screen="admin-team" data-allowed-roles="admin" data-role-scope="admin" class="screen hidden ordo-admin-screen">
   <div class="max-w-[1400px] mx-auto px-4 lg:px-6 py-5 lg:py-8">
     <header class="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6">
       <div>
@@ -2610,11 +2612,11 @@
     </header>
 
     <div class="flex items-center gap-1 p-1 bg-bg-tertiary rounded-lg border border-bd-default w-fit mb-5" role="tablist" aria-label="Admin team tabs">
-      <button id="adminTeamTabPartners" type="button" data-admin-team-tab="partners" class="h-8 px-3 text-[12px] font-semibold rounded-md bg-white shadow-subtle">파트너 목록</button>
-      <button id="adminTeamTabHeatmap" type="button" data-admin-team-tab="heatmap" class="h-8 px-3 text-[12px] font-semibold rounded-md text-tx-secondary">배정 히트맵</button>
+      <button id="adminTeamTabPartners" type="button" role="tab" aria-selected="true" aria-controls="adminTeamPartnersPanel" data-admin-team-tab="partners" class="h-8 px-3 text-[12px] font-semibold rounded-md bg-white shadow-subtle">파트너 목록</button>
+      <button id="adminTeamTabHeatmap" type="button" role="tab" aria-selected="false" aria-controls="adminTeamHeatmapPanel" data-admin-team-tab="heatmap" class="h-8 px-3 text-[12px] font-semibold rounded-md text-tx-secondary">배정 히트맵</button>
     </div>
 
-    <section id="adminTeamPartnersPanel" data-admin-team-panel="partners" class="space-y-5">
+    <section id="adminTeamPartnersPanel" role="tabpanel" data-admin-team-panel="partners" class="space-y-5">
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-3" id="adminTeamPartnerKpis"></div>
       <div class="bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden">
         <div class="px-4 lg:px-5 py-4 border-b border-bd-default flex items-center justify-between gap-3">
@@ -2646,7 +2648,7 @@
       </div>
     </section>
 
-    <section id="adminTeamHeatmapPanel" data-admin-team-panel="heatmap" class="hidden space-y-5">
+    <section id="adminTeamHeatmapPanel" role="tabpanel" data-admin-team-panel="heatmap" class="hidden space-y-5">
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-3" id="adminTeamHeatmapKpis"></div>
       <div class="bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden">
         <div class="px-4 lg:px-5 py-4 border-b border-bd-default flex items-center justify-between gap-3 flex-wrap">
@@ -2682,19 +2684,20 @@
 
   <div id="invitePartnerSheet" class="fixed inset-0 z-[80] hidden" aria-hidden="true">
     <div data-close-invite class="absolute inset-0 bg-black/30"></div>
-    <div class="sheet absolute right-0 top-0 h-full w-full max-w-[420px] bg-white shadow-xl border-l border-bd-default translate-x-full transition-transform duration-200">
+    <div class="sheet ordo-admin-overlay absolute right-0 top-0 h-full w-full max-w-[420px] bg-white shadow-xl border-l border-bd-default translate-x-full transition-transform duration-200" role="dialog" aria-modal="true" aria-labelledby="invitePartnerTitle" tabindex="-1">
       <div class="h-full flex flex-col">
         <div class="px-5 py-4 border-b border-bd-default flex items-center justify-between gap-3">
           <div>
-            <h2 class="text-[18px] font-semibold">파트너 초대</h2>
+            <h2 id="invitePartnerTitle" class="text-[18px] font-semibold">파트너 초대</h2>
             <p class="text-[12px] text-tx-secondary mt-1">검증된 작업자를 온보딩 대기열에 추가합니다.</p>
           </div>
-          <button type="button" data-close-invite class="w-9 h-9 rounded-lg hover:bg-bg-secondary inline-flex items-center justify-center"><i data-lucide="x" class="w-4 h-4"></i></button>
+          <button type="button" data-close-invite aria-label="파트너 초대 닫기" class="w-9 h-9 rounded-lg hover:bg-bg-secondary inline-flex items-center justify-center"><i data-lucide="x" class="w-4 h-4"></i></button>
         </div>
         <div class="p-5 space-y-4 flex-1">
-          <label class="block"><span class="text-[12px] font-semibold text-tx-secondary">이름</span><input class="mt-1 h-10 w-full rounded-lg border border-bd-default px-3 text-[13px]" placeholder="홍길동"></label>
-          <label class="block"><span class="text-[12px] font-semibold text-tx-secondary">역할</span><input class="mt-1 h-10 w-full rounded-lg border border-bd-default px-3 text-[13px]" placeholder="프론트엔드 개발자"></label>
-          <label class="block"><span class="text-[12px] font-semibold text-tx-secondary">스킬</span><input class="mt-1 h-10 w-full rounded-lg border border-bd-default px-3 text-[13px]" placeholder="React, TypeScript, QA"></label>
+          <label class="block" for="invitePartnerName"><span class="text-[12px] font-semibold text-tx-secondary">이름</span><input id="invitePartnerName" name="partnerName" required aria-describedby="invitePartnerValidation" class="mt-1 h-10 w-full rounded-lg border border-bd-default px-3 text-[13px]" placeholder="홍길동"></label>
+          <label class="block" for="invitePartnerRole"><span class="text-[12px] font-semibold text-tx-secondary">역할</span><input id="invitePartnerRole" name="partnerRole" required aria-describedby="invitePartnerValidation" class="mt-1 h-10 w-full rounded-lg border border-bd-default px-3 text-[13px]" placeholder="프론트엔드 개발자"></label>
+          <label class="block" for="invitePartnerSkills"><span class="text-[12px] font-semibold text-tx-secondary">스킬</span><input id="invitePartnerSkills" name="partnerSkills" required aria-describedby="invitePartnerValidation" class="mt-1 h-10 w-full rounded-lg border border-bd-default px-3 text-[13px]" placeholder="React, TypeScript, QA"></label>
+          <p id="invitePartnerValidation" class="ordo-admin-validation hidden px-3 py-2 text-[12px]" role="alert"></p>
         </div>
         <div class="p-5 border-t border-bd-default flex justify-end gap-2">
           <button type="button" data-close-invite class="h-10 px-4 rounded-lg border border-bd-default hover:bg-bg-secondary text-[13px] font-semibold">취소</button>
@@ -2706,14 +2709,14 @@
 
   <div id="reassignModal" class="fixed inset-0 z-[90] hidden" aria-hidden="true">
     <div data-close-reassign class="absolute inset-0 bg-black/30"></div>
-    <div class="absolute left-1/2 top-1/2 w-[calc(100%-32px)] max-w-[440px] -translate-x-1/2 -translate-y-1/2 rounded-xl bg-white border border-bd-default shadow-xl p-5">
+    <div class="ordo-admin-overlay absolute left-1/2 top-1/2 w-[calc(100%-32px)] max-w-[440px] -translate-x-1/2 -translate-y-1/2 rounded-xl bg-white border border-bd-default shadow-xl p-5" role="dialog" aria-modal="true" aria-labelledby="reassignTitle" tabindex="-1">
       <div class="flex items-start gap-3">
         <div id="reassignWorkerInitial" class="w-10 h-10 rounded-full bg-bg-tertiary border border-bd-default flex items-center justify-center text-[14px] font-semibold"></div>
         <div class="flex-1 min-w-0">
-          <h2 class="text-[18px] font-semibold">배정 조정</h2>
+          <h2 id="reassignTitle" class="text-[18px] font-semibold">배정 조정</h2>
           <p class="text-[12px] text-tx-secondary mt-1"><span id="reassignWorkerName"></span> · <span id="reassignSlot"></span> · 현재 <span id="reassignCurrent"></span></p>
         </div>
-        <button type="button" data-close-reassign class="w-8 h-8 rounded-lg hover:bg-bg-secondary inline-flex items-center justify-center"><i data-lucide="x" class="w-4 h-4"></i></button>
+        <button type="button" data-close-reassign aria-label="배정 조정 닫기" class="w-8 h-8 rounded-lg hover:bg-bg-secondary inline-flex items-center justify-center"><i data-lucide="x" class="w-4 h-4"></i></button>
       </div>
       <div class="mt-5">
         <div class="flex items-center justify-between text-[12px] text-tx-secondary mb-2"><span>배정 MH</span><span id="reassignHoursLabel" class="font-semibold text-tx-primary">0h</span></div>
@@ -2729,7 +2732,7 @@
 </section>
 
 
-<section id="screen-admin-home" class="screen" data-allowed-roles="admin">
+<section id="screen-admin-home" class="screen ordo-admin-screen" data-allowed-roles="admin" data-role-scope="admin">
   <div class="max-w-[1280px] mx-auto px-4 lg:px-6 py-5 lg:py-8">
     <header class="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6">
       <div>
@@ -2793,7 +2796,7 @@
 
 
 
-<section id="screen-admin-projects" class="screen" data-allowed-roles="admin">
+<section id="screen-admin-projects" class="screen ordo-admin-screen" data-allowed-roles="admin" data-role-scope="admin">
   <div class="max-w-[1400px] mx-auto px-4 lg:px-6 py-5 lg:py-8">
     <header class="flex items-start justify-between gap-3 mb-5 flex-wrap">
       <div>
@@ -2802,8 +2805,8 @@
         <p class="text-[13px] text-tx-secondary mt-2">보드와 테이블을 오가며 프로젝트별 Module 진행률과 하단 상세를 확인합니다.</p>
       </div>
       <div class="flex items-center gap-1 p-1 bg-bg-tertiary rounded-lg border border-bd-default" role="tablist" aria-label="Project view">
-        <button id="adminProjectViewBoard" type="button" data-admin-project-view="board" class="h-8 px-3 text-[12px] font-semibold rounded-md bg-white shadow-subtle inline-flex items-center gap-1.5"><i data-lucide="layout-grid" class="w-3.5 h-3.5"></i>보드</button>
-        <button id="adminProjectViewTable" type="button" data-admin-project-view="table" class="h-8 px-3 text-[12px] font-semibold rounded-md text-tx-secondary inline-flex items-center gap-1.5"><i data-lucide="table" class="w-3.5 h-3.5"></i>테이블</button>
+        <button id="adminProjectViewBoard" type="button" role="tab" aria-selected="true" aria-controls="adminProjectBoardView" data-admin-project-view="board" class="h-8 px-3 text-[12px] font-semibold rounded-md bg-white shadow-subtle inline-flex items-center gap-1.5"><i data-lucide="layout-grid" class="w-3.5 h-3.5"></i>보드</button>
+        <button id="adminProjectViewTable" type="button" role="tab" aria-selected="false" aria-controls="adminProjectTableView" data-admin-project-view="table" class="h-8 px-3 text-[12px] font-semibold rounded-md text-tx-secondary inline-flex items-center gap-1.5"><i data-lucide="table" class="w-3.5 h-3.5"></i>테이블</button>
       </div>
     </header>
 
@@ -2838,7 +2841,7 @@
 
 
 
-<section id="screen-admin-audit" class="screen" data-allowed-roles="admin">
+<section id="screen-admin-audit" class="screen ordo-admin-screen" data-allowed-roles="admin" data-role-scope="admin">
   <div class="max-w-[1200px] mx-auto px-4 lg:px-6 py-5 lg:py-8">
     <header class="flex items-start justify-between gap-3 mb-5 flex-wrap">
       <div>
@@ -2861,10 +2864,10 @@
     </div>
 
     <!-- 필터 바 -->
-    <div class="bg-white border border-bd-default rounded-xl p-3 mb-5 shadow-subtle flex items-center gap-2 flex-wrap">
+    <div class="ordo-admin-audit-toolbar ordo-c-toolbar bg-white border border-bd-default rounded-xl p-3 mb-5 shadow-subtle flex items-center gap-2 flex-wrap">
       <i data-lucide="filter" class="w-4 h-4 text-tx-tertiary ml-1"></i>
       <label class="relative">
-        <select class="h-8 pl-3 pr-8 text-[12px] bg-white border border-bd-default rounded-md appearance-none focus:outline-none focus:border-brand-primary">
+        <select aria-label="감사 로그 사용자 필터" class="h-8 pl-3 pr-8 text-[12px] bg-white border border-bd-default rounded-md appearance-none focus:outline-none focus:border-brand-primary">
           <option>사용자: 전체</option>
                 <option>PM (이대표)</option>
           <option>이지원 PM</option>
@@ -2878,7 +2881,7 @@
         <i data-lucide="chevron-down" class="w-3.5 h-3.5 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none text-tx-tertiary"></i>
       </label>
       <label class="relative">
-        <select class="h-8 pl-3 pr-8 text-[12px] bg-white border border-bd-default rounded-md appearance-none focus:outline-none focus:border-brand-primary">
+        <select aria-label="감사 로그 액션 필터" class="h-8 pl-3 pr-8 text-[12px] bg-white border border-bd-default rounded-md appearance-none focus:outline-none focus:border-brand-primary">
           <option>액션: 전체</option>
           <option>의뢰 접수</option>
           <option>PM 배정</option>
@@ -2893,7 +2896,7 @@
         <i data-lucide="chevron-down" class="w-3.5 h-3.5 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none text-tx-tertiary"></i>
       </label>
       <label class="relative">
-        <select class="h-8 pl-3 pr-8 text-[12px] bg-white border border-bd-default rounded-md appearance-none focus:outline-none focus:border-brand-primary">
+        <select aria-label="감사 로그 기간 필터" class="h-8 pl-3 pr-8 text-[12px] bg-white border border-bd-default rounded-md appearance-none focus:outline-none focus:border-brand-primary">
           <option>기간: 최근 7일</option>
           <option>오늘</option>
           <option>최근 24시간</option>
@@ -2904,7 +2907,7 @@
         <i data-lucide="chevron-down" class="w-3.5 h-3.5 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none text-tx-tertiary"></i>
       </label>
       <label class="relative">
-        <select class="h-8 pl-3 pr-8 text-[12px] bg-white border border-bd-default rounded-md appearance-none focus:outline-none focus:border-brand-primary">
+        <select aria-label="감사 로그 프로젝트 필터" class="h-8 pl-3 pr-8 text-[12px] bg-white border border-bd-default rounded-md appearance-none focus:outline-none focus:border-brand-primary">
           <option>프로젝트: 전체</option>
           <option>ERP 개편</option>
           <option>고객 포털 리뉴얼</option>
@@ -2916,7 +2919,7 @@
       </label>
       <label class="relative ml-auto">
         <i data-lucide="search" class="w-4 h-4 text-tx-tertiary absolute left-2.5 top-1/2 -translate-y-1/2 pointer-events-none"></i>
-        <input type="text" placeholder="전문 검색" class="h-8 pl-8 pr-3 text-[12px] bg-white border border-bd-default rounded-md focus:outline-none focus:border-brand-primary w-44" />
+        <input type="text" aria-label="감사 로그 전문 검색" placeholder="전문 검색" class="h-8 pl-8 pr-3 text-[12px] bg-white border border-bd-default rounded-md focus:outline-none focus:border-brand-primary w-44" />
       </label>
     </div>
 
@@ -3385,6 +3388,7 @@
 <script src="./app/ui/components/form.ui.js"></script>
 <script src="./app/ui/components/sheet.ui.js"></script>
 <script src="./app/ui/components/primitives.ui.js"></script>
+<script src="./app/ui/components/admin.ui.js"></script>
 <script src="./app/ui/workspace.ui.js"></script>
 <script src="./app/router/hash-router.js"></script>
 <script src="./app/screens/client-workspace.screen.js"></script>
