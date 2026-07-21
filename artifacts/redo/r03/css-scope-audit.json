@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-07-21T10:22:37.236Z",
+  "scope": "body.auth-on",
+  "scopeSetBy": "app/layout/app-shell.js setShell(role, authOff)",
+  "scopeRemovedBy": "the same function when authOff=true",
+  "publicSelectors": [],
+  "publicComputedTokenLeak": false,
+  "legacyAliases": [
+    "--dk-bg",
+    "--dk-surface",
+    "--dk-surface-raised",
+    "--dk-surface-overlay",
+    "--dk-border",
+    "--dk-border-emphasis",
+    "--dk-border-strong",
+    "--dk-text",
+    "--dk-text-secondary",
+    "--dk-text-tertiary",
+    "--dk-shadow-subtle",
+    "--dk-shadow-card"
+  ],
+  "importantCount": 16,
+  "checks": [
+    {
+      "name": "no unscoped :root override",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no generic SalesOps global token declaration",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote font or CDN dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dashboard root scope is explicit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public selectors are absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "token stylesheet loads after the legacy application layer",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "important use is limited to legacy status/progress bridges",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "name": "legacy dark aliases are explicit compatibility bridges",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "name": "product scope is limited to entry plus token stylesheet",
+      "pass": true,
+      "detail": "index.html, app/styles/dashboard-salesops.tokens.css"
+    },
+    {
+      "name": "browser artifact exists: frozen-public-regression.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "18 frozen public comparisons pass",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

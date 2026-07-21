@@ -1,0 +1,30 @@
+{
+  "capturedAt": "2026-07-21T09:48:30.1415042Z",
+  "repository": "C:/Users/Admin/Desktop/K-디지털/수업자료/코덱스/ordospace-ui-rebuild",
+  "branch": "redo/r03-dashboard-tokens",
+  "head": "921280578b4261e1cb25a1f507e0f71915c390d2",
+  "expectedStart": "921280578b4261e1cb25a1f507e0f71915c390d2",
+  "mergeBase": "921280578b4261e1cb25a1f507e0f71915c390d2",
+  "status": "?? references/prompts/round-3.md",
+  "remotes": [
+    "origin\thttps://github.com/magus81818-bit/ordospace-ui-rebuild.git (fetch)",
+    "origin\thttps://github.com/magus81818-bit/ordospace-ui-rebuild.git (push)"
+  ],
+  "recentLog": [
+    "9212805 (HEAD -> redo/r03-dashboard-tokens, origin/redo/r02-salesops-audit, redo/r02-salesops-audit) docs(redo-r02): publish implementation report",
+    "7b1e3d0 docs(redo-r02): publish verification evidence",
+    "2d23e21 test(redo-r02): capture SalesOps and parity evidence",
+    "bde8d5b docs(redo-r02): map full inventory to SalesOps",
+    "f10779e (origin/redo/r01-baseline-audit, redo/r01-baseline-audit) docs(redo-r01): publish implementation report",
+    "bf595c5 test(redo-r01): add frozen visual baseline evidence",
+    "1f30f22 docs(redo-r01): record baseline inventories and verification",
+    "937d38b chore(redo-r01): establish clean source baseline"
+  ],
+  "protectedRules": {
+    "mainChanged": false,
+    "originalRepositoryChanged": false,
+    "productionDeployed": false,
+    "forcePush": false,
+    "cherryPickedFailedBranch": false
+  }
+}

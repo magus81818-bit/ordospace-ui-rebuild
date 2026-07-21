@@ -1,0 +1,2070 @@
+{
+  "generatedAt": "2026-07-21T10:22:37.235Z",
+  "count": 219,
+  "usedInRound3": 40,
+  "reservedForLater": 179,
+  "tokens": [
+    {
+      "name": "--ordo-so-bg-dashboard",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "html[data-theme] body.auth-on .screen.active"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-bg-sidebar",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-bg-header",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-bg-surface",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .bg-white",
+        "body.auth-on .bg-bg-secondary",
+        "body.auth-on .bg-bg-tertiary",
+        "body.auth-on .ordo-c-kpi-card",
+        "body.auth-on .ordo-c-progress-track"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-bg-surface-secondary",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .bg-bg-secondary"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-bg-surface-muted",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .bg-bg-tertiary",
+        "body.auth-on .ordo-c-progress-track"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-bg-surface-elevated",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-bg-overlay",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-bg-hover",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-bg-selected",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on ::selection"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-bg-disabled",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-text-primary",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "html[data-theme] body.auth-on .screen.active",
+        "body.auth-on ::selection",
+        "body.auth-on .text-tx-primary"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-text-secondary",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .text-tx-secondary"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-text-muted",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .text-tx-tertiary"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-text-inverse",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-text-accent",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-text-success",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-text-warning",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-text-critical",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-text-informational",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-text-disabled",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-text-link",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-text-link-hover",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-border-default",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .border-bd-default",
+        "body.auth-on .ordo-c-kpi-card"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-border-subtle",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-border-strong",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-border-interactive",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .border-bd-emphasis"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-border-focus",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on :where(button, a, input, select, textarea, [tabindex]):focus-visible"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-border-selected",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-border-error",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-border-divider",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .divide-bd-default > :not(:first-child)"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-border-overlay",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-neutral-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-neutral-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-neutral-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-informational-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-informational-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-informational-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-pending-fg",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .text-st-pendfg"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-pending-bg",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .bg-st-pendbg"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-pending-border",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .border-st-pendbd"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-warning-fg",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .text-st-warnfg"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-warning-bg",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .bg-st-warnbg"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-warning-border",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .border-st-warnbd"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-success-fg",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .text-st-okfg"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-success-bg",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .bg-st-okbg"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-success-border",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .border-st-okbd"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-critical-fg",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .text-st-critfg"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-critical-bg",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .bg-st-critbg"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-critical-border",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .border-st-critbd"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-disabled-fg",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .text-st-rejfg"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-disabled-bg",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .bg-st-rejbg"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-tone-disabled-border",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .border-st-rejbd"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-font-sans",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "html[data-theme] body.auth-on .screen.active",
+        "body.auth-on .ordo-c-status-badge"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-font-mono",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-page-size",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-page-line",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-page-weight",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-section-size",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-section-line",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-section-weight",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-card-size",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-card-line",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-card-weight",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-metric-size",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-metric-line",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-metric-weight",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-body-size",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-body-line",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-body-weight",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-label-size",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-label-line",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-label-weight",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-caption-size",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-caption-line",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-caption-weight",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-button-size",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-button-weight",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-table-size",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-table-line",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-badge-size",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .ordo-c-status-badge"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-type-badge-weight",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .ordo-c-status-badge"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-radius-none",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-radius-xs",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-radius-sm",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-radius-md",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-radius-lg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-radius-card",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .ordo-c-kpi-card"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-radius-control",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .ordo-c-status-badge"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-radius-pill",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .ordo-c-progress-track",
+        "body.auth-on .progress-fill"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-radius-overlay",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-shadow-none",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-shadow-surface",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .shadow-subtle",
+        "body.auth-on .ordo-c-kpi-card"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-shadow-raised",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .shadow-card"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-shadow-overlay",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-shadow-focus",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-control-height-sm",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-control-height-md",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-control-height-lg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-icon-size-sm",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-icon-size-md",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-card-padding-compact",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-card-padding-standard",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-content-gap",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-section-gap",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-row-height-compact",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-row-height-standard",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-overlay-padding",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-chart-gap",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-transition-fast",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-transition-standard",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-transition-emphasis",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-default-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-default-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-default-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-default-ring",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-default-opacity",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-default-cursor",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-default-transition",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .ordo-c-status-badge"
+      ],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-hover-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-hover-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-hover-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-hover-ring",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-hover-opacity",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-hover-cursor",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-hover-transition",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-ring",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on :where(button, a, input, select, textarea, [tabindex]):focus-visible"
+      ],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-opacity",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-cursor",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-transition",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-active-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-active-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-active-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-active-ring",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-active-opacity",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-active-cursor",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-active-transition",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-selected-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-selected-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-selected-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-selected-ring",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-selected-opacity",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-selected-cursor",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-selected-transition",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-disabled-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-disabled-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-disabled-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-disabled-ring",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-disabled-opacity",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on [aria-disabled='true']"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-disabled-cursor",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on [aria-disabled='true']"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-disabled-transition",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-loading-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-loading-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-loading-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-loading-ring",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-loading-opacity",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-loading-cursor",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-loading-transition",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-skeleton-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-skeleton-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-skeleton-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-skeleton-ring",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-skeleton-opacity",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-skeleton-cursor",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-skeleton-transition",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-empty-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-empty-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-empty-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-empty-ring",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-empty-opacity",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-empty-cursor",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-empty-transition",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-error-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-error-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-error-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-error-ring",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-error-opacity",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-error-cursor",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-error-transition",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-success-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-success-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-success-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-success-ring",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-success-opacity",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-success-cursor",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-success-transition",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-validation-error-bg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-validation-error-fg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-validation-error-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-validation-error-ring",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-validation-error-opacity",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-validation-error-cursor",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-state-validation-error-transition",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-chart-1",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-chart-2",
+      "declared": true,
+      "usedInRound3": true,
+      "reservedForLater": false,
+      "selectorUsage": [
+        "body.auth-on .progress-fill"
+      ],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-chart-3",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-chart-4",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-chart-5",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-chart-axis",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-chart-grid",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-chart-legend",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-chart-tooltip-surface",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-chart-tooltip-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-chart-tooltip-text",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-overlay-backdrop",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-overlay-surface",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-overlay-border",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-overlay-shadow",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": "semantic dependency resolves within the same body.auth-on scope",
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-overlay-z-dropdown",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-overlay-z-modal",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-overlay-z-toast",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-overlay-duration",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-breakpoint-sm",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-breakpoint-md",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-breakpoint-lg",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    },
+    {
+      "name": "--ordo-so-breakpoint-xl",
+      "declared": true,
+      "usedInRound3": false,
+      "reservedForLater": true,
+      "selectorUsage": [],
+      "fallback": null,
+      "orphan": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "round": 3,
+  "generatedAt": "2026-07-21T10:30:00+09:00",
+  "status": "pass",
+  "checks": [
+    {"name":"root install","command":"npm ci","status":"pass","detail":"0 vulnerabilities"},
+    {"name":"root build","command":"npm run build","status":"pass","detail":"generated outputs restored after verification"},
+    {"name":"JavaScript check","command":"npm run check:js","status":"pass"},
+    {"name":"component validation","command":"npm run validate:components","status":"pass","detail":"35 namespace checks and 19 factory outputs"},
+    {"name":"lifecycle validation","command":"npm run validate:lifecycle","status":"pass"},
+    {"name":"root smoke","command":"npm run smoke","status":"pass","detail":"12 routes; runtime QA 20/20"},
+    {"name":"Round 1 regression","command":"npm --prefix tests/redo/r01 run validate","status":"pass","detail":"4/4 in clean isolated worktree at Round 3 product commit"},
+    {"name":"Round 2 regression","command":"npm --prefix tests/redo/r02 run validate","status":"pass","detail":"inventory 73/73, migration 73/73, states 55, unresolved 0, product parity true in clean isolated worktree"},
+    {"name":"Round 3 validation","command":"npm --prefix tests/redo/r03 run validate","status":"pass","detail":"Playwright 4/4 plus static validator"},
+    {"name":"backend install","command":"npm ci","status":"pass","detail":"3 pre-existing moderate vulnerabilities"},
+    {"name":"Prisma generation","command":"npx prisma generate","status":"pass"},
+    {"name":"backend tests","command":"npm test","status":"pass","detail":"8 suites and 36 tests"},
+    {"name":"backend type check","command":"npm run typecheck","status":"pass"},
+    {"name":"backend build","command":"npm run build","status":"pass"}
+  ],
+  "blocked": [],
+  "failed": [],
+  "knownWarnings": [
+    "The root build reports the existing Browserslist data-age notice.",
+    "The backend dependency audit reports three pre-existing moderate vulnerabilities."
+  ]
+}

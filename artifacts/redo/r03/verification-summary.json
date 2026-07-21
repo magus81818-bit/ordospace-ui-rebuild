@@ -1,0 +1,243 @@
+{
+  "generatedAt": "2026-07-21T10:22:37.236Z",
+  "ok": true,
+  "branch": "redo/r03-dashboard-tokens",
+  "mergeBase": "921280578b4261e1cb25a1f507e0f71915c390d2",
+  "tokenCount": 219,
+  "categoryCounts": {
+    "Background/Surface": 11,
+    "Text": 12,
+    "Border": 9,
+    "Status": 21,
+    "Typography": 29,
+    "Radius": 9,
+    "Shadow": 5,
+    "Geometry": 11,
+    "Overlay": 9,
+    "Chart": 12,
+    "Interaction": 87,
+    "Responsive": 4
+  },
+  "usedInRound3": 40,
+  "reservedForLater": 179,
+  "importantCount": 16,
+  "publicComparisons": 18,
+  "dashboardDesktopRoutes": 12,
+  "responsiveChecks": 6,
+  "consoleErrors": 0,
+  "pageErrors": 0,
+  "requestFailures": 0,
+  "responses4xx5xx": 0,
+  "productChanged": [
+    "index.html",
+    "app/styles/dashboard-salesops.tokens.css"
+  ],
+  "checks": [
+    {
+      "name": "token inventory is comprehensive",
+      "pass": true,
+      "detail": "222 declarations"
+    },
+    {
+      "name": "no accidental duplicate token declarations",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no blank or unresolved token values",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all required semantic tokens exist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all namespaced var references resolve",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no unscoped :root override",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no generic SalesOps global token declaration",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no remote font or CDN dependency",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no Next Radix shadcn or ignored type errors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dashboard root scope is explicit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public selectors are absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "token stylesheet loads after the legacy application layer",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "important use is limited to legacy status/progress bridges",
+      "pass": true,
+      "detail": "16"
+    },
+    {
+      "name": "legacy dark aliases are explicit compatibility bridges",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "name": "--ordo-so-bg-dashboard is used in Round 3 selectors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "--ordo-so-text-primary is used in Round 3 selectors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "--ordo-so-bg-surface is used in Round 3 selectors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "--ordo-so-border-default is used in Round 3 selectors",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "current branch",
+      "pass": true,
+      "detail": "redo/r03-dashboard-tokens"
+    },
+    {
+      "name": "Round 2 merge-base",
+      "pass": true,
+      "detail": "921280578b4261e1cb25a1f507e0f71915c390d2"
+    },
+    {
+      "name": "product scope is limited to entry plus token stylesheet",
+      "pass": true,
+      "detail": "index.html, app/styles/dashboard-salesops.tokens.css"
+    },
+    {
+      "name": "DOM IDs remain byte-for-byte ordered",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "protected structure/function file unchanged: app/config/app.config.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "protected structure/function file unchanged: app/layout/app-shell.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "protected structure/function file unchanged: app/router/hash-router.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "protected structure/function file unchanged: app/services/session.service.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "protected structure/function file unchanged: app/services/module-card-lifecycle.service.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "protected structure/function file unchanged: package.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact exists: dashboard-browser-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact exists: frozen-public-regression.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact exists: layout-preservation.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact exists: accessibility-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "18 frozen public comparisons pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "12 desktop route layout comparisons pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "six role-home tablet/mobile checks pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no browser console errors",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "no page errors",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "no failed requests",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "no HTTP 4xx/5xx",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "representative contrast checks pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "focus names and reduced motion pass",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "failures": []
+}

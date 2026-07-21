@@ -1,0 +1,2880 @@
+{
+  "generatedAt": "2026-07-21T10:22:37.233Z",
+  "scope": "body.auth-on",
+  "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+  "count": 219,
+  "counts": {
+    "Background/Surface": 11,
+    "Text": 12,
+    "Border": 9,
+    "Status": 21,
+    "Typography": 29,
+    "Radius": 9,
+    "Shadow": 5,
+    "Geometry": 11,
+    "Overlay": 9,
+    "Chart": 12,
+    "Interaction": 87,
+    "Responsive": 4
+  },
+  "tokens": [
+    {
+      "name": "--ordo-so-bg-dashboard",
+      "semanticCategory": "Background/Surface",
+      "value": "oklch(0.09 0.005 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "html[data-theme] body.auth-on .screen.active"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-bg-sidebar",
+      "semanticCategory": "Background/Surface",
+      "value": "oklch(0.11 0.005 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-bg-header",
+      "semanticCategory": "Background/Surface",
+      "value": "oklch(0.12 0.005 260 / 0.92)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-bg-surface",
+      "semanticCategory": "Background/Surface",
+      "value": "oklch(0.12 0.005 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .bg-white",
+        "body.auth-on .bg-bg-secondary",
+        "body.auth-on .bg-bg-tertiary",
+        "body.auth-on .ordo-c-kpi-card",
+        "body.auth-on .ordo-c-progress-track"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-bg-surface-secondary",
+      "semanticCategory": "Background/Surface",
+      "value": "oklch(0.15 0.005 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .bg-bg-secondary"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-bg-surface-muted",
+      "semanticCategory": "Background/Surface",
+      "value": "oklch(0.18 0.005 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .bg-bg-tertiary",
+        "body.auth-on .ordo-c-progress-track"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-bg-surface-elevated",
+      "semanticCategory": "Background/Surface",
+      "value": "oklch(0.16 0.005 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-bg-overlay",
+      "semanticCategory": "Background/Surface",
+      "value": "oklch(0.12 0.005 260 / 0.96)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-bg-hover",
+      "semanticCategory": "Background/Surface",
+      "value": "oklch(0.18 0.005 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-bg-selected",
+      "semanticCategory": "Background/Surface",
+      "value": "color-mix(in oklch, oklch(0.7 0.18 145) 16%, oklch(0.12 0.005 260))",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on ::selection"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-bg-disabled",
+      "semanticCategory": "Background/Surface",
+      "value": "oklch(0.15 0.005 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-text-primary",
+      "semanticCategory": "Text",
+      "value": "oklch(0.95 0 0)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "html[data-theme] body.auth-on .screen.active",
+        "body.auth-on ::selection",
+        "body.auth-on .text-tx-primary"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-text-secondary",
+      "semanticCategory": "Text",
+      "value": "oklch(0.78 0 0)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .text-tx-secondary"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-text-muted",
+      "semanticCategory": "Text",
+      "value": "oklch(0.65 0 0)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .text-tx-tertiary"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-text-inverse",
+      "semanticCategory": "Text",
+      "value": "oklch(0.09 0.005 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-text-accent",
+      "semanticCategory": "Text",
+      "value": "oklch(0.76 0.18 145)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-text-success",
+      "semanticCategory": "Text",
+      "value": "oklch(0.76 0.18 145)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-text-warning",
+      "semanticCategory": "Text",
+      "value": "oklch(0.8 0.18 55)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-text-critical",
+      "semanticCategory": "Text",
+      "value": "oklch(0.72 0.2 25)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-text-informational",
+      "semanticCategory": "Text",
+      "value": "oklch(0.76 0.18 220)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-text-disabled",
+      "semanticCategory": "Text",
+      "value": "oklch(0.52 0 0)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-text-link",
+      "semanticCategory": "Text",
+      "value": "oklch(0.76 0.18 220)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-text-link-hover",
+      "semanticCategory": "Text",
+      "value": "oklch(0.84 0.14 220)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-border-default",
+      "semanticCategory": "Border",
+      "value": "oklch(0.22 0.005 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .border-bd-default",
+        "body.auth-on .ordo-c-kpi-card"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-border-subtle",
+      "semanticCategory": "Border",
+      "value": "oklch(0.19 0.005 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-border-strong",
+      "semanticCategory": "Border",
+      "value": "oklch(0.34 0.005 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-border-interactive",
+      "semanticCategory": "Border",
+      "value": "oklch(0.38 0.02 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .border-bd-emphasis"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-border-focus",
+      "semanticCategory": "Border",
+      "value": "oklch(0.7 0.18 145)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on :where(button, a, input, select, textarea, [tabindex]):focus-visible"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-border-selected",
+      "semanticCategory": "Border",
+      "value": "oklch(0.7 0.18 145 / 0.72)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-border-error",
+      "semanticCategory": "Border",
+      "value": "oklch(0.65 0.2 25)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-border-divider",
+      "semanticCategory": "Border",
+      "value": "oklch(0.22 0.005 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .divide-bd-default > :not(:first-child)"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-border-overlay",
+      "semanticCategory": "Border",
+      "value": "oklch(0.3 0.008 260)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-tone-neutral-fg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.72 0 0)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-neutral-bg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.22 0.005 260 / 0.55)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-neutral-border",
+      "semanticCategory": "Status",
+      "value": "oklch(0.42 0.005 260 / 0.72)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-informational-fg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.76 0.18 220)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-informational-bg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.7 0.18 220 / 0.12)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-informational-border",
+      "semanticCategory": "Status",
+      "value": "oklch(0.7 0.18 220 / 0.34)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-pending-fg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.76 0.18 220)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .text-st-pendfg"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-pending-bg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.7 0.18 220 / 0.12)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .bg-st-pendbg"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-pending-border",
+      "semanticCategory": "Status",
+      "value": "oklch(0.7 0.18 220 / 0.34)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .border-st-pendbd"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-warning-fg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.8 0.18 55)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .text-st-warnfg"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-warning-bg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.75 0.18 55 / 0.12)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .bg-st-warnbg"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-warning-border",
+      "semanticCategory": "Status",
+      "value": "oklch(0.75 0.18 55 / 0.34)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .border-st-warnbd"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-success-fg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.76 0.18 145)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .text-st-okfg"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-success-bg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.7 0.18 145 / 0.12)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .bg-st-okbg"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-success-border",
+      "semanticCategory": "Status",
+      "value": "oklch(0.7 0.18 145 / 0.34)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .border-st-okbd"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-critical-fg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.72 0.2 25)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .text-st-critfg"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-critical-bg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.65 0.2 25 / 0.12)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .bg-st-critbg"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-critical-border",
+      "semanticCategory": "Status",
+      "value": "oklch(0.65 0.2 25 / 0.34)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .border-st-critbd"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-disabled-fg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.56 0 0)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .text-st-rejfg"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-disabled-bg",
+      "semanticCategory": "Status",
+      "value": "oklch(0.18 0.005 260 / 0.7)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .bg-st-rejbg"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-tone-disabled-border",
+      "semanticCategory": "Status",
+      "value": "oklch(0.3 0.005 260 / 0.6)",
+      "salesopsSource": "SalesOps color grammar adapted to ORDOSPACE lifecycle semantics per ADR-14",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .border-st-rejbd"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-font-sans",
+      "semanticCategory": "Typography",
+      "value": "'DM Sans', 'Pretendard Variable', Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "html[data-theme] body.auth-on .screen.active",
+        "body.auth-on .ordo-c-status-badge"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-font-mono",
+      "semanticCategory": "Typography",
+      "value": "'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', monospace",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-page-size",
+      "semanticCategory": "Typography",
+      "value": "1.25rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-page-line",
+      "semanticCategory": "Typography",
+      "value": "1.75rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-page-weight",
+      "semanticCategory": "Typography",
+      "value": "600",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-section-size",
+      "semanticCategory": "Typography",
+      "value": "1.25rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-section-line",
+      "semanticCategory": "Typography",
+      "value": "1.75rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-section-weight",
+      "semanticCategory": "Typography",
+      "value": "600",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-card-size",
+      "semanticCategory": "Typography",
+      "value": "0.875rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-card-line",
+      "semanticCategory": "Typography",
+      "value": "1.25rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-card-weight",
+      "semanticCategory": "Typography",
+      "value": "600",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-metric-size",
+      "semanticCategory": "Typography",
+      "value": "1.875rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-metric-line",
+      "semanticCategory": "Typography",
+      "value": "2.25rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-metric-weight",
+      "semanticCategory": "Typography",
+      "value": "700",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-body-size",
+      "semanticCategory": "Typography",
+      "value": "0.875rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-body-line",
+      "semanticCategory": "Typography",
+      "value": "1.25rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-body-weight",
+      "semanticCategory": "Typography",
+      "value": "400",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-label-size",
+      "semanticCategory": "Typography",
+      "value": "0.875rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-label-line",
+      "semanticCategory": "Typography",
+      "value": "1.25rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-label-weight",
+      "semanticCategory": "Typography",
+      "value": "500",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-caption-size",
+      "semanticCategory": "Typography",
+      "value": "0.75rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-caption-line",
+      "semanticCategory": "Typography",
+      "value": "1rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-caption-weight",
+      "semanticCategory": "Typography",
+      "value": "400",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-button-size",
+      "semanticCategory": "Typography",
+      "value": "0.875rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-button-weight",
+      "semanticCategory": "Typography",
+      "value": "500",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-table-size",
+      "semanticCategory": "Typography",
+      "value": "0.875rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-table-line",
+      "semanticCategory": "Typography",
+      "value": "1.25rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-badge-size",
+      "semanticCategory": "Typography",
+      "value": "0.75rem",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .ordo-c-status-badge"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-type-badge-weight",
+      "semanticCategory": "Typography",
+      "value": "500",
+      "salesopsSource": "SalesOps typography declarations; local/system fallback per ADR-07",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .ordo-c-status-badge"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-radius-none",
+      "semanticCategory": "Radius",
+      "value": "0",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-radius-xs",
+      "semanticCategory": "Radius",
+      "value": "0.25rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-radius-sm",
+      "semanticCategory": "Radius",
+      "value": "0.375rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-radius-md",
+      "semanticCategory": "Radius",
+      "value": "0.5rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-radius-lg",
+      "semanticCategory": "Radius",
+      "value": "0.625rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-radius-card",
+      "semanticCategory": "Radius",
+      "value": "0.75rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .ordo-c-kpi-card"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-radius-control",
+      "semanticCategory": "Radius",
+      "value": "0.375rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .ordo-c-status-badge"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-radius-pill",
+      "semanticCategory": "Radius",
+      "value": "9999px",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .ordo-c-progress-track",
+        "body.auth-on .progress-fill"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-radius-overlay",
+      "semanticCategory": "Radius",
+      "value": "0.75rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-shadow-none",
+      "semanticCategory": "Shadow",
+      "value": "none",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-shadow-surface",
+      "semanticCategory": "Shadow",
+      "value": "0 1px 2px oklch(0 0 0 / 0.2)",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .shadow-subtle",
+        "body.auth-on .ordo-c-kpi-card"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-shadow-raised",
+      "semanticCategory": "Shadow",
+      "value": "0 8px 24px oklch(0 0 0 / 0.24)",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .shadow-card"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-shadow-overlay",
+      "semanticCategory": "Shadow",
+      "value": "0 18px 48px oklch(0 0 0 / 0.42)",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-shadow-focus",
+      "semanticCategory": "Shadow",
+      "value": "0 0 0 3px oklch(0.7 0.18 145 / 0.28)",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-control-height-sm",
+      "semanticCategory": "Geometry",
+      "value": "2rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-control-height-md",
+      "semanticCategory": "Geometry",
+      "value": "2.25rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-control-height-lg",
+      "semanticCategory": "Geometry",
+      "value": "2.5rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-icon-size-sm",
+      "semanticCategory": "Geometry",
+      "value": "1rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-icon-size-md",
+      "semanticCategory": "Geometry",
+      "value": "1.25rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-card-padding-compact",
+      "semanticCategory": "Geometry",
+      "value": "1.25rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-card-padding-standard",
+      "semanticCategory": "Geometry",
+      "value": "1.5rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-content-gap",
+      "semanticCategory": "Geometry",
+      "value": "1.5rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-section-gap",
+      "semanticCategory": "Geometry",
+      "value": "1.5rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-row-height-compact",
+      "semanticCategory": "Geometry",
+      "value": "2.5rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-row-height-standard",
+      "semanticCategory": "Geometry",
+      "value": "4rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-overlay-padding",
+      "semanticCategory": "Overlay",
+      "value": "1.5rem",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-chart-gap",
+      "semanticCategory": "Chart",
+      "value": "1rem",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-transition-fast",
+      "semanticCategory": "Interaction",
+      "value": "160ms ease",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-transition-standard",
+      "semanticCategory": "Interaction",
+      "value": "300ms ease-out",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-transition-emphasis",
+      "semanticCategory": "Interaction",
+      "value": "500ms ease-out",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-default-bg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-bg-surface)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-default-fg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-text-primary)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-default-border",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-border-default)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-default-ring",
+      "semanticCategory": "Interaction",
+      "value": "none",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-default-opacity",
+      "semanticCategory": "Interaction",
+      "value": "1",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-default-cursor",
+      "semanticCategory": "Interaction",
+      "value": "auto",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-default-transition",
+      "semanticCategory": "Interaction",
+      "value": "background-color var(--ordo-so-transition-fast), border-color var(--ordo-so-transition-fast), color var(--ordo-so-transition-fast)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .ordo-c-status-badge"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-hover-bg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-bg-hover)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-hover-fg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-text-primary)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-hover-border",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-border-interactive)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-hover-ring",
+      "semanticCategory": "Interaction",
+      "value": "none",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-hover-opacity",
+      "semanticCategory": "Interaction",
+      "value": "1",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-hover-cursor",
+      "semanticCategory": "Interaction",
+      "value": "pointer",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-hover-transition",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-state-default-transition)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-bg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-bg-surface)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-fg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-text-primary)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-border",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-border-focus)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-ring",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-shadow-focus)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on :where(button, a, input, select, textarea, [tabindex]):focus-visible"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-opacity",
+      "semanticCategory": "Interaction",
+      "value": "1",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-cursor",
+      "semanticCategory": "Interaction",
+      "value": "auto",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-focus-visible-transition",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-state-default-transition)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-active-bg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-bg-selected)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-active-fg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-text-primary)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-active-border",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-border-selected)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-active-ring",
+      "semanticCategory": "Interaction",
+      "value": "none",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-active-opacity",
+      "semanticCategory": "Interaction",
+      "value": "1",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-active-cursor",
+      "semanticCategory": "Interaction",
+      "value": "pointer",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-active-transition",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-state-default-transition)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-selected-bg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-bg-selected)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-selected-fg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-text-accent)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-selected-border",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-border-selected)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-selected-ring",
+      "semanticCategory": "Interaction",
+      "value": "inset 3px 0 0 var(--ordo-so-text-accent)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-selected-opacity",
+      "semanticCategory": "Interaction",
+      "value": "1",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-selected-cursor",
+      "semanticCategory": "Interaction",
+      "value": "pointer",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-selected-transition",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-state-default-transition)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-disabled-bg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-bg-disabled)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-disabled-fg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-text-disabled)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-disabled-border",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-border-subtle)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-disabled-ring",
+      "semanticCategory": "Interaction",
+      "value": "none",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-disabled-opacity",
+      "semanticCategory": "Interaction",
+      "value": "0.5",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on [aria-disabled='true']"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-disabled-cursor",
+      "semanticCategory": "Interaction",
+      "value": "not-allowed",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on [aria-disabled='true']"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-disabled-transition",
+      "semanticCategory": "Interaction",
+      "value": "none",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-loading-bg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-bg-surface-muted)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-loading-fg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-text-muted)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-loading-border",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-border-default)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-loading-ring",
+      "semanticCategory": "Interaction",
+      "value": "none",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-loading-opacity",
+      "semanticCategory": "Interaction",
+      "value": "0.72",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-loading-cursor",
+      "semanticCategory": "Interaction",
+      "value": "progress",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-loading-transition",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-state-default-transition)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-skeleton-bg",
+      "semanticCategory": "Interaction",
+      "value": "linear-gradient(90deg, var(--ordo-so-bg-surface-muted), var(--ordo-so-bg-surface-elevated), var(--ordo-so-bg-surface-muted))",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-state-skeleton-fg",
+      "semanticCategory": "Interaction",
+      "value": "transparent",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-state-skeleton-border",
+      "semanticCategory": "Interaction",
+      "value": "transparent",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-state-skeleton-ring",
+      "semanticCategory": "Interaction",
+      "value": "none",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-state-skeleton-opacity",
+      "semanticCategory": "Interaction",
+      "value": "0.72",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-state-skeleton-cursor",
+      "semanticCategory": "Interaction",
+      "value": "wait",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-state-skeleton-transition",
+      "semanticCategory": "Interaction",
+      "value": "background-position var(--ordo-so-transition-emphasis)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-state-empty-bg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-bg-surface-secondary)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-empty-fg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-text-muted)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-empty-border",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-border-subtle)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-empty-ring",
+      "semanticCategory": "Interaction",
+      "value": "none",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-empty-opacity",
+      "semanticCategory": "Interaction",
+      "value": "1",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-empty-cursor",
+      "semanticCategory": "Interaction",
+      "value": "default",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-empty-transition",
+      "semanticCategory": "Interaction",
+      "value": "none",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-error-bg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-tone-critical-bg)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-error-fg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-tone-critical-fg)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-error-border",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-tone-critical-border)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-error-ring",
+      "semanticCategory": "Interaction",
+      "value": "0 0 0 3px oklch(0.65 0.2 25 / 0.2)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-error-opacity",
+      "semanticCategory": "Interaction",
+      "value": "1",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-error-cursor",
+      "semanticCategory": "Interaction",
+      "value": "default",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-error-transition",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-state-default-transition)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-success-bg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-tone-success-bg)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-success-fg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-tone-success-fg)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-success-border",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-tone-success-border)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-success-ring",
+      "semanticCategory": "Interaction",
+      "value": "none",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-success-opacity",
+      "semanticCategory": "Interaction",
+      "value": "1",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-success-cursor",
+      "semanticCategory": "Interaction",
+      "value": "default",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-success-transition",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-state-default-transition)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-validation-error-bg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-tone-critical-bg)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-validation-error-fg",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-tone-critical-fg)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-validation-error-border",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-border-error)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-validation-error-ring",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-state-error-ring)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-validation-error-opacity",
+      "semanticCategory": "Interaction",
+      "value": "1",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-validation-error-cursor",
+      "semanticCategory": "Interaction",
+      "value": "text",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-state-validation-error-transition",
+      "semanticCategory": "Interaction",
+      "value": "var(--ordo-so-state-default-transition)",
+      "salesopsSource": "SalesOps declared state classes + Round 2 state coverage",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-chart-1",
+      "semanticCategory": "Chart",
+      "value": "oklch(0.7 0.18 220)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-chart-2",
+      "semanticCategory": "Chart",
+      "value": "oklch(0.7 0.18 145)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [
+        "body.auth-on .progress-fill"
+      ],
+      "intendedLaterUsage": [],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-chart-3",
+      "semanticCategory": "Chart",
+      "value": "oklch(0.75 0.18 55)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-chart-4",
+      "semanticCategory": "Chart",
+      "value": "oklch(0.65 0.2 25)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-chart-5",
+      "semanticCategory": "Chart",
+      "value": "oklch(0.7 0.15 300)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-chart-axis",
+      "semanticCategory": "Chart",
+      "value": "var(--ordo-so-text-muted)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-chart-grid",
+      "semanticCategory": "Chart",
+      "value": "var(--ordo-so-border-divider)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-chart-legend",
+      "semanticCategory": "Chart",
+      "value": "var(--ordo-so-text-secondary)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-chart-tooltip-surface",
+      "semanticCategory": "Chart",
+      "value": "var(--ordo-so-bg-overlay)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-chart-tooltip-border",
+      "semanticCategory": "Chart",
+      "value": "var(--ordo-so-border-overlay)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-chart-tooltip-text",
+      "semanticCategory": "Chart",
+      "value": "var(--ordo-so-text-primary)",
+      "salesopsSource": "SalesOps app/globals.css + artifacts/redo/r02/salesops-tokens.json",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-overlay-backdrop",
+      "semanticCategory": "Overlay",
+      "value": "oklch(0 0 0 / 0.8)",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-overlay-surface",
+      "semanticCategory": "Overlay",
+      "value": "var(--ordo-so-bg-overlay)",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-overlay-border",
+      "semanticCategory": "Overlay",
+      "value": "var(--ordo-so-border-overlay)",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-overlay-shadow",
+      "semanticCategory": "Overlay",
+      "value": "var(--ordo-so-shadow-overlay)",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-overlay-z-dropdown",
+      "semanticCategory": "Overlay",
+      "value": "50",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-overlay-z-modal",
+      "semanticCategory": "Overlay",
+      "value": "70",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-overlay-z-toast",
+      "semanticCategory": "Overlay",
+      "value": "90",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-overlay-duration",
+      "semanticCategory": "Overlay",
+      "value": "300ms",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Derived from declared grammar"
+    },
+    {
+      "name": "--ordo-so-breakpoint-sm",
+      "semanticCategory": "Responsive",
+      "value": "640px",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-breakpoint-md",
+      "semanticCategory": "Responsive",
+      "value": "768px",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-breakpoint-lg",
+      "semanticCategory": "Responsive",
+      "value": "1024px",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    },
+    {
+      "name": "--ordo-so-breakpoint-xl",
+      "semanticCategory": "Responsive",
+      "value": "1280px",
+      "salesopsSource": "SalesOps component geometry/state audit + Round 2 token specification",
+      "declarationFile": "app/styles/dashboard-salesops.tokens.css",
+      "scope": "body.auth-on",
+      "currentUsage": [],
+      "intendedLaterUsage": [
+        "Round 4+ component primitives and role-specific dashboard composition"
+      ],
+      "confidence": "Declared or directly adapted"
+    }
+  ]
+}

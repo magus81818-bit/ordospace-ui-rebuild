@@ -1,0 +1,475 @@
+{
+  "generatedAt": "2026-07-21T10:21:55.630Z",
+  "baseline": "evidence/redo/r01/frozen-public",
+  "comparisons": [
+    {
+      "route": "landing",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/landing-desktop-1440x1000.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 1001,
+        "totalPixels": 10265760,
+        "ratio": 0.00009750861115007559
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "existing autoplay demonstration; frozen pixel result is reported separately from token-disabled DOM/style/box parity",
+      "pass": true
+    },
+    {
+      "route": "auth",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/auth-desktop-1440x1000.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 1824480,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "terms",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/terms-desktop-1440x1000.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 5598720,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "privacy",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/privacy-desktop-1440x1000.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 6606720,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "support",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/support-desktop-1440x1000.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 3925440,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "select-workspace",
+      "viewport": "desktop",
+      "size": {
+        "width": 1440,
+        "height": 1000
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/select-workspace-desktop-1440x1000.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 1440000,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "landing",
+      "viewport": "tablet",
+      "size": {
+        "width": 1024,
+        "height": 1366
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/landing-tablet-1024x1366.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 12857,
+        "totalPixels": 7111680,
+        "ratio": 0.0018078709953203743
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "existing autoplay demonstration; frozen pixel result is reported separately from token-disabled DOM/style/box parity",
+      "pass": true
+    },
+    {
+      "route": "auth",
+      "viewport": "tablet",
+      "size": {
+        "width": 1024,
+        "height": 1366
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/auth-tablet-1024x1366.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 2165760,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "terms",
+      "viewport": "tablet",
+      "size": {
+        "width": 1024,
+        "height": 1366
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/terms-tablet-1024x1366.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 3981312,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "privacy",
+      "viewport": "tablet",
+      "size": {
+        "width": 1024,
+        "height": 1366
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/privacy-tablet-1024x1366.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 4698112,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "support",
+      "viewport": "tablet",
+      "size": {
+        "width": 1024,
+        "height": 1366
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/support-tablet-1024x1366.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 2791424,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "select-workspace",
+      "viewport": "tablet",
+      "size": {
+        "width": 1024,
+        "height": 1366
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/select-workspace-tablet-1024x1366.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 1398784,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "landing",
+      "viewport": "mobile",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/landing-mobile-390x844.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 3164070,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "existing autoplay demonstration; frozen pixel result is reported separately from token-disabled DOM/style/box parity",
+      "pass": true
+    },
+    {
+      "route": "auth",
+      "viewport": "mobile",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/auth-mobile-390x844.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 1407900,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "terms",
+      "viewport": "mobile",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/terms-mobile-390x844.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 2407860,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "privacy",
+      "viewport": "mobile",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/privacy-mobile-390x844.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 2288130,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "support",
+      "viewport": "mobile",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/support-mobile-390x844.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 1446900,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    },
+    {
+      "route": "select-workspace",
+      "viewport": "mobile",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "evidence/redo/r03/frozen-public/select-workspace-mobile-390x844.png",
+      "frozenBaseline": {
+        "available": true,
+        "sameDimensions": true,
+        "differentPixels": 0,
+        "totalPixels": 329160,
+        "ratio": 0
+      },
+      "tokenDisabledControl": {
+        "domCompared": true,
+        "computedStyleCompared": true,
+        "boundingBoxCompared": true
+      },
+      "domSame": true,
+      "computedStyleSame": true,
+      "boundingBoxSame": true,
+      "animationUnstableRegion": "none",
+      "pass": true
+    }
+  ],
+  "finishedAt": "2026-07-21T10:22:36.064Z"
+}
