@@ -11,7 +11,13 @@ const dashboardMode = process.argv.includes("--dashboard");
 const adminMode = process.argv.includes("--admin");
 const clientMode = process.argv.includes("--client");
 const workerMode = process.argv.includes("--worker");
-const outputDir = path.join(root, "docs", "ui-migration", "screenshots", workerMode ? "round-08" : clientMode ? "round-07" : adminMode ? "round-06" : dashboardMode ? "round-05" : "round-04");
+const allMode = process.argv.includes("--all");
+const accessibilityMode = process.argv.includes("--accessibility");
+const longContentMode = process.argv.includes("--long-content");
+const qualityMode = allMode || accessibilityMode || longContentMode;
+const outputDir = qualityMode
+  ? path.join(root, "artifacts", "ui-screenshots", "round09", accessibilityMode ? "accessibility" : longContentMode ? "long-content" : "regression")
+  : path.join(root, "docs", "ui-migration", "screenshots", workerMode ? "round-08" : clientMode ? "round-07" : adminMode ? "round-06" : dashboardMode ? "round-05" : "round-04");
 const browserPath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 const users = {
   admin: ["user-admin-01", "Hana Lee", "admin@ordospace.test"],
@@ -85,7 +91,50 @@ const workerScenarios = [
   ["worker-detail-client-review", 1280, 800, "worker", "/workspace/worker/cards/card-002", "worker-readonly", "worker"],
   ["worker-detail-approved", 1280, 800, "worker", "/workspace/worker/cards/card-001", "worker-readonly", "worker"],
 ];
-const scenarios = workerMode ? workerScenarios : clientMode ? clientScenarios : adminMode ? adminScenarios : dashboardMode ? dashboardScenarios : shellScenarios;
+const accessibilityScenarios = [
+  ["skip-link-focus", 1440, 900, "admin", "/workspace/admin", "skip-focus"],
+  ["mobile-sheet-open-393", 393, 852, "admin", "/workspace/admin", "menu"],
+  ["user-menu-open", 1440, 900, "admin", "/workspace/admin", "user"],
+  ["client-revision-error-393", 393, 852, "client", "/workspace/client/cards/card-002", "client-revision-error"],
+  ["worker-submit-disabled-393", 393, 852, "worker", "/workspace/worker/cards/card-005", "worker-disabled", "workerDev"],
+  ["zoom-200", 1440, 900, "admin", "/workspace/admin/cards/card-003", "zoom"],
+  ["reduced-motion", 393, 852, "client", "/workspace/client", "reduced-motion"],
+];
+const longContentScenarios = [
+  ["long-title", 393, 852, "admin", "/workspace/admin/cards/card-003", "long-title"],
+  ["long-project-name", 393, 852, "client", "/workspace/client/cards/card-002", "long-project"],
+  ["long-user-name", 768, 1024, "worker", "/workspace/worker", "long-user", "workerDev"],
+  ["long-email", 1440, 900, "admin", "/workspace/admin", "long-email"],
+  ["long-worker-note", 393, 852, "worker", "/workspace/worker/cards/card-005", "long-note", "workerDev"],
+  ["long-revision-reason", 393, 852, "worker", "/workspace/worker/cards/card-004", "long-revision", "worker"],
+  ["long-activity", 393, 852, "client", "/workspace/client/cards/card-002", "long-activity"],
+  ["unknown-status", 393, 852, "admin", "/workspace/admin/cards/card-003", "unknown-status"],
+];
+const round09Scenarios = [
+  ["admin-root-320", 320, 800, "admin", "/workspace/admin", "admin-root"],
+  ["desktop-shell-1440", 1440, 900, "admin", "/workspace/admin", "admin-root"],
+  ["tablet-rail-768", 768, 1024, "admin", "/workspace/admin", "admin-root"],
+  ["desktop-shell-1024", 1024, 768, "admin", "/workspace/admin", "admin-root"],
+  ["wide-shell-1920", 1920, 1080, "admin", "/workspace/admin", "admin-root"],
+  ["public-overview-393", 393, 852, "admin", "/", "public"],
+  ["auth-form-393", 393, 852, "admin", "/auth", "auth"],
+  ["not-found-393", 393, 852, "admin", "/not-a-route", "not-found"],
+  ["admin-root-393", 393, 852, "admin", "/workspace/admin", "admin-root"],
+  ["admin-detail-review-1440", 1440, 900, "admin", "/workspace/admin/cards/card-003", "admin-review"],
+  ["admin-detail-approved-393", 393, 852, "admin", "/workspace/admin/cards/card-001", "admin-readonly"],
+  ["client-root-1440", 1440, 900, "client", "/workspace/client", "client-root"],
+  ["client-root-393", 393, 852, "client", "/workspace/client", "client-root"],
+  ["client-detail-review-1440", 1440, 900, "client", "/workspace/client/cards/card-002", "client-review"],
+  ["client-approved-readonly", 1280, 800, "client", "/workspace/client/cards/card-001", "client-readonly"],
+  ["worker-root-1440", 1440, 900, "worker", "/workspace/worker", "worker-root", "workerDev"],
+  ["worker-root-393", 393, 852, "worker", "/workspace/worker", "worker-root", "workerDev"],
+  ["worker-detail-editable-1440", 1440, 900, "worker", "/workspace/worker/cards/card-005", "worker-editable", "workerDev"],
+  ["worker-revision-393", 393, 852, "worker", "/workspace/worker/cards/card-004", "worker-editable", "worker"],
+  ["worker-approved-readonly", 1280, 800, "worker", "/workspace/worker/cards/card-001", "worker-readonly", "worker"],
+  ...accessibilityScenarios,
+  ...longContentScenarios,
+];
+const scenarios = allMode ? round09Scenarios : accessibilityMode ? accessibilityScenarios : longContentMode ? longContentScenarios : workerMode ? workerScenarios : clientMode ? clientScenarios : adminMode ? adminScenarios : dashboardMode ? dashboardScenarios : shellScenarios;
 
 class Cdp {
   constructor(url) { this.url = url; this.id = 0; this.pending = new Map(); }
@@ -142,6 +191,8 @@ try {
 
   for (const [name, width, height, role, pathname, action, userKey = role] of scenarios) {
     await client.send("Emulation.setDeviceMetricsOverride", { width, height, deviceScaleFactor: 1, mobile: width < 768, screenWidth: width, screenHeight: height });
+    await client.send("Emulation.setPageScaleFactor", { pageScaleFactor: 1 });
+    await client.send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-reduced-motion", value: action === "reduced-motion" ? "reduce" : "no-preference" }] });
     const [userId, userName, email] = users[userKey];
     const session = { version: 1, userId, role, name: userName, email, signedInAt: new Date(0).toISOString() };
     await client.send("Page.navigate", { url: baseUrl });
@@ -151,6 +202,28 @@ try {
     if (action === "worker-submit-ready") {
       await evaluate(client, `(() => { const key = 'ordospace.reactMvp.moduleCards.v1'; const state = JSON.parse(localStorage.getItem(key)); const card = state.moduleCards.find((item) => item.id === 'card-005'); Object.assign(card, { progress: 100, qcStatus: 'passed', status: 'qc_ready' }); localStorage.setItem(key, JSON.stringify(state)); location.reload(); })()`);
       await new Promise((resolve) => setTimeout(resolve, 650));
+    }
+    if (action === "skip-focus") await evaluate(client, `document.querySelector('.skip-link')?.focus()`);
+    if (action === "zoom") await client.send("Emulation.setPageScaleFactor", { pageScaleFactor: 2 });
+    if (action?.startsWith("long-") || action === "unknown-status") {
+      await evaluate(client, `(() => {
+        const long = 'ORDOSPACE quality fixture — '.repeat(14);
+        const mode = ${JSON.stringify(action)};
+        const selectors = {
+          'long-title': '.admin-card-review-page__identity h1',
+          'long-project': '.client-approval-detail__identity span',
+          'long-user': '.user-menu-trigger__copy strong',
+          'long-email': '.user-menu-trigger__copy small',
+          'long-note': '.worker-update-panel textarea',
+          'long-revision': '.worker-revision-notice p',
+          'long-activity': '.client-review-history__list strong',
+          'unknown-status': '.ordo-status-badge'
+        };
+        const target = document.querySelector(selectors[mode]);
+        if (!target) throw new Error('Missing long-content target for ' + mode);
+        if ('value' in target) target.value = long.slice(0, 240); else target.textContent = mode === 'unknown-status' ? '알 수 없는 상태' : long;
+        target.scrollIntoView({ block: 'center' });
+      })()`);
     }
     if (action === "menu") await evaluate(client, `document.querySelector('[aria-label="메뉴 열기"]')?.click()`);
     if (action === "user") await evaluate(client, `(() => { const trigger = document.querySelector('.app-header [aria-label="사용자 메뉴 열기"]'); trigger?.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, button: 0, pointerType: 'mouse' })); trigger?.click(); })()`);
@@ -175,18 +248,22 @@ try {
     const metrics = await evaluate(client, `(() => ({
       width: innerWidth,
       documentOverflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
-      desktopSidebar: getComputedStyle(document.querySelector('.desktop-sidebar')).display !== 'none',
-      compactRail: getComputedStyle(document.querySelector('.compact-sidebar-rail')).display !== 'none',
-      mobileHeader: getComputedStyle(document.querySelector('.mobile-header')).display !== 'none',
+      desktopSidebar: document.querySelector('.desktop-sidebar') ? getComputedStyle(document.querySelector('.desktop-sidebar')).display !== 'none' : false,
+      compactRail: document.querySelector('.compact-sidebar-rail') ? getComputedStyle(document.querySelector('.compact-sidebar-rail')).display !== 'none' : false,
+      mobileHeader: document.querySelector('.mobile-header') ? getComputedStyle(document.querySelector('.mobile-header')).display !== 'none' : false,
       activeNavigation: document.querySelector('[aria-current="page"]')?.textContent?.trim() || '',
       pageTitle: document.querySelector(${width < 768 ? "'.mobile-header__title strong'" : "'.shell-page-heading__title'"})?.textContent || '',
       dialogOpen: Boolean(document.querySelector('[role="dialog"]')),
       menuOpen: Boolean(document.querySelector('[role="menu"]'))
+      ,h1Count: document.querySelectorAll('main h1').length
+      ,mainCount: document.querySelectorAll('main').length
+      ,navigationLabels: Array.from(document.querySelectorAll('nav')).map((item) => item.getAttribute('aria-label')).filter(Boolean)
+      ,focused: document.activeElement?.getAttribute('aria-label') || document.activeElement?.textContent?.trim().slice(0, 80) || document.activeElement?.tagName
     }))()`);
     if (metrics.documentOverflow) throw new Error(`Document overflow in ${name}`);
-    if (width >= 1024 && !metrics.desktopSidebar) throw new Error(`Desktop sidebar missing in ${name}`);
-    if (width >= 768 && width < 1024 && !metrics.compactRail) throw new Error(`Compact rail missing in ${name}`);
-    if (width < 768 && (!metrics.mobileHeader || metrics.desktopSidebar || metrics.compactRail)) throw new Error(`Mobile shell mismatch in ${name}`);
+    if (pathname.startsWith("/workspace/") && width >= 1024 && !metrics.desktopSidebar) throw new Error(`Desktop sidebar missing in ${name}`);
+    if (pathname.startsWith("/workspace/") && width >= 768 && width < 1024 && !metrics.compactRail) throw new Error(`Compact rail missing in ${name}`);
+    if (pathname.startsWith("/workspace/") && width < 768 && (!metrics.mobileHeader || metrics.desktopSidebar || metrics.compactRail)) throw new Error(`Mobile shell mismatch in ${name}`);
     if (action === "menu" && !metrics.dialogOpen) throw new Error(`Mobile Sheet did not open in ${name}`);
     if (action === "user" && !metrics.menuOpen) throw new Error(`User menu did not open in ${name}`);
     if ((action === "dashboard" || action === "filter-empty") && await evaluate(client, `document.querySelectorAll('.ordo-metric-card').length < 4 || !document.querySelector('.ordo-filter-tabs')`)) throw new Error(`Dashboard patterns missing in ${name}`);
@@ -208,9 +285,18 @@ try {
     if ((action === "worker-editable" || action === "worker-validation" || action === "worker-submit-ready") && !(await evaluate(client, `Boolean(document.querySelector('.worker-update-panel form'))`))) throw new Error(`Worker update form missing in ${name}`);
     if (action === "worker-validation" && !(await evaluate(client, `document.body.innerText.includes('Change progress, hours, QC status, or add a note')`))) throw new Error(`Worker validation missing in ${name}`);
     if (action === "worker-submit-ready" && !(await evaluate(client, `Boolean(document.querySelector('.worker-submit-panel form'))`))) throw new Error(`Worker submit-ready action missing in ${name}`);
+    if (action === "worker-disabled" && !(await evaluate(client, `Boolean(document.querySelector('#worker-submit-disabled-reason'))`))) throw new Error(`Worker disabled reason missing in ${name}`);
     if (action === "worker-readonly" && await evaluate(client, `Boolean(document.querySelector('.worker-update-panel form')) || Boolean(document.querySelector('.worker-submit-panel form'))`)) throw new Error(`Readonly Worker detail exposes action form in ${name}`);
+    if (metrics.mainCount !== 1 || metrics.h1Count !== 1) throw new Error(`Heading or main landmark mismatch in ${name}: ${metrics.h1Count}/${metrics.mainCount}`);
+    if (role && pathname.startsWith('/workspace/') && metrics.navigationLabels.length === 0) throw new Error(`Navigation label missing in ${name}`);
     const shot = await client.send("Page.captureScreenshot", { format: "png", fromSurface: true, captureBeyondViewport: false });
     fs.writeFileSync(path.join(outputDir, `${name}.png`), Buffer.from(shot.data, "base64"));
+    if (action === "skip-focus") {
+      await evaluate(client, `document.querySelector('.skip-link')?.click()`);
+      await new Promise((resolve) => setTimeout(resolve, 80));
+      const skipWorked = await evaluate(client, `document.activeElement?.id === 'main-content'`);
+      if (!skipWorked) throw new Error(`Skip link did not move focus in ${name}`);
+    }
     if (action === "menu") {
       await evaluate(client, `document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true }))`);
       await new Promise((resolve) => setTimeout(resolve, 160));

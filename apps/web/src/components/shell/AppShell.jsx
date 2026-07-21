@@ -67,12 +67,12 @@ function WorkspaceBadge({ role, compact = false }) {
   );
 }
 
-function RoleNavigation({ role, compact = false, onNavigate }) {
+function RoleNavigation({ role, compact = false, navigationLabel, onNavigate }) {
   const location = useLocation();
   const items = getNavigationForRole(role);
 
   return (
-    <nav className={compact ? "shell-navigation shell-navigation--rail" : "shell-navigation"} aria-label={`${ROLE_LABELS[role]} 메뉴`}>
+    <nav className={compact ? "shell-navigation shell-navigation--rail" : "shell-navigation"} aria-label={navigationLabel}>
       {items.map((item) => {
         const active = isNavigationItemActive(item, location.pathname);
         const Icon = item.icon;
@@ -153,7 +153,7 @@ function DesktopSidebar({ currentUser, role, onSignOut }) {
       <Brand />
       <WorkspaceBadge role={role} />
       <Separator />
-      <ScrollArea className="desktop-sidebar__scroll"><RoleNavigation role={role} /></ScrollArea>
+      <ScrollArea className="desktop-sidebar__scroll"><RoleNavigation navigationLabel={`${ROLE_LABELS[role]} 데스크톱 메뉴`} role={role} /></ScrollArea>
       <UserMenu currentUser={currentUser} role={role} onSignOut={onSignOut} />
     </aside>
   );
@@ -165,7 +165,7 @@ function CompactSidebarRail({ currentUser, role, onSignOut }) {
       <aside className="compact-sidebar-rail" aria-label="ORDOSPACE 축약 사이드바">
         <Brand compact />
         <WorkspaceBadge compact role={role} />
-        <RoleNavigation compact role={role} />
+        <RoleNavigation compact navigationLabel={`${ROLE_LABELS[role]} 축약 메뉴`} role={role} />
         <UserMenu compact currentUser={currentUser} role={role} onSignOut={onSignOut} />
       </aside>
     </TooltipProvider>
@@ -194,7 +194,7 @@ function MobileNavigation({ currentUser, meta, role, onSignOut }) {
           <Brand />
           <WorkspaceBadge role={role} />
           <Separator />
-          <RoleNavigation role={role} onNavigate={() => setOpen(false)} />
+          <RoleNavigation navigationLabel={`${ROLE_LABELS[role]} 모바일 메뉴`} role={role} onNavigate={() => setOpen(false)} />
           <div className="mobile-navigation-sheet__footer"><UserMenu currentUser={currentUser} role={role} onSignOut={closeAndSignOut} /></div>
         </SheetContent>
       </Sheet>

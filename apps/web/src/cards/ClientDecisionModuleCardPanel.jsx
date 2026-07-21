@@ -54,7 +54,7 @@ export function ClientDecisionModuleCardPanel({ card, currentUser, onDecide }) {
       </div>
 
       {canDecide ? (
-        <form className="form-grid" onSubmit={handleSubmit}>
+        <form aria-describedby={errors.length ? "client-decision-errors" : undefined} className="form-grid" onSubmit={handleSubmit}>
           <fieldset className="form-field span-2 decision-options">
             <legend>Decision</legend>
             <label>
@@ -80,6 +80,8 @@ export function ClientDecisionModuleCardPanel({ card, currentUser, onDecide }) {
           <label className="form-field span-2">
             <span>{requiresNote ? "Revision note" : "Approval note"}</span>
             <Textarea
+              aria-describedby={errors.length ? "client-decision-errors" : undefined}
+              aria-invalid={errors.length > 0 || undefined}
               maxLength={NOTE_MAX_LENGTH}
               onChange={(event) => setNote(event.target.value)}
               required={requiresNote}
@@ -96,7 +98,7 @@ export function ClientDecisionModuleCardPanel({ card, currentUser, onDecide }) {
         </form>
       ) : null}
 
-      <FormFeedback errors={errors} success={success} />
+      <FormFeedback errors={errors} id="client-decision-errors" success={success} />
     </DataPanel>
   );
 }

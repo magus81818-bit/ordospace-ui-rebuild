@@ -79,7 +79,7 @@ export function WorkerUpdateModuleCardPanel({ card, currentUser, onUpdate }) {
         </p>
       </div>
 
-      <form className="form-grid" onSubmit={handleSubmit}>
+      <form aria-describedby={errors.length ? "worker-update-errors" : undefined} className="form-grid" onSubmit={handleSubmit}>
         <label className="form-field span-2">
           <span>Progress</span>
           <div className="range-row">
@@ -129,7 +129,7 @@ export function WorkerUpdateModuleCardPanel({ card, currentUser, onUpdate }) {
           />
         </label>
 
-        <FormFeedback errors={errors} success={success} />
+        <FormFeedback errors={errors} id="worker-update-errors" success={success} />
 
         <div className="form-actions">
           <AppButton type="submit">Save worker update</AppButton>

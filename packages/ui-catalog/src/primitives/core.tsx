@@ -100,5 +100,8 @@ export const TableHead = ({ className, ...props }: React.ThHTMLAttributes<HTMLTa
 export const TableCell = ({ className, ...props }: React.TdHTMLAttributes<HTMLTableCellElement>) => <td className={cn("ordo-table__cell", className)} {...props} />;
 export const TableCaption = ({ className, ...props }: React.HTMLAttributes<HTMLTableCaptionElement>) => <caption className={cn("ordo-table__caption", className)} {...props} />;
 
-export const Progress = React.forwardRef<React.ElementRef<typeof ProgressPrimitive.Root>, React.ComponentPropsWithoutRef<typeof ProgressPrimitive.Root>>(({ className, value = 0, ...props }, ref) => <ProgressPrimitive.Root ref={ref} className={cn("ordo-progress", className)} value={value} {...props}><ProgressPrimitive.Indicator className="ordo-progress__indicator" style={{ transform: `translateX(-${100 - (value || 0)}%)` }} /></ProgressPrimitive.Root>);
+export const Progress = React.forwardRef<React.ElementRef<typeof ProgressPrimitive.Root>, React.ComponentPropsWithoutRef<typeof ProgressPrimitive.Root>>(({ className, value, ...props }, ref) => {
+  const safeValue = typeof value === "number" && Number.isFinite(value) ? Math.min(100, Math.max(0, value)) : null;
+  return <ProgressPrimitive.Root ref={ref} className={cn("ordo-progress", className)} value={safeValue} aria-valuemin={props["aria-valuemin"] ?? 0} aria-valuemax={props["aria-valuemax"] ?? 100} aria-valuenow={props["aria-valuenow"] ?? safeValue ?? undefined} {...props}><ProgressPrimitive.Indicator className="ordo-progress__indicator" style={{ transform: `translateX(-${100 - (safeValue ?? 0)}%)` }} /></ProgressPrimitive.Root>;
+});
 Progress.displayName = "Progress";

@@ -1,9 +1,9 @@
 import { DataPanel } from "./Panel.jsx";
 
-export function FormFeedback({ errors = [], success = "" }) {
+export function FormFeedback({ errors = [], id, success = "" }) {
   if (errors.length > 0) {
     return (
-      <div className="form-feedback is-error" role="alert">
+      <div className="form-feedback is-error" id={id} role="alert" tabIndex="-1">
         <strong>Review the fields</strong>
         <ul>
           {errors.map((error) => (
@@ -16,7 +16,7 @@ export function FormFeedback({ errors = [], success = "" }) {
 
   if (success) {
     return (
-      <p className="form-feedback is-success" role="status">
+      <p className="form-feedback is-success" id={id} role="status">
         {success}
       </p>
     );

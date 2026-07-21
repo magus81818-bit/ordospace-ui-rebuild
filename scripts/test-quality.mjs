@@ -1,0 +1,23 @@
+import assert from "node:assert/strict";
+import { getStatusView } from "../apps/web/src/design-system/status-map.ts";
+import { createModuleCardViewModel } from "../apps/web/src/features/module-cards/module-card-view-model.js";
+import { getAvailableClientActions } from "../apps/web/src/features/client/client-action-policy.js";
+import { getAvailableWorkerActions } from "../apps/web/src/features/worker/worker-action-policy.js";
+import { mvpSeed } from "../apps/web/src/data/mvp-seed.mjs";
+
+const source = structuredClone(mvpSeed.moduleCards[0]);
+const unknown = getStatusView("future_status");
+assert.match(unknown.label, /알 수 없는|Unknown/i);
+const longCard = { ...source, title: "긴 제목 ".repeat(80), projectName: "긴 프로젝트 ".repeat(40), progress: Number.NaN };
+const longView = createModuleCardViewModel(longCard, { role: "admin", users: mvpSeed.users });
+assert.equal(longView.title, longCard.title);
+assert.equal(longView.progress, null);
+const missingView = createModuleCardViewModel({ ...source, projectName: "", assigneeId: "missing" }, { role: "admin", users: mvpSeed.users });
+assert.ok(missingView.projectLabel);
+assert.ok(missingView.assigneeLabel);
+const clientReadonly = getAvailableClientActions({ ...source, status: "approved" }, { userId: source.clientId });
+assert.equal(clientReadonly.readonly, true);
+const workerDisabled = getAvailableWorkerActions({ ...source, status: "in_progress", progress: 50, qcStatus: "pending" }, { userId: source.assigneeId });
+assert.ok(workerDisabled.disabledReason);
+assert.deepEqual(mvpSeed.moduleCards[0], source);
+console.log(JSON.stringify({ ok: true, assertions: 11 }, null, 2));

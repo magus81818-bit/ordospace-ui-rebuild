@@ -8,9 +8,9 @@ export function createModuleCardViewModel(card, { role, users = [] }) {
 
   return {
     id: card.id,
-    title: card.title,
+    title: card.title || "제목 없음",
     summary: card.summary,
-    projectLabel: card.projectName ?? card.projectId ?? "프로젝트 미지정",
+    projectLabel: card.projectName || card.projectId || "프로젝트 미지정",
     assigneeLabel: role === "client" ? null : findName(card.assigneeId),
     clientLabel: role === "worker" ? null : findName(card.clientId),
     status: card.status,
@@ -25,4 +25,3 @@ export function createModuleCardViewModel(card, { role, users = [] }) {
 export function createModuleCardViewModels(cards, context) {
   return cards.map((card) => createModuleCardViewModel(card, context));
 }
-

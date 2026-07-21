@@ -19,9 +19,9 @@ export function WorkerTaskDetailPage({ activities, card, comments, currentUser, 
         </CardContent></Card>
         {card.status === "revision_requested" ? <InlineNotice className="worker-revision-notice" title="수정 요청" tone="crit">{revisionReason ?? "수정 요청 상태입니다. 상세 사유가 기록되지 않았습니다."}</InlineNotice> : null}
         <section className="worker-update-area" aria-label="작업 업데이트">{updatePanel}</section>
-        <Card className="worker-activity-panel"><CardContent><PanelHeader eyebrow="Work history" title="작업 기록" description="이 작업에 연결된 상태 변경 기록입니다." /><div className="worker-activity-list">{activities.map((activity) => <article key={activity.id}><strong>{activity.message}</strong><span>{activity.createdAt}</span></article>)}</div></CardContent></Card>
+        <Card className="worker-activity-panel"><CardContent><PanelHeader eyebrow="Work history" title="작업 기록" description="이 작업에 연결된 상태 변경 기록입니다." /><div className="worker-activity-list">{activities.length ? activities.map((activity) => <article key={activity.id}><strong>{activity.message}</strong><span>{activity.createdAt}</span></article>) : <p className="worker-activity-list__empty">표시할 작업 기록이 없습니다.</p>}</div></CardContent></Card>
       </div>
-      <aside className="worker-submission-area" aria-label="Admin 검토 제출"><InlineNotice title={policy.readonly ? "읽기 전용 작업" : policy.canSubmitForAdminReview ? "제출 준비 완료" : "작업 진행 중"} tone={policy.canSubmitForAdminReview ? "ok" : "pend"}>{policy.guidance}</InlineNotice>{submissionPanel}{!policy.canSubmitForAdminReview && !policy.readonly ? <p className="worker-disabled-reason">{policy.disabledReason}</p> : null}</aside>
+      <aside className="worker-submission-area" aria-label="Admin 검토 제출"><InlineNotice title={policy.readonly ? "읽기 전용 작업" : policy.canSubmitForAdminReview ? "제출 준비 완료" : "작업 진행 중"} tone={policy.canSubmitForAdminReview ? "ok" : "pend"}>{policy.guidance}</InlineNotice>{submissionPanel}{!policy.canSubmitForAdminReview && !policy.readonly ? <p className="worker-disabled-reason" id="worker-submit-disabled-reason">{policy.disabledReason}</p> : null}</aside>
     </div>
   </section>;
 }

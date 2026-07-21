@@ -49,7 +49,7 @@ export function WorkerSubmitModuleCardPanel({ card, currentUser, onSubmit }) {
       </div>
 
       {canSubmit ? (
-        <form className="form-grid" onSubmit={handleSubmit}>
+        <form aria-describedby={errors.length ? "worker-submit-errors" : undefined} className="form-grid" onSubmit={handleSubmit}>
           <label className="form-field span-2">
             <span>Submission note</span>
             <Textarea
@@ -66,7 +66,7 @@ export function WorkerSubmitModuleCardPanel({ card, currentUser, onSubmit }) {
         </form>
       ) : null}
 
-      <FormFeedback errors={errors} success={success} />
+      <FormFeedback errors={errors} id="worker-submit-errors" success={success} />
     </DataPanel>
   );
 }
