@@ -1,0 +1,22 @@
+{
+  "round": 6,
+  "capturedAt": "2026-07-21T13:44:00+09:00",
+  "repository": "C:/Users/Admin/Desktop/K-디지털/수업자료/코덱스/ordospace-ui-rebuild",
+  "remote": "https://github.com/magus81818-bit/ordospace-ui-rebuild.git",
+  "branch": "redo/r06-admin-dashboard",
+  "head": "65465846487065b861756a8c7353c8df8c63ccc5",
+  "approvedBaseBranch": "redo/r05-dashboard-shell",
+  "approvedBaseHead": "65465846487065b861756a8c7353c8df8c63ccc5",
+  "mergeBase": "65465846487065b861756a8c7353c8df8c63ccc5",
+  "worktreeAtBranchCreation": {
+    "trackedChanges": [],
+    "untracked": ["references/prompts/round-6.md"]
+  },
+  "guardrails": {
+    "mainChanged": false,
+    "protectedSourceChanged": false,
+    "productionDeployed": false,
+    "vercelAliasChanged": false,
+    "forcePushUsed": false
+  }
+}
