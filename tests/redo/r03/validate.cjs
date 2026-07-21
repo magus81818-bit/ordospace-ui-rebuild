@@ -164,7 +164,7 @@ for (const protectedFile of protectedFiles) {
   check(!changed.includes(protectedFile), `protected structure/function file unchanged: ${protectedFile}`);
 }
 if (shellImplementationRound) {
-  const shell = read('app/layout/app-shell.js');
+  const shell = fs.readFileSync(path.join(root, 'app/layout/app-shell.js'), 'utf8');
   for (const contract of ['function renderSideMenu(', 'function renderDrawerMenu(', 'function renderTopbarCTA(', 'function renderNotifList(', 'function renderMobileTab(', 'function applyRoleUI(']) check(shell.includes(contract), `Round 5 shell contract retained: ${contract}`);
 }
 
