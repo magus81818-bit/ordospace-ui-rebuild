@@ -1,0 +1,280 @@
+{
+  "generatedAt": "2026-07-21T14:43:23.055Z",
+  "ok": true,
+  "branch": "redo/r07-client-dashboard",
+  "mergeBase": "6c4413e68c5239672bc01a1fe18dd926f663506b",
+  "inventoryCount": 12,
+  "checks": [
+    {
+      "name": "branch",
+      "pass": true,
+      "detail": "redo/r07-client-dashboard"
+    },
+    {
+      "name": "merge base",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "inventory count",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "name": "inventory unique",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required CSS",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required decorator",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "prompt preserved",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "three Client scopes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no Admin selector",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no Worker selector",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no public selector",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no Shell selector",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "raw colors zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "important zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "token consumption",
+      "pass": true,
+      "detail": "55"
+    },
+    {
+      "name": "decorator no storage API",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "route dashboard",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "route project",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "route approvals",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "DOM clientDashboardKpis",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "DOM clientProjectStepProgress",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "DOM clientProjectTimeline",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "DOM clientProjectArtifacts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "DOM cardDetailModal",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "DOM clientApprovalList",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "DOM clientApprovalDetail",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parity app/data/workspace.data.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parity app/data/room.data.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parity app/services/session.service.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parity app/services/module-card-lifecycle.service.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parity app/config/api.config.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parity app/layout/app-shell.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parity api/module-cards.js",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact client-browser-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact client-interaction-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact non-client-regression.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact layout-preservation.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact frozen-public-regression.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser artifact accessibility-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document inventory-scope.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document client-architecture.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document client-dashboard-implementation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document client-project-implementation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document client-approvals-implementation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document derived-component-decisions.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document css-isolation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document layout-review.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document non-client-regression.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document public-regression.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document accessibility-review.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document verification-results.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document change-manifest.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document implementation-report.md",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "failures": []
+}

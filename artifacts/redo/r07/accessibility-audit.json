@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-07-21T14:43:04.372Z",
+  "checks": [
+    {
+      "screen": "dashboard",
+      "progressNamed": true,
+      "pass": true
+    },
+    {
+      "screen": "project",
+      "tabs": true,
+      "filters": true,
+      "dialogFocus": true,
+      "escape": true,
+      "returnFocus": true,
+      "pass": true
+    },
+    {
+      "screen": "approvals",
+      "queueKeyboard": true,
+      "selectionState": true,
+      "detailLive": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

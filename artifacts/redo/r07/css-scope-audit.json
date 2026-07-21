@@ -1,0 +1,12 @@
+{
+  "clientScreens": [
+    "screen-dashboard",
+    "screen-project",
+    "screen-approvals"
+  ],
+  "adminLeak": false,
+  "workerLeak": false,
+  "publicLeak": false,
+  "shellSelectors": false,
+  "pass": true
+}

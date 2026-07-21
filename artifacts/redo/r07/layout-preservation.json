@@ -1,0 +1,1285 @@
+{
+  "generatedAt": "2026-07-21T14:43:04.372Z",
+  "baseline": "6c4413e68c5239672bc01a1fe18dd926f663506b",
+  "checks": [
+    {
+      "route": "dashboard",
+      "viewport": "1440x1000",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "header": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "header": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "clientDashboardKpis",
+        "SECTION:grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-5 mb-6",
+        "DIV:grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-5"
+      ],
+      "pass": true
+    },
+    {
+      "route": "project",
+      "viewport": "1440x1000",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "header": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "header": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5",
+        "SECTION:ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5 mb-5",
+        "SECTION:ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden"
+      ],
+      "pass": true
+    },
+    {
+      "route": "approvals",
+      "viewport": "1440x1000",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "header": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "header": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "SECTION:ordo-c-list-detail grid grid-cols-1 lg:grid-cols-[420px_1fr] bg-white border border-bd-default rounded-xl overflow-hidden shadow-subtle"
+      ],
+      "pass": true
+    },
+    {
+      "route": "dashboard",
+      "viewport": "1280x900",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "header": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "header": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "clientDashboardKpis",
+        "SECTION:grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-5 mb-6",
+        "DIV:grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-5"
+      ],
+      "pass": true
+    },
+    {
+      "route": "project",
+      "viewport": "1280x900",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "header": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "header": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5",
+        "SECTION:ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5 mb-5",
+        "SECTION:ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden"
+      ],
+      "pass": true
+    },
+    {
+      "route": "approvals",
+      "viewport": "1280x900",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "header": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "header": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "SECTION:ordo-c-list-detail grid grid-cols-1 lg:grid-cols-[420px_1fr] bg-white border border-bd-default rounded-xl overflow-hidden shadow-subtle"
+      ],
+      "pass": true
+    },
+    {
+      "route": "dashboard",
+      "viewport": "1024x1366",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "header": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "header": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "clientDashboardKpis",
+        "SECTION:grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-5 mb-6",
+        "DIV:grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-5"
+      ],
+      "pass": true
+    },
+    {
+      "route": "project",
+      "viewport": "1024x1366",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "header": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "header": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5",
+        "SECTION:ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5 mb-5",
+        "SECTION:ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden"
+      ],
+      "pass": true
+    },
+    {
+      "route": "approvals",
+      "viewport": "1024x1366",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "header": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "header": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "SECTION:ordo-c-list-detail grid grid-cols-1 lg:grid-cols-[420px_1fr] bg-white border border-bd-default rounded-xl overflow-hidden shadow-subtle"
+      ],
+      "pass": true
+    },
+    {
+      "route": "dashboard",
+      "viewport": "768x1024",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "tabs": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "tabs": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "clientDashboardKpis",
+        "SECTION:grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-5 mb-6",
+        "DIV:grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-5"
+      ],
+      "pass": true
+    },
+    {
+      "route": "project",
+      "viewport": "768x1024",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "tabs": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "tabs": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5",
+        "SECTION:ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5 mb-5",
+        "SECTION:ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden"
+      ],
+      "pass": true
+    },
+    {
+      "route": "approvals",
+      "viewport": "768x1024",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "tabs": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "tabs": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "SECTION:ordo-c-list-detail grid grid-cols-1 lg:grid-cols-[420px_1fr] bg-white border border-bd-default rounded-xl overflow-hidden shadow-subtle"
+      ],
+      "pass": true
+    },
+    {
+      "route": "dashboard",
+      "viewport": "390x844",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "tabs": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "tabs": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "clientDashboardKpis",
+        "SECTION:grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-5 mb-6",
+        "DIV:grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-5"
+      ],
+      "pass": true
+    },
+    {
+      "route": "project",
+      "viewport": "390x844",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "tabs": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "tabs": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5",
+        "SECTION:ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5 mb-5",
+        "SECTION:ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden"
+      ],
+      "pass": true
+    },
+    {
+      "route": "approvals",
+      "viewport": "390x844",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "tabs": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "tabs": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "SECTION:ordo-c-list-detail grid grid-cols-1 lg:grid-cols-[420px_1fr] bg-white border border-bd-default rounded-xl overflow-hidden shadow-subtle"
+      ],
+      "pass": true
+    },
+    {
+      "route": "dashboard",
+      "viewport": "360x800",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "tabs": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "tabs": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "clientDashboardKpis",
+        "SECTION:grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-5 mb-6",
+        "DIV:grid grid-cols-1 lg:grid-cols-[1fr_360px] gap-5"
+      ],
+      "pass": true
+    },
+    {
+      "route": "project",
+      "viewport": "360x800",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "tabs": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "tabs": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5",
+        "SECTION:ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle p-4 lg:p-5 mb-5",
+        "SECTION:ordo-client-surface bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden"
+      ],
+      "pass": true
+    },
+    {
+      "route": "approvals",
+      "viewport": "360x800",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "tabs": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "tabs": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER:flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-6",
+        "SECTION:ordo-c-list-detail grid grid-cols-1 lg:grid-cols-[420px_1fr] bg-white border border-bd-default rounded-xl overflow-hidden shadow-subtle"
+      ],
+      "pass": true
+    }
+  ],
+  "pass": true
+}

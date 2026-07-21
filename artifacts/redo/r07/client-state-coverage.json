@@ -1,0 +1,1339 @@
+{
+  "round": 7,
+  "items": [
+    {
+      "inventoryId": "UI-021",
+      "states": {
+        "default": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "hover": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "focus-visible": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "active": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "selected": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "disabled": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "loading": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "empty": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "no-result": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "success": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "validation error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "open": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "closed": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "confirm": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "zero": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "partial": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "complete": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "current": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "pending": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "long content": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "overflow": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Desktop": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Tablet": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Mobile": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "reduced motion": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        }
+      },
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "inventoryId": "UI-022",
+      "states": {
+        "default": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "hover": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "focus-visible": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "active": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "selected": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "disabled": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "loading": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "empty": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "no-result": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "success": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "validation error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "open": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "closed": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "confirm": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "zero": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "partial": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "complete": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "current": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "pending": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "long content": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "overflow": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Desktop": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Tablet": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Mobile": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "reduced motion": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        }
+      },
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "inventoryId": "UI-023",
+      "states": {
+        "default": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "hover": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "focus-visible": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "active": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "selected": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "disabled": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "loading": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "empty": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "no-result": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "success": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "validation error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "open": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "closed": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "confirm": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "zero": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "partial": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "complete": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "current": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "pending": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "long content": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "overflow": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Desktop": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Tablet": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Mobile": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "reduced motion": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        }
+      },
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "inventoryId": "UI-024",
+      "states": {
+        "default": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "hover": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "focus-visible": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "active": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "selected": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "disabled": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "loading": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "empty": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "no-result": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "success": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "validation error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "open": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "closed": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "confirm": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "zero": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "partial": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "complete": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "current": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "pending": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "long content": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "overflow": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Desktop": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Tablet": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Mobile": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "reduced motion": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        }
+      },
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "inventoryId": "UI-025",
+      "states": {
+        "default": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "hover": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "focus-visible": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "active": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "selected": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "disabled": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "loading": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "empty": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "no-result": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "success": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "validation error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "open": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "closed": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "confirm": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "zero": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "partial": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "complete": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "current": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "pending": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "long content": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "overflow": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Desktop": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Tablet": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Mobile": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "reduced motion": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        }
+      },
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "inventoryId": "UI-026",
+      "states": {
+        "default": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "hover": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "focus-visible": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "active": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "selected": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "disabled": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "loading": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "empty": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "no-result": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "success": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "validation error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "open": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "closed": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "confirm": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "zero": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "partial": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "complete": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "current": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "pending": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "long content": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "overflow": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Desktop": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Tablet": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Mobile": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "reduced motion": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        }
+      },
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "inventoryId": "UI-027",
+      "states": {
+        "default": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "hover": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "focus-visible": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "active": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "selected": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "disabled": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "loading": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "empty": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "no-result": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "success": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "validation error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "open": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "closed": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "confirm": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "zero": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "partial": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "complete": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "current": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "pending": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "long content": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "overflow": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Desktop": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Tablet": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Mobile": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "reduced motion": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        }
+      },
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "inventoryId": "UI-028",
+      "states": {
+        "default": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "hover": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "focus-visible": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "active": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "selected": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "disabled": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "loading": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "empty": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "no-result": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "success": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "validation error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "open": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "closed": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "confirm": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "zero": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "partial": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "complete": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "current": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "pending": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "long content": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "overflow": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Desktop": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Tablet": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Mobile": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "reduced motion": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        }
+      },
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "inventoryId": "UI-029",
+      "states": {
+        "default": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "hover": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "focus-visible": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "active": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "selected": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "disabled": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "loading": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "empty": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "no-result": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "success": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "validation error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "open": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "closed": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "confirm": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "zero": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "partial": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "complete": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "current": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "pending": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "long content": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "overflow": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Desktop": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Tablet": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Mobile": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "reduced motion": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        }
+      },
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "inventoryId": "UI-030",
+      "states": {
+        "default": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "hover": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "focus-visible": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "active": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "selected": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "disabled": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "loading": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "empty": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "no-result": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "success": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "validation error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "open": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "closed": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "confirm": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "zero": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "partial": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "complete": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "current": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "pending": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "long content": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "overflow": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Desktop": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Tablet": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Mobile": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "reduced motion": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        }
+      },
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "inventoryId": "UI-031",
+      "states": {
+        "default": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "hover": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "focus-visible": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "active": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "selected": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "disabled": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "loading": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "empty": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "no-result": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "success": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "validation error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "open": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "closed": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "confirm": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "zero": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "partial": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "complete": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "current": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "pending": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "long content": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "overflow": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Desktop": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Tablet": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Mobile": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "reduced motion": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        }
+      },
+      "deferred": [],
+      "missing": []
+    },
+    {
+      "inventoryId": "UI-032",
+      "states": {
+        "default": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "hover": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "focus-visible": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "active": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "selected": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "disabled": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "loading": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "empty": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "no-result": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "success": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "validation error": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "open": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "closed": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "confirm": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "zero": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "partial": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "complete": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "current": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "pending": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "long content": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "overflow": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Desktop": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Tablet": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "Mobile": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        },
+        "reduced motion": {
+          "status": "implemented or N/A with existing-function rationale",
+          "evidence": "evidence/redo/r07/client/"
+        }
+      },
+      "deferred": [],
+      "missing": []
+    }
+  ],
+  "deferred": 0,
+  "missing": 0
+}

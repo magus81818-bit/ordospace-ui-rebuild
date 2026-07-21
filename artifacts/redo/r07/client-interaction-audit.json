@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-07-21T14:43:04.372Z",
+  "checks": [
+    {
+      "inventory": [
+        "UI-021",
+        "UI-022",
+        "UI-023",
+        "UI-024"
+      ],
+      "state": "zero-partial-complete-current-pending",
+      "pass": true,
+      "evidence": "evidence/redo/r07/client/states/client-dashboard-progress-states-desktop-1440x1000.png"
+    },
+    {
+      "inventory": [
+        "UI-025",
+        "UI-026",
+        "UI-027",
+        "UI-028",
+        "UI-029"
+      ],
+      "state": "filter-no-result-tabs-modal-open-close-focus",
+      "pass": true,
+      "evidence": [
+        "evidence/redo/r07/client/states/client-project-modal-open-desktop-1440x1000.png",
+        "evidence/redo/r07/client/states/client-project-filter-no-result-desktop-1440x1000.png"
+      ]
+    },
+    {
+      "inventory": [
+        "UI-030",
+        "UI-031",
+        "UI-032"
+      ],
+      "state": "selected-detail-controls-keyboard",
+      "pass": true,
+      "evidence": "evidence/redo/r07/client/states/client-approvals-selected-controls-desktop-1440x1000.png"
+    }
+  ],
+  "pass": true
+}

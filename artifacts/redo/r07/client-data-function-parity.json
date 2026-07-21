@@ -1,0 +1,74 @@
+{
+  "round": 7,
+  "baseline": "6c4413e68c5239672bc01a1fe18dd926f663506b",
+  "files": [
+    {
+      "file": "app/data/workspace.data.js",
+      "baseline": "7902910c679d535d2c607fdebf162cc2a66da042",
+      "result": "7902910c679d535d2c607fdebf162cc2a66da042",
+      "pass": true
+    },
+    {
+      "file": "app/data/room.data.js",
+      "baseline": "3421d4cc7f82a747b76616dc2c8eff079b2b00a1",
+      "result": "3421d4cc7f82a747b76616dc2c8eff079b2b00a1",
+      "pass": true
+    },
+    {
+      "file": "app/services/session.service.js",
+      "baseline": "3ca78f6ecb910943c014b8a25427b170917be677",
+      "result": "3ca78f6ecb910943c014b8a25427b170917be677",
+      "pass": true
+    },
+    {
+      "file": "app/services/module-card-lifecycle.service.js",
+      "baseline": "a1f1db726503b24f1e34b431f7f14e884f632172",
+      "result": "a1f1db726503b24f1e34b431f7f14e884f632172",
+      "pass": true
+    },
+    {
+      "file": "app/config/api.config.js",
+      "baseline": "65bd151f2d5ac2b65b7bc0f88ca5a4d3bfc60b19",
+      "result": "65bd151f2d5ac2b65b7bc0f88ca5a4d3bfc60b19",
+      "pass": true
+    },
+    {
+      "file": "app/layout/app-shell.js",
+      "baseline": "44e22e2e5a56486c9bb55e3e3b69e156ab8c2fd2",
+      "result": "44e22e2e5a56486c9bb55e3e3b69e156ab8c2fd2",
+      "pass": true
+    },
+    {
+      "file": "api/module-cards.js",
+      "baseline": "aabab8c9f5021b33fa838d217c35cce55c4a81ce",
+      "result": "aabab8c9f5021b33fa838d217c35cce55c4a81ce",
+      "pass": true
+    }
+  ],
+  "routes": [
+    "dashboard",
+    "project",
+    "approvals"
+  ],
+  "preserved": [
+    "menu",
+    "Korean copy",
+    "KPI values",
+    "progress",
+    "fixtures",
+    "status",
+    "filters",
+    "ModuleCard",
+    "assets",
+    "approval queue/detail",
+    "comments",
+    "approve/revision",
+    "forms",
+    "localStorage",
+    "API",
+    "guard",
+    "session",
+    "lifecycle"
+  ],
+  "pass": true
+}

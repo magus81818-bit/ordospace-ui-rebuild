@@ -1,0 +1,79 @@
+{
+  "generatedAt": "2026-07-21T14:43:04.372Z",
+  "cases": [
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "leak": 0,
+      "css": "",
+      "overflow": false,
+      "pass": true,
+      "evidence": "evidence/redo/r07/non-client/admin-admin-home-desktop-1440x1000.png"
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "leak": 0,
+      "css": "",
+      "overflow": false,
+      "pass": true,
+      "evidence": "evidence/redo/r07/non-client/admin-admin-projects-desktop-1440x1000.png"
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "leak": 0,
+      "css": "",
+      "overflow": false,
+      "pass": true,
+      "evidence": "evidence/redo/r07/non-client/admin-admin-cards-desktop-1440x1000.png"
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "leak": 0,
+      "css": "",
+      "overflow": false,
+      "pass": true,
+      "evidence": "evidence/redo/r07/non-client/admin-admin-team-desktop-1440x1000.png"
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "leak": 0,
+      "css": "",
+      "overflow": false,
+      "pass": true,
+      "evidence": "evidence/redo/r07/non-client/admin-admin-audit-desktop-1440x1000.png"
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "leak": 0,
+      "css": "",
+      "overflow": false,
+      "pass": true,
+      "evidence": "evidence/redo/r07/non-client/worker-worker-home-desktop-1440x1000.png"
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "leak": 0,
+      "css": "",
+      "overflow": false,
+      "pass": true,
+      "evidence": "evidence/redo/r07/non-client/worker-worker-cards-desktop-1440x1000.png"
+    },
+    {
+      "role": "worker",
+      "route": "profile",
+      "leak": 0,
+      "css": "",
+      "overflow": false,
+      "pass": true,
+      "evidence": "evidence/redo/r07/non-client/worker-profile-desktop-1440x1000.png"
+    }
+  ],
+  "clientClassLeakCount": 0,
+  "pass": true
+}

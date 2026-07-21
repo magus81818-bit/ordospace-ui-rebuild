@@ -1,0 +1,19 @@
+{
+  "screenIds": [
+    "screen-dashboard",
+    "screen-project",
+    "screen-approvals"
+  ],
+  "preservedIds": [
+    "clientDashboardKpis",
+    "clientProjectStepProgress",
+    "clientProjectTimeline",
+    "clientProjectArtifacts",
+    "cardDetailModal",
+    "clientApprovalList",
+    "clientApprovalDetail"
+  ],
+  "sectionOrderPreserved": true,
+  "additiveOnly": true,
+  "pass": true
+}
