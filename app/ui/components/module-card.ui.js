@@ -38,7 +38,7 @@ function ModuleCardListItem(card, opts){
   let open, close;
   if ((o.tag || 'button') === 'button') {
     const stateCls = o.selected ? 'border-brand-primary bg-bg-secondary' : 'border-bd-default bg-white';
-    open = '<button type="button"' + dataAttr + ' class="w-full text-left ordo-c-module-card action-card group relative border ' + stateCls + ' rounded-xl pl-5 pr-4 py-4 hover:border-bd-emphasis shadow-subtle focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary/50">';
+    open = '<button type="button"' + dataAttr + ' data-state="' + (o.selected ? 'selected' : 'default') + '" class="w-full text-left ordo-c-module-card action-card group relative border ' + stateCls + ' rounded-xl pl-5 pr-4 py-4 hover:border-bd-emphasis shadow-subtle focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary/50">';
     close = '</button>';
   } else if (o.interactive) {
     open = '<article' + dataAttr + ' role="button" tabindex="0" class="ordo-c-module-card action-card group relative bg-white border border-bd-default rounded-xl pl-5 pr-4 py-4 hover:border-bd-emphasis shadow-subtle cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-primary/50">';

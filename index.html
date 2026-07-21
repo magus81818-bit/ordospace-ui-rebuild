@@ -239,6 +239,7 @@
 
 <link rel="stylesheet" href="./app/styles/app.css" />
 <link rel="stylesheet" href="./app/styles/dashboard-salesops.tokens.css" />
+<link rel="stylesheet" href="./app/styles/dashboard-salesops.primitives.css" />
 </head>
 
 <body class="min-h-screen auth-off role-client">
@@ -2625,7 +2626,7 @@
           </button>
         </div>
         <div class="overflow-x-auto">
-          <table class="w-full text-[13px] min-w-[980px]">
+          <table class="ordo-c-table w-full text-[13px] min-w-[980px]">
             <thead class="bg-bg-tertiary border-b border-bd-default text-tx-secondary text-left">
               <tr>
                 <th class="px-4 py-3 font-semibold">파트너</th>
@@ -2659,7 +2660,7 @@
           </div>
         </div>
         <div class="overflow-x-auto">
-          <table class="w-full min-w-[860px] text-[13px]">
+          <table class="ordo-c-table w-full min-w-[860px] text-[13px]">
             <thead class="bg-bg-tertiary border-b border-bd-default text-tx-secondary">
               <tr>
                 <th class="px-4 py-3 text-left font-semibold sticky left-0 bg-bg-tertiary z-10">Worker</th>
@@ -2758,7 +2759,7 @@
           <a href="#admin-projects" class="h-8 px-3 rounded-md border border-bd-default hover:bg-bg-secondary text-[12px] font-semibold inline-flex items-center gap-1.5"><i data-lucide="folder-kanban" class="w-3.5 h-3.5"></i>전체</a>
         </div>
         <div class="overflow-x-auto">
-          <table class="w-full text-[13px] min-w-[720px]">
+          <table class="ordo-c-table w-full text-[13px] min-w-[720px]">
             <thead class="bg-bg-tertiary border-b border-bd-default text-tx-secondary text-left">
               <tr>
                 <th class="px-4 py-3 font-semibold">프로젝트명</th>
@@ -2811,7 +2812,7 @@
 
     <section id="adminProjectTableView" class="hidden bg-white border border-bd-default rounded-xl shadow-subtle overflow-hidden">
       <div class="overflow-x-auto">
-        <table class="w-full text-[13px] min-w-[980px]">
+        <table class="ordo-c-table w-full text-[13px] min-w-[980px]">
           <thead class="bg-bg-tertiary border-b border-bd-default text-left text-tx-secondary">
             <tr>
               <th class="px-4 py-3 font-semibold">프로젝트명</th>
@@ -3331,6 +3332,7 @@
     <div class="text-center text-[11px] text-tx-tertiary pt-4">
   <div class="logo-ordo tracking-widest">ORDOSPACE COMPONENT CATALOG - 8 components</div>
     </div>
+    <div id="salesopsUiLab" aria-label="SalesOps Primitive UI Lab"></div>
   </div>
 </section>
 <!-- /screen-components-gallery -->
@@ -3381,6 +3383,7 @@
 <script src="./app/ui/components/detail.ui.js"></script>
 <script src="./app/ui/components/form.ui.js"></script>
 <script src="./app/ui/components/sheet.ui.js"></script>
+<script src="./app/ui/components/primitives.ui.js"></script>
 <script src="./app/ui/workspace.ui.js"></script>
 <script src="./app/router/hash-router.js"></script>
 <script src="./app/screens/client-workspace.screen.js"></script>
@@ -3390,6 +3393,7 @@
 <script src="./app/screens/worker-workspace.screen.js"></script>
 <script src="./app/main.js"></script>
 <script src="./app/services/app-boot.js"></script>
+<script src="./app/qa/ui-lab.js"></script>
 <script src="./app/qa/runtime-qa.js"></script>
 
 <!--

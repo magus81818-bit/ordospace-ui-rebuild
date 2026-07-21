@@ -49,7 +49,13 @@ function EmptyState(message, opts){
   const o = opts || {};
   const esc = window.ORDO_UI_COMPONENTS.escapeHtml;
   const classes = ORDO_EMPTY_STATE_VARIANTS[o.variant] || ORDO_EMPTY_STATE_VARIANTS.panel;
-  return '<div class="' + classes + (o.className ? ' ' + o.className : '') + '">' + esc(message) + '</div>';
+  const title = o.title || message;
+  const body = o.title ? message : '';
+  const action = o.actionHtml || '';
+  return '<div class="ordo-c-empty-state ' + classes + (o.className ? ' ' + o.className : '') + '" role="status">'
+    + (o.icon ? '<span class="ordo-c-empty-state__icon" aria-hidden="true">' + esc(o.icon) + '</span>' : '')
+    + '<strong class="ordo-c-empty-state__title">' + esc(title) + '</strong>'
+    + (body ? '<span>' + esc(body) + '</span>' : '') + action + '</div>';
 }
 
 // 【팩토리】 알림 박스: 색조 배경의 한 줄 안내 (예: PM 코멘트 강조).

@@ -15,9 +15,10 @@
 
 // 【팩토리】 폼 필드: 라벨 텍스트 + 컨트롤 HTML → 감싼 블록.
 // 컨트롤(input/select)의 HTML은 호출자가 직접 만들어 넘깁니다.
-function FormField(label, controlHtml){
+function FormField(label, controlHtml, opts){
   const esc = window.ORDO_UI_COMPONENTS.escapeHtml;
-  return '<label class="block"><span class="text-[12px] font-semibold text-tx-secondary">' + esc(label) + '</span>' + controlHtml + '</label>';
+  const o = opts || {};
+  return '<label class="block ordo-c-form-field"><span class="text-[12px] font-semibold text-tx-secondary">' + esc(label) + (o.required ? ' <span aria-hidden="true">*</span>' : '') + '</span>' + controlHtml + (o.helper ? '<span class="ordo-c-field-message">' + esc(o.helper) + '</span>' : '') + '</label>';
 }
 
 // input/select 공용 스타일 클래스. 일괄 생성 시트의 모든 입력칸이 이 스타일을 공유.
