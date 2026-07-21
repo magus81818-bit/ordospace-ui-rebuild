@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Textarea } from "@ordospace/ui-catalog";
 
 import { getStatusLabel } from "../domain/module-card.model.mjs";
 import { AppButton, DataPanel, FormFeedback } from "../ui/index.js";
@@ -51,7 +52,7 @@ export function AdminReviewModuleCardPanel({ card, currentUser, onSend }) {
         <form className="form-grid" onSubmit={handleSubmit}>
           <label className="form-field span-2">
             <span>Client note</span>
-            <textarea
+            <Textarea
               maxLength={NOTE_MAX_LENGTH}
               onChange={(event) => setNote(event.target.value)}
               rows="3"

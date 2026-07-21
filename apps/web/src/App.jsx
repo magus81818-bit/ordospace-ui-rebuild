@@ -17,10 +17,10 @@ import { WorkerSubmitModuleCardPanel } from "./cards/WorkerSubmitModuleCardPanel
 import { WorkerUpdateModuleCardPanel } from "./cards/WorkerUpdateModuleCardPanel.jsx";
 import { createActivityReview } from "./cards/module-card-activity-review.mjs";
 import { mvpSeed } from "./data/mvp-seed.mjs";
+import { ModuleCardDashboard } from "./components/dashboard/index.js";
 import {
   LIFECYCLE_STEPS,
   ROLES,
-  getAvailableTransitions,
   getActivityForCard,
   getCardById,
   getCardsForRole,
@@ -40,30 +40,12 @@ import {
   AppButton,
   AppLink,
   DataPanel,
-  EmptyStatePanel,
   MetricList,
   ModuleDetailPanel,
-  ModulePreviewCard,
   NoticePanel,
-  SessionCard,
   StatusCard,
   StatusGrid,
 } from "./ui/index.js";
-
-const roleNotes = {
-  admin: [
-    "Create and assign ModuleCards.",
-    "Review submitted work before client delivery.",
-  ],
-  worker: [
-    "Update progress, QC status, and work notes.",
-    "Submit ready ModuleCards for admin review.",
-  ],
-  client: [
-    "Review delivered ModuleCards.",
-    "Approve or request a revision.",
-  ],
-};
 
 export function OverviewScreen() {
   const { isAuthenticated, currentUser } = useSession();
@@ -257,7 +239,6 @@ export function RoleWorkspaceScreen({ role }) {
   const { currentUser } = useSession();
   const { activities, createAssignedModuleCard, moduleCards } =
     useModuleCardStore();
-  const notes = roleNotes[role] ?? [];
   const visibleCards = sortCardsByDueDate(
     getCardsForRole(moduleCards, role, currentUser?.id),
   );
@@ -274,42 +255,8 @@ export function RoleWorkspaceScreen({ role }) {
   );
 
   return (
-    <section className="page-stack">
-      <p className="eyebrow">{role} workspace</p>
-      <h1>{getRoleLabel(role)} workspace is protected.</h1>
-      <p className="lead">
-        You are viewing this route as {currentUser.name}. This list shows the
-        ModuleCards available to the signed-in role.
-      </p>
-
-      <ul className="check-list">
-        {notes.map((note) => (
-          <li key={note}>{note}</li>
-        ))}
-      </ul>
-
-      <StatusGrid ariaLabel={`${role} seed summary`} compact>
-        <StatusCard
-          title="Signed in user"
-          value={currentUser.name}
-          meta={currentUser.email}
-        />
-        <StatusCard
-          title="Visible cards"
-          value={String(visibleCards.length)}
-          meta="Role-filtered seed view"
-        />
-        <StatusCard
-          title="Open actions"
-          value={String(countAvailableActions(visibleCards, role))}
-          meta="Based on status transitions"
-        />
-        <StatusCard
-          title="Audit events"
-          value={String(activityReview.total)}
-          meta="Role-visible activity"
-        />
-      </StatusGrid>
+    <section className="role-workspace-stack">
+      <ModuleCardDashboard cards={visibleCards} role={role} users={mvpSeed.users} />
 
       <ActivityReviewPanel review={activityReview} role={role} />
 
@@ -323,25 +270,6 @@ export function RoleWorkspaceScreen({ role }) {
         />
       ) : null}
 
-      {visibleCards.length > 0 ? (
-        <div className="card-preview-list" aria-label={`${role} ModuleCards`}>
-          {visibleCards.map((card) => (
-            <ModulePreviewCard
-              assigneeName={getDisplayNameForUser(mvpSeed.users, card.assigneeId)}
-              card={card}
-              clientName={getDisplayNameForUser(mvpSeed.users, card.clientId)}
-              detailTo={`/workspace/${role}/cards/${card.id}`}
-              key={card.id}
-              role={role}
-            />
-          ))}
-        </div>
-      ) : (
-        <EmptyStatePanel
-          copy="No ModuleCards are currently visible for this role and account. New assignments or review handoffs will appear here."
-          title="No visible ModuleCards"
-        />
-      )}
     </section>
   );
 }
@@ -450,13 +378,6 @@ export function NotFoundScreen() {
       </p>
       <AppLink to="/">Back to overview</AppLink>
     </section>
-  );
-}
-
-function countAvailableActions(cards, role) {
-  return cards.reduce(
-    (total, card) => total + getAvailableTransitions(card, role).length,
-    0,
   );
 }
 

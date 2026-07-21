@@ -1,9 +1,11 @@
+import { Progress, StatusBadge } from "@ordospace/ui-catalog";
 import {
   getAvailableTransitions,
   getLifecycleStepForStatus,
   getRoleLabel,
   getStatusLabel,
 } from "../domain/module-card.model.mjs";
+import { getStatusView } from "../design-system/status-map.ts";
 import { DataPanel, MetricList } from "./Panel.jsx";
 
 export function ModuleDetailPanel({
@@ -16,8 +18,9 @@ export function ModuleDetailPanel({
 }) {
   const lifecycleStep = getLifecycleStepForStatus(card.status);
   const transitions = getAvailableTransitions(card, role);
+  const statusView = getStatusView(card.status);
   const metricRows = [
-    { id: "status", label: "Status", value: getStatusLabel(card.status) },
+    { id: "status", label: "Status", value: <StatusBadge label={statusView.label} tone={statusView.tone} /> },
     { id: "phase", label: "Phase", value: card.phase },
     { id: "priority", label: "Priority", value: card.priority },
     { id: "dueDate", label: "Due date", value: card.dueDate },
@@ -26,7 +29,12 @@ export function ModuleDetailPanel({
     {
       id: "progress",
       label: "Progress",
-      value: `${card.progress}%`,
+      value: (
+        <span className="detail-progress">
+          <Progress aria-valuemax={100} aria-valuemin={0} aria-valuenow={card.progress} value={card.progress} />
+          {card.progress}%
+        </span>
+      ),
     },
     {
       id: "hours",

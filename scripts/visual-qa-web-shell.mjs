@@ -7,14 +7,15 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const baseUrl = "http://127.0.0.1:5174/";
-const outputDir = path.join(root, "docs", "ui-migration", "screenshots", "round-04");
+const dashboardMode = process.argv.includes("--dashboard");
+const outputDir = path.join(root, "docs", "ui-migration", "screenshots", dashboardMode ? "round-05" : "round-04");
 const browserPath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 const users = {
   admin: ["user-admin-01", "Hana Lee", "admin@ordospace.test"],
   worker: ["user-worker-ux", "Min Park", "ux@ordospace.test"],
   client: ["user-client-01", "Dohyung Kim", "client@example.test"],
 };
-const scenarios = [
+const shellScenarios = [
   ["admin-desktop-1440", 1440, 900, "admin", "/workspace/admin"],
   ["admin-tablet-768", 768, 1024, "admin", "/workspace/admin"],
   ["admin-desktop-1024", 1024, 768, "admin", "/workspace/admin"],
@@ -25,6 +26,20 @@ const scenarios = [
   ["user-menu-open", 1440, 900, "admin", "/workspace/admin", "user"],
   ["admin-wide-1920", 1920, 1080, "admin", "/workspace/admin"],
 ];
+const dashboardScenarios = [
+  ["admin-dashboard-1440", 1440, 900, "admin", "/workspace/admin", "dashboard"],
+  ["admin-dashboard-393", 393, 852, "admin", "/workspace/admin", "dashboard"],
+  ["worker-dashboard-1440", 1440, 900, "worker", "/workspace/worker", "dashboard"],
+  ["worker-dashboard-393", 393, 852, "worker", "/workspace/worker", "dashboard"],
+  ["client-dashboard-1440", 1440, 900, "client", "/workspace/client", "dashboard"],
+  ["client-dashboard-393", 393, 852, "client", "/workspace/client", "dashboard"],
+  ["module-card-table-1024", 1024, 768, "admin", "/workspace/admin", "dashboard"],
+  ["admin-dashboard-768", 768, 1024, "admin", "/workspace/admin", "dashboard"],
+  ["admin-dashboard-1920", 1920, 1080, "admin", "/workspace/admin", "dashboard"],
+  ["filtered-empty-state", 393, 852, "worker", "/workspace/worker", "filter-empty"],
+  ["detail-common-surface", 1280, 800, "admin", "/workspace/admin/cards/card-002", "detail"],
+];
+const scenarios = dashboardMode ? dashboardScenarios : shellScenarios;
 
 class Cdp {
   constructor(url) { this.url = url; this.id = 0; this.pending = new Map(); }
@@ -89,6 +104,7 @@ try {
     await new Promise((resolve) => setTimeout(resolve, 650));
     if (action === "menu") await evaluate(client, `document.querySelector('[aria-label="메뉴 열기"]')?.click()`);
     if (action === "user") await evaluate(client, `(() => { const trigger = document.querySelector('.app-header [aria-label="사용자 메뉴 열기"]'); trigger?.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, button: 0, pointerType: 'mouse' })); trigger?.click(); })()`);
+    if (action === "filter-empty") await evaluate(client, `(() => { const button = Array.from(document.querySelectorAll('.ordo-filter-tabs button')).find((item) => /0$/.test(item.textContent?.trim() || '')); button?.click(); })()`);
     await new Promise((resolve) => setTimeout(resolve, 180));
     const metrics = await evaluate(client, `(() => ({
       width: innerWidth,
@@ -107,6 +123,10 @@ try {
     if (width < 768 && (!metrics.mobileHeader || metrics.desktopSidebar || metrics.compactRail)) throw new Error(`Mobile shell mismatch in ${name}`);
     if (action === "menu" && !metrics.dialogOpen) throw new Error(`Mobile Sheet did not open in ${name}`);
     if (action === "user" && !metrics.menuOpen) throw new Error(`User menu did not open in ${name}`);
+    if ((action === "dashboard" || action === "filter-empty") && await evaluate(client, `document.querySelectorAll('.ordo-metric-card').length < 4 || !document.querySelector('.ordo-filter-tabs')`)) throw new Error(`Dashboard patterns missing in ${name}`);
+    if (action === "dashboard" && !(await evaluate(client, `Boolean(document.querySelector('.ordo-status-badge'))`))) throw new Error(`Dashboard status pattern missing in ${name}`);
+    if (action === "filter-empty" && !(await evaluate(client, `Boolean(document.querySelector('.ordo-empty-state'))`))) throw new Error(`Filtered empty state missing in ${name}`);
+    if (action === "detail" && !(await evaluate(client, `Boolean(document.querySelector('.detail-stack .ordo-status-badge'))`))) throw new Error(`Detail common status surface missing in ${name}`);
     const shot = await client.send("Page.captureScreenshot", { format: "png", fromSurface: true, captureBeyondViewport: false });
     fs.writeFileSync(path.join(outputDir, `${name}.png`), Buffer.from(shot.data, "base64"));
     if (action === "menu") {

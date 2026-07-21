@@ -1,0 +1,298 @@
+.role-workspace-stack,
+.dashboard-page,
+.dashboard-section {
+  display: grid;
+  min-width: 0;
+  gap: var(--ordo-space-6);
+}
+
+.role-workspace-stack {
+  gap: var(--ordo-space-8);
+}
+
+.dashboard-page__intro {
+  display: grid;
+  max-width: 780px;
+  gap: var(--ordo-space-2);
+}
+
+.dashboard-page__intro > span,
+.card-kicker,
+.eyebrow {
+  color: var(--ordo-accent-primary);
+  font-size: var(--ordo-text-label-size);
+  font-weight: var(--ordo-weight-semibold);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.dashboard-page__intro h1 {
+  max-width: 760px;
+  color: var(--ordo-text-primary);
+  font-size: var(--ordo-text-display-size);
+  line-height: var(--ordo-line-display);
+}
+
+.dashboard-page__intro p {
+  max-width: 680px;
+  margin: 0;
+  color: var(--ordo-text-secondary);
+  font-size: var(--ordo-text-body-size);
+}
+
+.dashboard-kpi-grid {
+  display: grid;
+  min-width: 0;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--ordo-space-3);
+}
+
+.dashboard-notice {
+  max-width: 900px;
+}
+
+.dashboard-section {
+  padding-top: var(--ordo-space-2);
+}
+
+.dashboard-toolbar {
+  min-width: 0;
+}
+
+.dashboard-toolbar .ordo-filter-tabs {
+  width: fit-content;
+  max-width: 100%;
+}
+
+.dashboard-card-title {
+  display: grid;
+  min-width: 180px;
+  max-width: 360px;
+  gap: 3px;
+}
+
+.dashboard-card-title strong {
+  overflow: hidden;
+  color: var(--ordo-text-primary);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dashboard-card-title span,
+.dashboard-muted {
+  color: var(--ordo-text-tertiary);
+  font-family: var(--ordo-font-mono);
+  font-size: var(--ordo-text-caption-size);
+}
+
+.dashboard-progress {
+  display: grid;
+  min-width: 110px;
+  grid-template-columns: minmax(64px, 1fr) auto;
+  align-items: center;
+  gap: var(--ordo-space-2);
+  color: var(--ordo-text-secondary);
+  font-size: var(--ordo-text-caption-size);
+}
+
+.detail-progress {
+  display: inline-grid;
+  min-width: 150px;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: var(--ordo-space-2);
+}
+
+.dashboard-detail-link,
+.dashboard-reset {
+  display: inline-flex;
+  min-height: var(--ordo-control-height-sm);
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--ordo-space-3);
+  border: var(--ordo-border-width) solid var(--ordo-border-strong);
+  border-radius: var(--ordo-radius-md);
+  background: transparent;
+  color: var(--ordo-text-primary);
+  font-weight: var(--ordo-weight-semibold);
+}
+
+.dashboard-detail-link:hover,
+.dashboard-detail-link:focus-visible,
+.dashboard-reset:hover,
+.dashboard-reset:focus-visible {
+  background: var(--ordo-bg-hover);
+}
+
+.dashboard-mobile-list {
+  display: none;
+}
+
+.dashboard-mobile-card .ordo-card__content {
+  display: grid;
+  gap: var(--ordo-space-3);
+}
+
+.dashboard-mobile-card__top {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ordo-space-3);
+}
+
+.dashboard-mobile-card__top > span:last-child {
+  overflow: hidden;
+  color: var(--ordo-text-tertiary);
+  font-family: var(--ordo-font-mono);
+  font-size: var(--ordo-text-caption-size);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dashboard-mobile-card p {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: var(--ordo-text-secondary);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* Legacy business surfaces retained for Round 6–8 use the Round 2 token system. */
+.data-panel,
+.status-card,
+.module-preview,
+.activity-review-item,
+.account-option,
+.feed-item,
+.detail-list li,
+.check-list li {
+  border-color: var(--ordo-border-subtle);
+  background: var(--ordo-bg-surface-1);
+  color: var(--ordo-text-primary);
+}
+
+.notice-panel {
+  border-color: var(--ordo-status-ok-border);
+  background: var(--ordo-status-ok-bg);
+}
+
+.notice-panel span,
+.panel-copy,
+.lead,
+.inline-note,
+.activity-review-item p,
+.module-preview p,
+.detail-summary,
+.feed-item span,
+.empty-note,
+.metric-row span,
+.user-row span,
+.user-row small {
+  color: var(--ordo-text-secondary);
+}
+
+.status-card span,
+.status-card small,
+.form-field span,
+.activity-review-item dt,
+.card-meta dt,
+.decision-options legend {
+  color: var(--ordo-text-tertiary);
+}
+
+.status-card strong,
+.metric-row strong,
+.activity-review-item dd,
+.activity-review-item > div:first-child > strong,
+.card-meta dd,
+.range-row strong,
+.decision-options label,
+.decision-options label span {
+  color: var(--ordo-text-primary);
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  border-color: var(--ordo-border-default);
+  background: var(--ordo-bg-surface-2);
+  color: var(--ordo-text-primary);
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  border-color: var(--ordo-border-focus);
+  outline: var(--ordo-focus-ring);
+}
+
+.primary-button,
+.primary-link {
+  background: var(--ordo-accent-primary);
+  color: var(--ordo-text-inverse);
+}
+
+.secondary-button {
+  border-color: var(--ordo-border-default);
+  background: var(--ordo-bg-surface-2);
+  color: var(--ordo-text-primary);
+}
+
+.text-button {
+  color: var(--ordo-accent-primary);
+}
+
+.form-feedback.is-error {
+  border-color: var(--ordo-status-crit-border);
+  background: var(--ordo-status-crit-bg);
+  color: var(--ordo-status-crit-fg);
+}
+
+.form-feedback.is-success {
+  border-color: var(--ordo-status-ok-border);
+  background: var(--ordo-status-ok-bg);
+  color: var(--ordo-status-ok-fg);
+}
+
+.page-stack h1,
+.page-stack h2,
+.role-workspace-stack h2 {
+  color: var(--ordo-text-primary);
+}
+
+@media (max-width: 1023px) {
+  .dashboard-kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .role-workspace-stack,
+  .dashboard-page,
+  .dashboard-section {
+    gap: var(--ordo-space-4);
+  }
+
+  .dashboard-page__intro h1 {
+    font-size: clamp(1.75rem, 9vw, 2.5rem);
+  }
+
+  .dashboard-kpi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-table {
+    display: none;
+  }
+
+  .dashboard-mobile-list {
+    display: grid;
+    gap: var(--ordo-space-3);
+  }
+
+  .dashboard-toolbar .ordo-filter-tabs {
+    width: 100%;
+  }
+}

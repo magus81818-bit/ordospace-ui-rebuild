@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import { Button } from "@ordospace/ui-catalog";
 
-const buttonClasses = {
-  primary: "primary-button",
-  secondary: "secondary-button",
-  text: "text-button",
+const buttonVariants = {
+  primary: "primary",
+  secondary: "secondary",
+  text: "link",
 };
 
 const linkClasses = {
@@ -20,13 +21,14 @@ export function AppButton({
   ...props
 }) {
   return (
-    <button
-      className={joinClassNames(buttonClasses[variant], className)}
+    <Button
+      className={className}
       type={type}
+      variant={buttonVariants[variant]}
       {...props}
     >
       {children}
-    </button>
+    </Button>
   );
 }
 

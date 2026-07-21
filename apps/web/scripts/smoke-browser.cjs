@@ -752,7 +752,7 @@ function getBrowserFlowScript() {
 
       await step("admin seed login", async () => {
         await signIn("user-admin-01", "admin", "Hana Lee");
-        must(bodyText().includes("Admin workspace"), "Admin workspace text missing.");
+        must(bodyText().toLowerCase().includes("admin workspace"), "Admin workspace text missing.");
         return window.location.hash;
       });
 
@@ -786,7 +786,7 @@ function getBrowserFlowScript() {
 
       await step("worker seed login", async () => {
         await signIn("user-worker-dev", "worker", "Joon Choi");
-        must(bodyText().includes("Worker workspace"), "Worker workspace text missing.");
+        must(bodyText().toLowerCase().includes("worker workspace"), "Worker workspace text missing.");
         must(bodyText().includes(createdTitle), "Created card not visible to assigned worker.");
         return window.location.hash;
       });

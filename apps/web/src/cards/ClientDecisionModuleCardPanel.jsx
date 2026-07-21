@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Textarea } from "@ordospace/ui-catalog";
 
 import { getStatusLabel } from "../domain/module-card.model.mjs";
 import { AppButton, DataPanel, FormFeedback } from "../ui/index.js";
@@ -78,7 +79,7 @@ export function ClientDecisionModuleCardPanel({ card, currentUser, onDecide }) {
 
           <label className="form-field span-2">
             <span>{requiresNote ? "Revision note" : "Approval note"}</span>
-            <textarea
+            <Textarea
               maxLength={NOTE_MAX_LENGTH}
               onChange={(event) => setNote(event.target.value)}
               required={requiresNote}

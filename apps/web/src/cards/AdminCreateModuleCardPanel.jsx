@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { Input, Textarea } from "@ordospace/ui-catalog";
 
 import { PRIORITIES, getRoleLabel } from "../domain/module-card.model.mjs";
 import { AppButton, DataPanel, EmptyStatePanel, FormFeedback } from "../ui/index.js";
@@ -86,7 +87,7 @@ export function AdminCreateModuleCardPanel({ currentUser, onCreate, workers }) {
       <form className="form-grid" onSubmit={handleSubmit}>
         <label className="form-field">
           <span>Title</span>
-          <input
+          <Input
             onChange={(event) => updateField("title", event.target.value)}
             required
             type="text"
@@ -96,7 +97,7 @@ export function AdminCreateModuleCardPanel({ currentUser, onCreate, workers }) {
 
         <label className="form-field span-2">
           <span>Summary</span>
-          <textarea
+          <Textarea
             onChange={(event) => updateField("summary", event.target.value)}
             required
             rows="3"
@@ -106,7 +107,7 @@ export function AdminCreateModuleCardPanel({ currentUser, onCreate, workers }) {
 
         <label className="form-field">
           <span>Phase</span>
-          <input
+          <Input
             onChange={(event) => updateField("phase", event.target.value)}
             required
             type="text"
@@ -145,7 +146,7 @@ export function AdminCreateModuleCardPanel({ currentUser, onCreate, workers }) {
 
         <label className="form-field">
           <span>Due date</span>
-          <input
+          <Input
             onChange={(event) => updateField("dueDate", event.target.value)}
             required
             type="date"
@@ -155,7 +156,7 @@ export function AdminCreateModuleCardPanel({ currentUser, onCreate, workers }) {
 
         <label className="form-field">
           <span>Estimate hours</span>
-          <input
+          <Input
             min="1"
             onChange={(event) => updateField("estimateHours", event.target.value)}
             required
@@ -166,7 +167,7 @@ export function AdminCreateModuleCardPanel({ currentUser, onCreate, workers }) {
 
         <label className="form-field span-2">
           <span>Deliverable</span>
-          <input
+          <Input
             onChange={(event) => updateField("deliverable", event.target.value)}
             required
             type="text"

@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Input, Textarea } from "@ordospace/ui-catalog";
 
 import { QC_STATUS, getStatusLabel } from "../domain/module-card.model.mjs";
 import { AppButton, DataPanel, FormFeedback } from "../ui/index.js";
@@ -82,7 +83,7 @@ export function WorkerUpdateModuleCardPanel({ card, currentUser, onUpdate }) {
         <label className="form-field span-2">
           <span>Progress</span>
           <div className="range-row">
-            <input
+            <Input
               max="100"
               min="0"
               onChange={(event) => updateField("progress", event.target.value)}
@@ -95,7 +96,7 @@ export function WorkerUpdateModuleCardPanel({ card, currentUser, onUpdate }) {
 
         <label className="form-field">
           <span>Logged hours</span>
-          <input
+          <Input
             min="0"
             onChange={(event) => updateField("loggedHours", event.target.value)}
             step="0.5"
@@ -120,7 +121,7 @@ export function WorkerUpdateModuleCardPanel({ card, currentUser, onUpdate }) {
 
         <label className="form-field span-2">
           <span>Team note</span>
-          <textarea
+          <Textarea
             maxLength={NOTE_MAX_LENGTH}
             onChange={(event) => updateField("note", event.target.value)}
             rows="3"

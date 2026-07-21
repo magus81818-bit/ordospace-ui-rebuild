@@ -1,5 +1,7 @@
+import { Card } from "@ordospace/ui-catalog";
+
 export function DataPanel({ children, className = "" }) {
-  return <div className={joinClassNames("data-panel", className)}>{children}</div>;
+  return <Card className={joinClassNames("data-panel", className)} variant="muted">{children}</Card>;
 }
 
 export function NoticePanel({ actions, children }) {
