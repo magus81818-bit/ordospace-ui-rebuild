@@ -1,0 +1,36 @@
+{
+  "states": {
+    "navigation": [
+      "default",
+      "hover",
+      "active",
+      "focus-visible"
+    ],
+    "drawer": [
+      "closed",
+      "open",
+      "Escape",
+      "backdrop",
+      "focus-return"
+    ],
+    "notification": [
+      "closed",
+      "open",
+      "unread",
+      "Escape",
+      "focus-return"
+    ],
+    "theme": [
+      "light",
+      "dark",
+      "system",
+      "persisted"
+    ],
+    "responsive": [
+      "desktop",
+      "tablet",
+      "mobile"
+    ]
+  },
+  "pass": true
+}

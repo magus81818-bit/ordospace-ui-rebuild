@@ -1,0 +1,23 @@
+{
+  "round": 5,
+  "branch": "redo/r05-dashboard-shell",
+  "base": "e063545f45caa4c0c9e01b65202cad38cb3ae5ee",
+  "inventory": 9,
+  "changedFiles": [
+    "app/layout/app-shell.js",
+    "app/styles/tailwind.build.css",
+    "index.html"
+  ],
+  "checks": {
+    "inventory": true,
+    "tokens": true,
+    "scope": true,
+    "important": true,
+    "dom": true,
+    "ia": true,
+    "browser": true,
+    "build": true,
+    "smoke": true
+  },
+  "pass": true
+}

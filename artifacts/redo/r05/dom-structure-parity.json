@@ -1,0 +1,18 @@
+{
+  "requiredIds": {
+    "sidebar": true,
+    "topbar": true,
+    "mheader": true,
+    "drawerOverlay": true,
+    "drawerMenu": true,
+    "mtab": true,
+    "notifPanel": true,
+    "themeToggleWrap": true,
+    "breadcrumb": true,
+    "breadcrumbTail": true,
+    "topbarPrimaryCta": true
+  },
+  "screenContainersChanged": false,
+  "shellAdditions": "classes and ARIA only",
+  "pass": true
+}

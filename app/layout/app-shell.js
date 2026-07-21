@@ -51,7 +51,7 @@ function renderSideMenu(role){
   nav.innerHTML = items.map(it => {
     const badge = it.badge ? `<span class="ml-auto text-[11px] font-semibold border rounded px-1.5 py-0.5 ${badgeClass(it.badge.tone)}">${it.badge.text}</span>` : '';
     const profileTab = it.profileTab ? ` data-profile-tab="${it.profileTab}"` : '';
-    return `<a href="#${it.to}"${profileTab} class="side-link flex items-center gap-3 px-3 py-2 rounded-lg text-tx-secondary hover:bg-bg-secondary" data-match="${it.to}">
+    return `<a href="#${it.to}"${profileTab} class="side-link ordo-shell-nav-item flex items-center gap-3 px-3 py-2 rounded-lg text-tx-secondary hover:bg-bg-secondary" data-match="${it.to}">
       <i data-lucide="${it.icon}" class="w-4 h-4"></i><span>${it.label}</span>${badge}
     </a>`;
   }).join('');
@@ -63,7 +63,7 @@ function renderDrawerMenu(role){
   nav.innerHTML = items.map(it => {
     const badge = it.badge ? `<span class="ml-auto text-[11px] font-semibold border rounded px-1.5 py-0.5 ${badgeClass(it.badge.tone)}">${it.badge.text}</span>` : '';
     const profileTab = it.profileTab ? ` data-profile-tab="${it.profileTab}"` : '';
-    return `<a href="#${it.to}"${profileTab} class="drawer-link flex items-center gap-3 px-3 py-3 rounded-lg hover:bg-bg-secondary" data-match="${it.to}">
+    return `<a href="#${it.to}"${profileTab} class="drawer-link ordo-shell-drawer-item flex items-center gap-3 px-3 py-3 rounded-lg hover:bg-bg-secondary" data-match="${it.to}">
       <i data-lucide="${it.icon}" class="w-4 h-4"></i>${it.label}${badge}
     </a>`;
   }).join('');
@@ -90,7 +90,7 @@ function renderTopbarCTA(role){
   const wrap = document.getElementById('topbarPrimaryCta');
   if (!wrap) return;
   const c = ROLE_CTA[role] || ROLE_CTA.client;
-  const btnClass = 'h-9 px-3.5 text-[13px] font-semibold bg-brand-primary hover:bg-brand-hover text-white rounded-lg inline-flex items-center gap-1.5 whitespace-nowrap shrink-0';
+  const btnClass = 'ordo-shell-cta h-9 px-3.5 text-[13px] font-semibold bg-brand-primary hover:bg-brand-hover text-white rounded-lg inline-flex items-center gap-1.5 whitespace-nowrap shrink-0';
   if (c.href) {
     wrap.innerHTML = `<a href="${c.href}" class="${btnClass}" aria-label="${c.aria}"><i data-lucide="${c.icon}" class="w-4 h-4"></i><span>${c.label}</span></a>`;
   } else {
@@ -121,7 +121,7 @@ function renderNotifList(role){
     const unreadBg = n.unread ? 'bg-st-pendbg/30' : '';
     const href = getNotificationTarget(role, n);
     const profileTab = href === '#profile' ? ' data-profile-tab="notif"' : '';
-    return `<li class="${unreadBg}" data-notif-category="${n.category||''}">
+    return `<li class="${unreadBg}" data-unread="${n.unread ? 'true' : 'false'}" data-notif-category="${n.category||''}">
       <a href="${href}"${profileTab} class="flex gap-2 p-3 hover:bg-bg-secondary">
         <i data-lucide="${n.icon}" class="w-4 h-4 ${iconColor} shrink-0 mt-0.5"></i>
         <div class="flex-1 min-w-0">
@@ -149,7 +149,7 @@ function renderMobileTab(role){
     const goMy = it.goMy ? 'data-go-my="1"' : '';
     const profileTab = it.profileTab ? `data-profile-tab="${it.profileTab}"` : '';
     const match = it.matchExtra || it.to;
-    return `<a href="#${it.to}" data-tab-bar="${match}" ${goMy} ${profileTab} class="mtab-link flex-1 min-h-[44px] flex flex-col items-center justify-center gap-0.5 text-tx-tertiary relative">
+    return `<a href="#${it.to}" data-tab-bar="${match}" ${goMy} ${profileTab} class="mtab-link ordo-shell-mobile-tab flex-1 min-h-[44px] flex flex-col items-center justify-center gap-0.5 text-tx-tertiary relative">
       ${iconWrap}<span class="text-[10px] font-medium">${it.label}</span>
     </a>`;
   }).join('');
@@ -204,6 +204,8 @@ function closeDrawerSafe(immediate){
   const d = document.getElementById('drawerOverlay');
   const p = d?.querySelector('.drawer');
   p?.classList.remove('open');
+  d?.setAttribute('aria-hidden','true');
+  document.getElementById('openDrawer')?.setAttribute('aria-expanded','false');
   if (immediate) {
     d?.classList.add('hidden');
     if (d) d.style.display = 'none';
@@ -290,6 +292,7 @@ document.getElementById('forbiddenGoHome')?.addEventListener('click', () => {
     // 토글 버튼 active 상태 업데이트
     document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
       btn.classList.toggle('is-active', btn.getAttribute('data-theme-val') === pref);
+      btn.setAttribute('aria-pressed', String(btn.getAttribute('data-theme-val') === pref));
     });
   }
 
@@ -327,7 +330,9 @@ document.getElementById('openDrawer')?.addEventListener('click', () => {
   if (!drawerOverlay || !drawerPanel) return;
   drawerOverlay.style.display = 'block';
   drawerOverlay.classList.remove('hidden');
-  requestAnimationFrame(() => drawerPanel.classList.add('open'));
+  drawerOverlay.setAttribute('aria-hidden','false');
+  document.getElementById('openDrawer')?.setAttribute('aria-expanded','true');
+  requestAnimationFrame(() => { drawerPanel.classList.add('open'); drawerPanel.focus(); });
 });
 drawerOverlay?.addEventListener('click', (e) => {
   if (e.target.matches('[data-close-drawer]')) {
@@ -337,6 +342,9 @@ drawerOverlay?.addEventListener('click', (e) => {
 document.querySelectorAll('.drawer-link').forEach(a => a.addEventListener('click', () => {
   closeDrawerSafe();
 }));
+drawerOverlay?.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') { e.preventDefault(); closeDrawerSafe(); document.getElementById('openDrawer')?.focus(); }
+});
 
 /* ============== 알림 드롭다운 ============== */
 const notifTrig = document.getElementById('notifTrigger');
@@ -346,6 +354,14 @@ notifTrig?.addEventListener('click', (e) => {
   const open = !notifPanel.classList.contains('hidden');
   notifPanel.classList.toggle('hidden');
   notifTrig.setAttribute('aria-expanded', String(!open));
+  if (!open) notifPanel.focus();
+});
+notifPanel?.addEventListener('keydown', (e) => {
+  if (e.key !== 'Escape') return;
+  e.preventDefault();
+  notifPanel.classList.add('hidden');
+  notifTrig?.setAttribute('aria-expanded','false');
+  notifTrig?.focus();
 });
 document.addEventListener('click', (e) => {
   if (!notifPanel?.contains(e.target) && !notifTrig?.contains(e.target)) {

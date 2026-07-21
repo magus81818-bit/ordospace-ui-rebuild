@@ -1,0 +1,13 @@
+{
+  "generatedAt": "2026-07-21T11:25:31.896Z",
+  "checks": [
+    {
+      "kind": "interaction",
+      "drawer": "open/Escape/focus-return",
+      "notification": "open/Escape/focus-return",
+      "theme": "light/dark/system persisted",
+      "pass": true
+    }
+  ],
+  "pass": true
+}

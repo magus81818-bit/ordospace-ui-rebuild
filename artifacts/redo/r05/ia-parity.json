@@ -1,0 +1,12 @@
+{
+  "authorities": [
+    "MENU",
+    "MTAB_MENU",
+    "ROLE_CTA",
+    "TITLES/CRUMBS"
+  ],
+  "configUnchanged": true,
+  "sideDrawerRuntimeParity": true,
+  "roleRoutesPreserved": true,
+  "pass": true
+}

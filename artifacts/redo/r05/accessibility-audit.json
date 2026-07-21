@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-07-21T11:25:31.896Z",
+  "checks": [
+    {
+      "kind": "accessibility",
+      "ariaExpanded": true,
+      "ariaHidden": true,
+      "ariaPressed": true,
+      "keyboardEscape": true,
+      "reducedMotion": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

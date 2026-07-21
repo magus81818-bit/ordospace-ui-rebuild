@@ -1,0 +1,6 @@
+{
+  "selectorBoundary": "body.auth-on",
+  "scoped": true,
+  "publicAuthOffRules": 0,
+  "pass": true
+}

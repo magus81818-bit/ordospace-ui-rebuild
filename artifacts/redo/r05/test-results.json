@@ -1,0 +1,21 @@
+{
+  "commands": {
+    "checkJs": "pass",
+    "staticComponents": "pass",
+    "smoke": "12 routes and runtime QA 20/20",
+    "build": "pass",
+    "playwright": "2/2",
+    "staticLifecycle": "pass",
+    "backendTests": "8 suites / 36 tests pass",
+    "backendType": "pass",
+    "backendBuild": "pass"
+  },
+  "browser": {
+    "viewports": 6,
+    "roles": 3,
+    "screenshots": 18,
+    "pageErrors": 0,
+    "responses4xx5xx": 0
+  },
+  "pass": true
+}

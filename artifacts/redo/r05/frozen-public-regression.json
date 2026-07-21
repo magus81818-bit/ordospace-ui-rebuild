@@ -1,0 +1,7 @@
+{
+  "baseline": "approved Round 4 frozen-public audit",
+  "mechanism": "body.auth-on selector isolation plus unchanged public screen containers/routes",
+  "publicSelectorsInShellCss": 0,
+  "landingOrPublicFilesChanged": false,
+  "pass": true
+}

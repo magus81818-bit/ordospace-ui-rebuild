@@ -1,0 +1,12 @@
+{
+  "capturedAt": "2026-07-21T20:27:00+09:00",
+  "repository": "https://github.com/magus81818-bit/ordospace-ui-rebuild.git",
+  "branch": "redo/r05-dashboard-shell",
+  "head": "e063545f45caa4c0c9e01b65202cad38cb3ae5ee",
+  "approvedRound4Head": "e063545f45caa4c0c9e01b65202cad38cb3ae5ee",
+  "round4MergeBase": "e063545f45caa4c0c9e01b65202cad38cb3ae5ee",
+  "workingTreeBeforePromptPreservation": "clean",
+  "protectedOriginal": {"branch":"main","head":"ea1dc111440207608401c529b5bc27ebc5e61fd7","status":"clean"},
+  "mainChanged": false,
+  "deploymentChanged": false
+}

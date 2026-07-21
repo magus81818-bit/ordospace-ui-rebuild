@@ -1,0 +1,1407 @@
+{
+  "generatedAt": "2026-07-21T11:25:31.896Z",
+  "checks": [
+    {
+      "kind": "layout",
+      "role": "admin",
+      "viewport": "1440x1000",
+      "state": {
+        "body": "min-h-screen auth-on role-admin",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "Module 관리",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "인력",
+            "href": "#admin-team"
+          },
+          {
+            "label": "감사 로그",
+            "href": "#admin-audit"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "Module 관리",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "인력",
+            "href": "#admin-team"
+          },
+          {
+            "label": "감사 로그",
+            "href": "#admin-audit"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "Module",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "Module 관리",
+        "crumb": "PM 홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": true,
+          "topbar": true,
+          "mheader": false,
+          "mtab": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "client",
+      "viewport": "1440x1000",
+      "state": {
+        "body": "min-h-screen auth-on role-client",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "승인 검토",
+        "crumb": "홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": true,
+          "topbar": true,
+          "mheader": false,
+          "mtab": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "worker",
+      "viewport": "1440x1000",
+      "state": {
+        "body": "min-h-screen auth-on role-worker",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "내 작업",
+        "crumb": "작업자 홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": true,
+          "topbar": true,
+          "mheader": false,
+          "mtab": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "admin",
+      "viewport": "1280x900",
+      "state": {
+        "body": "min-h-screen auth-on role-admin",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "Module 관리",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "인력",
+            "href": "#admin-team"
+          },
+          {
+            "label": "감사 로그",
+            "href": "#admin-audit"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "Module 관리",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "인력",
+            "href": "#admin-team"
+          },
+          {
+            "label": "감사 로그",
+            "href": "#admin-audit"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "Module",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "Module 관리",
+        "crumb": "PM 홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": true,
+          "topbar": true,
+          "mheader": false,
+          "mtab": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "client",
+      "viewport": "1280x900",
+      "state": {
+        "body": "min-h-screen auth-on role-client",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "승인 검토",
+        "crumb": "홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": true,
+          "topbar": true,
+          "mheader": false,
+          "mtab": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "worker",
+      "viewport": "1280x900",
+      "state": {
+        "body": "min-h-screen auth-on role-worker",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "내 작업",
+        "crumb": "작업자 홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": true,
+          "topbar": true,
+          "mheader": false,
+          "mtab": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "admin",
+      "viewport": "1024x1366",
+      "state": {
+        "body": "min-h-screen auth-on role-admin",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "Module 관리",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "인력",
+            "href": "#admin-team"
+          },
+          {
+            "label": "감사 로그",
+            "href": "#admin-audit"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "Module 관리",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "인력",
+            "href": "#admin-team"
+          },
+          {
+            "label": "감사 로그",
+            "href": "#admin-audit"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "Module",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "Module 관리",
+        "crumb": "PM 홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": true,
+          "topbar": true,
+          "mheader": false,
+          "mtab": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "client",
+      "viewport": "1024x1366",
+      "state": {
+        "body": "min-h-screen auth-on role-client",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "승인 검토",
+        "crumb": "홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": true,
+          "topbar": true,
+          "mheader": false,
+          "mtab": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "worker",
+      "viewport": "1024x1366",
+      "state": {
+        "body": "min-h-screen auth-on role-worker",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "내 작업",
+        "crumb": "작업자 홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": true,
+          "topbar": true,
+          "mheader": false,
+          "mtab": false
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "admin",
+      "viewport": "768x1024",
+      "state": {
+        "body": "min-h-screen auth-on role-admin",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "Module 관리",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "인력",
+            "href": "#admin-team"
+          },
+          {
+            "label": "감사 로그",
+            "href": "#admin-audit"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "Module 관리",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "인력",
+            "href": "#admin-team"
+          },
+          {
+            "label": "감사 로그",
+            "href": "#admin-audit"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "Module",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "Module 관리",
+        "crumb": "PM 홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": false,
+          "topbar": false,
+          "mheader": true,
+          "mtab": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "client",
+      "viewport": "768x1024",
+      "state": {
+        "body": "min-h-screen auth-on role-client",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "승인 검토",
+        "crumb": "홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": false,
+          "topbar": false,
+          "mheader": true,
+          "mtab": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "worker",
+      "viewport": "768x1024",
+      "state": {
+        "body": "min-h-screen auth-on role-worker",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "내 작업",
+        "crumb": "작업자 홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": false,
+          "topbar": false,
+          "mheader": true,
+          "mtab": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "admin",
+      "viewport": "390x844",
+      "state": {
+        "body": "min-h-screen auth-on role-admin",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "Module 관리",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "인력",
+            "href": "#admin-team"
+          },
+          {
+            "label": "감사 로그",
+            "href": "#admin-audit"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "Module 관리",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "인력",
+            "href": "#admin-team"
+          },
+          {
+            "label": "감사 로그",
+            "href": "#admin-audit"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "Module",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "Module 관리",
+        "crumb": "PM 홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": false,
+          "topbar": false,
+          "mheader": true,
+          "mtab": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "client",
+      "viewport": "390x844",
+      "state": {
+        "body": "min-h-screen auth-on role-client",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "승인 검토",
+        "crumb": "홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": false,
+          "topbar": false,
+          "mheader": true,
+          "mtab": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "worker",
+      "viewport": "390x844",
+      "state": {
+        "body": "min-h-screen auth-on role-worker",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "내 작업",
+        "crumb": "작업자 홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": false,
+          "topbar": false,
+          "mheader": true,
+          "mtab": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "admin",
+      "viewport": "360x800",
+      "state": {
+        "body": "min-h-screen auth-on role-admin",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "Module 관리",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "인력",
+            "href": "#admin-team"
+          },
+          {
+            "label": "감사 로그",
+            "href": "#admin-audit"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "Module 관리",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "인력",
+            "href": "#admin-team"
+          },
+          {
+            "label": "감사 로그",
+            "href": "#admin-audit"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#admin-home"
+          },
+          {
+            "label": "Module",
+            "href": "#admin-cards"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#admin-projects"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "Module 관리",
+        "crumb": "PM 홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": false,
+          "topbar": false,
+          "mheader": true,
+          "mtab": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "client",
+      "viewport": "360x800",
+      "state": {
+        "body": "min-h-screen auth-on role-client",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#dashboard"
+          },
+          {
+            "label": "프로젝트",
+            "href": "#project"
+          },
+          {
+            "label": "승인함",
+            "href": "#approvals"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "승인 검토",
+        "crumb": "홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": false,
+          "topbar": false,
+          "mheader": true,
+          "mtab": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "layout",
+      "role": "worker",
+      "viewport": "360x800",
+      "state": {
+        "body": "min-h-screen auth-on role-worker",
+        "side": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "drawer": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          }
+        ],
+        "tabs": [
+          {
+            "label": "홈",
+            "href": "#worker-home"
+          },
+          {
+            "label": "내 작업",
+            "href": "#worker-cards"
+          },
+          {
+            "label": "알림",
+            "href": "#profile"
+          },
+          {
+            "label": "더보기",
+            "href": "#profile"
+          }
+        ],
+        "cta": "내 작업",
+        "crumb": "작업자 홈",
+        "overflow": 0,
+        "shellToken": "oklch(0.11 0.005 260)",
+        "visibility": {
+          "sidebar": false,
+          "topbar": false,
+          "mheader": true,
+          "mtab": true
+        }
+      },
+      "pass": true
+    },
+    {
+      "kind": "interaction",
+      "drawer": "open/Escape/focus-return",
+      "notification": "open/Escape/focus-return",
+      "theme": "light/dark/system persisted",
+      "pass": true
+    },
+    {
+      "kind": "accessibility",
+      "ariaExpanded": true,
+      "ariaHidden": true,
+      "ariaPressed": true,
+      "keyboardEscape": true,
+      "reducedMotion": true,
+      "pass": true
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "responses4xx5xx": [],
+  "screenshots": [
+    "evidence/redo/r05/admin-1440x1000.png",
+    "evidence/redo/r05/client-1440x1000.png",
+    "evidence/redo/r05/worker-1440x1000.png",
+    "evidence/redo/r05/admin-1280x900.png",
+    "evidence/redo/r05/client-1280x900.png",
+    "evidence/redo/r05/worker-1280x900.png",
+    "evidence/redo/r05/admin-1024x1366.png",
+    "evidence/redo/r05/client-1024x1366.png",
+    "evidence/redo/r05/worker-1024x1366.png",
+    "evidence/redo/r05/admin-768x1024.png",
+    "evidence/redo/r05/client-768x1024.png",
+    "evidence/redo/r05/worker-768x1024.png",
+    "evidence/redo/r05/admin-390x844.png",
+    "evidence/redo/r05/client-390x844.png",
+    "evidence/redo/r05/worker-390x844.png",
+    "evidence/redo/r05/admin-360x800.png",
+    "evidence/redo/r05/client-360x800.png",
+    "evidence/redo/r05/worker-360x800.png"
+  ],
+  "finishedAt": "2026-07-21T11:25:36.836Z"
+}

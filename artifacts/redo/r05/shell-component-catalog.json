@@ -1,0 +1,75 @@
+{
+  "round": 5,
+  "components": [
+    {
+      "id": "UI-001",
+      "name": "Sidebar",
+      "target": "#sidebar",
+      "classification": "Adapted",
+      "status": "implemented"
+    },
+    {
+      "id": "UI-002",
+      "name": "Topbar",
+      "target": "#topbar",
+      "classification": "Adapted",
+      "status": "implemented"
+    },
+    {
+      "id": "UI-003",
+      "name": "Mobile Header",
+      "target": "#mheader",
+      "classification": "Adapted",
+      "status": "implemented"
+    },
+    {
+      "id": "UI-004",
+      "name": "Drawer",
+      "target": "#drawerOverlay/#drawerMenu",
+      "classification": "Derived",
+      "status": "implemented"
+    },
+    {
+      "id": "UI-005",
+      "name": "Mobile Tabs",
+      "target": "#mtab",
+      "classification": "Adapted",
+      "status": "implemented"
+    },
+    {
+      "id": "UI-006",
+      "name": "Notification Panel",
+      "target": "#notifPanel",
+      "classification": "Adapted",
+      "status": "implemented"
+    },
+    {
+      "id": "UI-007",
+      "name": "Theme Control",
+      "target": "#themeToggleWrap",
+      "classification": "Adapted",
+      "status": "implemented"
+    },
+    {
+      "id": "UI-008",
+      "name": "Breadcrumb/Page Title",
+      "target": "#breadcrumb/#breadcrumbTail",
+      "classification": "Adapted",
+      "status": "implemented"
+    },
+    {
+      "id": "UI-009",
+      "name": "Primary Role CTA",
+      "target": "#topbarPrimaryCta",
+      "classification": "Adapted",
+      "status": "implemented"
+    }
+  ],
+  "salesOpsEvidence": [
+    "SalesOps live dashboard",
+    "official v0 template",
+    "sales-ops-dashboard.zip",
+    "archived screenshots"
+  ],
+  "approach": "token-driven component adaptation; no SalesOps IA or data copied"
+}

@@ -240,6 +240,7 @@
 <link rel="stylesheet" href="./app/styles/app.css" />
 <link rel="stylesheet" href="./app/styles/dashboard-salesops.tokens.css" />
 <link rel="stylesheet" href="./app/styles/dashboard-salesops.primitives.css" />
+<link rel="stylesheet" href="./app/styles/dashboard-salesops.shell.css" />
 </head>
 
 <body class="min-h-screen auth-off role-client">
@@ -314,7 +315,7 @@
 
 <!-- 데스크톱 사이드바 (lg 이상, 인증 후만) -->
 <aside id="sidebar"
-  class="fixed inset-y-0 left-0 w-60 bg-white border-r border-bd-default flex-col z-40"
+  class="ordo-shell-sidebar fixed inset-y-0 left-0 w-60 bg-white border-r border-bd-default flex-col z-40"
   aria-label="주 메뉴">
   <!-- 로고 + 워크스페이스 -->
   <div class="h-16 px-4 flex items-center border-b border-bd-default">
@@ -322,7 +323,7 @@
       <span class="logo-ordo text-[18px] text-tx-primary">ORDOSPACE</span>
     </a>
   </div>
-  <button class="mx-3 mt-3 flex items-center justify-between px-3 py-2 rounded-lg border border-bd-default hover:bg-bg-secondary text-left">
+  <button class="ordo-shell-sidebar__workspace mx-3 mt-3 flex items-center justify-between px-3 py-2 rounded-lg border border-bd-default hover:bg-bg-secondary text-left">
     <div class="min-w-0">
       <div class="text-[11px] text-tx-tertiary font-medium">워크스페이스</div>
       <div class="text-[13px] font-semibold text-tx-primary truncate">(주)테크컴퍼스</div>
@@ -335,7 +336,7 @@
 
   <!-- 하단 프로필 -->
   <div class="p-3 border-t border-bd-default">
-    <a href="#profile" data-profile-tab="my" class="flex items-center gap-3 px-2 py-2 rounded-lg hover:bg-bg-secondary cursor-pointer" data-match="profile">
+    <a href="#profile" data-profile-tab="my" class="ordo-shell-profile flex items-center gap-3 px-2 py-2 rounded-lg hover:bg-bg-secondary cursor-pointer" data-match="profile">
       <div class="w-8 h-8 rounded-full bg-bg-tertiary border border-bd-default flex items-center justify-center text-[12px] font-semibold" id="sideProfileInitial">김</div>
       <div class="min-w-0">
         <div class="text-[13px] font-semibold truncate" id="sideProfileName">김대표</div>
@@ -345,7 +346,7 @@
     </a>
     <div class="mt-2 text-center text-[10px] text-tx-tertiary logo-ordo tracking-widest">ORDOSPACE v3.0</div>
     <!-- [v2.6.0] Theme toggle -->
-    <div class="theme-toggle-wrap" id="themeToggleWrap">
+    <div class="theme-toggle-wrap ordo-shell-theme" id="themeToggleWrap" role="group" aria-label="테마 선택">
       <button type="button" class="theme-toggle-btn" data-theme-val="light" title="라이트 모드">
         <i data-lucide="sun" class="w-3.5 h-3.5"></i>
       </button>
@@ -360,12 +361,12 @@
 </aside>
 
 <!-- 데스크톱 탑바 -->
-<header id="topbar" class="fixed top-0 right-0 left-60 h-16 bg-white border-b border-bd-default items-center px-6 z-30">
+<header id="topbar" class="ordo-shell-topbar fixed top-0 right-0 left-60 h-16 bg-white border-b border-bd-default items-center px-6 z-30">
   <!-- breadcrumb -->
-  <div class="flex items-center gap-1.5 text-[13px] text-tx-secondary" id="breadcrumb">
+  <div class="ordo-shell-breadcrumb flex items-center gap-1.5 text-[13px] text-tx-secondary" id="breadcrumb">
     <span class="text-tx-tertiary">ORDOSPACE</span>
     <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-tx-tertiary"></i>
-    <span class="text-tx-primary font-medium" id="breadcrumbTail">홈</span>
+    <span class="text-tx-primary font-medium" id="breadcrumbTail" aria-current="page">홈</span>
   </div>
   <!-- 검색바 -->
   <div class="flex-1 max-w-md mx-6">
@@ -383,12 +384,12 @@
     <div id="topbarPrimaryCta" class="shrink-0"></div>
     <!-- 알림 드롭다운 트리거 -->
     <div class="relative">
-      <button id="notifTrigger" class="relative w-9 h-9 rounded-lg hover:bg-bg-secondary flex items-center justify-center" aria-label="알림" aria-haspopup="true" aria-expanded="false">
+      <button id="notifTrigger" class="ordo-shell-icon-button relative w-9 h-9 rounded-lg hover:bg-bg-secondary flex items-center justify-center" aria-label="알림" aria-haspopup="true" aria-controls="notifPanel" aria-expanded="false">
         <i data-lucide="bell" class="w-4 h-4"></i>
         <span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-st-critfg"></span>
       </button>
       <!-- 드롭다운 패널 -->
-      <div id="notifPanel" class="hidden absolute right-0 top-11 w-80 bg-white border border-bd-default rounded-xl shadow-modal z-50 overflow-hidden">
+      <div id="notifPanel" class="ordo-shell-notification hidden absolute right-0 top-11 w-80 bg-white border border-bd-default rounded-xl shadow-modal z-50 overflow-hidden" role="region" aria-label="알림 목록" tabindex="-1">
         <div class="flex items-center justify-between px-4 py-3 border-b border-bd-default">
           <div class="text-[13px] font-semibold">알림</div>
           <button class="text-[11px] text-tx-secondary hover:text-tx-primary">모두 읽음</button>
@@ -403,8 +404,8 @@
 </header>
 
 <!-- 모바일 헤더 (인증 후) -->
-<header id="mheader" class="fixed top-0 inset-x-0 h-14 bg-white border-b border-bd-default items-center px-3 z-30">
-  <button id="openDrawer" class="w-11 h-11 -ml-2 flex items-center justify-center" aria-label="메뉴 열기">
+<header id="mheader" class="ordo-shell-mobile-header fixed top-0 inset-x-0 h-14 bg-white border-b border-bd-default items-center px-3 z-30">
+  <button id="openDrawer" class="ordo-shell-icon-button w-11 h-11 -ml-2 flex items-center justify-center" aria-label="메뉴 열기" aria-controls="drawerOverlay" aria-expanded="false">
     <i data-lucide="menu" class="w-5 h-5"></i>
   </button>
   <h1 id="mTitle" class="mx-auto font-semibold text-[15px]">홈</h1>
@@ -416,9 +417,9 @@
 </header>
 
 <!-- 모바일 드로어 (햄버거) -->
-<div id="drawerOverlay" class="fixed inset-0 z-50 hidden" style="display:none;">
-  <div class="absolute inset-0 bg-black/35" data-close-drawer></div>
-  <aside class="drawer absolute inset-y-0 left-0 w-72 bg-white shadow-modal flex flex-col">
+<div id="drawerOverlay" class="fixed inset-0 z-50 hidden" style="display:none;" aria-hidden="true">
+  <div class="ordo-shell-drawer-backdrop absolute inset-0 bg-black/35" data-close-drawer></div>
+  <aside class="drawer ordo-shell-drawer absolute inset-y-0 left-0 w-72 bg-white shadow-modal flex flex-col" role="dialog" aria-modal="true" aria-label="모바일 메뉴" tabindex="-1">
     <div class="h-14 px-4 flex items-center justify-between border-b border-bd-default">
       <a href="#dashboard" class="flex items-center gap-2 drawer-link">
         <span class="logo-ordo text-[16px] text-tx-primary">ORDOSPACE</span>
@@ -3343,7 +3344,7 @@
      모바일 하단 탭 바 (인증 후만)
      ================================================================ -->
 <!-- [v2.1.0 — T8] 모바일 하단 탭바 — renderMobileTab(role)가 MTAB_MENU[role]로 링크 주입 -->
-<nav id="mtab" class="fixed bottom-0 inset-x-0 h-16 bg-white border-t border-bd-default items-stretch z-40" aria-label="하단 탭"></nav>
+<nav id="mtab" class="ordo-shell-mobile-tabs fixed bottom-0 inset-x-0 h-16 bg-white border-t border-bd-default items-stretch z-40" aria-label="하단 탭"></nav>
 
 
 <!-- ================================================================
