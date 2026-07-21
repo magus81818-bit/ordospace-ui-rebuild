@@ -17,6 +17,7 @@ const check = (condition, name, detail = '') => {
   if (!pass) failures.push(`${name}${detail ? `: ${detail}` : ''}`);
 };
 const git = args => cp.execFileSync('git', args, { cwd: root, encoding: 'utf8' }).trim();
+const normalized = value => value.replace(/\r\n/g, '\n').trim();
 
 fs.mkdirSync(artifactRoot, { recursive: true });
 
@@ -147,7 +148,7 @@ const statusChanged = git(['status', '--porcelain=v1', '--untracked-files=all'])
 const changed = [...new Set([...diffChanged, ...statusChanged])];
 const productChanged = changed.filter(file => /^(index\.html|app\/)/.test(file));
 if (descendantRound) {
-  check(git(['show', `${approvedRound3}:${tokenRelative}`]).trim() === css.trim(), 'approved Round 3 token stylesheet remains unchanged');
+  check(normalized(git(['show', `${approvedRound3}:${tokenRelative}`])) === normalized(css), 'approved Round 3 token stylesheet remains unchanged');
   check(index.includes('dashboard-salesops.tokens.css'), 'approved Round 3 token entry remains loaded');
 } else {
   check(productChanged.every(file => ['index.html', tokenRelative].includes(file)), 'product scope is limited to entry plus token stylesheet', productChanged.join(', '));
