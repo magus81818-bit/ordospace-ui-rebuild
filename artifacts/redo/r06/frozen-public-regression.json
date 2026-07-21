@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T13:55:38.286Z",
+  "generatedAt": "2026-07-21T14:14:23.026Z",
   "baseline": "evidence/redo/r05/frozen-public",
   "cases": [
     {
@@ -8,7 +8,7 @@
       "domParity": true,
       "computedStyleParity": true,
       "boundingBoxParity": true,
-      "pixelDiffRatio": 0.027983510232072444,
+      "pixelDiffRatio": 0.02803650192484531,
       "byteIdentical": false,
       "dynamic": true,
       "evidence": "evidence/redo/r06/frozen-public/landing-desktop-1440x1000.png",

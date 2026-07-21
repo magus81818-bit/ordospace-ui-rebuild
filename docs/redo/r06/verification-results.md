@@ -1,4 +1,17 @@
 # Verification Results
 
-Round 6 브라우저 검사는 5/5 통과했습니다. Admin 30 반응형, 상태 evidence 5그룹, Client/Worker 11, 공개 18, layout 30, accessibility 5이며 console error 0, pageerror 0, failed request 0, HTTP 4xx/5xx 0입니다. 정적·이전 라운드·backend 전체 결과는 `artifacts/redo/r06/test-results.json`과 `verification-summary.json`에 기록합니다.
+Round 6 and the complete Round 1-6 regression matrix pass.
 
+- Round 6 Playwright: 5/5 tests
+- Admin responsive coverage: 30/30 (five screens, six viewports)
+- Admin state evidence groups: 5/5
+- Client/Worker regression: 11/11
+- Frozen public regression: 18/18
+- Shell layout preservation: 30/30
+- Accessibility screen checks: 5/5
+- Console errors, page errors, failed requests, HTTP 4xx/5xx: 0
+- Round 1-5 validators: all pass
+- Root build, JavaScript check, static validation, smoke: all pass
+- Backend tests: 8 suites / 36 tests; type check and build pass
+
+Machine-readable results are recorded in `artifacts/redo/r06/test-results.json` and `artifacts/redo/r06/verification-summary.json`.

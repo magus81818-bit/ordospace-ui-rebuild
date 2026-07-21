@@ -1,0 +1,29 @@
+{
+  "round": 6,
+  "recordedAt": "2026-07-21T14:18:00+09:00",
+  "branch": "redo/r06-admin-dashboard",
+  "baseCommit": "65465846487065b861756a8c7353c8df8c63ccc5",
+  "overall": "PASS",
+  "commands": [
+    { "name": "dependency install", "command": "npm ci", "result": "PASS", "detail": "0 vulnerabilities" },
+    { "name": "frontend build", "command": "npm run build", "result": "PASS" },
+    { "name": "JavaScript check", "command": "npm run check:js", "result": "PASS" },
+    { "name": "static component validation", "command": "npm run validate:components", "result": "PASS" },
+    { "name": "static lifecycle validation", "command": "npm run validate:lifecycle", "result": "PASS" },
+    { "name": "smoke", "command": "npm run smoke", "result": "PASS", "detail": "12 routes; runtime QA 20/20" },
+    { "name": "Round 1 audit", "command": "npm --prefix tests/redo/r01 run audit", "result": "PASS", "detail": "4/4" },
+    { "name": "Round 2 validation", "command": "npm --prefix tests/redo/r02 run validate", "result": "PASS", "detail": "73/73; product parity true" },
+    { "name": "Round 3 validation", "command": "npm --prefix tests/redo/r03 run validate", "result": "PASS", "detail": "4/4; 219 token checks" },
+    { "name": "Round 4 validation", "command": "npm --prefix tests/redo/r04 run validate", "result": "PASS", "detail": "9/9; 10 primitives; public 18; routes 12; responsive 6; UI Lab screenshots 21" },
+    { "name": "Round 5 validation", "command": "npm --prefix tests/redo/r05 run validate", "result": "PASS", "detail": "4/4; inventory 9; public 18; shell states and evidence complete" },
+    { "name": "Round 6 validation", "command": "npm --prefix tests/redo/r06 run validate", "result": "PASS", "detail": "5/5; Admin 30; states 5; non-Admin 11; public 18; layout 30; accessibility 5; browser errors 0" },
+    { "name": "backend tests", "command": "npm --prefix backend test", "result": "PASS", "detail": "8 suites; 36 tests" },
+    { "name": "backend type check", "command": "npm --prefix backend run typecheck", "result": "PASS" },
+    { "name": "backend build", "command": "npm --prefix backend run build", "result": "PASS" }
+  ],
+  "notes": [
+    "Round 3 and Round 4 validators disable approved descendant styles while measuring their original layer contracts.",
+    "Round 5 public DOM comparison normalizes only the known time-driven landing demo active-step class; style, box and pixel checks remain enforced.",
+    "No deployment, production alias, main branch, protected source repository, API, backend, route, guard, fixture, or storage behavior was changed."
+  ]
+}
