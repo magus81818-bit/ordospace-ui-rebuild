@@ -5,1335 +5,1590 @@
       "inventoryId": "UI-021",
       "states": {
         "default": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "hover": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current dashboard KPI row operating renderer contract."
         },
         "focus-visible": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current dashboard KPI row operating renderer contract."
         },
         "active": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current dashboard KPI row operating renderer contract."
         },
         "selected": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current dashboard KPI row operating renderer contract."
         },
         "disabled": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current dashboard KPI row operating renderer contract."
         },
         "loading": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current dashboard KPI row operating renderer contract."
         },
         "empty": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current dashboard KPI row operating renderer contract."
         },
         "no-result": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current dashboard KPI row operating renderer contract."
         },
         "error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current dashboard KPI row operating renderer contract."
         },
         "success": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current dashboard KPI row operating renderer contract."
         },
         "validation error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current dashboard KPI row operating renderer contract."
         },
         "open": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No open branch exists in the current dashboard KPI row operating renderer contract."
         },
         "closed": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No closed branch exists in the current dashboard KPI row operating renderer contract."
         },
         "confirm": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No confirm branch exists in the current dashboard KPI row operating renderer contract."
         },
         "zero": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-dashboard-kpi-zero-warning-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
+        },
+        "warning": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-dashboard-kpi-zero-warning-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "partial": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No partial branch exists in the current dashboard KPI row operating renderer contract."
         },
         "complete": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No complete branch exists in the current dashboard KPI row operating renderer contract."
         },
         "current": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No current branch exists in the current dashboard KPI row operating renderer contract."
         },
         "pending": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current dashboard KPI row operating renderer contract."
         },
         "long content": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-dashboard-long-mobile-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "overflow": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No overflow branch exists in the current dashboard KPI row operating renderer contract."
         },
         "Desktop": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Tablet": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Mobile": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "reduced motion": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No reduced motion branch exists in the current dashboard KPI row operating renderer contract."
         }
-      },
-      "deferred": [],
-      "missing": []
+      }
     },
     {
       "inventoryId": "UI-022",
       "states": {
         "default": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "hover": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current project step progress operating renderer contract."
         },
         "focus-visible": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current project step progress operating renderer contract."
         },
         "active": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current project step progress operating renderer contract."
         },
         "selected": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current project step progress operating renderer contract."
         },
         "disabled": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current project step progress operating renderer contract."
         },
         "loading": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current project step progress operating renderer contract."
         },
         "empty": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current project step progress operating renderer contract."
         },
         "no-result": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current project step progress operating renderer contract."
         },
         "error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current project step progress operating renderer contract."
         },
         "success": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current project step progress operating renderer contract."
         },
         "validation error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current project step progress operating renderer contract."
         },
         "open": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No open branch exists in the current project step progress operating renderer contract."
         },
         "closed": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No closed branch exists in the current project step progress operating renderer contract."
         },
         "confirm": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No confirm branch exists in the current project step progress operating renderer contract."
         },
         "zero": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current project step progress operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current project step progress operating renderer contract."
         },
         "partial": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No partial branch exists in the current project step progress operating renderer contract."
         },
         "complete": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-dashboard-progress-states-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "current": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-dashboard-progress-states-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "pending": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-dashboard-progress-states-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "long content": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current project step progress operating renderer contract."
         },
         "overflow": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No overflow branch exists in the current project step progress operating renderer contract."
         },
         "Desktop": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Tablet": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Mobile": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "reduced motion": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No reduced motion branch exists in the current project step progress operating renderer contract."
         }
-      },
-      "deferred": [],
-      "missing": []
+      }
     },
     {
       "inventoryId": "UI-023",
       "states": {
         "default": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "hover": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current chain progress group operating renderer contract."
         },
         "focus-visible": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current chain progress group operating renderer contract."
         },
         "active": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current chain progress group operating renderer contract."
         },
         "selected": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current chain progress group operating renderer contract."
         },
         "disabled": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current chain progress group operating renderer contract."
         },
         "loading": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current chain progress group operating renderer contract."
         },
         "empty": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current chain progress group operating renderer contract."
         },
         "no-result": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current chain progress group operating renderer contract."
         },
         "error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current chain progress group operating renderer contract."
         },
         "success": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current chain progress group operating renderer contract."
         },
         "validation error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current chain progress group operating renderer contract."
         },
         "open": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No open branch exists in the current chain progress group operating renderer contract."
         },
         "closed": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No closed branch exists in the current chain progress group operating renderer contract."
         },
         "confirm": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No confirm branch exists in the current chain progress group operating renderer contract."
         },
         "zero": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-dashboard-progress-states-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current chain progress group operating renderer contract."
         },
         "partial": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-dashboard-progress-states-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "complete": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-dashboard-progress-states-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "current": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No current branch exists in the current chain progress group operating renderer contract."
         },
         "pending": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current chain progress group operating renderer contract."
         },
         "long content": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current chain progress group operating renderer contract."
         },
         "overflow": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No overflow branch exists in the current chain progress group operating renderer contract."
         },
         "Desktop": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Tablet": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Mobile": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "reduced motion": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No reduced motion branch exists in the current chain progress group operating renderer contract."
         }
-      },
-      "deferred": [],
-      "missing": []
+      }
     },
     {
       "inventoryId": "UI-024",
       "states": {
         "default": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "hover": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current approval-card grid operating renderer contract."
         },
         "focus-visible": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current approval-card grid operating renderer contract."
         },
         "active": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current approval-card grid operating renderer contract."
         },
         "selected": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current approval-card grid operating renderer contract."
         },
         "disabled": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current approval-card grid operating renderer contract."
         },
         "loading": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current approval-card grid operating renderer contract."
         },
         "empty": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-dashboard-approval-empty-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "no-result": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current approval-card grid operating renderer contract."
         },
         "error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current approval-card grid operating renderer contract."
         },
         "success": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current approval-card grid operating renderer contract."
         },
         "validation error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current approval-card grid operating renderer contract."
         },
         "open": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No open branch exists in the current approval-card grid operating renderer contract."
         },
         "closed": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No closed branch exists in the current approval-card grid operating renderer contract."
         },
         "confirm": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No confirm branch exists in the current approval-card grid operating renderer contract."
         },
         "zero": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current approval-card grid operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current approval-card grid operating renderer contract."
         },
         "partial": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No partial branch exists in the current approval-card grid operating renderer contract."
         },
         "complete": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No complete branch exists in the current approval-card grid operating renderer contract."
         },
         "current": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No current branch exists in the current approval-card grid operating renderer contract."
         },
         "pending": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current approval-card grid operating renderer contract."
         },
         "long content": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current approval-card grid operating renderer contract."
         },
         "overflow": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No overflow branch exists in the current approval-card grid operating renderer contract."
         },
         "Desktop": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Tablet": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Mobile": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/dashboard/client-dashboard-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "reduced motion": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No reduced motion branch exists in the current approval-card grid operating renderer contract."
         }
-      },
-      "deferred": [],
-      "missing": []
+      }
     },
     {
       "inventoryId": "UI-025",
       "states": {
         "default": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "hover": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current project progress header operating renderer contract."
         },
         "focus-visible": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current project progress header operating renderer contract."
         },
         "active": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current project progress header operating renderer contract."
         },
         "selected": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current project progress header operating renderer contract."
         },
         "disabled": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current project progress header operating renderer contract."
         },
         "loading": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current project progress header operating renderer contract."
         },
         "empty": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current project progress header operating renderer contract."
         },
         "no-result": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current project progress header operating renderer contract."
         },
         "error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current project progress header operating renderer contract."
         },
         "success": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current project progress header operating renderer contract."
         },
         "validation error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current project progress header operating renderer contract."
         },
         "open": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No open branch exists in the current project progress header operating renderer contract."
         },
         "closed": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No closed branch exists in the current project progress header operating renderer contract."
         },
         "confirm": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No confirm branch exists in the current project progress header operating renderer contract."
         },
         "zero": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current project progress header operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current project progress header operating renderer contract."
         },
         "partial": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No partial branch exists in the current project progress header operating renderer contract."
         },
         "complete": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No complete branch exists in the current project progress header operating renderer contract."
         },
         "current": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No current branch exists in the current project progress header operating renderer contract."
         },
         "pending": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current project progress header operating renderer contract."
         },
         "long content": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-project-timeline-long-mobile-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "overflow": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No overflow branch exists in the current project progress header operating renderer contract."
         },
         "Desktop": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Tablet": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Mobile": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "reduced motion": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No reduced motion branch exists in the current project progress header operating renderer contract."
         }
-      },
-      "deferred": [],
-      "missing": []
+      }
     },
     {
       "inventoryId": "UI-026",
       "states": {
         "default": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "hover": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current chain/status filters operating renderer contract."
         },
         "focus-visible": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current chain/status filters operating renderer contract."
         },
         "active": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current chain/status filters operating renderer contract."
         },
         "selected": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-project-filter-no-result-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "disabled": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current chain/status filters operating renderer contract."
         },
         "loading": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current chain/status filters operating renderer contract."
         },
         "empty": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current chain/status filters operating renderer contract."
         },
         "no-result": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-project-filter-no-result-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current chain/status filters operating renderer contract."
         },
         "success": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current chain/status filters operating renderer contract."
         },
         "validation error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current chain/status filters operating renderer contract."
         },
         "open": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No open branch exists in the current chain/status filters operating renderer contract."
         },
         "closed": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No closed branch exists in the current chain/status filters operating renderer contract."
         },
         "confirm": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No confirm branch exists in the current chain/status filters operating renderer contract."
         },
         "zero": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current chain/status filters operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current chain/status filters operating renderer contract."
         },
         "partial": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No partial branch exists in the current chain/status filters operating renderer contract."
         },
         "complete": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No complete branch exists in the current chain/status filters operating renderer contract."
         },
         "current": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No current branch exists in the current chain/status filters operating renderer contract."
         },
         "pending": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current chain/status filters operating renderer contract."
         },
         "long content": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current chain/status filters operating renderer contract."
         },
         "overflow": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No overflow branch exists in the current chain/status filters operating renderer contract."
         },
         "Desktop": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Tablet": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Mobile": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "reduced motion": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No reduced motion branch exists in the current chain/status filters operating renderer contract."
         }
-      },
-      "deferred": [],
-      "missing": []
+      }
     },
     {
       "inventoryId": "UI-027",
       "states": {
         "default": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "hover": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "focus-visible": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "active": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "selected": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "disabled": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "loading": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "empty": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "no-result": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-project-gate-pass-fail-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "success": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-project-gate-pass-fail-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "validation error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "open": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No open branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "closed": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No closed branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "confirm": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No confirm branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "zero": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current step timeline and gate rows operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "partial": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No partial branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "complete": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No complete branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "current": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No current branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "pending": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "long content": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-project-timeline-long-mobile-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "overflow": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No overflow branch exists in the current step timeline and gate rows operating renderer contract."
         },
         "Desktop": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Tablet": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Mobile": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "reduced motion": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No reduced motion branch exists in the current step timeline and gate rows operating renderer contract."
         }
-      },
-      "deferred": [],
-      "missing": []
+      }
     },
     {
       "inventoryId": "UI-028",
       "states": {
         "default": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "hover": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "focus-visible": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "active": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "selected": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "disabled": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "loading": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "empty": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-project-assets-empty-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "no-result": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "success": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "validation error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "open": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No open branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "closed": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No closed branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "confirm": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No confirm branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "zero": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current artifacts/assets panel operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "partial": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No partial branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "complete": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No complete branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "current": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No current branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "pending": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "long content": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-project-assets-long-filename-mobile-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "overflow": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No overflow branch exists in the current artifacts/assets panel operating renderer contract."
         },
         "Desktop": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Tablet": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Mobile": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "reduced motion": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No reduced motion branch exists in the current artifacts/assets panel operating renderer contract."
         }
-      },
-      "deferred": [],
-      "missing": []
+      }
     },
     {
       "inventoryId": "UI-029",
       "states": {
         "default": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "hover": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current card detail modal operating renderer contract."
         },
         "focus-visible": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current card detail modal operating renderer contract."
         },
         "active": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current card detail modal operating renderer contract."
         },
         "selected": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current card detail modal operating renderer contract."
         },
         "disabled": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current card detail modal operating renderer contract."
         },
         "loading": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current card detail modal operating renderer contract."
         },
         "empty": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current card detail modal operating renderer contract."
         },
         "no-result": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current card detail modal operating renderer contract."
         },
         "error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-project-modal-error-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "success": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current card detail modal operating renderer contract."
         },
         "validation error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current card detail modal operating renderer contract."
         },
         "open": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-project-modal-open-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "closed": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-project-modal-focus-return-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "confirm": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No confirm branch exists in the current card detail modal operating renderer contract."
         },
         "zero": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current card detail modal operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current card detail modal operating renderer contract."
         },
         "partial": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No partial branch exists in the current card detail modal operating renderer contract."
         },
         "complete": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No complete branch exists in the current card detail modal operating renderer contract."
         },
         "current": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No current branch exists in the current card detail modal operating renderer contract."
         },
         "pending": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current card detail modal operating renderer contract."
         },
         "long content": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current card detail modal operating renderer contract."
         },
         "overflow": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No overflow branch exists in the current card detail modal operating renderer contract."
         },
         "Desktop": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Tablet": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Mobile": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/project/client-project-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "reduced motion": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No reduced motion branch exists in the current card detail modal operating renderer contract."
         }
-      },
-      "deferred": [],
-      "missing": []
+      }
     },
     {
       "inventoryId": "UI-030",
       "states": {
         "default": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "hover": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current approval queue list operating renderer contract."
         },
         "focus-visible": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current approval queue list operating renderer contract."
         },
         "active": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current approval queue list operating renderer contract."
         },
         "selected": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-approvals-selected-controls-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "disabled": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current approval queue list operating renderer contract."
         },
         "loading": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current approval queue list operating renderer contract."
         },
         "empty": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-approvals-queue-empty-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "no-result": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current approval queue list operating renderer contract."
         },
         "error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current approval queue list operating renderer contract."
         },
         "success": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current approval queue list operating renderer contract."
         },
         "validation error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current approval queue list operating renderer contract."
         },
         "open": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No open branch exists in the current approval queue list operating renderer contract."
         },
         "closed": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No closed branch exists in the current approval queue list operating renderer contract."
         },
         "confirm": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No confirm branch exists in the current approval queue list operating renderer contract."
         },
         "zero": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current approval queue list operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current approval queue list operating renderer contract."
         },
         "partial": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No partial branch exists in the current approval queue list operating renderer contract."
         },
         "complete": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No complete branch exists in the current approval queue list operating renderer contract."
         },
         "current": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No current branch exists in the current approval queue list operating renderer contract."
         },
         "pending": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current approval queue list operating renderer contract."
         },
         "long content": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current approval queue list operating renderer contract."
         },
         "overflow": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No overflow branch exists in the current approval queue list operating renderer contract."
         },
         "Desktop": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Tablet": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Mobile": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "reduced motion": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No reduced motion branch exists in the current approval queue list operating renderer contract."
         }
-      },
-      "deferred": [],
-      "missing": []
+      }
     },
     {
       "inventoryId": "UI-031",
       "states": {
         "default": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "hover": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current approval detail operating renderer contract."
         },
         "focus-visible": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current approval detail operating renderer contract."
         },
         "active": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current approval detail operating renderer contract."
         },
         "selected": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current approval detail operating renderer contract."
         },
         "disabled": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current approval detail operating renderer contract."
         },
         "loading": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current approval detail operating renderer contract."
         },
         "empty": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-approvals-no-selection-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "no-result": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current approval detail operating renderer contract."
         },
         "error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current approval detail operating renderer contract."
         },
         "success": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current approval detail operating renderer contract."
         },
         "validation error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current approval detail operating renderer contract."
         },
         "open": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No open branch exists in the current approval detail operating renderer contract."
         },
         "closed": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No closed branch exists in the current approval detail operating renderer contract."
         },
         "confirm": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No confirm branch exists in the current approval detail operating renderer contract."
         },
         "zero": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current approval detail operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current approval detail operating renderer contract."
         },
         "partial": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No partial branch exists in the current approval detail operating renderer contract."
         },
         "complete": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No complete branch exists in the current approval detail operating renderer contract."
         },
         "current": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No current branch exists in the current approval detail operating renderer contract."
         },
         "pending": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current approval detail operating renderer contract."
         },
         "long content": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-approvals-long-detail-mobile-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "overflow": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No overflow branch exists in the current approval detail operating renderer contract."
         },
         "Desktop": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Tablet": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Mobile": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "reduced motion": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No reduced motion branch exists in the current approval detail operating renderer contract."
         }
-      },
-      "deferred": [],
-      "missing": []
+      }
     },
     {
       "inventoryId": "UI-032",
       "states": {
         "default": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "hover": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current decision controls operating renderer contract."
         },
         "focus-visible": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current decision controls operating renderer contract."
         },
         "active": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current decision controls operating renderer contract."
         },
         "selected": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current decision controls operating renderer contract."
         },
         "disabled": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-approvals-decision-disabled-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "loading": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current decision controls operating renderer contract."
         },
         "empty": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current decision controls operating renderer contract."
         },
         "no-result": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current decision controls operating renderer contract."
         },
         "error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current decision controls operating renderer contract."
         },
         "success": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current decision controls operating renderer contract."
         },
         "validation error": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/states/client-approvals-validation-error-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "open": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No open branch exists in the current decision controls operating renderer contract."
         },
         "closed": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No closed branch exists in the current decision controls operating renderer contract."
         },
         "confirm": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No confirm branch exists in the current decision controls operating renderer contract."
         },
         "zero": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current decision controls operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current decision controls operating renderer contract."
         },
         "partial": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No partial branch exists in the current decision controls operating renderer contract."
         },
         "complete": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No complete branch exists in the current decision controls operating renderer contract."
         },
         "current": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No current branch exists in the current decision controls operating renderer contract."
         },
         "pending": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current decision controls operating renderer contract."
         },
         "long content": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current decision controls operating renderer contract."
         },
         "overflow": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No overflow branch exists in the current decision controls operating renderer contract."
         },
         "Desktop": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Tablet": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "Mobile": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client interactions and semantic states remain operable"
         },
         "reduced motion": {
-          "status": "implemented or N/A with existing-function rationale",
-          "evidence": "evidence/redo/r07/client/"
+          "status": "not_applicable",
+          "reason": "No reduced motion branch exists in the current decision controls operating renderer contract."
         }
-      },
-      "deferred": [],
-      "missing": []
+      }
     }
   ],
+  "implementedCount": 75,
+  "notApplicableCount": 249,
   "deferred": 0,
-  "missing": 0
+  "missing": 0,
+  "invalidStatusCount": 0,
+  "missingEvidenceCount": 0,
+  "directoryEvidenceCount": 0,
+  "pass": true
 }

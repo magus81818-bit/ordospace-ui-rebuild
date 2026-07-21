@@ -1,47 +1,23 @@
 {
   "round": 7,
-  "approvedBase": "6c4413e68c5239672bc01a1fe18dd926f663506b",
+  "source": "artifacts/redo/r02/component-migration-matrix.json",
   "items": [
     {
       "inventoryId": "UI-021",
       "clientScreen": "client/dashboard",
       "name": "dashboard KPI row",
-      "existingComponent": "dashboard KPI row",
-      "existingFunction": "preserved",
-      "currentStates": "preserved",
       "salesopsId": "SO-CARD-002",
-      "salesopsZipEvidence": "components/dashboard/* and Round 2 matrix",
-      "liveEvidence": "https://v0-sales-operations-dashboard.vercel.app/",
+      "salesopsComponent": "Metric card",
       "classification": "Adapted",
+      "uncertainty": "None",
+      "salesopsZipEvidence": "components/dashboard/metric-card.tsx",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "accessibilityRequirements": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior.",
       "implementationFiles": [
         "app/screens/client-workspace.screen.js",
         "app/styles/dashboard-salesops.client.css",
         "app/ui/components/client.ui.js",
         "index.html"
-      ],
-      "cssClass": "ordo-client-*",
-      "tokens": [
-        "--ordo-so-bg-surface",
-        "--ordo-so-border-default",
-        "--ordo-so-text-primary",
-        "--ordo-so-text-accent"
-      ],
-      "primitives": [
-        "MetricCard",
-        "ModuleCard",
-        "Filter",
-        "Progress",
-        "Dialog",
-        "ActionToolbar"
-      ],
-      "accessibility": "keyboard, focus, named progress/filter/dialog/queue",
-      "responsive": {
-        "desktop": "PASS",
-        "tablet": "PASS",
-        "mobile": "PASS"
-      },
-      "statesEvidence": [
-        "evidence/redo/r07/client/states/"
       ],
       "completionStatus": "complete"
     },
@@ -49,42 +25,18 @@
       "inventoryId": "UI-022",
       "clientScreen": "client/dashboard",
       "name": "project step progress",
-      "existingComponent": "project step progress",
-      "existingFunction": "preserved",
-      "currentStates": "preserved",
-      "salesopsId": "SO-CHART-001",
-      "salesopsZipEvidence": "components/dashboard/* and Round 2 matrix",
-      "liveEvidence": "https://v0-sales-operations-dashboard.vercel.app/",
+      "salesopsId": "SO-PROGRESS-001",
+      "salesopsComponent": "Progress",
       "classification": "Derived",
+      "uncertainty": "None",
+      "salesopsZipEvidence": "components/ui/progress.tsx",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "accessibilityRequirements": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior.",
       "implementationFiles": [
         "app/screens/client-workspace.screen.js",
         "app/styles/dashboard-salesops.client.css",
         "app/ui/components/client.ui.js",
         "index.html"
-      ],
-      "cssClass": "ordo-client-*",
-      "tokens": [
-        "--ordo-so-bg-surface",
-        "--ordo-so-border-default",
-        "--ordo-so-text-primary",
-        "--ordo-so-text-accent"
-      ],
-      "primitives": [
-        "MetricCard",
-        "ModuleCard",
-        "Filter",
-        "Progress",
-        "Dialog",
-        "ActionToolbar"
-      ],
-      "accessibility": "keyboard, focus, named progress/filter/dialog/queue",
-      "responsive": {
-        "desktop": "PASS",
-        "tablet": "PASS",
-        "mobile": "PASS"
-      },
-      "statesEvidence": [
-        "evidence/redo/r07/client/states/"
       ],
       "completionStatus": "complete"
     },
@@ -92,42 +44,18 @@
       "inventoryId": "UI-023",
       "clientScreen": "client/dashboard",
       "name": "chain progress group",
-      "existingComponent": "chain progress group",
-      "existingFunction": "preserved",
-      "currentStates": "preserved",
-      "salesopsId": "SO-CHART-001",
-      "salesopsZipEvidence": "components/dashboard/* and Round 2 matrix",
-      "liveEvidence": "https://v0-sales-operations-dashboard.vercel.app/",
+      "salesopsId": "SO-PROGRESS-001",
+      "salesopsComponent": "Progress",
       "classification": "Adapted",
+      "uncertainty": "None",
+      "salesopsZipEvidence": "components/ui/progress.tsx",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "accessibilityRequirements": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior.",
       "implementationFiles": [
         "app/screens/client-workspace.screen.js",
         "app/styles/dashboard-salesops.client.css",
         "app/ui/components/client.ui.js",
         "index.html"
-      ],
-      "cssClass": "ordo-client-*",
-      "tokens": [
-        "--ordo-so-bg-surface",
-        "--ordo-so-border-default",
-        "--ordo-so-text-primary",
-        "--ordo-so-text-accent"
-      ],
-      "primitives": [
-        "MetricCard",
-        "ModuleCard",
-        "Filter",
-        "Progress",
-        "Dialog",
-        "ActionToolbar"
-      ],
-      "accessibility": "keyboard, focus, named progress/filter/dialog/queue",
-      "responsive": {
-        "desktop": "PASS",
-        "tablet": "PASS",
-        "mobile": "PASS"
-      },
-      "statesEvidence": [
-        "evidence/redo/r07/client/states/"
       ],
       "completionStatus": "complete"
     },
@@ -135,42 +63,18 @@
       "inventoryId": "UI-024",
       "clientScreen": "client/dashboard",
       "name": "approval-card grid",
-      "existingComponent": "approval-card grid",
-      "existingFunction": "preserved",
-      "currentStates": "preserved",
       "salesopsId": "SO-CARD-001",
-      "salesopsZipEvidence": "components/dashboard/* and Round 2 matrix",
-      "liveEvidence": "https://v0-sales-operations-dashboard.vercel.app/",
+      "salesopsComponent": "Card",
       "classification": "Adapted",
+      "uncertainty": "None",
+      "salesopsZipEvidence": "components/ui/card.tsx",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "accessibilityRequirements": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior.",
       "implementationFiles": [
         "app/screens/client-workspace.screen.js",
         "app/styles/dashboard-salesops.client.css",
         "app/ui/components/client.ui.js",
         "index.html"
-      ],
-      "cssClass": "ordo-client-*",
-      "tokens": [
-        "--ordo-so-bg-surface",
-        "--ordo-so-border-default",
-        "--ordo-so-text-primary",
-        "--ordo-so-text-accent"
-      ],
-      "primitives": [
-        "MetricCard",
-        "ModuleCard",
-        "Filter",
-        "Progress",
-        "Dialog",
-        "ActionToolbar"
-      ],
-      "accessibility": "keyboard, focus, named progress/filter/dialog/queue",
-      "responsive": {
-        "desktop": "PASS",
-        "tablet": "PASS",
-        "mobile": "PASS"
-      },
-      "statesEvidence": [
-        "evidence/redo/r07/client/states/"
       ],
       "completionStatus": "complete"
     },
@@ -178,42 +82,18 @@
       "inventoryId": "UI-025",
       "clientScreen": "client/project",
       "name": "project progress header",
-      "existingComponent": "project progress header",
-      "existingFunction": "preserved",
-      "currentStates": "preserved",
-      "salesopsId": "SO-CARD-002",
-      "salesopsZipEvidence": "components/dashboard/* and Round 2 matrix",
-      "liveEvidence": "https://v0-sales-operations-dashboard.vercel.app/",
+      "salesopsId": "SO-HEADER-001",
+      "salesopsComponent": "Header",
       "classification": "Adapted",
+      "uncertainty": "None",
+      "salesopsZipEvidence": "components/dashboard/header.tsx",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "accessibilityRequirements": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior.",
       "implementationFiles": [
         "app/screens/client-workspace.screen.js",
         "app/styles/dashboard-salesops.client.css",
         "app/ui/components/client.ui.js",
         "index.html"
-      ],
-      "cssClass": "ordo-client-*",
-      "tokens": [
-        "--ordo-so-bg-surface",
-        "--ordo-so-border-default",
-        "--ordo-so-text-primary",
-        "--ordo-so-text-accent"
-      ],
-      "primitives": [
-        "MetricCard",
-        "ModuleCard",
-        "Filter",
-        "Progress",
-        "Dialog",
-        "ActionToolbar"
-      ],
-      "accessibility": "keyboard, focus, named progress/filter/dialog/queue",
-      "responsive": {
-        "desktop": "PASS",
-        "tablet": "PASS",
-        "mobile": "PASS"
-      },
-      "statesEvidence": [
-        "evidence/redo/r07/client/states/"
       ],
       "completionStatus": "complete"
     },
@@ -221,42 +101,18 @@
       "inventoryId": "UI-026",
       "clientScreen": "client/project",
       "name": "chain/status filters",
-      "existingComponent": "chain/status filters",
-      "existingFunction": "preserved",
-      "currentStates": "preserved",
       "salesopsId": "SO-FILTER-001",
-      "salesopsZipEvidence": "components/dashboard/* and Round 2 matrix",
-      "liveEvidence": "https://v0-sales-operations-dashboard.vercel.app/",
+      "salesopsComponent": "Filter controls",
       "classification": "Adapted",
+      "uncertainty": "None",
+      "salesopsZipEvidence": "components/dashboard/sections/deals.tsx",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "accessibilityRequirements": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior.",
       "implementationFiles": [
         "app/screens/client-workspace.screen.js",
         "app/styles/dashboard-salesops.client.css",
         "app/ui/components/client.ui.js",
         "index.html"
-      ],
-      "cssClass": "ordo-client-*",
-      "tokens": [
-        "--ordo-so-bg-surface",
-        "--ordo-so-border-default",
-        "--ordo-so-text-primary",
-        "--ordo-so-text-accent"
-      ],
-      "primitives": [
-        "MetricCard",
-        "ModuleCard",
-        "Filter",
-        "Progress",
-        "Dialog",
-        "ActionToolbar"
-      ],
-      "accessibility": "keyboard, focus, named progress/filter/dialog/queue",
-      "responsive": {
-        "desktop": "PASS",
-        "tablet": "PASS",
-        "mobile": "PASS"
-      },
-      "statesEvidence": [
-        "evidence/redo/r07/client/states/"
       ],
       "completionStatus": "complete"
     },
@@ -264,42 +120,18 @@
       "inventoryId": "UI-027",
       "clientScreen": "client/project",
       "name": "step timeline and gate rows",
-      "existingComponent": "step timeline and gate rows",
-      "existingFunction": "preserved",
-      "currentStates": "preserved",
       "salesopsId": "SO-CHART-001",
-      "salesopsZipEvidence": "components/dashboard/* and Round 2 matrix",
-      "liveEvidence": "https://v0-sales-operations-dashboard.vercel.app/",
+      "salesopsComponent": "Chart container",
       "classification": "Derived",
+      "uncertainty": "None",
+      "salesopsZipEvidence": "components/ui/chart.tsx",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "accessibilityRequirements": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior.",
       "implementationFiles": [
         "app/screens/client-workspace.screen.js",
         "app/styles/dashboard-salesops.client.css",
         "app/ui/components/client.ui.js",
         "index.html"
-      ],
-      "cssClass": "ordo-client-*",
-      "tokens": [
-        "--ordo-so-bg-surface",
-        "--ordo-so-border-default",
-        "--ordo-so-text-primary",
-        "--ordo-so-text-accent"
-      ],
-      "primitives": [
-        "MetricCard",
-        "ModuleCard",
-        "Filter",
-        "Progress",
-        "Dialog",
-        "ActionToolbar"
-      ],
-      "accessibility": "keyboard, focus, named progress/filter/dialog/queue",
-      "responsive": {
-        "desktop": "PASS",
-        "tablet": "PASS",
-        "mobile": "PASS"
-      },
-      "statesEvidence": [
-        "evidence/redo/r07/client/states/"
       ],
       "completionStatus": "complete"
     },
@@ -307,42 +139,18 @@
       "inventoryId": "UI-028",
       "clientScreen": "client/project",
       "name": "artifacts/assets panel",
-      "existingComponent": "artifacts/assets panel",
-      "existingFunction": "preserved",
-      "currentStates": "preserved",
-      "salesopsId": "SO-TABLE-001",
-      "salesopsZipEvidence": "components/dashboard/* and Round 2 matrix",
-      "liveEvidence": "https://v0-sales-operations-dashboard.vercel.app/",
+      "salesopsId": "SO-CARD-001",
+      "salesopsComponent": "Card",
       "classification": "Adapted",
+      "uncertainty": "None",
+      "salesopsZipEvidence": "components/ui/card.tsx",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "accessibilityRequirements": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior.",
       "implementationFiles": [
         "app/screens/client-workspace.screen.js",
         "app/styles/dashboard-salesops.client.css",
         "app/ui/components/client.ui.js",
         "index.html"
-      ],
-      "cssClass": "ordo-client-*",
-      "tokens": [
-        "--ordo-so-bg-surface",
-        "--ordo-so-border-default",
-        "--ordo-so-text-primary",
-        "--ordo-so-text-accent"
-      ],
-      "primitives": [
-        "MetricCard",
-        "ModuleCard",
-        "Filter",
-        "Progress",
-        "Dialog",
-        "ActionToolbar"
-      ],
-      "accessibility": "keyboard, focus, named progress/filter/dialog/queue",
-      "responsive": {
-        "desktop": "PASS",
-        "tablet": "PASS",
-        "mobile": "PASS"
-      },
-      "statesEvidence": [
-        "evidence/redo/r07/client/states/"
       ],
       "completionStatus": "complete"
     },
@@ -350,42 +158,18 @@
       "inventoryId": "UI-029",
       "clientScreen": "client/project",
       "name": "card detail modal",
-      "existingComponent": "card detail modal",
-      "existingFunction": "preserved",
-      "currentStates": "preserved",
       "salesopsId": "SO-DIALOG-001",
-      "salesopsZipEvidence": "components/dashboard/* and Round 2 matrix",
-      "liveEvidence": "https://v0-sales-operations-dashboard.vercel.app/",
+      "salesopsComponent": "Modal/Dialog",
       "classification": "Adapted",
+      "uncertainty": "Counterpart is code-only; visual state will be derived and verified in UI Lab.",
+      "salesopsZipEvidence": "components/ui/dialog.tsx",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "accessibilityRequirements": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior.",
       "implementationFiles": [
         "app/screens/client-workspace.screen.js",
         "app/styles/dashboard-salesops.client.css",
         "app/ui/components/client.ui.js",
         "index.html"
-      ],
-      "cssClass": "ordo-client-*",
-      "tokens": [
-        "--ordo-so-bg-surface",
-        "--ordo-so-border-default",
-        "--ordo-so-text-primary",
-        "--ordo-so-text-accent"
-      ],
-      "primitives": [
-        "MetricCard",
-        "ModuleCard",
-        "Filter",
-        "Progress",
-        "Dialog",
-        "ActionToolbar"
-      ],
-      "accessibility": "keyboard, focus, named progress/filter/dialog/queue",
-      "responsive": {
-        "desktop": "PASS",
-        "tablet": "PASS",
-        "mobile": "PASS"
-      },
-      "statesEvidence": [
-        "evidence/redo/r07/client/states/"
       ],
       "completionStatus": "complete"
     },
@@ -393,42 +177,18 @@
       "inventoryId": "UI-030",
       "clientScreen": "client/approvals",
       "name": "approval queue list",
-      "existingComponent": "approval queue list",
-      "existingFunction": "preserved",
-      "currentStates": "preserved",
-      "salesopsId": "SO-LIST-001",
-      "salesopsZipEvidence": "components/dashboard/* and Round 2 matrix",
-      "liveEvidence": "https://v0-sales-operations-dashboard.vercel.app/",
+      "salesopsId": "SO-CARD-001",
+      "salesopsComponent": "Card",
       "classification": "Adapted",
+      "uncertainty": "None",
+      "salesopsZipEvidence": "components/ui/card.tsx",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "accessibilityRequirements": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior.",
       "implementationFiles": [
         "app/screens/client-workspace.screen.js",
         "app/styles/dashboard-salesops.client.css",
         "app/ui/components/client.ui.js",
         "index.html"
-      ],
-      "cssClass": "ordo-client-*",
-      "tokens": [
-        "--ordo-so-bg-surface",
-        "--ordo-so-border-default",
-        "--ordo-so-text-primary",
-        "--ordo-so-text-accent"
-      ],
-      "primitives": [
-        "MetricCard",
-        "ModuleCard",
-        "Filter",
-        "Progress",
-        "Dialog",
-        "ActionToolbar"
-      ],
-      "accessibility": "keyboard, focus, named progress/filter/dialog/queue",
-      "responsive": {
-        "desktop": "PASS",
-        "tablet": "PASS",
-        "mobile": "PASS"
-      },
-      "statesEvidence": [
-        "evidence/redo/r07/client/states/"
       ],
       "completionStatus": "complete"
     },
@@ -436,42 +196,18 @@
       "inventoryId": "UI-031",
       "clientScreen": "client/approvals",
       "name": "approval detail",
-      "existingComponent": "approval detail",
-      "existingFunction": "preserved",
-      "currentStates": "preserved",
-      "salesopsId": "SO-DETAIL-001",
-      "salesopsZipEvidence": "components/dashboard/* and Round 2 matrix",
-      "liveEvidence": "https://v0-sales-operations-dashboard.vercel.app/",
+      "salesopsId": "SO-CARD-001",
+      "salesopsComponent": "Card",
       "classification": "Adapted",
+      "uncertainty": "None",
+      "salesopsZipEvidence": "components/ui/card.tsx",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "accessibilityRequirements": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior.",
       "implementationFiles": [
         "app/screens/client-workspace.screen.js",
         "app/styles/dashboard-salesops.client.css",
         "app/ui/components/client.ui.js",
         "index.html"
-      ],
-      "cssClass": "ordo-client-*",
-      "tokens": [
-        "--ordo-so-bg-surface",
-        "--ordo-so-border-default",
-        "--ordo-so-text-primary",
-        "--ordo-so-text-accent"
-      ],
-      "primitives": [
-        "MetricCard",
-        "ModuleCard",
-        "Filter",
-        "Progress",
-        "Dialog",
-        "ActionToolbar"
-      ],
-      "accessibility": "keyboard, focus, named progress/filter/dialog/queue",
-      "responsive": {
-        "desktop": "PASS",
-        "tablet": "PASS",
-        "mobile": "PASS"
-      },
-      "statesEvidence": [
-        "evidence/redo/r07/client/states/"
       ],
       "completionStatus": "complete"
     },
@@ -479,42 +215,18 @@
       "inventoryId": "UI-032",
       "clientScreen": "client/approvals",
       "name": "decision controls",
-      "existingComponent": "decision controls",
-      "existingFunction": "preserved",
-      "currentStates": "preserved",
-      "salesopsId": "SO-ACTION-001",
-      "salesopsZipEvidence": "components/dashboard/* and Round 2 matrix",
-      "liveEvidence": "https://v0-sales-operations-dashboard.vercel.app/",
+      "salesopsId": "SO-INPUT-001",
+      "salesopsComponent": "Input",
       "classification": "Adapted",
+      "uncertainty": "None",
+      "salesopsZipEvidence": "components/ui/input.tsx",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "accessibilityRequirements": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior.",
       "implementationFiles": [
         "app/screens/client-workspace.screen.js",
         "app/styles/dashboard-salesops.client.css",
         "app/ui/components/client.ui.js",
         "index.html"
-      ],
-      "cssClass": "ordo-client-*",
-      "tokens": [
-        "--ordo-so-bg-surface",
-        "--ordo-so-border-default",
-        "--ordo-so-text-primary",
-        "--ordo-so-text-accent"
-      ],
-      "primitives": [
-        "MetricCard",
-        "ModuleCard",
-        "Filter",
-        "Progress",
-        "Dialog",
-        "ActionToolbar"
-      ],
-      "accessibility": "keyboard, focus, named progress/filter/dialog/queue",
-      "responsive": {
-        "desktop": "PASS",
-        "tablet": "PASS",
-        "mobile": "PASS"
-      },
-      "statesEvidence": [
-        "evidence/redo/r07/client/states/"
       ],
       "completionStatus": "complete"
     }

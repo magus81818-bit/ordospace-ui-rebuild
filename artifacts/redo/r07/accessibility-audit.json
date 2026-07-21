@@ -1,25 +1,69 @@
 {
-  "generatedAt": "2026-07-21T14:43:04.372Z",
+  "generatedAt": "2026-07-21T15:06:39.608Z",
   "checks": [
     {
-      "screen": "dashboard",
-      "progressNamed": true,
+      "name": "progress name/value",
+      "measured": true,
       "pass": true
     },
     {
-      "screen": "project",
-      "tabs": true,
-      "filters": true,
-      "dialogFocus": true,
-      "escape": true,
-      "returnFocus": true,
+      "name": "current step",
+      "measured": true,
       "pass": true
     },
     {
-      "screen": "approvals",
-      "queueKeyboard": true,
-      "selectionState": true,
-      "detailLive": true,
+      "name": "filter pressed",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "tab selected/controls",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "queue keyboard",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "selected state",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "dialog accessible name",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "focus entry",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "focus containment",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "Escape and focus return",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "decision disabled",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "validation association",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "reduced motion",
+      "measured": true,
       "pass": true
     }
   ],

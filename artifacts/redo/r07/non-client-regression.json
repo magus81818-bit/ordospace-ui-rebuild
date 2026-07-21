@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T14:43:04.372Z",
+  "generatedAt": "2026-07-21T15:06:39.608Z",
   "cases": [
     {
       "role": "admin",
@@ -72,6 +72,46 @@
       "overflow": false,
       "pass": true,
       "evidence": "evidence/redo/r07/non-client/worker-profile-desktop-1440x1000.png"
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "tablet",
+      "leak": 0,
+      "css": "",
+      "overflow": false,
+      "pass": true,
+      "evidence": "evidence/redo/r07/non-client/admin-admin-home-tablet-1024x1366.png"
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "mobile",
+      "leak": 0,
+      "css": "",
+      "overflow": false,
+      "pass": true,
+      "evidence": "evidence/redo/r07/non-client/admin-admin-home-mobile-390x844.png"
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "tablet",
+      "leak": 0,
+      "css": "",
+      "overflow": false,
+      "pass": true,
+      "evidence": "evidence/redo/r07/non-client/worker-worker-home-tablet-1024x1366.png"
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "mobile",
+      "leak": 0,
+      "css": "",
+      "overflow": false,
+      "pass": true,
+      "evidence": "evidence/redo/r07/non-client/worker-worker-home-mobile-390x844.png"
     }
   ],
   "clientClassLeakCount": 0,

@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-07-21T15:06:39.608Z",
+  "fixtures": [
+    {
+      "name": "dashboard states",
+      "source": "page-local DOM override",
+      "operatingFixtureMutation": false,
+      "localStorageMutation": false,
+      "apiCalls": 0,
+      "restoredByNavigation": true,
+      "pass": true
+    },
+    {
+      "name": "project states",
+      "source": "page-local DOM override",
+      "operatingFixtureMutation": false,
+      "localStorageMutation": false,
+      "apiCalls": 0,
+      "restoredByNavigation": true,
+      "pass": true
+    },
+    {
+      "name": "approval decision states",
+      "source": "page-local form plus lifecycle spy",
+      "operatingFixtureMutation": false,
+      "localStorageMutation": false,
+      "apiCalls": 0,
+      "restoredByNavigation": true,
+      "pass": true
+    }
+  ],
+  "operatingFixtureMutation": false,
+  "localStorageMutation": false,
+  "apiCalls": 0,
+  "restored": true,
+  "pass": true
+}
