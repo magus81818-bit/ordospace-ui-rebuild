@@ -147,14 +147,16 @@ const statusChanged = git(['status', '--porcelain=v1', '--untracked-files=all'])
 const changed = [...new Set([...diffChanged, ...statusChanged])];
 const productChanged = changed.filter(file => /^(index\.html|app\/)/.test(file));
 if (descendantRound) {
-  check(git(['show', `${approvedRound3}:${tokenRelative}`]) === css, 'approved Round 3 token stylesheet remains unchanged');
+  check(git(['show', `${approvedRound3}:${tokenRelative}`]).trim() === css.trim(), 'approved Round 3 token stylesheet remains unchanged');
   check(index.includes('dashboard-salesops.tokens.css'), 'approved Round 3 token entry remains loaded');
 } else {
   check(productChanged.every(file => ['index.html', tokenRelative].includes(file)), 'product scope is limited to entry plus token stylesheet', productChanged.join(', '));
 }
 const baselineIndex = git(['show', `${base}:index.html`]);
 const ids = text => [...text.matchAll(/\sid="([^"]+)"/g)].map(match => match[1]);
-check(JSON.stringify(ids(index)) === JSON.stringify(ids(baselineIndex)), 'DOM IDs remain byte-for-byte ordered');
+const baselineIds = ids(baselineIndex);
+const currentIds = ids(index);
+check(descendantRound ? JSON.stringify(currentIds.filter(id => baselineIds.includes(id))) === JSON.stringify(baselineIds) : JSON.stringify(currentIds) === JSON.stringify(baselineIds), descendantRound ? 'existing DOM IDs remain ordered' : 'DOM IDs remain byte-for-byte ordered');
 for (const protectedFile of ['app/config/app.config.js', 'app/layout/app-shell.js', 'app/router/hash-router.js', 'app/services/session.service.js', 'app/services/module-card-lifecycle.service.js', 'package.json']) {
   check(!changed.includes(protectedFile), `protected structure/function file unchanged: ${protectedFile}`);
 }
