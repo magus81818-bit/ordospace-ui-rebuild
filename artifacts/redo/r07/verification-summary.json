@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T14:52:38.945Z",
+  "generatedAt": "2026-07-21T14:53:42.416Z",
   "ok": true,
   "branch": "redo/r07-client-dashboard",
   "mergeBase": "6c4413e68c5239672bc01a1fe18dd926f663506b",
@@ -171,32 +171,37 @@
       "detail": ""
     },
     {
-      "name": "browser artifact client-browser-audit.json",
+      "name": "required artifact client-browser-audit.json",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "browser artifact client-interaction-audit.json",
+      "name": "required artifact client-interaction-audit.json",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "browser artifact non-client-regression.json",
+      "name": "required artifact non-client-regression.json",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "browser artifact layout-preservation.json",
+      "name": "required artifact layout-preservation.json",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "browser artifact frozen-public-regression.json",
+      "name": "required artifact frozen-public-regression.json",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "browser artifact accessibility-audit.json",
+      "name": "required artifact accessibility-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "required artifact test-results.json",
       "pass": true,
       "detail": ""
     },
