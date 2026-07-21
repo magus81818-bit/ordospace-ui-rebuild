@@ -1,19 +1,27 @@
 {
-  "commands": {
-    "checkJs": "pass",
-    "staticComponents": "pass",
-    "staticLifecycle": "pass",
-    "smoke": "12 routes and runtime QA 20/20",
-    "build": "pass",
-    "playwright": "4/4"
-  },
-  "browser": {
-    "publicCases": 18,
-    "viewports": 6,
-    "roles": 3,
-    "screenshots": 42,
-    "pageErrors": 0,
-    "responses4xx5xx": 0
-  },
+  "round": 5,
+  "correction": 1,
+  "status": "pass",
+  "checks": [
+    {"command":"npm ci","exitCode":0,"status":"PASS","detail":"0 vulnerabilities"},
+    {"command":"npm run build","exitCode":0,"status":"PASS"},
+    {"command":"npm run check:js","exitCode":0,"status":"PASS"},
+    {"command":"npm run static:validate-components","exitCode":0,"status":"PASS","detail":"35 entries; 19 escaped outputs"},
+    {"command":"npm run static:validate-lifecycle","exitCode":0,"status":"PASS"},
+    {"command":"npm run smoke","exitCode":0,"status":"PASS","detail":"12 routes; runtime QA 20/20"},
+    {"command":"npm --prefix tests/redo/r01 run audit","exitCode":0,"status":"PASS","detail":"4/4"},
+    {"command":"npm --prefix tests/redo/r02 run validate","exitCode":0,"status":"PASS","detail":"73/73; clean verification worktree"},
+    {"command":"npm --prefix tests/redo/r03 run validate","exitCode":0,"status":"PASS","detail":"4/4 browser plus 219-token clean validator"},
+    {"command":"npm --prefix tests/redo/r04 run validate","exitCode":0,"status":"PASS","detail":"9/9 browser plus 10-primitive clean validator"},
+    {"command":"npm --prefix tests/redo/r05 run validate","exitCode":0,"status":"PASS","detail":"4/4; 18 public cases; empty/long/disabled"},
+    {"command":"npm --prefix backend test -- --runInBand","exitCode":0,"status":"PASS","detail":"8 suites; 36 tests"},
+    {"command":"npm --prefix backend run type","exitCode":0,"status":"PASS"},
+    {"command":"npm --prefix backend run build","exitCode":0,"status":"PASS"}
+  ],
+  "browser": {"publicCases":18,"dashboardRoleViewportCases":18,"stateScreenshots":6,"totalRound5Screenshots":42,"consoleErrors":0,"pageErrors":0,"requestFailures":0,"responses4xx5xx":0},
+  "failed": [],
+  "skipped": [],
+  "blocked": [],
+  "warnings": ["Existing Browserslist data-age notice", "Node VM Modules experimental warning"],
   "pass": true
 }

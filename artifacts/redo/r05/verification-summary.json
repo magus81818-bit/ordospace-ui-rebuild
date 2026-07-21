@@ -84,5 +84,12 @@
   },
   "deferred": 0,
   "missing": 0,
+  "regressions": {
+    "round1Browser": "4/4 PASS",
+    "round2Validator": "73/73 PASS in clean verification worktree",
+    "round3BrowserAndValidator": "4/4 plus 219-token validator PASS",
+    "round4BrowserAndValidator": "9/9 plus 10-primitive validator PASS",
+    "backend": "8 suites / 36 tests, type, build PASS"
+  },
   "pass": true
 }
