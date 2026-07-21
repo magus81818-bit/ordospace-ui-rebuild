@@ -8,8 +8,8 @@
     { "name": "dependency install", "command": "npm ci", "result": "PASS", "detail": "0 vulnerabilities" },
     { "name": "frontend build", "command": "npm run build", "result": "PASS" },
     { "name": "JavaScript check", "command": "npm run check:js", "result": "PASS" },
-    { "name": "static component validation", "command": "npm run validate:components", "result": "PASS" },
-    { "name": "static lifecycle validation", "command": "npm run validate:lifecycle", "result": "PASS" },
+    { "name": "static component validation", "command": "npm run static:validate-components", "result": "PASS" },
+    { "name": "static lifecycle validation", "command": "npm run static:validate-lifecycle", "result": "PASS" },
     { "name": "smoke", "command": "npm run smoke", "result": "PASS", "detail": "12 routes; runtime QA 20/20" },
     { "name": "Round 1 audit", "command": "npm --prefix tests/redo/r01 run audit", "result": "PASS", "detail": "4/4" },
     { "name": "Round 2 validation", "command": "npm --prefix tests/redo/r02 run validate", "result": "PASS", "detail": "73/73; product parity true" },
@@ -18,7 +18,7 @@
     { "name": "Round 5 validation", "command": "npm --prefix tests/redo/r05 run validate", "result": "PASS", "detail": "4/4; inventory 9; public 18; shell states and evidence complete" },
     { "name": "Round 6 validation", "command": "npm --prefix tests/redo/r06 run validate", "result": "PASS", "detail": "5/5; Admin 30; states 5; non-Admin 11; public 18; layout 30; accessibility 5; browser errors 0" },
     { "name": "backend tests", "command": "npm --prefix backend test", "result": "PASS", "detail": "8 suites; 36 tests" },
-    { "name": "backend type check", "command": "npm --prefix backend run typecheck", "result": "PASS" },
+    { "name": "backend type check", "command": "npm --prefix backend run type", "result": "PASS" },
     { "name": "backend build", "command": "npm --prefix backend run build", "result": "PASS" }
   ],
   "notes": [
