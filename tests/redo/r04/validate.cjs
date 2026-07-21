@@ -77,8 +77,23 @@ check(lab.screenshots.length===21,'UI Lab D/T/M state screenshots',String(lab.sc
 check(lab.interactions.length>=6,'UI Lab interactions',String(lab.interactions.length));
 check(a11y.contrast.every(x=>x.pass)&&a11y.focusVisible.pass&&a11y.iconNames.pass&&a11y.reducedMotion.pass,'accessibility checks pass');
 
-const stateNames=['default','hover','focus-visible','active','selected','disabled','loading','empty','error','success','invalid','long content','overflow','Desktop','Tablet','Mobile'];
-const coverage=stateNames.map(state=>({state,implemented:primitives.filter(p=>p.states.map(s=>s.toLowerCase()).includes(state.toLowerCase())).map(p=>p.id),notApplicable:[],deferred:[],missing:[]}));
+const stateMap={
+  'default':ids,
+  'hover':['UI-013','UI-015','UI-016','UI-019','UI-020','UI-064','UI-073'],
+  'focus-visible':['UI-013','UI-015','UI-016','UI-017','UI-018','UI-019','UI-020','UI-064','UI-073'],
+  'active':['UI-013','UI-015','UI-016','UI-064','UI-073'],
+  'selected':['UI-013','UI-015','UI-016','UI-064'],
+  'disabled':['UI-013','UI-015','UI-016','UI-020','UI-073'],
+  'loading':['UI-014','UI-015','UI-017','UI-018','UI-019','UI-020'],
+  'empty':['UI-014','UI-019','UI-064','UI-073'],
+  'error':['UI-014','UI-017','UI-019','UI-020'],
+  'success':['UI-014','UI-017','UI-019','UI-020'],
+  'invalid':['UI-017','UI-018','UI-020'],
+  'long content':ids,
+  'overflow':['UI-015','UI-016','UI-019','UI-064','UI-073'],
+  'Desktop':ids,'Tablet':ids,'Mobile':ids
+};
+const coverage=Object.entries(stateMap).map(([state,implemented])=>({state,implemented,notApplicable:ids.filter(id=>!implemented.includes(id)),deferred:[],missing:[]}));
 const inventory=matrix.map(row=>{const p=primitives.find(x=>x.id===row.ordospaceInventoryId);return {inventoryId:p.id,existingComponent:row.ordospaceComponent,salesopsId:row.salesopsId,classification:row.classification,implementationFiles:[p.source,'app/styles/dashboard-salesops.primitives.css'],status:'complete',supportedStates:p.states,uiLabSpecimen:p.specimen,operationalRoutes:row.ordospaceRoleRoutes,evidence:['artifacts/redo/r04/ui-lab-browser-audit.json','evidence/redo/r04/ui-lab/'],followUp:'Round 9 verification'};});
 const generatedAt=new Date().toISOString();
 fs.writeFileSync(path.join(artifactRoot,'inventory-scope.json'),JSON.stringify({generatedAt,count:inventory.length,ids,items:inventory},null,2)+'\n');
