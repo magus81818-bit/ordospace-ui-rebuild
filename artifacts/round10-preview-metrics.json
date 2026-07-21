@@ -1,0 +1,27 @@
+{
+  "status": "READY",
+  "target": "preview",
+  "scope": "akiryu16180339-2308s-projects",
+  "projectName": "ordospace-ui-rebuild",
+  "projectId": "prj_V21zTBf2UElq03QIghf8NHNK5z9B",
+  "deploymentId": "dpl_4LfsBgnPPfc27e6vrsJ4uYpTNaHM",
+  "deploymentUrl": "https://ordospace-ui-rebuild-6lvybmrig-akiryu16180339-2308s-projects.vercel.app",
+  "createdAt": "2026-07-21T15:52:10+09:00",
+  "automatedSmoke": {
+    "status": "BLOCKED_BY_VERCEL_AUTHENTICATION",
+    "stepsCompleted": 0,
+    "httpStatus": 403
+  },
+  "signedInChromeCheck": {
+    "status": "PASS",
+    "checks": [
+      "public root rendered",
+      "seed-account screen rendered",
+      "admin seed login succeeded",
+      "admin workspace rendered",
+      "no browser console errors observed"
+    ]
+  },
+  "previewEvidenceComplete": false,
+  "mainFastForwardPerformed": false
+}
