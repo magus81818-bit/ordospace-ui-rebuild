@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T10:22:37.236Z",
+  "generatedAt": "2026-07-21T10:32:26.990Z",
   "scope": "body.auth-on",
   "scopeSetBy": "app/layout/app-shell.js setShell(role, authOff)",
   "scopeRemovedBy": "the same function when authOff=true",
@@ -64,7 +64,7 @@
     {
       "name": "product scope is limited to entry plus token stylesheet",
       "pass": true,
-      "detail": "index.html, app/styles/dashboard-salesops.tokens.css"
+      "detail": "app/styles/dashboard-salesops.tokens.css, index.html"
     },
     {
       "name": "browser artifact exists: frozen-public-regression.json",

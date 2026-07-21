@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T10:22:37.236Z",
+  "generatedAt": "2026-07-21T10:32:26.990Z",
   "ok": true,
   "branch": "redo/r03-dashboard-tokens",
   "mergeBase": "921280578b4261e1cb25a1f507e0f71915c390d2",
@@ -29,8 +29,8 @@
   "requestFailures": 0,
   "responses4xx5xx": 0,
   "productChanged": [
-    "index.html",
-    "app/styles/dashboard-salesops.tokens.css"
+    "app/styles/dashboard-salesops.tokens.css",
+    "index.html"
   ],
   "checks": [
     {
@@ -136,7 +136,7 @@
     {
       "name": "product scope is limited to entry plus token stylesheet",
       "pass": true,
-      "detail": "index.html, app/styles/dashboard-salesops.tokens.css"
+      "detail": "app/styles/dashboard-salesops.tokens.css, index.html"
     },
     {
       "name": "DOM IDs remain byte-for-byte ordered",
