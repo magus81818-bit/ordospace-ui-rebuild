@@ -1,0 +1,14 @@
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const files = ["WorkerWorkspacePage.jsx", "WorkerWorkQueues.jsx", "worker-work-view.js"];
+const source = files.map((file) => fs.readFileSync(path.join(root, "apps/web/src/features/worker", file), "utf8")).join("\n");
+const app = fs.readFileSync(path.join(root, "apps/web/src/App.jsx"), "utf8");
+const failures = [];
+for (const marker of ["ModuleCardDashboard", "WorkerWorkQueues", "getWorkerActiveQueue", "getWorkerRevisionQueue", "getWorkerMetrics"]) if (!source.includes(marker)) failures.push(`missing Worker workspace marker: ${marker}`);
+if (!/<WorkerWorkspacePage\b/.test(app)) failures.push("Worker root does not render WorkerWorkspacePage");
+if (/localStorage|useModuleCardStore|createHashRouter/.test(source)) failures.push("Worker workspace contains forbidden coupling");
+if (/#[0-9a-f]{3,8}\b/i.test(source)) failures.push("hardcoded HEX found");
+if (failures.length) throw new Error(`Worker workspace validation failed:\n- ${failures.join("\n- ")}`);
+console.log(`Worker workspace validation passed: ${files.length} files.`);

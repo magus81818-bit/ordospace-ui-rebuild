@@ -1,0 +1,20 @@
+import { mvpSeed } from "../apps/web/src/data/mvp-seed.mjs";
+import { MODULE_STATUS, QC_STATUS } from "../apps/web/src/domain/module-card.model.mjs";
+import { getAvailableWorkerActions } from "../apps/web/src/features/worker/worker-action-policy.js";
+import { getWorkerActiveQueue, getWorkerCardView, getWorkerMetrics, getWorkerRevisionQueue, getWorkerWorkCategory } from "../apps/web/src/features/worker/worker-work-view.js";
+const workerId = "user-worker-dev";
+const cards = mvpSeed.moduleCards.filter((card) => card.assigneeId === workerId);
+const before = JSON.stringify(cards);
+const checks = [];
+function check(name, condition) { if (!condition) throw new Error(`Worker test failed: ${name}`); checks.push(name); }
+check("active queue contains only editable cards", getWorkerActiveQueue(cards, { userId: workerId }).every(({ policy }) => policy.canEditProgress || policy.canSubmitForAdminReview));
+check("revision queue uses actual status", getWorkerRevisionQueue(mvpSeed.moduleCards).every(({ card }) => card.status === MODULE_STATUS.REVISION_REQUESTED));
+check("metrics preserve worker scope", getWorkerMetrics(cards).total === cards.length);
+check("metrics count active", getWorkerMetrics(cards).active === 2);
+const ready = { ...cards[1], status: MODULE_STATUS.QC_READY, progress: 100, qcStatus: QC_STATUS.PASSED };
+check("submit ready action available", getAvailableWorkerActions(ready, { userId: workerId }).canSubmitForAdminReview);
+check("admin review readonly", getAvailableWorkerActions(cards[0], { userId: workerId }).readonly);
+check("revision has highest priority", getWorkerWorkCategory({ status: MODULE_STATUS.REVISION_REQUESTED }).rank === 0);
+check("client identity remains suppressed", getWorkerCardView(cards[1], { userId: workerId, users: mvpSeed.users }).clientLabel === null);
+check("source cards are not mutated", JSON.stringify(cards) === before);
+console.log(`Worker tests passed: ${checks.length} assertions.`);

@@ -20,6 +20,7 @@ import { mvpSeed } from "./data/mvp-seed.mjs";
 import { ModuleCardDashboard } from "./components/dashboard/index.js";
 import { AdminCardReviewPage, AdminOperationsPage } from "./features/admin/index.js";
 import { ClientApprovalDetailPage, ClientApprovalPage } from "./features/client/index.js";
+import { WorkerTaskDetailPage, WorkerWorkspacePage } from "./features/worker/index.js";
 import {
   LIFECYCLE_STEPS,
   ROLES,
@@ -272,6 +273,8 @@ export function RoleWorkspaceScreen({ role }) {
         />
       ) : role === ROLES.CLIENT ? (
         <ClientApprovalPage cards={visibleCards} users={mvpSeed.users} />
+      ) : role === ROLES.WORKER ? (
+        <WorkerWorkspacePage cards={visibleCards} currentUser={currentUser} users={mvpSeed.users} />
       ) : (
         <ModuleCardDashboard cards={visibleCards} role={role} users={mvpSeed.users} />
       )}
@@ -354,6 +357,19 @@ export function ModuleCardDetailScreen({ role }) {
     );
   }
 
+  if (role === ROLES.WORKER) {
+    return (
+      <WorkerTaskDetailPage
+        activities={getActivityForCard(activities, card.id)}
+        card={card}
+        comments={getCommentsForCard(comments, card.id)}
+        currentUser={currentUser}
+        submissionPanel={<WorkerSubmitModuleCardPanel card={card} currentUser={currentUser} onSubmit={(input) => submitWorkerModuleCard(card.id, input, currentUser.id)} />}
+        updatePanel={<WorkerUpdateModuleCardPanel card={card} currentUser={currentUser} onUpdate={(input) => updateWorkerModuleCard(card.id, input, currentUser.id)} />}
+      />
+    );
+  }
+
   return (
     <section className="page-stack">
       <p className="eyebrow">{role} card detail</p>
@@ -368,25 +384,6 @@ export function ModuleCardDetailScreen({ role }) {
           Back to list
         </AppLink>
       </div>
-
-      {role === ROLES.WORKER ? (
-        <>
-          <WorkerUpdateModuleCardPanel
-            card={card}
-            currentUser={currentUser}
-            onUpdate={(input) =>
-              updateWorkerModuleCard(card.id, input, currentUser.id)
-            }
-          />
-          <WorkerSubmitModuleCardPanel
-            card={card}
-            currentUser={currentUser}
-            onSubmit={(input) =>
-              submitWorkerModuleCard(card.id, input, currentUser.id)
-            }
-          />
-        </>
-      ) : null}
 
       <ModuleDetailPanel
         activities={getActivityForCard(activities, card.id)}

@@ -1,0 +1,13 @@
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const detail = fs.readFileSync(path.join(root, "apps/web/src/features/worker/WorkerTaskDetailPage.jsx"), "utf8");
+const app = fs.readFileSync(path.join(root, "apps/web/src/App.jsx"), "utf8");
+const failures = [];
+for (const marker of ["worker-context-summary", "worker-update-area", "worker-submission-area", "getAvailableWorkerActions"]) if (!detail.includes(marker)) failures.push(`missing Worker detail marker: ${marker}`);
+if (!/<WorkerTaskDetailPage\b/.test(app) || !/<WorkerUpdateModuleCardPanel\b/.test(app) || !/<WorkerSubmitModuleCardPanel\b/.test(app)) failures.push("Worker detail composition missing");
+if (/localStorage|useModuleCardStore|AdminReviewModuleCardPanel|ClientDecisionModuleCardPanel/.test(detail)) failures.push("Worker detail contains forbidden role/store coupling");
+if (/#[0-9a-f]{3,8}\b/i.test(detail)) failures.push("hardcoded HEX found");
+if (failures.length) throw new Error(`Worker detail contract validation failed:\n- ${failures.join("\n- ")}`);
+console.log("Worker detail contract validation passed.");

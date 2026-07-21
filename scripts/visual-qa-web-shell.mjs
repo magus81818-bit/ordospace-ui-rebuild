@@ -10,11 +10,13 @@ const baseUrl = "http://127.0.0.1:5174/";
 const dashboardMode = process.argv.includes("--dashboard");
 const adminMode = process.argv.includes("--admin");
 const clientMode = process.argv.includes("--client");
-const outputDir = path.join(root, "docs", "ui-migration", "screenshots", clientMode ? "round-07" : adminMode ? "round-06" : dashboardMode ? "round-05" : "round-04");
+const workerMode = process.argv.includes("--worker");
+const outputDir = path.join(root, "docs", "ui-migration", "screenshots", workerMode ? "round-08" : clientMode ? "round-07" : adminMode ? "round-06" : dashboardMode ? "round-05" : "round-04");
 const browserPath = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 const users = {
   admin: ["user-admin-01", "Hana Lee", "admin@ordospace.test"],
   worker: ["user-worker-ux", "Min Park", "ux@ordospace.test"],
+  workerDev: ["user-worker-dev", "Joon Choi", "dev@ordospace.test"],
   client: ["user-client-01", "Dohyung Kim", "client@example.test"],
 };
 const shellScenarios = [
@@ -69,7 +71,21 @@ const clientScenarios = [
   ["client-approval-root-1024", 1024, 768, "client", "/workspace/client", "client-root"],
   ["client-approval-root-1920", 1920, 1080, "client", "/workspace/client", "client-root"],
 ];
-const scenarios = clientMode ? clientScenarios : adminMode ? adminScenarios : dashboardMode ? dashboardScenarios : shellScenarios;
+const workerScenarios = [
+  ["worker-workspace-root-1440", 1440, 900, "worker", "/workspace/worker", "worker-root", "workerDev"],
+  ["worker-workspace-root-393", 393, 852, "worker", "/workspace/worker", "worker-root", "workerDev"],
+  ["worker-active-queue", 1280, 800, "worker", "/workspace/worker", "worker-root", "workerDev"],
+  ["worker-revision-queue", 1280, 800, "worker", "/workspace/worker", "worker-root", "worker"],
+  ["worker-detail-editable-1440", 1440, 900, "worker", "/workspace/worker/cards/card-005", "worker-editable", "workerDev"],
+  ["worker-detail-editable-393", 393, 852, "worker", "/workspace/worker/cards/card-005", "worker-editable", "workerDev"],
+  ["worker-update-validation", 1280, 800, "worker", "/workspace/worker/cards/card-005", "worker-validation", "workerDev"],
+  ["worker-submit-ready", 1280, 800, "worker", "/workspace/worker/cards/card-005", "worker-submit-ready", "workerDev"],
+  ["worker-detail-revision", 1280, 800, "worker", "/workspace/worker/cards/card-004", "worker-editable", "worker"],
+  ["worker-detail-admin-review", 1280, 800, "worker", "/workspace/worker/cards/card-003", "worker-readonly", "workerDev"],
+  ["worker-detail-client-review", 1280, 800, "worker", "/workspace/worker/cards/card-002", "worker-readonly", "worker"],
+  ["worker-detail-approved", 1280, 800, "worker", "/workspace/worker/cards/card-001", "worker-readonly", "worker"],
+];
+const scenarios = workerMode ? workerScenarios : clientMode ? clientScenarios : adminMode ? adminScenarios : dashboardMode ? dashboardScenarios : shellScenarios;
 
 class Cdp {
   constructor(url) { this.url = url; this.id = 0; this.pending = new Map(); }
@@ -124,14 +140,18 @@ try {
   await client.send("Page.enable"); await client.send("Runtime.enable");
   const results = [];
 
-  for (const [name, width, height, role, pathname, action] of scenarios) {
+  for (const [name, width, height, role, pathname, action, userKey = role] of scenarios) {
     await client.send("Emulation.setDeviceMetricsOverride", { width, height, deviceScaleFactor: 1, mobile: width < 768, screenWidth: width, screenHeight: height });
-    const [userId, userName, email] = users[role];
+    const [userId, userName, email] = users[userKey];
     const session = { version: 1, userId, role, name: userName, email, signedInAt: new Date(0).toISOString() };
     await client.send("Page.navigate", { url: baseUrl });
     await new Promise((resolve) => setTimeout(resolve, 250));
     await evaluate(client, `localStorage.setItem("ordospace.reactMvp.session.v1", ${JSON.stringify(JSON.stringify(session))}); location.hash=${JSON.stringify(pathname)}; location.reload()`);
     await new Promise((resolve) => setTimeout(resolve, 650));
+    if (action === "worker-submit-ready") {
+      await evaluate(client, `(() => { const key = 'ordospace.reactMvp.moduleCards.v1'; const state = JSON.parse(localStorage.getItem(key)); const card = state.moduleCards.find((item) => item.id === 'card-005'); Object.assign(card, { progress: 100, qcStatus: 'passed', status: 'qc_ready' }); localStorage.setItem(key, JSON.stringify(state)); location.reload(); })()`);
+      await new Promise((resolve) => setTimeout(resolve, 650));
+    }
     if (action === "menu") await evaluate(client, `document.querySelector('[aria-label="메뉴 열기"]')?.click()`);
     if (action === "user") await evaluate(client, `(() => { const trigger = document.querySelector('.app-header [aria-label="사용자 메뉴 열기"]'); trigger?.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, button: 0, pointerType: 'mouse' })); trigger?.click(); })()`);
     if (action === "filter-empty") await evaluate(client, `(() => { const button = Array.from(document.querySelectorAll('.ordo-filter-tabs button')).find((item) => /0$/.test(item.textContent?.trim() || '')); button?.click(); })()`);
@@ -146,6 +166,12 @@ try {
       await evaluate(client, `document.querySelector(${action === "client-revision-error" ? "'.form-feedback'" : "'.client-decision-panel'"})?.scrollIntoView({ block: 'center' })`);
       await new Promise((resolve) => setTimeout(resolve, 120));
     }
+    if (action === "worker-validation") {
+      await evaluate(client, `document.querySelector('.worker-update-panel form')?.dispatchEvent(new SubmitEvent('submit', { bubbles: true, cancelable: true }))`);
+      await new Promise((resolve) => setTimeout(resolve, 120));
+      await evaluate(client, `document.querySelector('.form-feedback')?.scrollIntoView({ block: 'center' })`);
+    }
+    if (action === "worker-submit-ready") await evaluate(client, `document.querySelector('.worker-submit-panel')?.scrollIntoView({ block: 'center' })`);
     const metrics = await evaluate(client, `(() => ({
       width: innerWidth,
       documentOverflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
@@ -177,6 +203,12 @@ try {
     if ((action === "client-review" || action === "client-revision-form" || action === "client-revision-error") && !(await evaluate(client, `Boolean(document.querySelector('.client-decision-panel form'))`))) throw new Error(`Client decision form missing in ${name}`);
     if (action === "client-revision-error" && !(await evaluate(client, `document.body.innerText.includes('Revision note is required')`))) throw new Error(`Client revision validation missing in ${name}`);
     if (action === "client-readonly" && await evaluate(client, `Boolean(document.querySelector('.client-decision-panel form'))`)) throw new Error(`Readonly Client detail exposes decision form in ${name}`);
+    if (action === "worker-root" && !(await evaluate(client, `Boolean(document.querySelector('.worker-work-queue')) && document.querySelectorAll('.ordo-metric-card').length >= 4`))) throw new Error(`Worker workspace IA missing in ${name}`);
+    if ((action === "worker-editable" || action === "worker-validation" || action === "worker-submit-ready" || action === "worker-readonly") && !(await evaluate(client, `Boolean(document.querySelector('.worker-context-summary')) && Boolean(document.querySelector('.worker-submission-area'))`))) throw new Error(`Worker detail IA missing in ${name}`);
+    if ((action === "worker-editable" || action === "worker-validation" || action === "worker-submit-ready") && !(await evaluate(client, `Boolean(document.querySelector('.worker-update-panel form'))`))) throw new Error(`Worker update form missing in ${name}`);
+    if (action === "worker-validation" && !(await evaluate(client, `document.body.innerText.includes('Change progress, hours, QC status, or add a note')`))) throw new Error(`Worker validation missing in ${name}`);
+    if (action === "worker-submit-ready" && !(await evaluate(client, `Boolean(document.querySelector('.worker-submit-panel form'))`))) throw new Error(`Worker submit-ready action missing in ${name}`);
+    if (action === "worker-readonly" && await evaluate(client, `Boolean(document.querySelector('.worker-update-panel form')) || Boolean(document.querySelector('.worker-submit-panel form'))`)) throw new Error(`Readonly Worker detail exposes action form in ${name}`);
     const shot = await client.send("Page.captureScreenshot", { format: "png", fromSurface: true, captureBeyondViewport: false });
     fs.writeFileSync(path.join(outputDir, `${name}.png`), Buffer.from(shot.data, "base64"));
     if (action === "menu") {
