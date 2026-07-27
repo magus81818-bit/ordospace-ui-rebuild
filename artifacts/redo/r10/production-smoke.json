@@ -1,0 +1,842 @@
+{
+  "generatedAt": "2026-07-27T09:04:16.502Z",
+  "productionUrl": "https://ordospace-rebuild.vercel.app/",
+  "releaseCommit": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007",
+  "public": {
+    "routeCount": 6,
+    "cases": [
+      {
+        "route": "landing",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-off role-client",
+          "currentRole": "client",
+          "sessionRole": null,
+          "textLength": 3769
+        },
+        "evidence": "evidence/redo/r10/production/public/public-landing-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "route": "auth",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-off role-client",
+          "currentRole": "client",
+          "sessionRole": null,
+          "textLength": 926
+        },
+        "evidence": "evidence/redo/r10/production/public/public-auth-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "route": "terms",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-off role-client",
+          "currentRole": "client",
+          "sessionRole": null,
+          "textLength": 4841
+        },
+        "evidence": "evidence/redo/r10/production/public/public-terms-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "route": "privacy",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-off role-client",
+          "currentRole": "client",
+          "sessionRole": null,
+          "textLength": 3916
+        },
+        "evidence": "evidence/redo/r10/production/public/public-privacy-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "route": "support",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-off role-client",
+          "currentRole": "client",
+          "sessionRole": null,
+          "textLength": 1930
+        },
+        "evidence": "evidence/redo/r10/production/public/public-support-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "route": "select-workspace",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-off role-client",
+          "currentRole": "client",
+          "sessionRole": null,
+          "textLength": 220
+        },
+        "evidence": "evidence/redo/r10/production/public/public-select-workspace-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "route": "landing",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen auth-off role-client",
+          "currentRole": "client",
+          "sessionRole": null,
+          "textLength": 3112
+        },
+        "evidence": "evidence/redo/r10/production/public/public-landing-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "route": "auth",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen auth-off role-client",
+          "currentRole": "client",
+          "sessionRole": null,
+          "textLength": 926
+        },
+        "evidence": "evidence/redo/r10/production/public/public-auth-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "route": "terms",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen auth-off role-client",
+          "currentRole": "client",
+          "sessionRole": null,
+          "textLength": 4841
+        },
+        "evidence": "evidence/redo/r10/production/public/public-terms-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "route": "privacy",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen auth-off role-client",
+          "currentRole": "client",
+          "sessionRole": null,
+          "textLength": 3916
+        },
+        "evidence": "evidence/redo/r10/production/public/public-privacy-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "route": "support",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen auth-off role-client",
+          "currentRole": "client",
+          "sessionRole": null,
+          "textLength": 1930
+        },
+        "evidence": "evidence/redo/r10/production/public/public-support-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "route": "select-workspace",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen auth-off role-client",
+          "currentRole": "client",
+          "sessionRole": null,
+          "textLength": 220
+        },
+        "evidence": "evidence/redo/r10/production/public/public-select-workspace-mobile-390x844.png",
+        "pass": true
+      }
+    ],
+    "expectedCases": 12,
+    "pass": true
+  },
+  "authenticated": {
+    "routeCount": 10,
+    "cases": [
+      {
+        "role": "admin",
+        "route": "admin-home",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-on role-admin",
+          "currentRole": "admin",
+          "sessionRole": "admin",
+          "textLength": 610
+        },
+        "evidence": "evidence/redo/r10/production/admin/admin-admin-home-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "role": "admin",
+        "route": "admin-projects",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-on role-admin",
+          "currentRole": "admin",
+          "sessionRole": "admin",
+          "textLength": 1585
+        },
+        "evidence": "evidence/redo/r10/production/admin/admin-admin-projects-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "role": "admin",
+        "route": "admin-cards",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-on role-admin",
+          "currentRole": "admin",
+          "sessionRole": "admin",
+          "textLength": 1521
+        },
+        "evidence": "evidence/redo/r10/production/admin/admin-admin-cards-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "role": "admin",
+        "route": "admin-team",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-on role-admin",
+          "currentRole": "admin",
+          "sessionRole": "admin",
+          "textLength": 1069
+        },
+        "evidence": "evidence/redo/r10/production/admin/admin-admin-team-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "role": "admin",
+        "route": "admin-audit",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-on role-admin",
+          "currentRole": "admin",
+          "sessionRole": "admin",
+          "textLength": 2198
+        },
+        "evidence": "evidence/redo/r10/production/admin/admin-admin-audit-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "role": "client",
+        "route": "dashboard",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen role-client auth-on",
+          "currentRole": "client",
+          "sessionRole": "client",
+          "textLength": 588
+        },
+        "evidence": "evidence/redo/r10/production/client/client-dashboard-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "role": "client",
+        "route": "project",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen role-client auth-on",
+          "currentRole": "client",
+          "sessionRole": "client",
+          "textLength": 1210
+        },
+        "evidence": "evidence/redo/r10/production/client/client-project-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "role": "client",
+        "route": "approvals",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen role-client auth-on",
+          "currentRole": "client",
+          "sessionRole": "client",
+          "textLength": 448
+        },
+        "evidence": "evidence/redo/r10/production/client/client-approvals-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "role": "worker",
+        "route": "worker-home",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-on role-worker",
+          "currentRole": "worker",
+          "sessionRole": "worker",
+          "textLength": 420
+        },
+        "evidence": "evidence/redo/r10/production/worker/worker-worker-home-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "role": "worker",
+        "route": "worker-cards",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-on role-worker",
+          "currentRole": "worker",
+          "sessionRole": "worker",
+          "textLength": 901
+        },
+        "evidence": "evidence/redo/r10/production/worker/worker-worker-cards-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "role": "admin",
+        "route": "admin-home",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen auth-on role-admin",
+          "currentRole": "admin",
+          "sessionRole": "admin",
+          "textLength": 610
+        },
+        "evidence": "evidence/redo/r10/production/admin/admin-admin-home-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "role": "admin",
+        "route": "admin-projects",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen auth-on role-admin",
+          "currentRole": "admin",
+          "sessionRole": "admin",
+          "textLength": 1585
+        },
+        "evidence": "evidence/redo/r10/production/admin/admin-admin-projects-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "role": "admin",
+        "route": "admin-cards",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen auth-on role-admin",
+          "currentRole": "admin",
+          "sessionRole": "admin",
+          "textLength": 1521
+        },
+        "evidence": "evidence/redo/r10/production/admin/admin-admin-cards-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "role": "admin",
+        "route": "admin-team",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen auth-on role-admin",
+          "currentRole": "admin",
+          "sessionRole": "admin",
+          "textLength": 1069
+        },
+        "evidence": "evidence/redo/r10/production/admin/admin-admin-team-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "role": "admin",
+        "route": "admin-audit",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen auth-on role-admin",
+          "currentRole": "admin",
+          "sessionRole": "admin",
+          "textLength": 2198
+        },
+        "evidence": "evidence/redo/r10/production/admin/admin-admin-audit-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "role": "client",
+        "route": "dashboard",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen role-client auth-on",
+          "currentRole": "client",
+          "sessionRole": "client",
+          "textLength": 588
+        },
+        "evidence": "evidence/redo/r10/production/client/client-dashboard-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "role": "client",
+        "route": "project",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen role-client auth-on",
+          "currentRole": "client",
+          "sessionRole": "client",
+          "textLength": 1210
+        },
+        "evidence": "evidence/redo/r10/production/client/client-project-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "role": "client",
+        "route": "approvals",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen role-client auth-on",
+          "currentRole": "client",
+          "sessionRole": "client",
+          "textLength": 448
+        },
+        "evidence": "evidence/redo/r10/production/client/client-approvals-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "role": "worker",
+        "route": "worker-home",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen auth-on role-worker",
+          "currentRole": "worker",
+          "sessionRole": "worker",
+          "textLength": 420
+        },
+        "evidence": "evidence/redo/r10/production/worker/worker-worker-home-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "role": "worker",
+        "route": "worker-cards",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen auth-on role-worker",
+          "currentRole": "worker",
+          "sessionRole": "worker",
+          "textLength": 901
+        },
+        "evidence": "evidence/redo/r10/production/worker/worker-worker-cards-mobile-390x844.png",
+        "pass": true
+      }
+    ],
+    "expectedCases": 20,
+    "pass": true
+  },
+  "shared": {
+    "cases": [
+      {
+        "stateName": "profile",
+        "role": "admin",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-on role-admin",
+          "currentRole": "admin",
+          "sessionRole": "admin",
+          "textLength": 147
+        },
+        "evidence": "evidence/redo/r10/production/shared/profile-admin-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "stateName": "profile",
+        "role": "client",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen role-client auth-on",
+          "currentRole": "client",
+          "sessionRole": "client",
+          "textLength": 147
+        },
+        "evidence": "evidence/redo/r10/production/shared/profile-client-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "stateName": "profile",
+        "role": "worker",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-on role-worker",
+          "currentRole": "worker",
+          "sessionRole": "worker",
+          "textLength": 147
+        },
+        "evidence": "evidence/redo/r10/production/shared/profile-worker-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "stateName": "forbidden-403",
+        "role": "worker",
+        "attemptedRoute": "#admin-home",
+        "viewport": "1440x1000",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen auth-on role-worker",
+          "currentRole": "worker",
+          "sessionRole": "worker",
+          "textLength": 85
+        },
+        "evidence": "evidence/redo/r10/production/shared/forbidden-worker-to-admin-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "stateName": "components-gallery-dev-guard",
+        "viewport": "1440x1000",
+        "devDenied": true,
+        "officialMenuLinks": 0,
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 240,
+          "screenRight": 1440,
+          "clientWidth": 1440,
+          "bodyClass": "min-h-screen dev-mode-on auth-on role-worker",
+          "currentRole": "worker",
+          "sessionRole": "worker",
+          "textLength": 2572
+        },
+        "evidence": "evidence/redo/r10/production/shared/components-gallery-desktop-1440x1000.png",
+        "pass": true
+      },
+      {
+        "stateName": "profile",
+        "role": "admin",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen dev-mode-on auth-on role-admin",
+          "currentRole": "admin",
+          "sessionRole": "admin",
+          "textLength": 147
+        },
+        "evidence": "evidence/redo/r10/production/shared/profile-admin-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "stateName": "profile",
+        "role": "client",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen role-client dev-mode-on auth-on",
+          "currentRole": "client",
+          "sessionRole": "client",
+          "textLength": 147
+        },
+        "evidence": "evidence/redo/r10/production/shared/profile-client-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "stateName": "profile",
+        "role": "worker",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen dev-mode-on auth-on role-worker",
+          "currentRole": "worker",
+          "sessionRole": "worker",
+          "textLength": 147
+        },
+        "evidence": "evidence/redo/r10/production/shared/profile-worker-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "stateName": "forbidden-403",
+        "role": "worker",
+        "attemptedRoute": "#admin-home",
+        "viewport": "390x844",
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen dev-mode-on auth-on role-worker",
+          "currentRole": "worker",
+          "sessionRole": "worker",
+          "textLength": 85
+        },
+        "evidence": "evidence/redo/r10/production/shared/forbidden-worker-to-admin-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "stateName": "components-gallery-dev-guard",
+        "viewport": "390x844",
+        "devDenied": true,
+        "officialMenuLinks": 0,
+        "state": {
+          "active": true,
+          "hidden": false,
+          "overflow": 0,
+          "screenLeft": 0,
+          "screenRight": 390,
+          "clientWidth": 390,
+          "bodyClass": "min-h-screen dev-mode-on auth-on role-worker",
+          "currentRole": "worker",
+          "sessionRole": "worker",
+          "textLength": 2572
+        },
+        "evidence": "evidence/redo/r10/production/shared/components-gallery-mobile-390x844.png",
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "interactions": {
+    "cases": [
+      {
+        "name": "auth-invalid-submit",
+        "invalidFocus": "loginEmail",
+        "storageUnchanged": true,
+        "evidence": "evidence/redo/r10/production/public/auth-invalid-validation-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "name": "forbidden-workspace-keyboard",
+        "focusVisible": true,
+        "keyboardRoute": "#select-workspace",
+        "evidence": "evidence/redo/r10/production/shared/forbidden-keyboard-mobile-390x844.png",
+        "pass": true
+      },
+      {
+        "name": "components-gallery-tab-keyboard",
+        "selected": "true",
+        "reducedMotion": true,
+        "evidence": "evidence/redo/r10/production/shared/components-gallery-keyboard-mobile-390x844.png",
+        "pass": true
+      }
+    ],
+    "nonMutating": true,
+    "pass": true
+  },
+  "pass": true
+}

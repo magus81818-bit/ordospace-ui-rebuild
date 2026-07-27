@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-07-27T17:47:13.5108718+09:00",
+  "path": "C:\\Users\\Admin\\Documents\\Codex\\2026-07-21\\referenced-chatgpt-conversation-this-is-untrusted\\work\\ordospace-r10-postmerge",
+  "freshClone": true,
+  "remoteMainHead": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007",
+  "localHead": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007",
+  "headMatch": true,
+  "round9ApprovedContentIncluded": true,
+  "commands": [
+    {"name": "Root npm ci", "exitCode": 0, "status": "PASS", "advisory": "3 high vulnerabilities; no audit fix."},
+    {"name": "Backend npm ci", "exitCode": 0, "status": "PASS", "advisory": "4 moderate and 21 high vulnerabilities; no audit fix."},
+    {"name": "Round 9 Playwright npm ci", "exitCode": 0, "status": "PASS"},
+    {"name": "Root build", "exitCode": 0, "status": "PASS"},
+    {"name": "Root smoke", "exitCode": 0, "status": "PASS", "result": "12 routes and runtime QA 20/20."},
+    {"name": "React MVP", "exitCode": 0, "status": "PASS"},
+    {"name": "Backend Prisma generation final", "exitCode": 0, "status": "PASS"},
+    {"name": "Backend tests", "exitCode": 0, "status": "PASS", "result": "4/4 suites and 18/18 tests."},
+    {"name": "Backend build", "exitCode": 0, "status": "PASS"},
+    {"name": "Round 9 full browser and independent validator", "exitCode": 0, "status": "PASS", "result": "6/6 browser tests and validator failures 0."}
+  ],
+  "resolvedAttempts": [
+    {
+      "name": "Backend Prisma generation from repository root",
+      "exitCode": 1,
+      "status": "RESOLVED",
+      "reason": "npm --prefix exec retained the root schema lookup location.",
+      "resolution": "Executed the identical Prisma command from backend cwd; exit 0.",
+      "productChange": false
+    }
+  ],
+  "productHash": {
+    "algorithm": "sha256",
+    "premergeReleaseCandidate": "ffb97921f2807d2dc1e16893abfb0aadc4330307c4b142791a6a05f1005d33e8",
+    "postmergeMain": "ffb97921f2807d2dc1e16893abfb0aadc4330307c4b142791a6a05f1005d33e8",
+    "match": true
+  },
+  "publicBaselinePass": true,
+  "roleRoutingPass": true,
+  "round9ValidatorPass": true,
+  "backendPass": true,
+  "productDrift": false,
+  "productionDeploymentAllowed": true,
+  "pass": true
+}

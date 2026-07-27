@@ -1,38 +1,36 @@
 # Round 10 change manifest
 
-## Source
+## Scope
 
-- Git diff from approved Round 9 to the release branch.
-- `artifacts/redo/r10/release-product-diff-audit.json`
-
-## Methodology
-
-- Paths are grouped as Product, Test, Artifact, Evidence, Docs, Prompt, and Deployment metadata.
-- Product categories are required to remain empty.
-- Evidence categories may grow as gated phases complete.
-
-## Pass criteria
-
-- Product: 0.
-- Matrix: 0.
-- Dependency and font: 0.
-- All changed paths must be within approved Round 10 evidence prefixes.
+Changes are grouped as Product, Test, Artifact, Evidence, Docs, Prompt, and
+Deployment metadata. Product categories are required to remain empty. Evidence
+categories may grow only as gated release phases complete.
 
 ## Measured result
 
 - Product: none.
-- Tests: Round 10 generator and independent validator.
-- Artifacts: Round 10 release gates and command ledgers.
-- Evidence: predeploy browser screenshots.
-- Docs: Round 10 human-readable reviews.
+- Matrix, font, dependency, public, data, API, and backend: none.
+- Tests: premerge, Production smoke/parity, final generator, and independent
+  validators.
+- Artifacts: clean-room, integration, deployment, rollback, Production,
+  security, manifest, and final gates.
+- Evidence: 85 clean-room-derived predeploy screenshots and 45 direct
+  Production screenshots.
+- Docs: Round 10 gated release and Production reviews.
 - Prompt: preserved Round 10 original.
 
-## Risks and limitations
+## Commit distinction
 
-- Production metadata is added only after a ready deployment.
-- Final evidence-only commits may follow the deployed source commit.
-- Those commits do not alter product bytes.
+Final evidence-only commits follow deployed source commit
+`825b4c77b7c09f0fc3abc3c8cbba419eab50d007`. They alter no product bytes.
+
+The writable repository is connected separately to the
+`ordospace-ui-rebuild` Vercel project for Git automation. An evidence-only push
+may trigger that separate project's automatic deployment, but the established
+`ordospace-rebuild` Production project remains on the verified deployment.
 
 ## Evidence
 
-- Exact path lists are stored in the product diff artifact.
+- `artifacts/redo/r10/release-product-diff-audit.json`
+- `artifacts/redo/r10/release-manifest.json`
+- `artifacts/redo/r10/final-acceptance-gate.json`

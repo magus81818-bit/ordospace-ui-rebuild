@@ -1,40 +1,53 @@
 # Round 10 verification results
 
-## Source
+## Gated sequence
 
-- `artifacts/redo/r10/test-results.json`
-- `artifacts/redo/r10/verification-summary.json`
-- Browser artifacts and screenshots under the Round 10 roots.
+1. Clean-room Round 1 through Round 9, root, MVP, and backend verification
+   passed.
+2. Independent premerge validation passed before writable `main` integration.
+3. A fresh remote-`main` clone passed the postmerge gate.
+4. Production deployment reached `READY`.
+5. Production smoke, browser health, release parity, security, source integrity,
+   and final acceptance validation passed.
 
-## Methodology
+## Predeploy measurements
 
-- Dependencies were freshly installed in a disposable worktree.
-- Round 1 through Round 9, root, MVP, and backend commands were executed.
-- Predeploy browser results came from the fresh Round 9 full suite.
-- Independent premerge validation recomputed every release gate.
+- Round 1: 4/4.
+- Round 2: 73/73 Matrix rows.
+- Round 3: 4/4.
+- Round 4: 9/9.
+- Round 5: 4/4.
+- Round 6: 5/5.
+- Round 7: 3/3.
+- Round 8: 3/3.
+- Round 9: 6/6 plus independent validator.
+- Root smoke: 12 routes and runtime QA 20/20.
+- Backend: 4/4 suites and 18/18 tests.
+- Final inventory: 73 unique items.
+- Final states: 528 implemented and 675 not applicable.
 
-## Pass criteria
+## Production measurements
 
-- All final commands exit zero.
-- Public 18, authenticated 60, isolation 60, UI-072 4, and UI Lab 3 pass.
-- New browser failures and overflows are zero.
-- Inventory and state counts exactly match approval.
-- Product and source repository diffs are zero.
+- Public: 12/12.
+- Authenticated: 20/20.
+- Shared: 10/10.
+- Non-mutating interactions: 3/3.
+- Browser/runtime failure categories: all zero.
+- Critical file parity: 16/16.
+- Independent final checks: 36 with zero failures.
 
-## Measured result
+## Disclosed advisories
 
-- Round 1~9: PASS.
-- Root build/static/smoke/MVP: PASS.
-- Backend 4/4 suites, 18/18 tests, type, and build: PASS.
-- Predeploy browser and health: PASS.
-- Premerge independent gate: PASS.
-
-## Risks and limitations
-
-- Dependency advisories are recorded without mutation.
-- Main, postmerge, and Production results are appended in their gated phases.
-- No Production success is claimed from local verification.
+- Root dependencies: 3 high advisories.
+- Backend dependencies: 4 moderate and 21 high advisories.
+- No forced audit fix or dependency mutation was performed.
+- Existing font availability is not treated as a new application failure; the
+  final Production run recorded zero font request failures.
 
 ## Evidence
 
+- `artifacts/redo/r10/test-results.json`
+- `artifacts/redo/r10/verification-summary.json`
+- `artifacts/redo/r10/final-validation.json`
 - `evidence/redo/r10/predeploy/`
+- `evidence/redo/r10/production/`

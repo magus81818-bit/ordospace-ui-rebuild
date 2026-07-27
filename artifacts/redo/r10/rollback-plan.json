@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-07-27T17:53:06.4264808+09:00",
+  "target": {
+    "project": "ordospace-rebuild",
+    "productionAlias": "https://ordospace-rebuild.vercel.app/",
+    "owner": "akiryu16180339-2308s-projects"
+  },
+  "previousProduction": {
+    "deploymentId": "dpl_5vC4sqaFwwu4mihQw7CLuCKbTQnz",
+    "deploymentUrl": "https://ordospace-rebuild-4qkidu67c-akiryu16180339-2308s-projects.vercel.app",
+    "sourceRepository": "https://github.com/magus81818-bit/ordospace-rebuild",
+    "sourceBranch": "main",
+    "sourceCommit": "ea1dc111440207608401c529b5bc27ebc5e61fd7",
+    "status": "Ready"
+  },
+  "rollback": {
+    "method": "Vercel Instant Rollback",
+    "targetDeploymentId": "dpl_5vC4sqaFwwu4mihQw7CLuCKbTQnz",
+    "targetDeploymentUrl": "https://ordospace-rebuild-4qkidu67c-akiryu16180339-2308s-projects.vercel.app",
+    "triggerConditions": [
+      "Production smoke gate fails",
+      "Role or route guard regression is observed",
+      "New console, page, request, HTTP, JavaScript, CSS, or overflow failure is observed",
+      "Production release cannot be traced to writable main commit 825b4c77b7c09f0fc3abc3c8cbba419eab50d007"
+    ],
+    "postRollbackChecks": [
+      "Confirm the production alias resolves to the previous deployment",
+      "Repeat public route smoke checks",
+      "Confirm the original source repository remains unchanged"
+    ]
+  },
+  "productionMutationPolicy": {
+    "dataWritesAllowed": false,
+    "aliasMoveToAnotherProjectAllowed": false,
+    "newProjectCreationAllowed": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-07-27T17:43:21.0491607+09:00",
+  "remote": "https://github.com/magus81818-bit/ordospace-ui-rebuild.git",
+  "mainBefore": "081f09840c02cf3b448c2dc220763f8d69d99660",
+  "premergeEvidenceHead": "cc9f18f34bffcdd52e68f75fef2e3ceb0da8b67a",
+  "mergeMethod": "normal two-parent merge using the ours strategy because legacy main and the approved redo chain had unrelated histories",
+  "mergeCommit": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007",
+  "mergeParents": [
+    "cc9f18f34bffcdd52e68f75fef2e3ceb0da8b67a",
+    "081f09840c02cf3b448c2dc220763f8d69d99660"
+  ],
+  "releaseTreeBefore": "9f844447082e669abc7c4fab396c6c729831b51c",
+  "mergeTreeAfter": "9f844447082e669abc7c4fab396c6c729831b51c",
+  "treeUnchanged": true,
+  "mainAfter": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007",
+  "pushedRemoteMain": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007",
+  "releaseBranchRemote": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007",
+  "forcePush": false,
+  "squash": false,
+  "rebase": false,
+  "round9Ancestor": true,
+  "legacyMainAncestor": true,
+  "approvedHistoryPreserved": true,
+  "unknownRemoteMainChanges": [],
+  "pass": true
+}

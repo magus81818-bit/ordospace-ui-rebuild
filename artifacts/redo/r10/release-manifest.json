@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-07-27T09:14:06.582Z",
+  "releaseName": "ORDOSPACE SalesOps dashboard visual transplant",
+  "approvedRound9": "67dc87679d77e85b98a5cce85cf3e4c388f609ae",
+  "integrationCommit": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007",
+  "deployedProductCommit": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007",
+  "deployedRepository": "https://github.com/magus81818-bit/ordospace-ui-rebuild",
+  "deployedBranch": "main",
+  "evidenceBranch": "redo/r10-release-acceptance",
+  "localEvidenceBaseHead": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007",
+  "remoteMainAtGeneration": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007",
+  "productHash": {
+    "algorithm": "sha256",
+    "value": "ffb97921f2807d2dc1e16893abfb0aadc4330307c4b142791a6a05f1005d33e8",
+    "premergePostmergeMatch": true,
+    "productionCriticalFilesMatch": true
+  },
+  "production": {
+    "url": "https://ordospace-rebuild.vercel.app/",
+    "project": "ordospace-rebuild",
+    "deploymentId": "dpl_D7qo4KVGGXdC5vpM9ERqYgU5bTyA",
+    "deploymentUrl": "https://ordospace-rebuild-oewablcqk-akiryu16180339-2308s-projects.vercel.app",
+    "ready": true,
+    "sourceRepository": "https://github.com/magus81818-bit/ordospace-ui-rebuild",
+    "sourceBranch": "main",
+    "sourceCommit": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007"
+  },
+  "testCounts": {
+    "public": 12,
+    "authenticated": 20,
+    "shared": 10,
+    "nonMutatingInteractions": 3,
+    "productionEvidenceFiles": 45,
+    "parityFiles": 16
+  },
+  "productPolicy": {
+    "productChangesInRound10": [],
+    "pendingProductChanges": [],
+    "fontPolicyChanged": false,
+    "suitFontApplied": false,
+    "frozenPublicChanged": false,
+    "productionDataWrites": 0
+  },
+  "originalSourceRepository": {
+    "head": "ea1dc111440207608401c529b5bc27ebc5e61fd7",
+    "clean": true,
+    "remote": "https://github.com/magus81818-bit/ordospace-rebuild.git",
+    "changed": false
+  },
+  "evidenceOnlyPostdeploymentCommitAllowed": true,
+  "pass": true
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "deployment": {
+    "id": "dpl_D7qo4KVGGXdC5vpM9ERqYgU5bTyA",
+    "projectId": "prj_KTxF8QnvEwCRc0gG4OKU26AAAFyV",
+    "projectName": "ordospace-rebuild",
+    "target": "production",
+    "status": "READY",
+    "createdAt": "2026-07-27T08:54:21.1910000+00:00",
+    "readyAt": "2026-07-27T08:54:33.5600000+00:00",
+    "deploymentUrl": "https://ordospace-rebuild-oewablcqk-akiryu16180339-2308s-projects.vercel.app",
+    "inspectorUrl": "https://vercel.com/akiryu16180339-2308s-projects/ordospace-rebuild/D7qo4KVGGXdC5vpM9ERqYgU5bTyA",
+    "aliases": [
+      "https://ordospace-rebuild.vercel.app/",
+      "https://ordospace-rebuild-akiryu16180339-2308s-projects.vercel.app"
+    ]
+  },
+  "source": {
+    "repository": "https://github.com/magus81818-bit/ordospace-ui-rebuild",
+    "branch": "main",
+    "commit": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007",
+    "vercelMetadata": {
+      "githubOrg": "magus81818-bit",
+      "githubRepo": "ordospace-ui-rebuild",
+      "githubCommitRef": "main",
+      "githubCommitSha": "825b4c77b7c09f0fc3abc3c8cbba419eab50d007",
+      "actor": "codex"
+    }
+  },
+  "method": {
+    "type": "Vercel CLI",
+    "workingCopy": "fresh single-branch clone of origin/main",
+    "projectSelection": "explicit existing project ordospace-rebuild",
+    "trackedWorktreeCleanBeforeDeploy": true,
+    "newProjectCreated": false,
+    "aliasTransferredToAnotherProject": false
+  },
+  "releasePolicy": {
+    "applicationDataWrites": 0,
+    "sourceRepositoryMutations": 0,
+    "productChangesAfterApprovedRound9": 0
+  }
+}
