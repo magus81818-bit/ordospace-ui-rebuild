@@ -1,3 +1,5 @@
 # State coverage review
 
-All 73 rows have real evidence files and specific integration/primary-round assertion references. Allowed statuses are implemented or reasoned not-applicable; invalid, missing evidence, directory evidence, generic assertion, deferred, and missing counts are zero.
+All 73 rows are merged from their primary-round Matrix, state, interaction, accessibility, and browser artifacts. The corrected rollup contains 549 implemented and 675 reasoned not-applicable state entries. Implemented rows cite existing files and exact test-title plus item/state markers.
+
+Invalid, deferred, missing, missing-evidence, directory-only evidence, missing/generic assertion, fabricated uniform-row, and unrelated duplicate-evidence counts are zero.

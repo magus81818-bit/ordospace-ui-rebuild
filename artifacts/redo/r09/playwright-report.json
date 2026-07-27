@@ -5,8 +5,7 @@
       "C:\\Users\\Admin\\Desktop\\K-디지털\\수업자료\\코덱스\\ordospace-ui-rebuild\\tests\\redo\\r04\\node_modules\\@playwright\\test\\cli.js",
       "test",
       "--config",
-      "playwright.config.cjs",
-      "integration-audit.spec.cjs"
+      "playwright.config.cjs"
     ],
     "configFile": "C:\\Users\\Admin\\Desktop\\K-디지털\\수업자료\\코덱스\\ordospace-ui-rebuild\\tests\\redo\\r09\\playwright.config.cjs",
     "rootDir": "C:/Users/Admin/Desktop/K-디지털/수업자료/코덱스/ordospace-ui-rebuild/tests/redo/r09",
@@ -89,12 +88,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 77230,
+                  "duration": 75764,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-07-27T06:57:45.969Z",
+                  "startTime": "2026-07-27T07:13:11.584Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -108,13 +107,165 @@
           "column": 1
         }
       ]
+    },
+    {
+      "title": "public-audit.spec.cjs",
+      "file": "public-audit.spec.cjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Public 18-case Round 1 baseline comparison",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 92310,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-27T07:14:27.620Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ccfada640017c77c66ae-575eb6ee8256abea6d55",
+          "file": "public-audit.spec.cjs",
+          "line": 9,
+          "column": 1
+        },
+        {
+          "title": "Public UI-065 through UI-071 measured interaction contracts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 12104,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-27T07:15:59.944Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ccfada640017c77c66ae-a2d3927dba6e22184993",
+          "file": "public-audit.spec.cjs",
+          "line": 14,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "shared-audit.spec.cjs",
+      "file": "shared-audit.spec.cjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "UI-072 existing renderer route exact CTAs keyboard focus multi-role and long route",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3723,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-27T07:16:12.091Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5e129d44ea4b6d209ed4-3a7015c2941c3247715b",
+          "file": "shared-audit.spec.cjs",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "UI Lab dev guard API storage specimens keyboard and D T M are measured",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6489,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-27T07:16:15.829Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5e129d44ea4b6d209ed4-20dc464d846e662e164c",
+          "file": "shared-audit.spec.cjs",
+          "line": 18,
+          "column": 1
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-27T06:57:44.593Z",
-    "duration": 79791.218,
-    "expected": 1,
+    "startTime": "2026-07-27T07:13:10.380Z",
+    "duration": 193103.051,
+    "expected": 5,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

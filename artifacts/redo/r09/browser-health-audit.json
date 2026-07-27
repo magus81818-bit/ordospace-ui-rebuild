@@ -1,12 +1,23 @@
 {
-  "generatedAt": "2026-07-27T07:02:58.834Z",
+  "generatedAt": "2026-07-27T07:17:48.035Z",
   "consoleErrors": [],
   "pageErrors": [],
+  "baselineExternalFontContract": {
+    "baselineRef": "2911cc85922bf32f31d051216aca9f29ed906564",
+    "source": "index.html",
+    "baselineHash": "7fc426417c48032f8cf3981d15eec3ab6fd4d48f3a18e611b8cc1e7bc9ada972",
+    "currentHash": "7fc426417c48032f8cf3981d15eec3ab6fd4d48f3a18e611b8cc1e7bc9ada972",
+    "sourceEquivalent": true,
+    "declaredFamily": true
+  },
   "knownBaselineRequestFailures": [
     {
       "url": "https://fonts.gstatic.com/s/orbitron/v35/yMJRMIlzdpvBhQQL_Qq7dy0.woff2",
-      "baselineCount": 1,
-      "currentCount": 1
+      "baselineCount": 0,
+      "currentCount": 1,
+      "actualMeasured": true,
+      "classification": "measured-current-failure-with-byte-identical-round8-external-font-contract",
+      "sourceEquivalent": true
     }
   ],
   "newRequestFailures": [],

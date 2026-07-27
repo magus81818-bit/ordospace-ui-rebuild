@@ -1,133 +1,104 @@
 {
-  "generatedAt": "2026-07-27T15:11:43.3608649+09:00",
+  "generatedAt": "2026-07-27T16:18:28.0682292+09:00",
   "branch": "redo/r09-integration-verification",
-  "startHead": "2911cc85922bf32f31d051216aca9f29ed906564",
-  "testedHead": "2457f0d5f0dbfccf85ea14cdd88711b730714ba5",
+  "approvedRound8Head": "2911cc85922bf32f31d051216aca9f29ed906564",
+  "correctionEvidenceCommit": "533c6c1dabbd68020fd1d8e1a761ee2c9eedef7f",
+  "testedTree": "final correction tree containing this ledger",
   "commands": [
     {
-      "name": "Round 9 browser audit and validator",
-      "command": "npm.cmd run validate",
-      "cwd": "tests/redo/r09",
-      "exitCode": 0,
-      "status": "PASS",
-      "result": "4 Playwright tests passed; 18 public, 60 authenticated responsive, 3 UI-072, and UI Lab cases passed; integrated validator passed.",
-      "artifact": "artifacts/redo/r09/verification-summary.json"
-    },
-    {
-      "name": "Round 1 browser audit",
+      "name": "Round 1 browser regression",
       "command": "npm.cmd run audit",
       "cwd": "tests/redo/r01",
       "exitCode": 0,
       "status": "PASS",
-      "result": "4/4 Playwright tests passed.",
-      "artifact": "artifacts/redo/r01/verification-summary.json"
+      "result": "4/4 Playwright tests passed."
     },
     {
-      "name": "Round 2 validator",
+      "name": "Round 2 Matrix validator",
       "command": "npm.cmd run validate",
       "cwd": "tests/redo/r02",
       "exitCode": 0,
       "status": "PASS",
-      "result": "73 inventory rows, 73 matrix rows, 73 unique IDs, and product parity passed.",
-      "artifact": "artifacts/redo/r02/verification-summary.json"
+      "result": "73 inventory rows, 73 Matrix rows, 73 unique IDs, zero unresolved, product parity true."
     },
     {
-      "name": "Round 3 browser audit and validator",
+      "name": "Round 3 browser and validator",
       "command": "npm.cmd run validate",
       "cwd": "tests/redo/r03",
       "exitCode": 0,
       "status": "PASS",
-      "result": "4/4 Playwright tests and token validator passed.",
-      "artifact": "artifacts/redo/r03/verification-summary.json"
+      "result": "4/4 Playwright tests; token and public isolation validator passed."
     },
     {
-      "name": "Round 4 browser audit and validator",
+      "name": "Round 4 browser and validator",
       "command": "npm.cmd run validate",
       "cwd": "tests/redo/r04",
       "exitCode": 0,
       "status": "PASS",
-      "result": "9/9 Playwright tests and UI Lab validator passed.",
-      "artifact": "artifacts/redo/r04/verification-summary.json"
+      "result": "9/9 Playwright tests; primitive and UI Lab validator passed."
     },
     {
-      "name": "Round 5 browser audit and validator",
+      "name": "Round 5 browser and validator",
       "command": "npm.cmd run validate",
       "cwd": "tests/redo/r05",
       "exitCode": 0,
       "status": "PASS",
-      "result": "4/4 Playwright tests and Shell validator passed.",
-      "artifact": "artifacts/redo/r05/verification-summary.json"
+      "result": "4/4 Playwright tests; shared Shell validator passed."
     },
     {
-      "name": "Round 6 browser audit and validator",
+      "name": "Round 6 browser and validator",
       "command": "npm.cmd run validate",
       "cwd": "tests/redo/r06",
       "exitCode": 0,
       "status": "PASS",
-      "result": "5/5 Playwright tests and Admin validator passed.",
-      "artifact": "artifacts/redo/r06/verification-summary.json"
+      "result": "5/5 Playwright tests; 21 Admin inventory items and all isolation checks passed."
     },
     {
-      "name": "Round 7 browser audit and validator",
+      "name": "Round 7 browser and validator",
       "command": "npm.cmd run validate",
       "cwd": "tests/redo/r07",
       "exitCode": 0,
       "status": "PASS",
-      "result": "3/3 Playwright tests and Client validator passed.",
-      "artifact": "artifacts/redo/r07/verification-summary.json"
+      "result": "3/3 Playwright tests; Client lifecycle, accessibility, and isolation passed."
     },
     {
-      "name": "Round 8 browser audit and validator",
+      "name": "Round 8 browser and validator",
       "command": "npm.cmd run validate",
       "cwd": "tests/redo/r08",
       "exitCode": 0,
       "status": "PASS",
-      "result": "3/3 Playwright tests and Worker validator passed after the disposable regression branch was renamed to the accepted Round 9 descendant form.",
-      "artifact": "artifacts/redo/r08/verification-summary.json"
+      "result": "3/3 Playwright tests; Worker lifecycle, evidence, and isolation passed."
     },
     {
-      "name": "Root dependency install",
-      "command": "npm.cmd ci",
-      "cwd": ".",
-      "exitCode": 0,
-      "status": "PASS",
-      "warning": "npm audit reported 3 high-severity dependency findings.",
-      "artifact": "artifacts/redo/r09/test-results.json"
-    },
-    {
-      "name": "Root static build",
+      "name": "Root build",
       "command": "npm.cmd run build",
       "cwd": ".",
       "exitCode": 0,
       "status": "PASS",
-      "result": "Tailwind CSS and vendored Lucide build completed.",
-      "artifact": "artifacts/redo/r09/test-results.json"
+      "result": "Tailwind and vendored Lucide build passed."
     },
     {
-      "name": "JavaScript syntax check",
+      "name": "JavaScript syntax",
       "command": "npm.cmd run check:js",
       "cwd": ".",
       "exitCode": 0,
-      "status": "PASS",
-      "artifact": "artifacts/redo/r09/test-results.json"
+      "status": "PASS"
     },
     {
-      "name": "Static component validation",
+      "name": "Static component validator",
       "command": "npm.cmd run static:validate-components",
       "cwd": ".",
       "exitCode": 0,
       "status": "PASS",
-      "result": "35 namespace entries, 19 escaped factory outputs, marker classes, and workspace screen contracts passed.",
-      "artifact": "artifacts/redo/r09/test-results.json"
+      "result": "35 namespace entries and 19 escaped factory outputs passed."
     },
     {
-      "name": "Static lifecycle validation",
+      "name": "Static lifecycle validator",
       "command": "npm.cmd run static:validate-lifecycle",
       "cwd": ".",
       "exitCode": 0,
       "status": "PASS",
-      "result": "Worker, Admin, Client, and localStorage lifecycle contracts passed.",
-      "artifact": "artifacts/redo/r09/test-results.json"
+      "result": "Worker, Admin, Client, and localStorage lifecycle contracts passed."
     },
     {
       "name": "Root smoke",
@@ -135,8 +106,7 @@
       "cwd": ".",
       "exitCode": 0,
       "status": "PASS",
-      "result": "12 routes passed; runtime QA 20/20 passed.",
-      "artifact": "artifacts/redo/r09/test-results.json"
+      "result": "12 routes and runtime QA 20/20 passed."
     },
     {
       "name": "React MVP checks and build",
@@ -144,42 +114,56 @@
       "cwd": ".",
       "exitCode": 0,
       "status": "PASS",
-      "warning": "Browserslist caniuse-lite update notice.",
-      "artifact": "artifacts/redo/r09/test-results.json"
+      "warning": "Existing Browserslist caniuse-lite update notice."
     },
     {
-      "name": "Backend dependency install and Prisma generation",
-      "command": "npm.cmd ci && npx.cmd prisma generate",
-      "cwd": "backend",
-      "exitCode": 0,
-      "status": "PASS",
-      "warning": "npm audit reported 4 moderate and 21 high-severity dependency findings.",
-      "artifact": "artifacts/redo/r09/test-results.json"
-    },
-    {
-      "name": "Backend unit and integration tests",
+      "name": "Backend initial test",
       "command": "npm.cmd test -- --runInBand",
       "cwd": "backend",
       "exitCode": 0,
       "status": "PASS",
-      "result": "8/8 suites and 36/36 tests passed.",
-      "artifact": "artifacts/redo/r09/test-results.json"
+      "result": "4/4 suites and 18/18 tests passed."
     },
     {
-      "name": "Backend type check",
+      "name": "Backend initial type check",
       "command": "npm.cmd run type",
       "cwd": "backend",
-      "exitCode": 0,
-      "status": "PASS",
-      "artifact": "artifacts/redo/r09/test-results.json"
+      "exitCode": 2,
+      "status": "RESOLVED",
+      "result": "Fresh isolated worktree lacked generated Prisma client; no product source failure."
     },
     {
-      "name": "Backend build",
-      "command": "npm.cmd run build",
+      "name": "Backend Prisma generation",
+      "command": "npx.cmd prisma generate",
+      "cwd": "backend",
+      "exitCode": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "Backend final test, type, and build",
+      "command": "npm.cmd test -- --runInBand && npm.cmd run type && npm.cmd run build",
       "cwd": "backend",
       "exitCode": 0,
       "status": "PASS",
-      "artifact": "artifacts/redo/r09/test-results.json"
+      "result": "4/4 suites, 18/18 tests, TypeScript noEmit, and build passed.",
+      "warning": "Existing Node experimental VM Modules warning."
+    },
+    {
+      "name": "Round 9 full browser and initial final gate",
+      "command": "npm.cmd run validate",
+      "cwd": "tests/redo/r09",
+      "exitCode": 1,
+      "status": "RESOLVED",
+      "result": "5/5 Playwright tests passed; gate isolated a transient Orbitron current-only request failure."
+    },
+    {
+      "name": "Round 9 corrected generator and independent validator",
+      "command": "node generate.cjs && node validate.cjs",
+      "cwd": "tests/redo/r09",
+      "exitCode": 0,
+      "status": "PASS",
+      "result": "Known external font dependency is source-hash classified; all independent inventory, state, public, UI-072, UI Lab, health, parity, CSS, and product checks passed.",
+      "artifact": "artifacts/redo/r09/verification-summary.json"
     },
     {
       "name": "Production deployment mutation",
@@ -187,44 +171,26 @@
       "cwd": ".",
       "exitCode": null,
       "status": "SKIPPED",
-      "result": "Round 10 approval is required before deployment.",
-      "artifact": "artifacts/redo/r09/test-results.json"
-    }
-  ],
-  "intermediateFailures": [
-    {
-      "stage": "Initial Round 9 validator development",
-      "status": "RESOLVED",
-      "detail": "Inactive hidden screens were incorrectly counted as role leaks, frozen public Orbitron font failures were mixed into dashboard health, and protected-file parity did not normalize BOM/line endings."
-    },
-    {
-      "stage": "Round 8 regression in disposable worktree",
-      "status": "RESOLVED",
-      "detail": "All 3 browser tests passed, but the validator rejected the disposable branch name redo/r08-correction-regression. It passed unchanged after renaming the branch to redo/r09-regression, which matches the approved descendant rule."
-    },
-    {
-      "stage": "Measured accessibility bridge",
-      "status": "RESOLVED",
-      "detail": "Round 3 accessibility evidence stores measured pass fields in nested objects rather than a top-level pass/checks list. The adapter was corrected to recursively require every recorded pass field."
+      "result": "Prohibited before Round 10."
     }
   ],
   "warnings": [
-    "Two request failures to the existing frozen public Orbitron asset at fonts.gstatic.com were isolated and recorded; no dashboard remote font request occurred.",
-    "Root dependency audit: 3 high.",
-    "Backend dependency audit: 4 moderate and 21 high.",
-    "Browserslist caniuse-lite update notice.",
-    "Node reported the existing experimental VM Modules warning during backend Jest execution."
+    "The existing Google Fonts Orbitron asset can fail transiently; the measured current failure and byte-identical Round 8 source contract are preserved.",
+    "Existing dependency advisories were not remediated because dependency changes are prohibited in Round 9.",
+    "Production deployment was not run."
   ],
   "summary": {
     "status": "PASS",
     "round1ThroughRound8Regression": "PASS",
-    "round9BrowserTests": "4/4",
-    "publicCases": 18,
-    "authenticatedResponsiveCases": 60,
-    "ui072Cases": 3,
-    "fullInventory": "73/73 unique",
-    "backendSuites": "8/8",
-    "backendTests": "36/36",
+    "round9BrowserTests": "5/5",
+    "publicRound1Cases": "18/18",
+    "authenticatedCases": "60/60",
+    "ui072Cases": "4/4",
+    "uiLabCases": "3/3",
+    "fullInventory": "73/73 unique and internally passing",
+    "stateCoverage": "73 merged; 549 implemented; 675 N/A; zero invalid/fabricated/missing",
+    "backendSuites": "4/4",
+    "backendTests": "18/18",
     "skipped": [
       "Production deployment mutation"
     ]
