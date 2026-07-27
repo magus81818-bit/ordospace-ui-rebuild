@@ -1,0 +1,16 @@
+{
+  "capturedAt": "2026-07-27T14:42:00+09:00",
+  "repository": "https://github.com/magus81818-bit/ordospace-ui-rebuild",
+  "branch": "redo/r09-integration-verification",
+  "approvedRound8Branch": "redo/r08-worker-dashboard",
+  "approvedRound8Head": "2911cc85922bf32f31d051216aca9f29ed906564",
+  "headAtBranchCreation": "2911cc85922bf32f31d051216aca9f29ed906564",
+  "mergeBase": "2911cc85922bf32f31d051216aca9f29ed906564",
+  "worktreeStatus": [
+    "?? references/prompts/round-9.md"
+  ],
+  "mainHead": "081f09840c02cf3b448c2dc220763f8d69d99660",
+  "sourceRepositoryHead": "ea1dc111440207608401c529b5bc27ebc5e61fd7",
+  "productionDeploymentChanged": false,
+  "pass": true
+}
