@@ -286,32 +286,62 @@ function workerCardSummaryHtml(c,selected,attr){
     metaParts: [ORDO_CHAIN_LABELS[c.chain] || c.chain, c.spec, c.gateRef]
   });
 }
-function renderWorkerHome(){const cards=currentWorkerCards();const weekly=ORDO_WORKER_WEEKLY_MH[ORDO_CURRENT_WORKER]||{logged:0,target:0};const inProgress=cards.filter(c=>c.status==='in_progress');const revisions=cards.filter(c=>c.status==='revision');const todayDue=cards.filter(c=>c.dueDate===moduleTodayText()&&!['done','approved'].includes(c.status));const pending=cards.filter(c=>c.status==='pending');setHtml('workerHomeKpis',moduleMetric('진행중',inProgress.length+'건','현재 작업 중')+moduleMetric('수정 필요',revisions.length+'건','PM 수정 요청',revisions.length?'text-st-critfg':'')+moduleMetric('오늘 마감',todayDue.length+'건','완료/승인 제외',todayDue.length?'text-st-warnfg':'')+moduleMetric('이번주 MH',weekly.logged+'/'+weekly.target,'workLogs 합산 샘플'));setHtml('workerHomeRevisions',revisions.map(c=>{const last=(c.comments||[]).slice().reverse().find(cm=>cm.role==='admin'||cm.author);return '<div>'+workerCardSummaryHtml(c,false,'data-worker-home-card')+'<div class="mt-2 rounded-lg border border-st-critbd bg-st-critbg px-3 py-2 text-[12px] text-st-critfg">PM 코멘트: '+moduleEsc(last?.text||'수정 요청 코멘트를 확인하세요.')+'</div></div>';}).join('')||'<div class="lg:col-span-2 rounded-xl border border-dashed border-bd-default bg-bg-secondary p-5 text-[13px] text-tx-secondary">수정 필요 Module이 없습니다.</div>');setHtml('workerHomeInProgress',inProgress.map(c=>workerCardSummaryHtml(c,false,'data-worker-home-card')).join('')||'<div class="lg:col-span-2 rounded-xl border border-dashed border-bd-default bg-bg-secondary p-5 text-[13px] text-tx-secondary">진행 중 Module이 없습니다.</div>');setHtml('workerHomePending',pending.map(c=>'<button type="button" data-worker-home-card="'+moduleEsc(c.id)+'" class="w-full flex items-center justify-between gap-3 px-4 lg:px-5 py-3 text-left hover:bg-bg-secondary"><span class="text-[13px] font-semibold text-tx-primary">'+moduleEsc(c.spec)+' — '+moduleEsc(c.module)+'</span><span class="text-[12px] text-tx-tertiary whitespace-nowrap">'+moduleEsc(c.dueDate||'-')+'</span></button>').join('')||'<div class="px-4 lg:px-5 py-5 text-[13px] text-tx-secondary">대기 중인 Module이 없습니다.</div>');document.querySelectorAll('[data-worker-home-card]').forEach(btn=>btn.addEventListener('click',()=>{const id=btn.getAttribute('data-worker-home-card');location.hash='#worker-cards?card='+encodeURIComponent(id);if(typeof navigate==='function')navigate(location.hash);}));if(window.refreshIcons)window.refreshIcons();else if(window.lucide)window.lucide.createIcons();}
+function renderWorkerHome(){
+  const W = window.ORDO_WORKER_UI;
+  const cards = currentWorkerCards();
+  const weekly = ORDO_WORKER_WEEKLY_MH[ORDO_CURRENT_WORKER] || { logged: 0, target: 0 };
+  const inProgress = cards.filter(function(card){ return card.status === 'in_progress'; });
+  const revisions = cards.filter(function(card){ return card.status === 'revision'; });
+  const todayDue = cards.filter(function(card){ return card.dueDate === moduleTodayText() && !['done', 'approved'].includes(card.status); });
+  const pending = cards.filter(function(card){ return card.status === 'pending'; });
+  setHtml('workerHomeKpis',
+    moduleMetric('진행중', inProgress.length + '건', '현재 작업 중') +
+    moduleMetric('수정 필요', revisions.length + '건', 'PM 수정 요청', revisions.length ? 'text-st-critfg' : '') +
+    moduleMetric('오늘 마감', todayDue.length + '건', '완료/승인 제외', todayDue.length ? 'text-st-warnfg' : '') +
+    moduleMetric('이번주 MH', weekly.logged + '/' + weekly.target, 'workLogs 합산 샘플')
+  );
+  setHtml('workerHomeRevisions', revisions.map(function(card){
+    const last = (card.comments || []).slice().reverse().find(function(comment){ return comment.role === 'admin' || comment.author; });
+    return '<div class="ordo-worker-revision-item">' + workerCardSummaryHtml(card, false, 'data-worker-home-card') +
+      '<div class="ordo-worker-revision-note mt-2 rounded-lg border px-3 py-2 text-[12px]">PM 코멘트: ' + moduleEsc(last?.text || '수정 요청 코멘트를 확인하세요.') + '</div></div>';
+  }).join('') || '<div class="ordo-worker-empty lg:col-span-2">수정 필요 Module이 없습니다.</div>');
+  setHtml('workerHomeInProgress', inProgress.map(function(card){
+    return '<div>' + workerCardSummaryHtml(card, false, 'data-worker-home-card') + W.Progress(card) + '</div>';
+  }).join('') || '<div class="ordo-worker-empty lg:col-span-2">진행 중 Module이 없습니다.</div>');
+  setHtml('workerHomePending', pending.map(function(card){
+    return '<button type="button" data-worker-home-card="' + moduleEsc(card.id) + '" class="ordo-worker-pending-row w-full flex items-center justify-between gap-3 px-4 lg:px-5 py-3 text-left"><span class="text-[13px] font-semibold text-tx-primary">' + moduleEsc(card.spec) + ' — ' + moduleEsc(card.module) + '</span><span class="text-[12px] text-tx-tertiary whitespace-nowrap">' + moduleEsc(card.dueDate || '-') + '</span></button>';
+  }).join('') || '<div class="ordo-worker-empty m-4">대기 중인 Module이 없습니다.</div>');
+  document.querySelectorAll('[data-worker-home-card]').forEach(function(button){
+    button.addEventListener('click', function(){
+      const id = button.getAttribute('data-worker-home-card');
+      location.hash = '#worker-cards?card=' + encodeURIComponent(id);
+      if (typeof navigate === 'function') navigate(location.hash);
+    });
+  });
+  W.schedule();
+  if (window.refreshIcons) window.refreshIcons(); else if (window.lucide) window.lucide.createIcons();
+}
 function workerDetailHtml(c){
   const C = window.ORDO_UI_COMPONENTS;
+  const W = window.ORDO_WORKER_UI;
   if (!c) return C.EmptyState('표시할 작업이 없습니다.', { variant: 'detail' });
-  const qc = C.QcList(c.qcChecklist, { editable: true });
   const logs = C.WorkLogList(c.workLogs, { emptyText: '아직 작업 기록이 없습니다.' });
   const files = C.AttachmentList(c.attachments, { emptyText: '첨부 파일이 없습니다.' });
   const comments = C.CommentList(c.comments);
-  const logAction = '<button type="button" data-worker-action="log" class="text-[12px] font-semibold text-tx-secondary hover:text-tx-primary">+ 기록 추가</button>';
   const attachAction = '<button type="button" data-worker-action="attach" class="text-[12px] font-semibold text-tx-secondary hover:text-tx-primary">+ 첨부</button>';
+  const canSubmit = !!window.ORDO_MODULE_CARD_LIFECYCLE?.canWorkerSubmit(c, ORDO_CURRENT_WORKER);
   return C.DetailHeader(c, {
       topText: (c.specCode || '') + ' · ' + (c.gateRef || ''),
       subText: (c.dial || '') + ' · 마감 ' + (c.dueDate || '-') + ' · MH ' + c.mhActual + '/' + c.mhEstimate
     })
     + '<details class="mt-5 rounded-xl border border-bd-default bg-bg-secondary p-4" open><summary class="cursor-pointer text-[13px] font-semibold">Recipe 참조</summary><p class="text-[13px] text-tx-secondary mt-3 leading-relaxed">도구: Claude Code → Cursor │ 공정: 스키마→API→UI→테스트 │ <a href="#" class="text-brand-primary font-semibold">전체 보기</a></p></details>'
     + '<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">'
-    + C.DetailSection('QC 체크리스트', '<div class="divide-y divide-bd-default">' + qc + '</div>')
-    + C.DetailSection('작업 기록', '<ul class="divide-y divide-bd-default">' + logs + '</ul>', { headerActionHtml: logAction, headerMargin: 'mb-2' })
+    + C.DetailSection('QC 체크리스트', W.QcGroup(c), { className: 'ordo-c-detail-section' })
+    + C.DetailSection('작업 기록', '<ul class="divide-y divide-bd-default">' + logs + '</ul>' + W.LogForm(c), { className: 'ordo-c-detail-section' })
     + C.DetailSection('산출물', '<div class="divide-y divide-bd-default">' + files + '</div>', { headerActionHtml: attachAction, headerMargin: 'mb-2' })
     + C.DetailSection('코멘트 스레드', '<div class="divide-y divide-bd-default">' + comments + '</div>', { titleMargin: 'mb-1' })
     + '</div>'
-    + C.ActionToolbar([
-        { attr: 'data-worker-action', value: 'log', icon: 'clock-plus', label: '작업 기록 추가' },
-        { attr: 'data-worker-action', value: 'attach', icon: 'paperclip', label: '파일 첨부' },
-        { attr: 'data-worker-action', value: 'review', icon: 'send', label: '리뷰 요청', variant: 'primary' }
-      ], { layout: 'stack' });
+    + W.ActionToolbar(c, canSubmit);
 }
 /* Legacy direct-mutation bindWorkerDetailActions removed in round 8.
    The lifecycle-service version below is the only implementation. */
@@ -331,25 +361,55 @@ function bindWorkerDetailActions(card){
     lifecycle?.updateQc(card,i,input.checked);
     workerAfterCardMutation('QC 체크리스트가 저장되었습니다','ok');
   }));
-  document.querySelectorAll('[data-worker-action="log"]').forEach(btn=>btn.addEventListener('click',()=>{
-    const text=prompt('작업 기록을 입력하세요.');
-    if(!text||!text.trim())return;
-    lifecycle?.addWorkLog(card,text.trim(),ORDO_CURRENT_WORKER);
-    workerAfterCardMutation('작업 기록이 추가되었습니다','ok');
-  }));
+  document.querySelectorAll('[data-worker-action="log"]').forEach(function(button){
+    button.addEventListener('click', function(){ document.querySelector('[data-worker-log-form] [name="hours"]')?.focus(); });
+  });
+  document.querySelector('[data-worker-log-form]')?.addEventListener('submit', function(event){
+    event.preventDefault();
+    const form = event.currentTarget;
+    const hours = form.elements.hours;
+    const text = form.elements.text;
+    const message = form.querySelector('[data-worker-log-message]');
+    const submit = form.querySelector('[data-worker-log-submit]');
+    const hoursValue = Number(hours.value);
+    const textValue = String(text.value || '').trim();
+    [hours, text].forEach(function(field){ field.setAttribute('aria-invalid', 'false'); field.removeAttribute('aria-errormessage'); });
+    message.hidden = true;
+    if (!hours.value || !Number.isFinite(hoursValue) || hoursValue < 0.5 || hoursValue > 24) {
+      hours.setAttribute('aria-invalid', 'true'); hours.setAttribute('aria-errormessage', message.id || 'workerLogError');
+      message.id = message.id || 'workerLogError'; message.dataset.tone = 'critical'; message.textContent = '작업 시간은 0.5~24 MH 범위로 입력하세요.'; message.hidden = false; hours.focus(); return;
+    }
+    if (!textValue) {
+      text.setAttribute('aria-invalid', 'true'); text.setAttribute('aria-errormessage', message.id || 'workerLogError');
+      message.id = message.id || 'workerLogError'; message.dataset.tone = 'critical'; message.textContent = '작업 내용을 입력하세요.'; message.hidden = false; text.focus(); return;
+    }
+    submit.disabled = true; submit.setAttribute('aria-busy', 'true');
+    const result = lifecycle?.addWorkLog(card, hoursValue + 'h · ' + textValue, ORDO_CURRENT_WORKER);
+    if (!result) {
+      submit.disabled = false; submit.removeAttribute('aria-busy'); message.dataset.tone = 'critical'; message.textContent = '작업 기록을 추가하지 못했습니다.'; message.hidden = false; return;
+    }
+    message.dataset.tone = 'success'; message.textContent = '작업 기록이 추가되었습니다.'; message.hidden = false;
+    form.reset();
+    workerAfterCardMutation('작업 기록이 추가되었습니다', 'ok');
+  });
   document.querySelectorAll('[data-worker-action="attach"]').forEach(btn=>btn.addEventListener('click',()=>{
     const name=prompt('첨부할 파일명을 입력하세요.');
     if(!name||!name.trim())return;
     lifecycle?.addAttachment(card,name.trim());
     workerAfterCardMutation('파일 첨부가 추가되었습니다','ok');
   }));
-  document.querySelectorAll('[data-worker-action="review"]').forEach(btn=>btn.addEventListener('click',()=>{
+  document.querySelectorAll('[data-worker-action="review"]').forEach(btn=>btn.addEventListener('click',async()=>{
+    if (btn.disabled || btn.getAttribute('aria-busy') === 'true') return;
     try {
       const note=prompt('PM에게 보낼 리뷰 요청 메모를 입력하세요.','리뷰 요청: QC 완료 및 산출물 확인 부탁드립니다.');
       if(note===null)return;
-      lifecycle?.submitWorkerReview(card,ORDO_CURRENT_WORKER,note);
+      btn.disabled = true; btn.setAttribute('aria-busy','true');
+      const label = btn.querySelector('[data-worker-submit-label]'); if (label) label.textContent = '제출 중';
+      await Promise.resolve(lifecycle?.submitWorkerReview(card,ORDO_CURRENT_WORKER,note));
       workerAfterCardMutation('PM에게 리뷰 요청 알림을 보냈습니다','ok');
     } catch(error) {
+      btn.disabled = false; btn.removeAttribute('aria-busy');
+      const label = btn.querySelector('[data-worker-submit-label]'); if (label) label.textContent = '리뷰 요청';
       alert(error.message || 'QC 완료 후 리뷰 요청할 수 있습니다.');
     }
   }));
@@ -378,6 +438,7 @@ function resolveWorkerActiveCard(all, list){
 }
 
 function renderWorkerFilterButtons(){
+  window._ORDO_WORKER_FILTER = _workerCardFilter;
   document.querySelectorAll('[data-worker-filter]').forEach(function(btn){
     const activeFilter = btn.getAttribute('data-worker-filter') === _workerCardFilter;
     btn.classList.toggle('bg-brand-primary', activeFilter);
@@ -430,6 +491,7 @@ function renderWorkerCards(){
   setHtml('workerCardDetail', workerDetailHtml(active));
   bindWorkerCardControls();
   if (active) bindWorkerDetailActions(active);
+  window.ORDO_WORKER_UI?.schedule();
   if (window.refreshIcons) window.refreshIcons();
   else if (window.lucide) window.lucide.createIcons();
 }
