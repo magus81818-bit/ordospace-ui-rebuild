@@ -9,5 +9,6 @@ The inline form preserves the Worker requirement to enter work time and work con
 - Feedback: focusable associated validation error and polite success status
 - Duplicate protection: submit is disabled and busy while handling the call
 
-No endpoint, storage key, input unit, or lifecycle implementation changes. Browser checks cover empty hours, out-of-range hours, empty text, error association/focus, one append, duplicate blocking, success feedback, and no operating storage/API mutation.
+No endpoint, storage key, input unit, or lifecycle service argument changes. The Worker handler now accepts both the existing synchronous result and a Promise through `Promise.resolve`, exposing a truthful pending state while preserving the same `addWorkLog(card, payload, workerId)` contract.
 
+Empty hours, `0` hours, and empty text run from independent initial states and each measure zero lifecycle calls, focus, `aria-invalid`, the associated error ID, and exact feedback. A valid pending spy measures one call with the correct card/worker/payload, native disabled plus `aria-busy`, `추가 중`, click/Enter/Space duplicate rejection, success feedback, busy clearing, API calls zero, and before/after restore equality.

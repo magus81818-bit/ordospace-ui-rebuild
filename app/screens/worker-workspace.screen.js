@@ -364,7 +364,7 @@ function bindWorkerDetailActions(card){
   document.querySelectorAll('[data-worker-action="log"]').forEach(function(button){
     button.addEventListener('click', function(){ document.querySelector('[data-worker-log-form] [name="hours"]')?.focus(); });
   });
-  document.querySelector('[data-worker-log-form]')?.addEventListener('submit', function(event){
+  document.querySelector('[data-worker-log-form]')?.addEventListener('submit', async function(event){
     event.preventDefault();
     const form = event.currentTarget;
     const hours = form.elements.hours;
@@ -383,14 +383,19 @@ function bindWorkerDetailActions(card){
       text.setAttribute('aria-invalid', 'true'); text.setAttribute('aria-errormessage', message.id || 'workerLogError');
       message.id = message.id || 'workerLogError'; message.dataset.tone = 'critical'; message.textContent = '작업 내용을 입력하세요.'; message.hidden = false; text.focus(); return;
     }
-    submit.disabled = true; submit.setAttribute('aria-busy', 'true');
-    const result = lifecycle?.addWorkLog(card, hoursValue + 'h · ' + textValue, ORDO_CURRENT_WORKER);
-    if (!result) {
-      submit.disabled = false; submit.removeAttribute('aria-busy'); message.dataset.tone = 'critical'; message.textContent = '작업 기록을 추가하지 못했습니다.'; message.hidden = false; return;
+    const submitLabel = submit.textContent;
+    submit.disabled = true; submit.setAttribute('aria-busy', 'true'); submit.textContent = '추가 중';
+    try {
+      const result = await Promise.resolve(lifecycle?.addWorkLog(card, hoursValue + 'h · ' + textValue, ORDO_CURRENT_WORKER));
+      if (!result) throw new Error('work-log-add-failed');
+      submit.disabled = false; submit.removeAttribute('aria-busy'); submit.textContent = submitLabel;
+      message.dataset.tone = 'success'; message.textContent = '작업 기록이 추가되었습니다.'; message.hidden = false;
+      form.reset();
+      workerAfterCardMutation('작업 기록이 추가되었습니다', 'ok');
+    } catch (error) {
+      submit.disabled = false; submit.removeAttribute('aria-busy'); submit.textContent = submitLabel;
+      message.dataset.tone = 'critical'; message.textContent = '작업 기록을 추가하지 못했습니다.'; message.hidden = false; submit.focus();
     }
-    message.dataset.tone = 'success'; message.textContent = '작업 기록이 추가되었습니다.'; message.hidden = false;
-    form.reset();
-    workerAfterCardMutation('작업 기록이 추가되었습니다', 'ok');
   });
   document.querySelectorAll('[data-worker-action="attach"]').forEach(btn=>btn.addEventListener('click',()=>{
     const name=prompt('첨부할 파일명을 입력하세요.');

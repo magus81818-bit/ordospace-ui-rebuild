@@ -19,7 +19,7 @@ UI-033 through UI-042 are complete: Adapted 9, Derived 1. Worker Home retains KP
 - Data/function parity: 20/20 PASS
 - State coverage: 87 implemented, 203 reasoned N/A, zero invalid/missing/deferred
 - QC, work-log, submit lifecycle: PASS
-- Accessibility: 12/12 measured PASS
+- Accessibility: 12/12 independent measured scenarios PASS
 - Shell/layout: 12/12, max delta 0
 - Non-Worker regression: 16/16 PASS
 - Frozen public regression: 18/18 PASS
@@ -28,6 +28,8 @@ UI-033 through UI-042 are complete: Adapted 9, Derived 1. Worker Home retains KP
 ## Q. Test results
 
 See `artifacts/redo/r08/test-results.json` and `verification-results.md`.
+
+The correction replaces hardcoded interaction claims with actual call counters and browser assertions. Required interaction keys are schema-checked, every fixture restore is derived from normalized before/after deep equality, and `worker-product-diff-audit.json` proves data/service/route/API/storage/filter/QC/log/submit invariants.
 
 ## R–S. Scope
 
