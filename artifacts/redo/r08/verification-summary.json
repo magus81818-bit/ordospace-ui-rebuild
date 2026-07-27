@@ -1,0 +1,977 @@
+{
+  "generatedAt": "2026-07-27T04:39:56.449Z",
+  "branch": "redo/r08-worker-dashboard",
+  "mergeBase": "cd70a536a34e5bb23f1ebfd5a6df512893a0b9a6",
+  "matrixMappingPass": true,
+  "stateStatusesValid": true,
+  "stateEvidenceComplete": true,
+  "qcContractPass": true,
+  "logContractPass": true,
+  "submitContractPass": true,
+  "qaFixtureIsolationPass": true,
+  "invalidAssertionsFound": 0,
+  "invalidStatusCount": 0,
+  "missingEvidenceCount": 0,
+  "directoryEvidenceCount": 0,
+  "deferred": 0,
+  "missing": 0,
+  "checks": [
+    {
+      "name": "branch",
+      "pass": true,
+      "detail": "redo/r08-worker-dashboard"
+    },
+    {
+      "name": "Round 7 merge base",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Round 2 matrix count",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "name": "Round 8 exact IDs",
+      "pass": true,
+      "detail": "UI-033,UI-034,UI-035,UI-036,UI-037,UI-038,UI-039,UI-040,UI-041,UI-042"
+    },
+    {
+      "name": "inventory count",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "name": "catalog count",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "name": "UI-033 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-033 ordospaceComponent",
+      "pass": true,
+      "detail": "worker KPI row == worker KPI row"
+    },
+    {
+      "name": "UI-033 salesopsId",
+      "pass": true,
+      "detail": "SO-CARD-002 == SO-CARD-002"
+    },
+    {
+      "name": "UI-033 salesopsComponent",
+      "pass": true,
+      "detail": "Metric card == Metric card"
+    },
+    {
+      "name": "UI-033 classification",
+      "pass": true,
+      "detail": "Adapted == Adapted"
+    },
+    {
+      "name": "UI-033 uncertainty",
+      "pass": true,
+      "detail": "None == None"
+    },
+    {
+      "name": "UI-033 salesopsZipEvidence",
+      "pass": true,
+      "detail": "components/dashboard/metric-card.tsx == components/dashboard/metric-card.tsx"
+    },
+    {
+      "name": "UI-033 preserveFunction",
+      "pass": true,
+      "detail": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors. == All actions, role guards, session/localStorage/API/lifecycle behavior and selectors."
+    },
+    {
+      "name": "UI-033 accessibilityRequirements",
+      "pass": true,
+      "detail": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior. == Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior."
+    },
+    {
+      "name": "UI-034 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-034 ordospaceComponent",
+      "pass": true,
+      "detail": "revision queue == revision queue"
+    },
+    {
+      "name": "UI-034 salesopsId",
+      "pass": true,
+      "detail": "SO-CARD-001 == SO-CARD-001"
+    },
+    {
+      "name": "UI-034 salesopsComponent",
+      "pass": true,
+      "detail": "Card == Card"
+    },
+    {
+      "name": "UI-034 classification",
+      "pass": true,
+      "detail": "Adapted == Adapted"
+    },
+    {
+      "name": "UI-034 uncertainty",
+      "pass": true,
+      "detail": "None == None"
+    },
+    {
+      "name": "UI-034 salesopsZipEvidence",
+      "pass": true,
+      "detail": "components/ui/card.tsx == components/ui/card.tsx"
+    },
+    {
+      "name": "UI-034 preserveFunction",
+      "pass": true,
+      "detail": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors. == All actions, role guards, session/localStorage/API/lifecycle behavior and selectors."
+    },
+    {
+      "name": "UI-034 accessibilityRequirements",
+      "pass": true,
+      "detail": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior. == Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior."
+    },
+    {
+      "name": "UI-035 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-035 ordospaceComponent",
+      "pass": true,
+      "detail": "in-progress section == in-progress section"
+    },
+    {
+      "name": "UI-035 salesopsId",
+      "pass": true,
+      "detail": "SO-PROGRESS-001 == SO-PROGRESS-001"
+    },
+    {
+      "name": "UI-035 salesopsComponent",
+      "pass": true,
+      "detail": "Progress == Progress"
+    },
+    {
+      "name": "UI-035 classification",
+      "pass": true,
+      "detail": "Adapted == Adapted"
+    },
+    {
+      "name": "UI-035 uncertainty",
+      "pass": true,
+      "detail": "None == None"
+    },
+    {
+      "name": "UI-035 salesopsZipEvidence",
+      "pass": true,
+      "detail": "components/ui/progress.tsx == components/ui/progress.tsx"
+    },
+    {
+      "name": "UI-035 preserveFunction",
+      "pass": true,
+      "detail": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors. == All actions, role guards, session/localStorage/API/lifecycle behavior and selectors."
+    },
+    {
+      "name": "UI-035 accessibilityRequirements",
+      "pass": true,
+      "detail": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior. == Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior."
+    },
+    {
+      "name": "UI-036 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-036 ordospaceComponent",
+      "pass": true,
+      "detail": "pending section == pending section"
+    },
+    {
+      "name": "UI-036 salesopsId",
+      "pass": true,
+      "detail": "SO-CARD-001 == SO-CARD-001"
+    },
+    {
+      "name": "UI-036 salesopsComponent",
+      "pass": true,
+      "detail": "Card == Card"
+    },
+    {
+      "name": "UI-036 classification",
+      "pass": true,
+      "detail": "Adapted == Adapted"
+    },
+    {
+      "name": "UI-036 uncertainty",
+      "pass": true,
+      "detail": "None == None"
+    },
+    {
+      "name": "UI-036 salesopsZipEvidence",
+      "pass": true,
+      "detail": "components/ui/card.tsx == components/ui/card.tsx"
+    },
+    {
+      "name": "UI-036 preserveFunction",
+      "pass": true,
+      "detail": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors. == All actions, role guards, session/localStorage/API/lifecycle behavior and selectors."
+    },
+    {
+      "name": "UI-036 accessibilityRequirements",
+      "pass": true,
+      "detail": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior. == Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior."
+    },
+    {
+      "name": "UI-037 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-037 ordospaceComponent",
+      "pass": true,
+      "detail": "work filter/count bar == work filter/count bar"
+    },
+    {
+      "name": "UI-037 salesopsId",
+      "pass": true,
+      "detail": "SO-FILTER-001 == SO-FILTER-001"
+    },
+    {
+      "name": "UI-037 salesopsComponent",
+      "pass": true,
+      "detail": "Filter controls == Filter controls"
+    },
+    {
+      "name": "UI-037 classification",
+      "pass": true,
+      "detail": "Adapted == Adapted"
+    },
+    {
+      "name": "UI-037 uncertainty",
+      "pass": true,
+      "detail": "None == None"
+    },
+    {
+      "name": "UI-037 salesopsZipEvidence",
+      "pass": true,
+      "detail": "components/dashboard/sections/deals.tsx == components/dashboard/sections/deals.tsx"
+    },
+    {
+      "name": "UI-037 preserveFunction",
+      "pass": true,
+      "detail": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors. == All actions, role guards, session/localStorage/API/lifecycle behavior and selectors."
+    },
+    {
+      "name": "UI-037 accessibilityRequirements",
+      "pass": true,
+      "detail": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior. == Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior."
+    },
+    {
+      "name": "UI-038 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-038 ordospaceComponent",
+      "pass": true,
+      "detail": "work-card list == work-card list"
+    },
+    {
+      "name": "UI-038 salesopsId",
+      "pass": true,
+      "detail": "SO-CARD-001 == SO-CARD-001"
+    },
+    {
+      "name": "UI-038 salesopsComponent",
+      "pass": true,
+      "detail": "Card == Card"
+    },
+    {
+      "name": "UI-038 classification",
+      "pass": true,
+      "detail": "Adapted == Adapted"
+    },
+    {
+      "name": "UI-038 uncertainty",
+      "pass": true,
+      "detail": "None == None"
+    },
+    {
+      "name": "UI-038 salesopsZipEvidence",
+      "pass": true,
+      "detail": "components/ui/card.tsx == components/ui/card.tsx"
+    },
+    {
+      "name": "UI-038 preserveFunction",
+      "pass": true,
+      "detail": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors. == All actions, role guards, session/localStorage/API/lifecycle behavior and selectors."
+    },
+    {
+      "name": "UI-038 accessibilityRequirements",
+      "pass": true,
+      "detail": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior. == Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior."
+    },
+    {
+      "name": "UI-039 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-039 ordospaceComponent",
+      "pass": true,
+      "detail": "work-card detail == work-card detail"
+    },
+    {
+      "name": "UI-039 salesopsId",
+      "pass": true,
+      "detail": "SO-CARD-001 == SO-CARD-001"
+    },
+    {
+      "name": "UI-039 salesopsComponent",
+      "pass": true,
+      "detail": "Card == Card"
+    },
+    {
+      "name": "UI-039 classification",
+      "pass": true,
+      "detail": "Adapted == Adapted"
+    },
+    {
+      "name": "UI-039 uncertainty",
+      "pass": true,
+      "detail": "None == None"
+    },
+    {
+      "name": "UI-039 salesopsZipEvidence",
+      "pass": true,
+      "detail": "components/ui/card.tsx == components/ui/card.tsx"
+    },
+    {
+      "name": "UI-039 preserveFunction",
+      "pass": true,
+      "detail": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors. == All actions, role guards, session/localStorage/API/lifecycle behavior and selectors."
+    },
+    {
+      "name": "UI-039 accessibilityRequirements",
+      "pass": true,
+      "detail": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior. == Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior."
+    },
+    {
+      "name": "UI-040 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-040 ordospaceComponent",
+      "pass": true,
+      "detail": "QC checklist == QC checklist"
+    },
+    {
+      "name": "UI-040 salesopsId",
+      "pass": true,
+      "detail": "SO-INPUT-001 == SO-INPUT-001"
+    },
+    {
+      "name": "UI-040 salesopsComponent",
+      "pass": true,
+      "detail": "Input == Input"
+    },
+    {
+      "name": "UI-040 classification",
+      "pass": true,
+      "detail": "Derived == Derived"
+    },
+    {
+      "name": "UI-040 uncertainty",
+      "pass": true,
+      "detail": "None == None"
+    },
+    {
+      "name": "UI-040 salesopsZipEvidence",
+      "pass": true,
+      "detail": "components/ui/input.tsx == components/ui/input.tsx"
+    },
+    {
+      "name": "UI-040 preserveFunction",
+      "pass": true,
+      "detail": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors. == All actions, role guards, session/localStorage/API/lifecycle behavior and selectors."
+    },
+    {
+      "name": "UI-040 accessibilityRequirements",
+      "pass": true,
+      "detail": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior. == Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior."
+    },
+    {
+      "name": "UI-041 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-041 ordospaceComponent",
+      "pass": true,
+      "detail": "work log controls == work log controls"
+    },
+    {
+      "name": "UI-041 salesopsId",
+      "pass": true,
+      "detail": "SO-INPUT-001 == SO-INPUT-001"
+    },
+    {
+      "name": "UI-041 salesopsComponent",
+      "pass": true,
+      "detail": "Input == Input"
+    },
+    {
+      "name": "UI-041 classification",
+      "pass": true,
+      "detail": "Adapted == Adapted"
+    },
+    {
+      "name": "UI-041 uncertainty",
+      "pass": true,
+      "detail": "None == None"
+    },
+    {
+      "name": "UI-041 salesopsZipEvidence",
+      "pass": true,
+      "detail": "components/ui/input.tsx == components/ui/input.tsx"
+    },
+    {
+      "name": "UI-041 preserveFunction",
+      "pass": true,
+      "detail": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors. == All actions, role guards, session/localStorage/API/lifecycle behavior and selectors."
+    },
+    {
+      "name": "UI-041 accessibilityRequirements",
+      "pass": true,
+      "detail": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior. == Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior."
+    },
+    {
+      "name": "UI-042 exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-042 ordospaceComponent",
+      "pass": true,
+      "detail": "submit-to-review action == submit-to-review action"
+    },
+    {
+      "name": "UI-042 salesopsId",
+      "pass": true,
+      "detail": "SO-SHELL-001 == SO-SHELL-001"
+    },
+    {
+      "name": "UI-042 salesopsComponent",
+      "pass": true,
+      "detail": "Dashboard Shell == Dashboard Shell"
+    },
+    {
+      "name": "UI-042 classification",
+      "pass": true,
+      "detail": "Adapted == Adapted"
+    },
+    {
+      "name": "UI-042 uncertainty",
+      "pass": true,
+      "detail": "None == None"
+    },
+    {
+      "name": "UI-042 salesopsZipEvidence",
+      "pass": true,
+      "detail": "app/page.tsx == app/page.tsx"
+    },
+    {
+      "name": "UI-042 preserveFunction",
+      "pass": true,
+      "detail": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors. == All actions, role guards, session/localStorage/API/lifecycle behavior and selectors."
+    },
+    {
+      "name": "UI-042 accessibilityRequirements",
+      "pass": true,
+      "detail": "Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior. == Preserve semantic label/name, visible focus, keyboard operation, contrast and reduced-motion behavior."
+    },
+    {
+      "name": "UI-033 Desktop",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-033 Tablet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-033 Mobile",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-034 Desktop",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-034 Tablet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-034 Mobile",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-035 Desktop",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-035 Tablet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-035 Mobile",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-036 Desktop",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-036 Tablet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-036 Mobile",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-037 Desktop",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-037 Tablet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-037 Mobile",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-038 Desktop",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-038 Tablet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-038 Mobile",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-039 Desktop",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-039 Tablet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-039 Mobile",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-040 Desktop",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-040 Tablet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-040 Mobile",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-041 Desktop",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-041 Tablet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-041 Mobile",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-042 Desktop",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-042 Tablet",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-042 Mobile",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "coverage inventory count",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "name": "implemented count exact",
+      "pass": true,
+      "detail": "87 == 87"
+    },
+    {
+      "name": "N/A count exact",
+      "pass": true,
+      "detail": "203 == 203"
+    },
+    {
+      "name": "invalid status zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "missing evidence zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "directory evidence zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "missing N/A reason zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "missing browser assertion zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "deferred zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "missing zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "state screenshot worker-qc-unchecked-checked-desktop-1440x1000.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "state screenshot worker-qc-blocked-disabled-desktop-1440x1000.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "state screenshot worker-qc-mobile-390x844.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "state screenshot worker-log-validation-desktop-1440x1000.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "state screenshot worker-log-success-desktop-1440x1000.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "state screenshot worker-log-long-mobile-390x844.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "state screenshot worker-submit-disabled-desktop-1440x1000.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "state screenshot worker-submit-enabled-desktop-1440x1000.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "state screenshot worker-submit-submitting-mobile-390x844.png",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-040 QC contract",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-041 work log contract",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-042 submit contract",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "measured accessibility",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "name": "QA fixture isolation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "data function parity",
+      "pass": true,
+      "detail": "20"
+    },
+    {
+      "name": "DOM parity artifact",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "name": "baseline DOM token screen-worker-home",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "baseline DOM token screen-worker-cards",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "baseline DOM token workerHomeKpis",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "baseline DOM token workerHomeRevisions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "baseline DOM token workerHomeInProgress",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "baseline DOM token workerHomePending",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "baseline DOM token workerCardFilters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "baseline DOM token workerCardList",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "baseline DOM token workerCardDetail",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Worker Home section order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Worker CSS scope",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "raw color zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "new important zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "remote font zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "unresolved token zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "forbidden product diff zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "invalid count assertions zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "worker-browser-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "worker-interaction-audit.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "non-worker-regression.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen-public-regression.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "layout-preservation.json",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document README.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document inventory-scope.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document worker-architecture.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document worker-home-implementation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document worker-cards-implementation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document derived-component-decisions.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document qc-lifecycle-contract.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document work-log-contract.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document css-isolation.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document layout-review.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document non-worker-regression.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document public-regression.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document accessibility-review.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document verification-results.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document change-manifest.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document implementation-report.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "test results exists",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "failures": [],
+  "pass": true
+}

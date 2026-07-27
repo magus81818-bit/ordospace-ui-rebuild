@@ -1,0 +1,865 @@
+{
+  "generatedAt": "2026-07-27T04:39:23.368Z",
+  "baseline": "cd70a536a34e5bb23f1ebfd5a6df512893a0b9a6",
+  "checks": [
+    {
+      "route": "worker-home",
+      "viewport": "1440x1000",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "header": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "header": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER",
+        "workerHomeKpis",
+        "SECTION",
+        "SECTION",
+        "SECTION"
+      ],
+      "pass": true
+    },
+    {
+      "route": "worker-cards",
+      "viewport": "1440x1000",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "header": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "header": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER",
+        "SECTION"
+      ],
+      "pass": true
+    },
+    {
+      "route": "worker-home",
+      "viewport": "1280x900",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "header": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "header": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER",
+        "workerHomeKpis",
+        "SECTION",
+        "SECTION",
+        "SECTION"
+      ],
+      "pass": true
+    },
+    {
+      "route": "worker-cards",
+      "viewport": "1280x900",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "header": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "header": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER",
+        "SECTION"
+      ],
+      "pass": true
+    },
+    {
+      "route": "worker-home",
+      "viewport": "1024x1366",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "header": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "header": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER",
+        "workerHomeKpis",
+        "SECTION",
+        "SECTION",
+        "SECTION"
+      ],
+      "pass": true
+    },
+    {
+      "route": "worker-cards",
+      "viewport": "1024x1366",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "header": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "header": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "tabs": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER",
+        "SECTION"
+      ],
+      "pass": true
+    },
+    {
+      "route": "worker-home",
+      "viewport": "768x1024",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "tabs": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "tabs": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER",
+        "workerHomeKpis",
+        "SECTION",
+        "SECTION",
+        "SECTION"
+      ],
+      "pass": true
+    },
+    {
+      "route": "worker-cards",
+      "viewport": "768x1024",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "tabs": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "tabs": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER",
+        "SECTION"
+      ],
+      "pass": true
+    },
+    {
+      "route": "worker-home",
+      "viewport": "390x844",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "tabs": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "tabs": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER",
+        "workerHomeKpis",
+        "SECTION",
+        "SECTION",
+        "SECTION"
+      ],
+      "pass": true
+    },
+    {
+      "route": "worker-cards",
+      "viewport": "390x844",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "tabs": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "tabs": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER",
+        "SECTION"
+      ],
+      "pass": true
+    },
+    {
+      "route": "worker-home",
+      "viewport": "360x800",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "tabs": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "tabs": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER",
+        "workerHomeKpis",
+        "SECTION",
+        "SECTION",
+        "SECTION"
+      ],
+      "pass": true
+    },
+    {
+      "route": "worker-cards",
+      "viewport": "360x800",
+      "enabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "tabs": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "disabled": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "header": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mainOrigin": [
+          0,
+          0
+        ],
+        "mobile": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "tabs": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "maxShellDelta": 0,
+      "sectionOrder": [
+        "HEADER",
+        "SECTION"
+      ],
+      "pass": true
+    }
+  ],
+  "pass": true
+}

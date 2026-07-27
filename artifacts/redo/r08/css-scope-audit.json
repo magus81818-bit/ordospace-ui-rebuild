@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-07-27T04:39:56.449Z",
+  "authOnScoped": true,
+  "workerScreens": [
+    "#screen-worker-home",
+    "#screen-worker-cards"
+  ],
+  "adminSelectors": 0,
+  "clientSelectors": 0,
+  "publicSelectors": 0,
+  "shellSelectors": 0,
+  "profileSelectors": 0,
+  "genericGlobalSelectors": 0,
+  "remoteFonts": 0,
+  "pass": true
+}

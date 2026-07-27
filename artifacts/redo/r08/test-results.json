@@ -1,0 +1,164 @@
+{
+  "round": 8,
+  "generatedAt": "2026-07-27T04:45:00+09:00",
+  "commands": [
+    {
+      "name": "root npm ci",
+      "command": "npm.cmd ci",
+      "exitCode": 0,
+      "status": "PASS_WITH_AUDIT_FINDINGS",
+      "detail": "94 packages audited; 3 high severity findings reported without force-fix."
+    },
+    {
+      "name": "root build",
+      "command": "npm.cmd run build",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "Tailwind and vendored Lucide build completed; non-blocking caniuse-lite age warning."
+    },
+    {
+      "name": "root JavaScript syntax",
+      "command": "npm.cmd run check:js",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "Includes app/ui/components/worker.ui.js."
+    },
+    {
+      "name": "static component contract",
+      "command": "npm.cmd run static:validate-components",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "35 namespace entries and 19 escaped factory outputs."
+    },
+    {
+      "name": "static lifecycle contract",
+      "command": "npm.cmd run static:validate-lifecycle",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "Worker QC gate and submit-to-review lifecycle included."
+    },
+    {
+      "name": "root smoke",
+      "command": "npm.cmd run smoke",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "12 routes; runtime QA 20/20."
+    },
+    {
+      "name": "React MVP regression",
+      "command": "npm.cmd run mvp:check",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "All seed/session/card/action/persistence/activity/form validations and Vite build passed."
+    },
+    {
+      "name": "Round 1 gate",
+      "command": "npm.cmd --prefix tests/redo/r01 run audit",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "4/4 browser tests; product parity 191/191 and zero differences."
+    },
+    {
+      "name": "Round 2 gate",
+      "command": "npm.cmd --prefix tests/redo/r02 run validate",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "Inventory/matrix 73/73; unresolved 0; product parity true."
+    },
+    {
+      "name": "Round 3 gate",
+      "command": "npm.cmd --prefix tests/redo/r03 run validate",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "Dashboard foundations, public isolation, token and layout gates passed."
+    },
+    {
+      "name": "Round 4 gate",
+      "command": "npm.cmd --prefix tests/redo/r04 run validate",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "Primitive/UI Lab, state, public isolation, token and layout gates passed."
+    },
+    {
+      "name": "Round 5 gate",
+      "command": "npm.cmd --prefix tests/redo/r05 run validate",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "4/4 browser tests; 18 frozen public cases; evidence complete."
+    },
+    {
+      "name": "Round 6 gate",
+      "command": "npm.cmd --prefix tests/redo/r06 run validate",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "5/5 browser tests; Admin 30, non-Admin 11, public 18, browser errors 0."
+    },
+    {
+      "name": "Round 7 gate",
+      "command": "npm.cmd --prefix tests/redo/r07 run validate",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "3/3 browser tests and independent validator PASS on local regression branch redo/r08-regression-clean."
+    },
+    {
+      "name": "Round 8 browser gate",
+      "command": "npm.cmd --prefix tests/redo/r08 run audit",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "3/3; 12 Worker route/viewports, lifecycle states, 16 non-Worker cases and 18 public cases."
+    },
+    {
+      "name": "backend clean install",
+      "command": "npm.cmd ci",
+      "cwd": "backend",
+      "exitCode": 0,
+      "status": "PASS_WITH_AUDIT_FINDINGS",
+      "detail": "520 packages audited; 4 moderate and 21 high dependency findings reported without force-fix."
+    },
+    {
+      "name": "backend Prisma client",
+      "command": "npx.cmd prisma generate",
+      "cwd": "backend",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "Prisma Client 7.8.0 generated."
+    },
+    {
+      "name": "backend tests",
+      "command": "npm.cmd test -- --runInBand",
+      "cwd": "backend",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "8/8 suites and 36/36 tests."
+    },
+    {
+      "name": "backend type check",
+      "command": "npm.cmd run type",
+      "cwd": "backend",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "TypeScript no-emit check passed after Prisma generation."
+    },
+    {
+      "name": "backend build",
+      "command": "npm.cmd run build",
+      "cwd": "backend",
+      "exitCode": 0,
+      "status": "PASS",
+      "detail": "TypeScript build passed."
+    }
+  ],
+  "failed": 0,
+  "skipped": 0,
+  "auditFindings": {
+    "root": {
+      "high": 3
+    },
+    "backend": {
+      "moderate": 4,
+      "high": 21
+    },
+    "action": "Reported only; no npm audit fix --force or dependency downgrade was performed."
+  },
+  "pass": true
+}

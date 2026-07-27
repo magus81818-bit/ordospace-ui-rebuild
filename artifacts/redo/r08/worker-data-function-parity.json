@@ -1,0 +1,106 @@
+{
+  "generatedAt": "2026-07-27T04:39:23.368Z",
+  "checks": [
+    {
+      "name": "routes",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "menu",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "kpi",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "assignedCards",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "revisionQueue",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "inProgressPending",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "filters",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "filterResults",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "selectedCard",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "qcValues",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "qcBlocker",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "workLogContract",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "formFields",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "validation",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "submitTransition",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "lifecycleService",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "localStorageKey",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "apiEndpoint",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "roleGuard",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "session",
+      "measured": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-07-27T04:39:23.368Z",
+  "checks": [
+    {
+      "name": "screenIds",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "sectionOrder",
+      "measured": true,
+      "pass": true,
+      "value": [
+        "HEADER",
+        "workerHomeKpis",
+        "SECTION",
+        "SECTION",
+        "SECTION"
+      ]
+    },
+    {
+      "name": "kpiCount",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "filterCount",
+      "measured": true,
+      "pass": true,
+      "value": 6
+    },
+    {
+      "name": "listCount",
+      "measured": true,
+      "pass": true,
+      "value": 5
+    },
+    {
+      "name": "qcCount",
+      "measured": true,
+      "pass": true,
+      "value": 3
+    },
+    {
+      "name": "fieldNames",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "submitButtonType",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "dataSelectors",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "majorIds",
+      "measured": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

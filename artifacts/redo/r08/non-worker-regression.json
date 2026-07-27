@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-07-27T04:39:23.368Z",
+  "cases": [
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "1440x1000",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/admin-admin-home-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "1440x1000",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/admin-admin-projects-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "1440x1000",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/admin-admin-cards-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "1440x1000",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/admin-admin-team-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "1440x1000",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/admin-admin-audit-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "1024x1366",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/admin-admin-home-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "390x844",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/admin-admin-home-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "1440x1000",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/client-dashboard-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "1440x1000",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/client-project-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "1440x1000",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/client-approvals-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "1024x1366",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/client-dashboard-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "390x844",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/client-dashboard-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "profile",
+      "viewport": "1440x1000",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/client-profile-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "profile",
+      "viewport": "1440x1000",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/worker-profile-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "profile",
+      "viewport": "1024x1366",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/worker-profile-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "profile",
+      "viewport": "390x844",
+      "classLeak": 0,
+      "token": "",
+      "overflow": false,
+      "evidence": "evidence/redo/r08/non-worker/worker-profile-390x844.png",
+      "pass": true
+    }
+  ],
+  "workerClassLeakCount": 0,
+  "workerTokenLeakCount": 0,
+  "pass": true
+}

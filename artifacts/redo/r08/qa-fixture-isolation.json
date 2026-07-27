@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-07-27T04:39:23.368Z",
+  "fixtures": [
+    {
+      "name": "Worker Home states",
+      "source": "page-local DOM override",
+      "operatingFixtureMutation": false,
+      "localStorageMutation": false,
+      "apiCalls": 0,
+      "lifecycleSpy": false,
+      "restore": true,
+      "evidence": "evidence/redo/r08/worker/states/worker-home-long-mobile-390x844.png",
+      "pass": true
+    },
+    {
+      "name": "QC states",
+      "source": "page-local controls plus lifecycle spy",
+      "operatingFixtureMutation": false,
+      "localStorageMutation": false,
+      "apiCalls": 0,
+      "lifecycleSpy": true,
+      "restore": true,
+      "evidence": "evidence/redo/r08/worker/states/worker-qc-mobile-390x844.png",
+      "pass": true
+    },
+    {
+      "name": "Work log states",
+      "source": "page-local form plus lifecycle spy",
+      "operatingFixtureMutation": false,
+      "localStorageMutation": false,
+      "apiCalls": 0,
+      "lifecycleSpy": true,
+      "restore": true,
+      "evidence": "evidence/redo/r08/worker/states/worker-log-long-mobile-390x844.png",
+      "pass": true
+    },
+    {
+      "name": "Submit states",
+      "source": "page-local lifecycle promise spy",
+      "operatingFixtureMutation": false,
+      "localStorageMutation": false,
+      "apiCalls": 0,
+      "lifecycleSpy": true,
+      "restore": true,
+      "evidence": "evidence/redo/r08/worker/states/worker-submit-submitting-mobile-390x844.png",
+      "pass": true
+    }
+  ],
+  "operatingFixtureMutation": false,
+  "localStorageMutation": false,
+  "apiCalls": 0,
+  "restored": true,
+  "pass": true
+}

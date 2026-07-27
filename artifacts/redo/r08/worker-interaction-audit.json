@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-07-27T04:39:23.368Z",
+  "checks": [
+    {
+      "inventoryId": "UI-040",
+      "assertions": {
+        "itemCount": 3,
+        "unchecked": true,
+        "checked": true,
+        "blocked": true,
+        "disabled": true,
+        "keyboardSpace": true,
+        "labelAssociation": true,
+        "groupAccessibleName": true,
+        "submitBlocker": true,
+        "restoredByNavigation": true
+      },
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-041",
+      "assertions": {
+        "emptyHours": true,
+        "invalidHours": true,
+        "emptyText": true,
+        "errorAssociated": true,
+        "invalidFocused": true,
+        "appendOnce": true,
+        "duplicateBlocked": true,
+        "successFeedback": true,
+        "localStorageUnchanged": true,
+        "errorNotApplicable": "The operating addWorkLog service has no asynchronous error branch."
+      },
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-042",
+      "assertions": {
+        "disabled": true,
+        "clickBlocked": true,
+        "enterBlocked": true,
+        "spaceBlocked": true,
+        "enabled": true,
+        "accessibleName": true,
+        "submitting": true,
+        "duplicateBlocked": true,
+        "lifecycleOnce": true,
+        "correctCardId": true,
+        "correctTransition": true,
+        "localStorageUnchanged": true,
+        "apiCallsZero": true,
+        "errorNotApplicable": "The current submit service exposes thrown errors before transition, with no retry UI contract."
+      },
+      "pass": true
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-07-27T04:39:23.368Z",
+  "checks": [
+    {
+      "name": "filterPressed",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "cardSelection",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "qcGroup",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "qcLabels",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "logLabels",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "submitReason",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "busy",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "focusVisible",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "reducedMotion",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "longWrap",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "heading",
+      "measured": true,
+      "pass": true
+    },
+    {
+      "name": "live",
+      "measured": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

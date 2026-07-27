@@ -1,0 +1,1484 @@
+{
+  "round": 8,
+  "items": [
+    {
+      "inventoryId": "UI-033",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "hover": {
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current worker KPI row operating renderer contract."
+        },
+        "focus-visible": {
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current worker KPI row operating renderer contract."
+        },
+        "active": {
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current worker KPI row operating renderer contract."
+        },
+        "selected": {
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current worker KPI row operating renderer contract."
+        },
+        "disabled": {
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current worker KPI row operating renderer contract."
+        },
+        "loading": {
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current worker KPI row operating renderer contract."
+        },
+        "empty": {
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current worker KPI row operating renderer contract."
+        },
+        "no-result": {
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current worker KPI row operating renderer contract."
+        },
+        "error": {
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current worker KPI row operating renderer contract."
+        },
+        "success": {
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current worker KPI row operating renderer contract."
+        },
+        "validation error": {
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current worker KPI row operating renderer contract."
+        },
+        "zero": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-home-kpi-zero-warning-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "warning": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-home-kpi-zero-warning-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "revision": {
+          "status": "not_applicable",
+          "reason": "No revision branch exists in the current worker KPI row operating renderer contract."
+        },
+        "overdue": {
+          "status": "not_applicable",
+          "reason": "No overdue branch exists in the current worker KPI row operating renderer contract."
+        },
+        "pending": {
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current worker KPI row operating renderer contract."
+        },
+        "in-progress": {
+          "status": "not_applicable",
+          "reason": "No in-progress branch exists in the current worker KPI row operating renderer contract."
+        },
+        "unchecked": {
+          "status": "not_applicable",
+          "reason": "No unchecked branch exists in the current worker KPI row operating renderer contract."
+        },
+        "checked": {
+          "status": "not_applicable",
+          "reason": "No checked branch exists in the current worker KPI row operating renderer contract."
+        },
+        "blocked": {
+          "status": "not_applicable",
+          "reason": "No blocked branch exists in the current worker KPI row operating renderer contract."
+        },
+        "submitting": {
+          "status": "not_applicable",
+          "reason": "No submitting branch exists in the current worker KPI row operating renderer contract."
+        },
+        "no-selection": {
+          "status": "not_applicable",
+          "reason": "No no-selection branch exists in the current worker KPI row operating renderer contract."
+        },
+        "long content": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-home-long-mobile-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "overflow": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-034",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "hover": {
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current revision queue operating renderer contract."
+        },
+        "focus-visible": {
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current revision queue operating renderer contract."
+        },
+        "active": {
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current revision queue operating renderer contract."
+        },
+        "selected": {
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current revision queue operating renderer contract."
+        },
+        "disabled": {
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current revision queue operating renderer contract."
+        },
+        "loading": {
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current revision queue operating renderer contract."
+        },
+        "empty": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-home-revision-empty-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "no-result": {
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current revision queue operating renderer contract."
+        },
+        "error": {
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current revision queue operating renderer contract."
+        },
+        "success": {
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current revision queue operating renderer contract."
+        },
+        "validation error": {
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current revision queue operating renderer contract."
+        },
+        "zero": {
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current revision queue operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current revision queue operating renderer contract."
+        },
+        "revision": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-home-revision-populated-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "overdue": {
+          "status": "not_applicable",
+          "reason": "No overdue branch exists in the current revision queue operating renderer contract."
+        },
+        "pending": {
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current revision queue operating renderer contract."
+        },
+        "in-progress": {
+          "status": "not_applicable",
+          "reason": "No in-progress branch exists in the current revision queue operating renderer contract."
+        },
+        "unchecked": {
+          "status": "not_applicable",
+          "reason": "No unchecked branch exists in the current revision queue operating renderer contract."
+        },
+        "checked": {
+          "status": "not_applicable",
+          "reason": "No checked branch exists in the current revision queue operating renderer contract."
+        },
+        "blocked": {
+          "status": "not_applicable",
+          "reason": "No blocked branch exists in the current revision queue operating renderer contract."
+        },
+        "submitting": {
+          "status": "not_applicable",
+          "reason": "No submitting branch exists in the current revision queue operating renderer contract."
+        },
+        "no-selection": {
+          "status": "not_applicable",
+          "reason": "No no-selection branch exists in the current revision queue operating renderer contract."
+        },
+        "long content": {
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current revision queue operating renderer contract."
+        },
+        "overflow": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-035",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "hover": {
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current in-progress section operating renderer contract."
+        },
+        "focus-visible": {
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current in-progress section operating renderer contract."
+        },
+        "active": {
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current in-progress section operating renderer contract."
+        },
+        "selected": {
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current in-progress section operating renderer contract."
+        },
+        "disabled": {
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current in-progress section operating renderer contract."
+        },
+        "loading": {
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current in-progress section operating renderer contract."
+        },
+        "empty": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-home-in-progress-empty-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "no-result": {
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current in-progress section operating renderer contract."
+        },
+        "error": {
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current in-progress section operating renderer contract."
+        },
+        "success": {
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current in-progress section operating renderer contract."
+        },
+        "validation error": {
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current in-progress section operating renderer contract."
+        },
+        "zero": {
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current in-progress section operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current in-progress section operating renderer contract."
+        },
+        "revision": {
+          "status": "not_applicable",
+          "reason": "No revision branch exists in the current in-progress section operating renderer contract."
+        },
+        "overdue": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-home-long-mobile-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "pending": {
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current in-progress section operating renderer contract."
+        },
+        "in-progress": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "unchecked": {
+          "status": "not_applicable",
+          "reason": "No unchecked branch exists in the current in-progress section operating renderer contract."
+        },
+        "checked": {
+          "status": "not_applicable",
+          "reason": "No checked branch exists in the current in-progress section operating renderer contract."
+        },
+        "blocked": {
+          "status": "not_applicable",
+          "reason": "No blocked branch exists in the current in-progress section operating renderer contract."
+        },
+        "submitting": {
+          "status": "not_applicable",
+          "reason": "No submitting branch exists in the current in-progress section operating renderer contract."
+        },
+        "no-selection": {
+          "status": "not_applicable",
+          "reason": "No no-selection branch exists in the current in-progress section operating renderer contract."
+        },
+        "long content": {
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current in-progress section operating renderer contract."
+        },
+        "overflow": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-036",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "hover": {
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current pending section operating renderer contract."
+        },
+        "focus-visible": {
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current pending section operating renderer contract."
+        },
+        "active": {
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current pending section operating renderer contract."
+        },
+        "selected": {
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current pending section operating renderer contract."
+        },
+        "disabled": {
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current pending section operating renderer contract."
+        },
+        "loading": {
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current pending section operating renderer contract."
+        },
+        "empty": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-home-pending-empty-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "no-result": {
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current pending section operating renderer contract."
+        },
+        "error": {
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current pending section operating renderer contract."
+        },
+        "success": {
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current pending section operating renderer contract."
+        },
+        "validation error": {
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current pending section operating renderer contract."
+        },
+        "zero": {
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current pending section operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current pending section operating renderer contract."
+        },
+        "revision": {
+          "status": "not_applicable",
+          "reason": "No revision branch exists in the current pending section operating renderer contract."
+        },
+        "overdue": {
+          "status": "not_applicable",
+          "reason": "No overdue branch exists in the current pending section operating renderer contract."
+        },
+        "pending": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "in-progress": {
+          "status": "not_applicable",
+          "reason": "No in-progress branch exists in the current pending section operating renderer contract."
+        },
+        "unchecked": {
+          "status": "not_applicable",
+          "reason": "No unchecked branch exists in the current pending section operating renderer contract."
+        },
+        "checked": {
+          "status": "not_applicable",
+          "reason": "No checked branch exists in the current pending section operating renderer contract."
+        },
+        "blocked": {
+          "status": "not_applicable",
+          "reason": "No blocked branch exists in the current pending section operating renderer contract."
+        },
+        "submitting": {
+          "status": "not_applicable",
+          "reason": "No submitting branch exists in the current pending section operating renderer contract."
+        },
+        "no-selection": {
+          "status": "not_applicable",
+          "reason": "No no-selection branch exists in the current pending section operating renderer contract."
+        },
+        "long content": {
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current pending section operating renderer contract."
+        },
+        "overflow": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-037",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "hover": {
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "focus-visible": {
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "active": {
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "selected": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-cards-filter-no-result-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "disabled": {
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "loading": {
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "empty": {
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "no-result": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-cards-filter-no-result-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "error": {
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "success": {
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "validation error": {
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "zero": {
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "revision": {
+          "status": "not_applicable",
+          "reason": "No revision branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "overdue": {
+          "status": "not_applicable",
+          "reason": "No overdue branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "pending": {
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "in-progress": {
+          "status": "not_applicable",
+          "reason": "No in-progress branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "unchecked": {
+          "status": "not_applicable",
+          "reason": "No unchecked branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "checked": {
+          "status": "not_applicable",
+          "reason": "No checked branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "blocked": {
+          "status": "not_applicable",
+          "reason": "No blocked branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "submitting": {
+          "status": "not_applicable",
+          "reason": "No submitting branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "no-selection": {
+          "status": "not_applicable",
+          "reason": "No no-selection branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "long content": {
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current work filter/count bar operating renderer contract."
+        },
+        "overflow": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-038",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "hover": {
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current work-card list operating renderer contract."
+        },
+        "focus-visible": {
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current work-card list operating renderer contract."
+        },
+        "active": {
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current work-card list operating renderer contract."
+        },
+        "selected": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "disabled": {
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current work-card list operating renderer contract."
+        },
+        "loading": {
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current work-card list operating renderer contract."
+        },
+        "empty": {
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current work-card list operating renderer contract."
+        },
+        "no-result": {
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current work-card list operating renderer contract."
+        },
+        "error": {
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current work-card list operating renderer contract."
+        },
+        "success": {
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current work-card list operating renderer contract."
+        },
+        "validation error": {
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current work-card list operating renderer contract."
+        },
+        "zero": {
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current work-card list operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current work-card list operating renderer contract."
+        },
+        "revision": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-cards-filter-no-result-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "overdue": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-cards-long-detail-mobile-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "pending": {
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current work-card list operating renderer contract."
+        },
+        "in-progress": {
+          "status": "not_applicable",
+          "reason": "No in-progress branch exists in the current work-card list operating renderer contract."
+        },
+        "unchecked": {
+          "status": "not_applicable",
+          "reason": "No unchecked branch exists in the current work-card list operating renderer contract."
+        },
+        "checked": {
+          "status": "not_applicable",
+          "reason": "No checked branch exists in the current work-card list operating renderer contract."
+        },
+        "blocked": {
+          "status": "not_applicable",
+          "reason": "No blocked branch exists in the current work-card list operating renderer contract."
+        },
+        "submitting": {
+          "status": "not_applicable",
+          "reason": "No submitting branch exists in the current work-card list operating renderer contract."
+        },
+        "no-selection": {
+          "status": "not_applicable",
+          "reason": "No no-selection branch exists in the current work-card list operating renderer contract."
+        },
+        "long content": {
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current work-card list operating renderer contract."
+        },
+        "overflow": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-039",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "hover": {
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current work-card detail operating renderer contract."
+        },
+        "focus-visible": {
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current work-card detail operating renderer contract."
+        },
+        "active": {
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current work-card detail operating renderer contract."
+        },
+        "selected": {
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current work-card detail operating renderer contract."
+        },
+        "disabled": {
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current work-card detail operating renderer contract."
+        },
+        "loading": {
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current work-card detail operating renderer contract."
+        },
+        "empty": {
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current work-card detail operating renderer contract."
+        },
+        "no-result": {
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current work-card detail operating renderer contract."
+        },
+        "error": {
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current work-card detail operating renderer contract."
+        },
+        "success": {
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current work-card detail operating renderer contract."
+        },
+        "validation error": {
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current work-card detail operating renderer contract."
+        },
+        "zero": {
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current work-card detail operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current work-card detail operating renderer contract."
+        },
+        "revision": {
+          "status": "not_applicable",
+          "reason": "No revision branch exists in the current work-card detail operating renderer contract."
+        },
+        "overdue": {
+          "status": "not_applicable",
+          "reason": "No overdue branch exists in the current work-card detail operating renderer contract."
+        },
+        "pending": {
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current work-card detail operating renderer contract."
+        },
+        "in-progress": {
+          "status": "not_applicable",
+          "reason": "No in-progress branch exists in the current work-card detail operating renderer contract."
+        },
+        "unchecked": {
+          "status": "not_applicable",
+          "reason": "No unchecked branch exists in the current work-card detail operating renderer contract."
+        },
+        "checked": {
+          "status": "not_applicable",
+          "reason": "No checked branch exists in the current work-card detail operating renderer contract."
+        },
+        "blocked": {
+          "status": "not_applicable",
+          "reason": "No blocked branch exists in the current work-card detail operating renderer contract."
+        },
+        "submitting": {
+          "status": "not_applicable",
+          "reason": "No submitting branch exists in the current work-card detail operating renderer contract."
+        },
+        "no-selection": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-cards-no-selection-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "long content": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-cards-long-detail-mobile-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "overflow": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-040",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "hover": {
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current QC checklist operating renderer contract."
+        },
+        "focus-visible": {
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current QC checklist operating renderer contract."
+        },
+        "active": {
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current QC checklist operating renderer contract."
+        },
+        "selected": {
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current QC checklist operating renderer contract."
+        },
+        "disabled": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-qc-blocked-disabled-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "loading": {
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current QC checklist operating renderer contract."
+        },
+        "empty": {
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current QC checklist operating renderer contract."
+        },
+        "no-result": {
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current QC checklist operating renderer contract."
+        },
+        "error": {
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current QC checklist operating renderer contract."
+        },
+        "success": {
+          "status": "not_applicable",
+          "reason": "No success branch exists in the current QC checklist operating renderer contract."
+        },
+        "validation error": {
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current QC checklist operating renderer contract."
+        },
+        "zero": {
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current QC checklist operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current QC checklist operating renderer contract."
+        },
+        "revision": {
+          "status": "not_applicable",
+          "reason": "No revision branch exists in the current QC checklist operating renderer contract."
+        },
+        "overdue": {
+          "status": "not_applicable",
+          "reason": "No overdue branch exists in the current QC checklist operating renderer contract."
+        },
+        "pending": {
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current QC checklist operating renderer contract."
+        },
+        "in-progress": {
+          "status": "not_applicable",
+          "reason": "No in-progress branch exists in the current QC checklist operating renderer contract."
+        },
+        "unchecked": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-qc-unchecked-checked-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "checked": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-qc-unchecked-checked-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "blocked": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-qc-blocked-disabled-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "submitting": {
+          "status": "not_applicable",
+          "reason": "No submitting branch exists in the current QC checklist operating renderer contract."
+        },
+        "no-selection": {
+          "status": "not_applicable",
+          "reason": "No no-selection branch exists in the current QC checklist operating renderer contract."
+        },
+        "long content": {
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current QC checklist operating renderer contract."
+        },
+        "overflow": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-041",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "hover": {
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current work log controls operating renderer contract."
+        },
+        "focus-visible": {
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current work log controls operating renderer contract."
+        },
+        "active": {
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current work log controls operating renderer contract."
+        },
+        "selected": {
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current work log controls operating renderer contract."
+        },
+        "disabled": {
+          "status": "not_applicable",
+          "reason": "No disabled branch exists in the current work log controls operating renderer contract."
+        },
+        "loading": {
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current work log controls operating renderer contract."
+        },
+        "empty": {
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current work log controls operating renderer contract."
+        },
+        "no-result": {
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current work log controls operating renderer contract."
+        },
+        "error": {
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current work log controls operating renderer contract."
+        },
+        "success": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-log-success-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "validation error": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-log-validation-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "zero": {
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current work log controls operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current work log controls operating renderer contract."
+        },
+        "revision": {
+          "status": "not_applicable",
+          "reason": "No revision branch exists in the current work log controls operating renderer contract."
+        },
+        "overdue": {
+          "status": "not_applicable",
+          "reason": "No overdue branch exists in the current work log controls operating renderer contract."
+        },
+        "pending": {
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current work log controls operating renderer contract."
+        },
+        "in-progress": {
+          "status": "not_applicable",
+          "reason": "No in-progress branch exists in the current work log controls operating renderer contract."
+        },
+        "unchecked": {
+          "status": "not_applicable",
+          "reason": "No unchecked branch exists in the current work log controls operating renderer contract."
+        },
+        "checked": {
+          "status": "not_applicable",
+          "reason": "No checked branch exists in the current work log controls operating renderer contract."
+        },
+        "blocked": {
+          "status": "not_applicable",
+          "reason": "No blocked branch exists in the current work log controls operating renderer contract."
+        },
+        "submitting": {
+          "status": "not_applicable",
+          "reason": "No submitting branch exists in the current work log controls operating renderer contract."
+        },
+        "no-selection": {
+          "status": "not_applicable",
+          "reason": "No no-selection branch exists in the current work log controls operating renderer contract."
+        },
+        "long content": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-log-long-mobile-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "overflow": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-042",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "hover": {
+          "status": "not_applicable",
+          "reason": "No hover branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "focus-visible": {
+          "status": "not_applicable",
+          "reason": "No focus-visible branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "active": {
+          "status": "not_applicable",
+          "reason": "No active branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "selected": {
+          "status": "not_applicable",
+          "reason": "No selected branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "disabled": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-submit-disabled-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "loading": {
+          "status": "not_applicable",
+          "reason": "No loading branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "empty": {
+          "status": "not_applicable",
+          "reason": "No empty branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "no-result": {
+          "status": "not_applicable",
+          "reason": "No no-result branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "error": {
+          "status": "not_applicable",
+          "reason": "No error branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "success": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-submit-enabled-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "validation error": {
+          "status": "not_applicable",
+          "reason": "No validation error branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "zero": {
+          "status": "not_applicable",
+          "reason": "No zero branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "warning": {
+          "status": "not_applicable",
+          "reason": "No warning branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "revision": {
+          "status": "not_applicable",
+          "reason": "No revision branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "overdue": {
+          "status": "not_applicable",
+          "reason": "No overdue branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "pending": {
+          "status": "not_applicable",
+          "reason": "No pending branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "in-progress": {
+          "status": "not_applicable",
+          "reason": "No in-progress branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "unchecked": {
+          "status": "not_applicable",
+          "reason": "No unchecked branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "checked": {
+          "status": "not_applicable",
+          "reason": "No checked branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "blocked": {
+          "status": "not_applicable",
+          "reason": "No blocked branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "submitting": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/states/worker-submit-submitting-mobile-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "no-selection": {
+          "status": "not_applicable",
+          "reason": "No no-selection branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "long content": {
+          "status": "not_applicable",
+          "reason": "No long content branch exists in the current submit-to-review action operating renderer contract."
+        },
+        "overflow": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        },
+        "reduced motion": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+        }
+      }
+    }
+  ],
+  "implementedCount": 87,
+  "notApplicableCount": 203,
+  "deferred": 0,
+  "missing": 0,
+  "invalidStatusCount": 0,
+  "missingEvidenceCount": 0,
+  "directoryEvidenceCount": 0,
+  "pass": true
+}

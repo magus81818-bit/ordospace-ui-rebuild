@@ -1,0 +1,109 @@
+{
+  "generatedAt": "2026-07-27T04:39:23.368Z",
+  "cases": [
+    {
+      "route": "worker-home",
+      "viewport": "1440x1000",
+      "overflow": 0,
+      "pass": true,
+      "evidence": "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
+    },
+    {
+      "route": "worker-cards",
+      "viewport": "1440x1000",
+      "overflow": 0,
+      "pass": true,
+      "evidence": "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+    },
+    {
+      "route": "worker-home",
+      "viewport": "1280x900",
+      "overflow": 0,
+      "pass": true,
+      "evidence": "evidence/redo/r08/worker/home/worker-home-default-desktop1280-1280x900.png"
+    },
+    {
+      "route": "worker-cards",
+      "viewport": "1280x900",
+      "overflow": 0,
+      "pass": true,
+      "evidence": "evidence/redo/r08/worker/cards/worker-cards-default-desktop1280-1280x900.png"
+    },
+    {
+      "route": "worker-home",
+      "viewport": "1024x1366",
+      "overflow": 0,
+      "pass": true,
+      "evidence": "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png"
+    },
+    {
+      "route": "worker-cards",
+      "viewport": "1024x1366",
+      "overflow": 0,
+      "pass": true,
+      "evidence": "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png"
+    },
+    {
+      "route": "worker-home",
+      "viewport": "768x1024",
+      "overflow": 0,
+      "pass": true,
+      "evidence": "evidence/redo/r08/worker/home/worker-home-default-tablet768-768x1024.png"
+    },
+    {
+      "route": "worker-cards",
+      "viewport": "768x1024",
+      "overflow": 0,
+      "pass": true,
+      "evidence": "evidence/redo/r08/worker/cards/worker-cards-default-tablet768-768x1024.png"
+    },
+    {
+      "route": "worker-home",
+      "viewport": "390x844",
+      "overflow": 0,
+      "pass": true,
+      "evidence": "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png"
+    },
+    {
+      "route": "worker-cards",
+      "viewport": "390x844",
+      "overflow": 0,
+      "pass": true,
+      "evidence": "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
+    },
+    {
+      "route": "worker-home",
+      "viewport": "360x800",
+      "overflow": 0,
+      "pass": true,
+      "evidence": "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png"
+    },
+    {
+      "route": "worker-cards",
+      "viewport": "360x800",
+      "overflow": 0,
+      "pass": true,
+      "evidence": "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
+    }
+  ],
+  "states": [],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "requestFailures": [],
+  "responses4xx5xx": [],
+  "screenshots": [
+    "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png",
+    "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
+    "evidence/redo/r08/worker/home/worker-home-default-desktop1280-1280x900.png",
+    "evidence/redo/r08/worker/cards/worker-cards-default-desktop1280-1280x900.png",
+    "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png",
+    "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png",
+    "evidence/redo/r08/worker/home/worker-home-default-tablet768-768x1024.png",
+    "evidence/redo/r08/worker/cards/worker-cards-default-tablet768-768x1024.png",
+    "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png",
+    "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png",
+    "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png",
+    "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
+  ],
+  "pass": true
+}
