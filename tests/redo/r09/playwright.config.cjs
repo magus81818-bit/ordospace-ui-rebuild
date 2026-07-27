@@ -1,0 +1,2 @@
+const path=require('node:path');
+module.exports={testDir:__dirname,timeout:180000,workers:1,retries:0,reporter:[['json',{outputFile:path.resolve(__dirname,'../../../artifacts/redo/r09/playwright-report.json')}],['list']],use:{headless:true,trace:'retain-on-failure',screenshot:'only-on-failure'},outputDir:path.resolve(__dirname,'../../../artifacts/redo/r09/playwright-output'),webServer:{command:'node static-server.cjs',cwd:__dirname,port:4184,reuseExistingServer:false,timeout:30000}};
