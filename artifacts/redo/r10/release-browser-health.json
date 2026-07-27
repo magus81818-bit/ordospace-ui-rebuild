@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-07-27T08:39:47.050Z",
+  "source": "clean-room Round 9 full browser rerun",
+  "consoleErrors": [],
+  "pageErrors": [],
+  "newRequestFailures": [],
+  "newHttpFailures": [],
+  "unhandledRejections": [],
+  "observerLoopFailures": [],
+  "duplicateActionFailures": [],
+  "overflowCases": 0,
+  "knownBaselineRequestFailures": [
+    {
+      "url": "https://fonts.gstatic.com/s/orbitron/v35/yMJRMIlzdpvBhQQL_Qq7dy0.woff2",
+      "baselineCount": 1,
+      "currentCount": 1,
+      "actualMeasured": true,
+      "classification": "measured-baseline-failure",
+      "sourceEquivalent": true
+    }
+  ],
+  "jsAssetFailures": [],
+  "cssAssetFailures": [],
+  "routeMismatches": [],
+  "roleLeaks": [],
+  "pass": true
+}

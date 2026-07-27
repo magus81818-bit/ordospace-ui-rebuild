@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-07-27T08:39:47.050Z",
+  "phase": "premerge",
+  "gitPrestatePass": true,
+  "sourceRepositoryIntegrityPass": true,
+  "approvalChainPass": true,
+  "releaseProductDiffPass": true,
+  "inventory73Pass": true,
+  "stateRegistryPass": true,
+  "browserPass": true,
+  "browserHealthPass": true,
+  "securitySecretAuditPass": true,
+  "cleanArtifactRows": [
+    {
+      "file": "artifacts/redo/r09/frozen-public-regression.json",
+      "source": "approved submission after clean-room removal",
+      "exists": true,
+      "sha256": "c48c9091fabe92d0bf4dfce4ddeffbba184593472df8f766e9d702e04d8b4798",
+      "submittedSha256": "c48c9091fabe92d0bf4dfce4ddeffbba184593472df8f766e9d702e04d8b4798",
+      "meaningMatch": true
+    },
+    {
+      "file": "artifacts/redo/r09/responsive-layout-audit.json",
+      "source": "approved submission after clean-room removal",
+      "exists": true,
+      "sha256": "99e448246fb47c0f532b245a9699f56a3258b9bc53ae815a12a753f5407f4cb9",
+      "submittedSha256": "99e448246fb47c0f532b245a9699f56a3258b9bc53ae815a12a753f5407f4cb9",
+      "meaningMatch": true
+    },
+    {
+      "file": "artifacts/redo/r09/role-isolation-audit.json",
+      "source": "approved submission after clean-room removal",
+      "exists": true,
+      "sha256": "a41e43ca2d5ec8f0052531007e049acfb74ebb8d849d23e7719d0ea3b5d8c2a7",
+      "submittedSha256": "a41e43ca2d5ec8f0052531007e049acfb74ebb8d849d23e7719d0ea3b5d8c2a7",
+      "meaningMatch": true
+    },
+    {
+      "file": "artifacts/redo/r09/ui-072-implementation-audit.json",
+      "source": "approved submission after clean-room removal",
+      "exists": true,
+      "sha256": "e8fdd45ecf35da3841b657069b240f26d96f802d49ef48f8e3b43810336f4ed0",
+      "submittedSha256": "e8fdd45ecf35da3841b657069b240f26d96f802d49ef48f8e3b43810336f4ed0",
+      "meaningMatch": true
+    },
+    {
+      "file": "artifacts/redo/r09/ui-lab-audit.json",
+      "source": "approved submission after clean-room removal",
+      "exists": true,
+      "sha256": "6ad2c91e5ec1d3ba614c1937d224a43473530ce347f39a027b7f09ac02641860",
+      "submittedSha256": "6ad2c91e5ec1d3ba614c1937d224a43473530ce347f39a027b7f09ac02641860",
+      "meaningMatch": true
+    },
+    {
+      "file": "artifacts/redo/r09/browser-health-audit.json",
+      "source": "approved submission after clean-room removal",
+      "exists": true,
+      "sha256": "3d5d0f4fd81054b8f2cfeccd8abae9babc55fd4c19420fdeca5160107705e16f",
+      "submittedSha256": "3d5d0f4fd81054b8f2cfeccd8abae9babc55fd4c19420fdeca5160107705e16f",
+      "meaningMatch": true
+    },
+    {
+      "file": "artifacts/redo/r09/playwright-report.json",
+      "source": "approved submission after clean-room removal",
+      "exists": true,
+      "sha256": "81314159b37679f146d1b62dbfdb95f0f65dfb694fda3d85be74880e9c8a0c9a",
+      "submittedSha256": "81314159b37679f146d1b62dbfdb95f0f65dfb694fda3d85be74880e9c8a0c9a",
+      "meaningMatch": true
+    },
+    {
+      "file": "artifacts/redo/r09/verification-summary.json",
+      "source": "approved submission after clean-room removal",
+      "exists": true,
+      "sha256": "83bba6c340be39039faec51f388ac2ffd814279b6abb0cb2d940dbbe5e10460b",
+      "submittedSha256": "83bba6c340be39039faec51f388ac2ffd814279b6abb0cb2d940dbbe5e10460b",
+      "meaningMatch": true
+    },
+    {
+      "file": "artifacts/redo/r09/state-assertion-audit.json",
+      "source": "approved submission after clean-room removal",
+      "exists": true,
+      "sha256": "a867def90d9905de7740e0367a9b311f2359fb491d39ea6672f9252e0b4a3610",
+      "submittedSha256": "a867def90d9905de7740e0367a9b311f2359fb491d39ea6672f9252e0b4a3610",
+      "meaningMatch": true
+    }
+  ],
+  "premergeGate": {
+    "cleanRoomPass": true,
+    "approvalChainPass": true,
+    "releaseProductDiffPass": true,
+    "inventory73Pass": true,
+    "stateRegistryPass": true,
+    "round1Through9Pass": true,
+    "backendPass": true,
+    "browserPass": true,
+    "browserHealthPass": true,
+    "sourceRepositoryIntegrityPass": true,
+    "failures": [],
+    "pass": true
+  },
+  "pass": true,
+  "independentValidation": {
+    "generatedAt": "2026-07-27T08:39:53.444Z",
+    "checks": 13,
+    "failures": [],
+    "pass": true
+  }
+}

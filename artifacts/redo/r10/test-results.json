@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-07-27T17:33:33.2614894+09:00",
+  "source": "fresh clean-room at approved Round 9 HEAD",
+  "commands": [
+    {"name": "npm ci root", "exitCode": 0, "status": "PASS"},
+    {"name": "npm ci backend", "exitCode": 0, "status": "PASS"},
+    {"name": "npm ci test packages r01-r04", "exitCode": 0, "status": "PASS"},
+    {"name": "Round 1", "exitCode": 0, "status": "PASS", "result": "4/4"},
+    {"name": "Round 2", "exitCode": 0, "status": "PASS", "result": "73/73 Matrix"},
+    {"name": "Round 3", "exitCode": 0, "status": "PASS", "result": "4/4"},
+    {"name": "Round 4", "exitCode": 0, "status": "PASS", "result": "9/9"},
+    {"name": "Round 5", "exitCode": 0, "status": "PASS", "result": "4/4"},
+    {"name": "Round 6", "exitCode": 0, "status": "PASS", "result": "5/5"},
+    {"name": "Round 7 final", "exitCode": 0, "status": "PASS", "result": "3/3"},
+    {"name": "Round 8", "exitCode": 0, "status": "PASS", "result": "3/3"},
+    {"name": "Round 9", "exitCode": 0, "status": "PASS", "result": "6/6 plus independent validator"},
+    {"name": "Root build", "exitCode": 0, "status": "PASS"},
+    {"name": "JavaScript syntax", "exitCode": 0, "status": "PASS"},
+    {"name": "Static components", "exitCode": 0, "status": "PASS"},
+    {"name": "Static lifecycle", "exitCode": 0, "status": "PASS"},
+    {"name": "Root smoke", "exitCode": 0, "status": "PASS", "result": "12 routes, runtime QA 20/20"},
+    {"name": "React MVP", "exitCode": 0, "status": "PASS"},
+    {"name": "Backend Prisma generation", "exitCode": 0, "status": "PASS"},
+    {"name": "Backend tests", "exitCode": 0, "status": "PASS", "result": "4/4 suites, 18/18 tests"},
+    {"name": "Backend type", "exitCode": 0, "status": "PASS"},
+    {"name": "Backend build", "exitCode": 0, "status": "PASS"}
+  ],
+  "resolvedAttempts": [
+    {
+      "name": "Round 7 initial validator attempt",
+      "exitCode": 1,
+      "status": "RESOLVED",
+      "result": "3/3 browser tests passed; only the pre-existing branch-name allowlist rejected redo/r10. A disposable r09-compatible name was used without source changes."
+    }
+  ],
+  "warnings": [
+    "Root: 3 high dependency advisories.",
+    "Backend: 4 moderate and 21 high dependency advisories.",
+    "Deprecated locked test dependencies: inflight and glob.",
+    "Browserslist caniuse-lite is outdated.",
+    "Backend Jest uses experimental VM Modules."
+  ],
+  "auditFixPerformed": false,
+  "productionDatabaseMutation": false,
+  "productionApiMutation": false,
+  "round1Through9Pass": true,
+  "backendPass": true,
+  "pass": true
+}

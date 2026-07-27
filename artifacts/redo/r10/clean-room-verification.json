@@ -1,0 +1,82 @@
+{
+  "generatedAt": "2026-07-27T17:33:33.2614894+09:00",
+  "path": "C:\\Users\\Admin\\Documents\\Codex\\2026-07-21\\referenced-chatgpt-conversation-this-is-untrusted\\work\\ordospace-r10-cleanroom",
+  "commit": "67dc87679d77e85b98a5cce85cf3e4c388f609ae",
+  "verificationEvidenceBranch": "redo/r09-cleanroom-r10-evidence",
+  "verificationEvidenceHead": "86f3444641d682595f00c172e69cfd28de7d256d",
+  "freshDependencyInstallation": true,
+  "dependencyInstallations": [
+    {
+      "cwd": ".",
+      "command": "npm.cmd ci",
+      "exitCode": 0,
+      "durationSeconds": 9.4,
+      "advisory": "3 high severity vulnerabilities; no audit fix performed."
+    },
+    {
+      "cwd": "backend",
+      "command": "npm.cmd ci",
+      "exitCode": 0,
+      "durationSeconds": 14,
+      "advisory": "4 moderate and 21 high vulnerabilities; no audit fix performed."
+    },
+    {
+      "cwd": "tests/redo/r01 through r04",
+      "command": "npm.cmd ci in each isolated test package",
+      "exitCode": 0,
+      "durationSeconds": 8.6,
+      "advisory": "Deprecated inflight/glob notices from the locked test dependency graph."
+    }
+  ],
+  "initialRound7Attempt": {
+    "exitCode": 1,
+    "browserTests": "3/3 PASS",
+    "failure": "Existing Round 7 validator allowed redo/r07, redo/r08, and redo/r09 branch names but not redo/r10.",
+    "resolution": "Renamed only the disposable evidence branch to redo/r09-cleanroom-r10-evidence; product and validator sources were unchanged.",
+    "expectationChanged": false
+  },
+  "commands": [
+    {"name": "Round 9 full browser and independent validator", "command": "npm.cmd --prefix tests/redo/r09 run validate", "exitCode": 0, "durationSeconds": 234, "result": "6/6 browser tests and independent validator passed."},
+    {"name": "Round 1 browser", "command": "npm.cmd --prefix tests/redo/r01 run audit", "exitCode": 0, "durationSeconds": 36.6, "result": "4/4 passed."},
+    {"name": "Round 2 Matrix", "command": "npm.cmd --prefix tests/redo/r02 run validate", "exitCode": 0, "durationSeconds": 1, "result": "73 inventory and 73 Matrix rows passed."},
+    {"name": "Round 3", "command": "npm.cmd --prefix tests/redo/r03 run validate", "exitCode": 0, "durationSeconds": 48.2, "result": "4/4 and validator passed."},
+    {"name": "Round 4", "command": "npm.cmd --prefix tests/redo/r04 run validate", "exitCode": 0, "durationSeconds": 58.6, "result": "9/9 and validator passed."},
+    {"name": "Round 5", "command": "npm.cmd --prefix tests/redo/r05 run validate", "exitCode": 0, "durationSeconds": 18.9, "result": "4/4 and validator passed."},
+    {"name": "Round 6", "command": "npm.cmd --prefix tests/redo/r06 run validate", "exitCode": 0, "durationSeconds": 29.5, "result": "5/5 and validator passed."},
+    {"name": "Round 7 final", "command": "npm.cmd --prefix tests/redo/r07 run validate", "exitCode": 0, "durationSeconds": 21.7, "result": "3/3 and validator passed on compatible disposable branch name."},
+    {"name": "Round 8", "command": "npm.cmd --prefix tests/redo/r08 run validate", "exitCode": 0, "durationSeconds": 37.5, "result": "3/3 and validator passed."},
+    {"name": "Root build", "command": "npm.cmd run build", "exitCode": 0, "result": "Tailwind and vendored Lucide build passed."},
+    {"name": "JavaScript syntax", "command": "npm.cmd run check:js", "exitCode": 0, "result": "All listed JavaScript sources parsed."},
+    {"name": "Static components", "command": "npm.cmd run static:validate-components", "exitCode": 0, "result": "35 namespace entries and 19 escaping outputs passed."},
+    {"name": "Static lifecycle", "command": "npm.cmd run static:validate-lifecycle", "exitCode": 0, "result": "Worker, Admin, Client, and persistence lifecycle checks passed."},
+    {"name": "Root smoke", "command": "npm.cmd run smoke", "exitCode": 0, "result": "12 routes and runtime QA 20/20 passed."},
+    {"name": "React MVP", "command": "npm.cmd run mvp:check", "exitCode": 0, "result": "All data, session, route, lifecycle, persistence, form, and Vite build checks passed."},
+    {"name": "Backend Prisma generation", "command": "npm.cmd --prefix backend exec prisma generate", "exitCode": 0, "result": "Prisma Client 7.8.0 generated in the disposable worktree."},
+    {"name": "Backend tests", "command": "npm.cmd --prefix backend test -- --runInBand", "exitCode": 0, "result": "4/4 suites and 18/18 tests passed."},
+    {"name": "Backend type", "command": "npm.cmd --prefix backend run type", "exitCode": 0, "result": "TypeScript noEmit passed."},
+    {"name": "Backend build", "command": "npm.cmd --prefix backend run build", "exitCode": 0, "result": "TypeScript build passed."}
+  ],
+  "warnings": [
+    "Root dependency audit reports 3 high vulnerabilities.",
+    "Backend dependency audit reports 4 moderate and 21 high vulnerabilities.",
+    "Locked test dependencies report deprecated inflight and glob versions.",
+    "Browserslist caniuse-lite update notice.",
+    "Node experimental VM Modules warning in backend tests."
+  ],
+  "productArtifactHash": {
+    "algorithm": "sha256",
+    "paths": ["app", "api", "backend", "react-mvp", "tools", "index.html", "package.json", "package-lock.json", "vercel.json", "tailwind.config.cjs"],
+    "expected": "ffb97921f2807d2dc1e16893abfb0aadc4330307c4b142791a6a05f1005d33e8",
+    "generated": "ffb97921f2807d2dc1e16893abfb0aadc4330307c4b142791a6a05f1005d33e8",
+    "difference": false
+  },
+  "round1Through9Pass": true,
+  "backendPass": true,
+  "freshBuildPass": true,
+  "freshStaticValidationPass": true,
+  "freshBrowserPass": true,
+  "untrackedDependencyCount": 0,
+  "localOnlySourceCount": 0,
+  "worktreeCleanAfterVerification": true,
+  "pass": true
+}

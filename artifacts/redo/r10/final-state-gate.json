@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-07-27T08:39:47.050Z",
+  "source": "artifacts/redo/r09/full-state-coverage.json",
+  "implemented": 528,
+  "notApplicable": 675,
+  "sourceStateRows": 488,
+  "explicitAssertionRows": 40,
+  "registryKeys": 40,
+  "executedKeys": 40,
+  "uniqueEvidence": 40,
+  "noRealAssertionRows": 0,
+  "markerOnlyRows": 0,
+  "broadTitleViolations": 0,
+  "missingEvidence": [],
+  "invalid": 0,
+  "deferred": 0,
+  "missing": 0,
+  "fabricatedUniformStateRows": 0,
+  "unrelatedCrossRoleDuplicateEvidence": [],
+  "registryBrowserTestPass": true,
+  "pass": true
+}

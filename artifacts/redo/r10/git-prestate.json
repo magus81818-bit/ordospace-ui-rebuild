@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-07-27T08:39:47.050Z",
+  "repository": "magus81818-bit/ordospace-ui-rebuild",
+  "branch": "redo/r10-release-acceptance",
+  "startHead": "67dc87679d77e85b98a5cce85cf3e4c388f609ae",
+  "currentHead": "67dc87679d77e85b98a5cce85cf3e4c388f609ae",
+  "expectedRound9Head": "67dc87679d77e85b98a5cce85cf3e4c388f609ae",
+  "round9MergeBase": "67dc87679d77e85b98a5cce85cf3e4c388f609ae",
+  "round8MergeBase": "2911cc85922bf32f31d051216aca9f29ed906564",
+  "mainBefore": "081f09840c02cf3b448c2dc220763f8d69d99660",
+  "originMain": "081f09840c02cf3b448c2dc220763f8d69d99660",
+  "remote": "https://github.com/magus81818-bit/ordospace-ui-rebuild.git",
+  "cleanAtBranchCreation": true,
+  "currentAllowedChanges": [
+    "?? artifacts/redo/r10/",
+    "?? docs/redo/r10/",
+    "?? evidence/redo/r10/",
+    "?? references/prompts/round-10.md",
+    "?? tests/redo/r10/"
+  ],
+  "cherryPickPerformed": false,
+  "previousFailedBranchReused": false,
+  "round9ArtifactsModified": false,
+  "pass": true
+}

@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-07-27T08:39:47.050Z",
+  "approvedRound9Head": "67dc87679d77e85b98a5cce85cf3e4c388f609ae",
+  "releaseCandidateHead": "67dc87679d77e85b98a5cce85cf3e4c388f609ae",
+  "changedFromRound9": [],
+  "worktreeAllowedPaths": [
+    "artifacts/redo/r10/",
+    "docs/redo/r10/",
+    "evidence/redo/r10/",
+    "references/prompts/round-10.md",
+    "tests/redo/r10/"
+  ],
+  "allowedRound10Prefixes": [
+    "artifacts/redo/r10/",
+    "evidence/redo/r10/",
+    "docs/redo/r10/",
+    "tests/redo/r10/",
+    "references/prompts/round-10.md"
+  ],
+  "unexpectedProductFiles": [],
+  "matrixDiff": [],
+  "publicDiff": [],
+  "dataApiBackendDiff": [],
+  "dependencyDiff": [],
+  "fontDiff": [],
+  "productionConfigDiff": [],
+  "directLifecycleStatusAssignments": [],
+  "duplicatedRenderers": [],
+  "mockApplications": [],
+  "copiedFrameworks": [],
+  "pass": true
+}

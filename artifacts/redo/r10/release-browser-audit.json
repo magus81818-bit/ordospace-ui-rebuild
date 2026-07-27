@@ -1,0 +1,532 @@
+{
+  "generatedAt": "2026-07-27T08:39:47.050Z",
+  "sourceCleanroom": "C:\\Users\\Admin\\Documents\\Codex\\2026-07-21\\referenced-chatgpt-conversation-this-is-untrusted\\work\\ordospace-r10-cleanroom",
+  "cleanroomAvailableAtGeneration": false,
+  "cleanroomExecutionProvenBy": "artifacts/redo/r10/clean-room-verification.json",
+  "sourceCommit": "67dc87679d77e85b98a5cce85cf3e4c388f609ae",
+  "releaseCandidateProductEquivalent": true,
+  "publicCases": 18,
+  "authenticatedResponsiveCases": 60,
+  "roleIsolationCases": 60,
+  "ui072Cases": 4,
+  "uiLabCases": 3,
+  "copiedEvidenceCount": 85,
+  "copiedEvidence": [
+    {
+      "source": "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-landing-desktop-1440x1000.png",
+      "sha256": "6fa464ee38ebb79437f491de22adb4074f63f53edca4289efd6a02bf618f6d08",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-auth-desktop-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-auth-desktop-1440x1000.png",
+      "sha256": "726d783e30ee98412fc445979612e1e2729ef4fbb50c7709d25e951936bf7a63",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-terms-desktop-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-terms-desktop-1440x1000.png",
+      "sha256": "dd9bcf248ec0be390a4e7f7b885e8ce2355bcbe295954b816bee010a06ccde0c",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-privacy-desktop-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-privacy-desktop-1440x1000.png",
+      "sha256": "49f613d4cc1eb7b90df6267e5420235d943fb8636f8ed152a83a5205e465835e",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-support-desktop-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-support-desktop-1440x1000.png",
+      "sha256": "ec086af4443ead319d6f30f2d8b325827c4bf4a95ce10949e271ca520839532e",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-select-workspace-desktop-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-select-workspace-desktop-1440x1000.png",
+      "sha256": "beee6bb125c32bf86f2ba8d01c1ff56ce4d5cf66a2dce6bd4ed642ed2ff23891",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-landing-tablet-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-landing-tablet-1024x1366.png",
+      "sha256": "e0aa8ef0c5c3f72d3450b03843959f1babcab6f52492a1f5b2b3d4c2e1045050",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-auth-tablet-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-auth-tablet-1024x1366.png",
+      "sha256": "c35c575e31768cbab32dac28b9f6f79ca9594572c5da256b758cf401e4ddfaa5",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-terms-tablet-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-terms-tablet-1024x1366.png",
+      "sha256": "d3ca13b6d038bd7226093eb3f2f83ee8bd9955989f655981877ed116d59ada4c",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-privacy-tablet-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-privacy-tablet-1024x1366.png",
+      "sha256": "8d13074a3f7d3f4de86018a4ccf41ee58ce765bf9edc2287bf298b382e79cb21",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-support-tablet-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-support-tablet-1024x1366.png",
+      "sha256": "8fc9d66a6ec9dfb96c5c7a50d500834f7fd10c16a168e1ab329028aa4b4a6fda",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-select-workspace-tablet-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-select-workspace-tablet-1024x1366.png",
+      "sha256": "ed9211053e339b813faf4d63852adf0cacf533b706b19e599902fc2d4a8f7933",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-landing-mobile-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-landing-mobile-390x844.png",
+      "sha256": "6f0522bd9e8f014117119059835153a4a1cf15ab338cd9b75b6e7fcf58c439c9",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-auth-mobile-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-auth-mobile-390x844.png",
+      "sha256": "9119613c47304dbb93433b0784e3a467dce152ea82630328f55ff3f3f1f57543",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-terms-mobile-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-terms-mobile-390x844.png",
+      "sha256": "f86dfadd5368745057a74ebf4099d4ebb526efa3762a7eefdbc5d4b1843f3f15",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-privacy-mobile-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-privacy-mobile-390x844.png",
+      "sha256": "ad6420ca2a6150838b84b414ca944e33ba91d31d8e6ac02652113f6db6277e09",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-support-mobile-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-support-mobile-390x844.png",
+      "sha256": "0fecec9c19d9c7fc559530adc7dae839d9b6760907bdfeaec25087ed4aee8258",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/frozen-public/public-select-workspace-mobile-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/public/public-select-workspace-mobile-390x844.png",
+      "sha256": "dc1dfcd3920b9ba66f864f496518a46568264bdfbdfe0d368e0fa89d142ecc24",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-home-default-desktop1440-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-home-default-desktop1440-1440x1000.png",
+      "sha256": "b5fc0b3c61a851638d9b99f6fb4e1a6f3de7cdd189a336c0648db72992fe399d",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-projects-default-desktop1440-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-projects-default-desktop1440-1440x1000.png",
+      "sha256": "a12e0e2171b1f529b5f03fc93f27d139e89bd7cb29a882df307650d7eaff3609",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-cards-default-desktop1440-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-cards-default-desktop1440-1440x1000.png",
+      "sha256": "b70454affa809e6e64046e5b2831440c72bbef61b9053aa90d2308a34d8cdb2b",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-team-default-desktop1440-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-team-default-desktop1440-1440x1000.png",
+      "sha256": "ab7c53f90b8de9bdf837e00c96e5a9172f7cd2190f4e739fc43166e23a6271aa",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-audit-default-desktop1440-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-audit-default-desktop1440-1440x1000.png",
+      "sha256": "653fdfd3986302a862d5eeac401f41c3180e418eef5cc73659fb7c31c2615e58",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-dashboard-default-desktop1440-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-dashboard-default-desktop1440-1440x1000.png",
+      "sha256": "48c05113a919878a50e0496a3a878ddfdda0cd2fbb195ee43a5295a6312c030d",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-project-default-desktop1440-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-project-default-desktop1440-1440x1000.png",
+      "sha256": "01b3006b03c31bfe3de6458853174c4171fa98296080583ec93024c1e830b8c3",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-approvals-default-desktop1440-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-approvals-default-desktop1440-1440x1000.png",
+      "sha256": "6ad7432f2c065f2f07210bd8a302bf6c0d4e3f9b95ace23677f75917561dc828",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/worker/worker-worker-home-default-desktop1440-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/worker/worker-worker-home-default-desktop1440-1440x1000.png",
+      "sha256": "185f915bed8566dea2d39216561020737f604283ffc664b9eae3c45805909473",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/worker/worker-worker-cards-default-desktop1440-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/worker/worker-worker-cards-default-desktop1440-1440x1000.png",
+      "sha256": "919406ff57d253a86f4214a40a3d8dd853c80f8a0ff27ea71a3a7c3e8afe3c29",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-home-default-desktop1280-1280x900.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-home-default-desktop1280-1280x900.png",
+      "sha256": "6ad0e7ea92cf38a339331f875c10fa545662bdbd1950bb94337d93a3008897dd",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-projects-default-desktop1280-1280x900.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-projects-default-desktop1280-1280x900.png",
+      "sha256": "57dc64e2e1f976948d1e7dad45efa0b19375a91e144b739e4bd9c6c9d0bf7e93",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-cards-default-desktop1280-1280x900.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-cards-default-desktop1280-1280x900.png",
+      "sha256": "50d4d8acd3fddaf9b1e85d4a18041137c412847fa8cab1f58a4f6b259820c410",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-team-default-desktop1280-1280x900.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-team-default-desktop1280-1280x900.png",
+      "sha256": "4f7b8acd821ebd01740c46e8a4b3a7302021159ce97b6a98a308a096f2f675fc",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-audit-default-desktop1280-1280x900.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-audit-default-desktop1280-1280x900.png",
+      "sha256": "a3e4e13180e5e8701f6f6e8218df7c212cb97ead308c43b75a92dbd63f907378",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-dashboard-default-desktop1280-1280x900.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-dashboard-default-desktop1280-1280x900.png",
+      "sha256": "3de27a9c9b7c2d3f5b2ce781afd998df5347db887ef46a5db33908dd61000007",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-project-default-desktop1280-1280x900.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-project-default-desktop1280-1280x900.png",
+      "sha256": "9be6870c6ac6a5dfa95ffecbd0ea6b54c5c513bb66260c48791111509f6e29ae",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-approvals-default-desktop1280-1280x900.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-approvals-default-desktop1280-1280x900.png",
+      "sha256": "a655570e81596b79a5255e73229071ce46ca5696861f145b8dc2b5234ad2dc09",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/worker/worker-worker-home-default-desktop1280-1280x900.png",
+      "destination": "evidence/redo/r10/predeploy/worker/worker-worker-home-default-desktop1280-1280x900.png",
+      "sha256": "960ce9af855b31680eeda8b6f38c416a49d3458171d217121fe5c5aebdd67eba",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/worker/worker-worker-cards-default-desktop1280-1280x900.png",
+      "destination": "evidence/redo/r10/predeploy/worker/worker-worker-cards-default-desktop1280-1280x900.png",
+      "sha256": "658c73290a0a621c9905b0b21402fa204e4b215efc682df08fd40beec84e0612",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-home-default-tablet1024-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-home-default-tablet1024-1024x1366.png",
+      "sha256": "fbbe63f6b0eea4f464d2067413291e4ade01fd1f8772a0a731c721deb36e34b1",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-projects-default-tablet1024-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-projects-default-tablet1024-1024x1366.png",
+      "sha256": "e11cd97f3663904c18959818b881b3edc82652eef78bf444bda3a9c7620880aa",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-cards-default-tablet1024-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-cards-default-tablet1024-1024x1366.png",
+      "sha256": "9367cdefd43546a115cc6b745ad40363f3b6499a8c7eb70f9fb93c63c61cf3c9",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-team-default-tablet1024-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-team-default-tablet1024-1024x1366.png",
+      "sha256": "a8c03979b376bebfbb2c0ba3a397dbe7d05e3af497befbca1b93b2fcdd309c87",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-audit-default-tablet1024-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-audit-default-tablet1024-1024x1366.png",
+      "sha256": "e0ce189d4784b7cbf9d620500c9ed8c9466778c71a6f601f9f5b419f9c27c573",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-dashboard-default-tablet1024-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-dashboard-default-tablet1024-1024x1366.png",
+      "sha256": "6117692fddb404f95af5b683509078afbb04c0ad6a1d4bd8abd9e49661342cd7",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-project-default-tablet1024-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-project-default-tablet1024-1024x1366.png",
+      "sha256": "9f5aff124ef119d2f3a42c0c8d3fd3fa10339b932612a2be53b5720484b5e0a7",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-approvals-default-tablet1024-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-approvals-default-tablet1024-1024x1366.png",
+      "sha256": "251de5414531a51256eae0f71f47e956aec2b8a4ffc3a499c80f766f9784f0f9",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/worker/worker-worker-home-default-tablet1024-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/worker/worker-worker-home-default-tablet1024-1024x1366.png",
+      "sha256": "8cbc336654076f8588ad36b91b0c286c9f4f37c5610b59d1ad90cc77d574e1dd",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/worker/worker-worker-cards-default-tablet1024-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/worker/worker-worker-cards-default-tablet1024-1024x1366.png",
+      "sha256": "1461fd19be027f2bd8d096b53faf09118add59b6f27e264cca7387ee314c3cdf",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-home-default-tablet768-768x1024.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-home-default-tablet768-768x1024.png",
+      "sha256": "574eb6607ae407944096aac3ddea358b4a426b0d789e4c5cea098986bd85a53b",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-projects-default-tablet768-768x1024.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-projects-default-tablet768-768x1024.png",
+      "sha256": "085103e0175239dd96c5876917b043bd242d3ba8069c2ab5ea54ebfaa434c728",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-cards-default-tablet768-768x1024.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-cards-default-tablet768-768x1024.png",
+      "sha256": "b6682e0dc3e874914433362c6e5c6027a3444d48c9a733f3f6c2aabb90203b08",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-team-default-tablet768-768x1024.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-team-default-tablet768-768x1024.png",
+      "sha256": "8a60c5c34196abca542a8a6f2374efe3d43636ea43137e03d87e50d7b8ba3416",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-audit-default-tablet768-768x1024.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-audit-default-tablet768-768x1024.png",
+      "sha256": "d66aac27df08b3bc5e15744462d6f5d555aec7c97b07a00b5adc933718eed0cd",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-dashboard-default-tablet768-768x1024.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-dashboard-default-tablet768-768x1024.png",
+      "sha256": "aa4d11ee18f06313e3973240a39cfedb478f76a04db4eee726e3861187bca16c",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-project-default-tablet768-768x1024.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-project-default-tablet768-768x1024.png",
+      "sha256": "ec16723b29808c5794515a0779f4299626f990088d05c25cfa26502927cb6f2f",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-approvals-default-tablet768-768x1024.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-approvals-default-tablet768-768x1024.png",
+      "sha256": "64acb919730264b831b734deae8b3dedb26fd07084cffb6f906b3427194f12a6",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/worker/worker-worker-home-default-tablet768-768x1024.png",
+      "destination": "evidence/redo/r10/predeploy/worker/worker-worker-home-default-tablet768-768x1024.png",
+      "sha256": "ab76f068aaa0e0ad29300dab150847cdb54063189c958574dea39a0fe9ee7432",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/worker/worker-worker-cards-default-tablet768-768x1024.png",
+      "destination": "evidence/redo/r10/predeploy/worker/worker-worker-cards-default-tablet768-768x1024.png",
+      "sha256": "390e3f3f24457252522a5696d29cfc528aaac2d430a3ad2bff009cfb9cf3e44b",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-home-default-mobile390-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-home-default-mobile390-390x844.png",
+      "sha256": "1d6af88884cf1309620775af51ae746da8493cac15be25c447968398d920f983",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-projects-default-mobile390-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-projects-default-mobile390-390x844.png",
+      "sha256": "9b0ac4fd7ea35b53d3163c4a826bf01ed6edee07b12183abe69d380bcabd0c0e",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-cards-default-mobile390-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-cards-default-mobile390-390x844.png",
+      "sha256": "a05d73c827652d97ea1ec3dec6cab85db92432fa77d24f3912784be818ae9d8a",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-team-default-mobile390-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-team-default-mobile390-390x844.png",
+      "sha256": "0f1432281986a1bb9cc296020ebc67cd9cbd5d26c859a2b9d4eb320d07f2918d",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-audit-default-mobile390-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-audit-default-mobile390-390x844.png",
+      "sha256": "21d027c81404268b3fc93ca838568561d3df4bb77c0a0527d2cb1122a52b4191",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-dashboard-default-mobile390-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-dashboard-default-mobile390-390x844.png",
+      "sha256": "ea67d304ac7faf80f0f89209977a9f540fb061a82fe3be765770fb323b19480e",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-project-default-mobile390-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-project-default-mobile390-390x844.png",
+      "sha256": "10c88ae194f934456208fec645cf1553fa9e3ca6fc1d3ec65c23b3ea90733a4c",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-approvals-default-mobile390-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-approvals-default-mobile390-390x844.png",
+      "sha256": "609a988d8e43b814b32874218259792d178c1c09294817867b021d56a2c8f874",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/worker/worker-worker-home-default-mobile390-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/worker/worker-worker-home-default-mobile390-390x844.png",
+      "sha256": "31a0dabc0576fedac76f984182f86221f324cd8fa727a3d7a5a3791b45394f21",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/worker/worker-worker-cards-default-mobile390-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/worker/worker-worker-cards-default-mobile390-390x844.png",
+      "sha256": "fd12ee41c66801620650ce12f898b68fe3241c77b7966b9a121c76831eab9f3f",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-home-default-mobile360-360x800.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-home-default-mobile360-360x800.png",
+      "sha256": "ea3112a7bd7c062fded232adcee172e8e4ec1a6c222ae3babf6dc19387253cff",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-projects-default-mobile360-360x800.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-projects-default-mobile360-360x800.png",
+      "sha256": "fec714099ad5fc96c2450e656c82b18f9ab15feaf8a401a0a68f1ef420c3e8e5",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-cards-default-mobile360-360x800.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-cards-default-mobile360-360x800.png",
+      "sha256": "536ef036b8bbe0e21078c5ea411e5af42248ce38979cfea96b2e9dd55f7963a1",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-team-default-mobile360-360x800.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-team-default-mobile360-360x800.png",
+      "sha256": "1db02972ce23648ffd216d4222435ddb94f17ec0b454c75912c6e15f8f923dca",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/admin/admin-admin-audit-default-mobile360-360x800.png",
+      "destination": "evidence/redo/r10/predeploy/admin/admin-admin-audit-default-mobile360-360x800.png",
+      "sha256": "64ba820be4e6ea4e8e52d97c451c63b169eee6447a9e74c64c3dfec8d09a9cc0",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-dashboard-default-mobile360-360x800.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-dashboard-default-mobile360-360x800.png",
+      "sha256": "cd2dcc8a0a80a2d0f23a2210751997e972341b806ec05a197bfd4558e698076f",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-project-default-mobile360-360x800.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-project-default-mobile360-360x800.png",
+      "sha256": "6e5b4c17322dafdb284cbd6324fe02eebf7bc3af3d019e8493d257bad113b702",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/client/client-approvals-default-mobile360-360x800.png",
+      "destination": "evidence/redo/r10/predeploy/client/client-approvals-default-mobile360-360x800.png",
+      "sha256": "51e36053c57fd0d13fedb206f11fc3ebc1001c623cda79a9187b4470c50e4dcc",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/worker/worker-worker-home-default-mobile360-360x800.png",
+      "destination": "evidence/redo/r10/predeploy/worker/worker-worker-home-default-mobile360-360x800.png",
+      "sha256": "d7249707dfe2849ce9f8c4c602e06a70d5f758337d26cd3eafe0dee98ff50f0a",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/worker/worker-worker-cards-default-mobile360-360x800.png",
+      "destination": "evidence/redo/r10/predeploy/worker/worker-worker-cards-default-mobile360-360x800.png",
+      "sha256": "ac411a28c73d78596801d877cd5e5aea756b43012ebb15672ffc87a36bb1973b",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/shared/shared-forbidden-403-default-desktop-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/shared/shared-forbidden-403-default-desktop-1440x1000.png",
+      "sha256": "185f915bed8566dea2d39216561020737f604283ffc664b9eae3c45805909473",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/shared/shared-forbidden-403-multi-role-tablet-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/shared/shared-forbidden-403-multi-role-tablet-1024x1366.png",
+      "sha256": "b6051b66190ea713e48e5853ca4aa9163884fb5d27ffdf1ac88ddff2d159fee8",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/shared/shared-forbidden-403-long-route-mobile-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/shared/shared-forbidden-403-long-route-mobile-390x844.png",
+      "sha256": "62f51fec14c76f5ab9424afd33e9e7c8153c72166ca6ffba643a358c99b3f3ad",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/shared/shared-forbidden-403-focus-mobile-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/shared/shared-forbidden-403-focus-mobile-390x844.png",
+      "sha256": "85d57be4c6523201b4f26c822ad8a9116a0720764427e6283f15337f5758538e",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/ui-lab/shared-ui-lab-measured-desktop-1440x1000.png",
+      "destination": "evidence/redo/r10/predeploy/shared/shared-ui-lab-measured-desktop-1440x1000.png",
+      "sha256": "1d96b757fd74b14f23258b52347b4c4bc8e77f87c889e993ff2c9a401901d57b",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/ui-lab/shared-ui-lab-measured-tablet-1024x1366.png",
+      "destination": "evidence/redo/r10/predeploy/shared/shared-ui-lab-measured-tablet-1024x1366.png",
+      "sha256": "6d0bee12c69f8f2a656a469b504e7c2439a1982d51f53cec760d9c307e3f28f4",
+      "copiedFromCleanroom": false
+    },
+    {
+      "source": "evidence/redo/r09/ui-lab/shared-ui-lab-measured-mobile-390x844.png",
+      "destination": "evidence/redo/r10/predeploy/shared/shared-ui-lab-measured-mobile-390x844.png",
+      "sha256": "69f240b8a6705b8b022a4a8960f76c3ac6f0e0dc5fce6a6cb8d4a4df1bf2425d",
+      "copiedFromCleanroom": false
+    }
+  ],
+  "publicPass": true,
+  "responsivePass": true,
+  "roleIsolationPass": true,
+  "ui072Pass": true,
+  "uiLabPass": true,
+  "pass": true
+}

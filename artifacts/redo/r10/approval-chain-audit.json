@@ -1,0 +1,117 @@
+{
+  "generatedAt": "2026-07-27T08:39:47.050Z",
+  "rounds": [
+    {
+      "round": 1,
+      "approvedHead": "f10779ef7dcb0e419c85497eebf45888303b557a",
+      "parentApprovedHead": "",
+      "remoteBranch": "redo/r01-baseline-audit",
+      "remoteHead": "f10779ef7dcb0e419c85497eebf45888303b557a",
+      "exists": true,
+      "descendant": true,
+      "behind": 0,
+      "unexpectedCommits": [],
+      "pass": true
+    },
+    {
+      "round": 2,
+      "approvedHead": "921280578b4261e1cb25a1f507e0f71915c390d2",
+      "parentApprovedHead": "f10779ef7dcb0e419c85497eebf45888303b557a",
+      "remoteBranch": "redo/r02-salesops-audit",
+      "remoteHead": "921280578b4261e1cb25a1f507e0f71915c390d2",
+      "exists": true,
+      "descendant": true,
+      "behind": 0,
+      "unexpectedCommits": [],
+      "pass": true
+    },
+    {
+      "round": 3,
+      "approvedHead": "9c559913d43efea9d4b7d5a5831b8cf14e636763",
+      "parentApprovedHead": "921280578b4261e1cb25a1f507e0f71915c390d2",
+      "remoteBranch": "redo/r03-dashboard-tokens",
+      "remoteHead": "9c559913d43efea9d4b7d5a5831b8cf14e636763",
+      "exists": true,
+      "descendant": true,
+      "behind": 0,
+      "unexpectedCommits": [],
+      "pass": true
+    },
+    {
+      "round": 4,
+      "approvedHead": "e063545f45caa4c0c9e01b65202cad38cb3ae5ee",
+      "parentApprovedHead": "9c559913d43efea9d4b7d5a5831b8cf14e636763",
+      "remoteBranch": "redo/r04-primitives-ui-lab",
+      "remoteHead": "e063545f45caa4c0c9e01b65202cad38cb3ae5ee",
+      "exists": true,
+      "descendant": true,
+      "behind": 0,
+      "unexpectedCommits": [],
+      "pass": true
+    },
+    {
+      "round": 5,
+      "approvedHead": "65465846487065b861756a8c7353c8df8c63ccc5",
+      "parentApprovedHead": "e063545f45caa4c0c9e01b65202cad38cb3ae5ee",
+      "remoteBranch": "redo/r05-dashboard-shell",
+      "remoteHead": "65465846487065b861756a8c7353c8df8c63ccc5",
+      "exists": true,
+      "descendant": true,
+      "behind": 0,
+      "unexpectedCommits": [],
+      "pass": true
+    },
+    {
+      "round": 6,
+      "approvedHead": "6c4413e68c5239672bc01a1fe18dd926f663506b",
+      "parentApprovedHead": "65465846487065b861756a8c7353c8df8c63ccc5",
+      "remoteBranch": "redo/r06-admin-dashboard",
+      "remoteHead": "6c4413e68c5239672bc01a1fe18dd926f663506b",
+      "exists": true,
+      "descendant": true,
+      "behind": 0,
+      "unexpectedCommits": [],
+      "pass": true
+    },
+    {
+      "round": 7,
+      "approvedHead": "cd70a536a34e5bb23f1ebfd5a6df512893a0b9a6",
+      "parentApprovedHead": "6c4413e68c5239672bc01a1fe18dd926f663506b",
+      "remoteBranch": "redo/r07-client-dashboard",
+      "remoteHead": "cd70a536a34e5bb23f1ebfd5a6df512893a0b9a6",
+      "exists": true,
+      "descendant": true,
+      "behind": 0,
+      "unexpectedCommits": [],
+      "pass": true
+    },
+    {
+      "round": 8,
+      "approvedHead": "2911cc85922bf32f31d051216aca9f29ed906564",
+      "parentApprovedHead": "cd70a536a34e5bb23f1ebfd5a6df512893a0b9a6",
+      "remoteBranch": "redo/r08-worker-dashboard",
+      "remoteHead": "2911cc85922bf32f31d051216aca9f29ed906564",
+      "exists": true,
+      "descendant": true,
+      "behind": 0,
+      "unexpectedCommits": [],
+      "pass": true
+    },
+    {
+      "round": 9,
+      "approvedHead": "67dc87679d77e85b98a5cce85cf3e4c388f609ae",
+      "parentApprovedHead": "2911cc85922bf32f31d051216aca9f29ed906564",
+      "remoteBranch": "redo/r09-integration-verification",
+      "remoteHead": "67dc87679d77e85b98a5cce85cf3e4c388f609ae",
+      "exists": true,
+      "descendant": true,
+      "behind": 0,
+      "unexpectedCommits": [],
+      "pass": true
+    }
+  ],
+  "matrixChanged": false,
+  "round9ValidatorPass": true,
+  "unexpectedMergeCommits": [],
+  "pass": true
+}
