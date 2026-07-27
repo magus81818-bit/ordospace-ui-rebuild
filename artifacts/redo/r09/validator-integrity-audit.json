@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T07:21:15.242Z",
+  "generatedAt": "2026-07-27T07:59:40.294Z",
   "priorValidators": [
     {
       "file": "tests/redo/r01/baseline-audit.spec.cjs",
@@ -100,6 +100,8 @@
   "evidenceRelevanceRequired": true,
   "fabricatedStateDetection": true,
   "invalidRoundPathDetection": true,
+  "exactStateRegistryRequired": true,
+  "documentContentValidationRequired": true,
   "independentValidation": true,
   "pass": true
 }

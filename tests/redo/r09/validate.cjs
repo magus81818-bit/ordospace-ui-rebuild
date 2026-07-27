@@ -1,6 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),cp=require('node:child_process');
 const root=path.resolve(__dirname,'..','..','..'),artifactRoot=path.join(root,'artifacts','redo','r09');
 const read=file=>fs.readFileSync(path.join(root,file),'utf8'),parse=file=>JSON.parse(read(file)),exists=file=>fs.existsSync(path.join(root,file))&&fs.statSync(path.join(root,file)).isFile(),git=args=>cp.execFileSync('git',args,{cwd:root,encoding:'utf8'}).trim();
+const {STATE_ASSERTION_REGISTRY,buildSourceStateRegistry}=require('./state-assertion-registry.cjs');
 const checks=[],check=(name,value,detail='')=>checks.push({name,pass:Boolean(value),detail:String(detail||'')});
 const expectedRound8='2911cc85922bf32f31d051216aca9f29ed906564',expectedRound1='f10779ef7dcb0e419c85497eebf45888303b557a',expectedCounts={'Round 3':3,'Round 4':10,'Round 5':9,'Round 6':21,'Round 7':12,'Round 8':10,'Round 9':8};
 const names=['git-prestate','inventory-scope','full-inventory-audit','full-state-coverage','frozen-public-regression','public-state-audit','public-interaction-audit','public-health','ui-072-implementation-audit','ui-072-source-audit','role-isolation-audit','data-function-parity','accessibility-audit','responsive-layout-audit','css-token-audit','product-diff-audit','validator-integrity-audit','browser-health-audit','ui-lab-audit','authenticated-health','shared-health'];
@@ -28,8 +29,8 @@ check('every inventory item passes internal evidence checks',inventoryItemsAllPa
 check('inventory has no unresolved assignments',inventory.missing.length===0&&inventory.duplicates.length===0&&inventory.roundAssignmentErrors.length===0&&inventory.evidenceMissing.length===0&&inventory.unresolved.length===0);
 check('inventory has no invalid round artifact paths',inventory.invalidRoundArtifactPaths.length===0,JSON.stringify(inventory.invalidRoundArtifactPaths));
 
-const state=artifacts['full-state-coverage'],allowedStatuses=new Set(['implemented','not_applicable']);
-let implementedRows=0,stateArtifactsActuallyMerged=true,stateEvidencePass=true,stateAssertionPass=true;
+const state=artifacts['full-state-coverage'],allowedStatuses=new Set(['implemented','not_applicable']),sourceStateRegistry=buildSourceStateRegistry({r4Coverage:parse('artifacts/redo/r04/primitive-state-coverage.json'),r6Coverage:parse('artifacts/redo/r06/admin-state-coverage.json'),r7Coverage:parse('artifacts/redo/r07/client-state-coverage.json'),r8Coverage:parse('artifacts/redo/r08/worker-state-coverage.json'),publicStates:artifacts['public-state-audit'],ui072:artifacts['ui-072-implementation-audit']});
+let implementedRows=0,stateArtifactsActuallyMerged=true,stateEvidencePass=true,stateAssertionPass=true,stateRowsWithSourceState=0,stateRowsWithRound9Assertions=0,stateRowsWithoutRealAssertion=0,generatedMarkerOnlyRows=0,broadTestTitleReuseViolations=0;
 for(const item of state.items){
  if(!item.sourceItemFound||!Array.isArray(item.sourceArtifacts)||item.sourceArtifacts.length===0||item.sourceArtifacts.some(file=>!exists(file)))stateArtifactsActuallyMerged=false;
  for(const [stateName,row] of Object.entries(item.states||{})){
@@ -37,14 +38,18 @@ for(const item of state.items){
   if(row.status==='implemented'){
    implementedRows+=1;
    if(!Array.isArray(row.evidence)||row.evidence.length===0||row.evidence.some(file=>!exists(file)))stateEvidencePass=false;
-   const marker=`#${item.inventoryId}/${stateName}`,parts=String(row.browserAssertion||'').split('::'),testFile=parts[0],testTitle=(parts[1]||'').split('#')[0];
-   if(!testFile||!exists(testFile)||!testTitle||!read(testFile).includes(testTitle)||!String(row.browserAssertion).includes(marker))stateAssertionPass=false;
+   const key=`${item.inventoryId}/${stateName}`,registryResolved=Boolean(STATE_ASSERTION_REGISTRY[key]||sourceStateRegistry[key]),schemaPass=row.sourceInventoryItemFound===true&&typeof row.sourceStateFound==='boolean'&&row.assertionExecuted===true&&row.assertionRegistryFile==='tests/redo/r09/state-assertion-registry.cjs'&&row.assertionRegistryKey===key&&row.evidenceGeneratedByAssertion===true&&row.pass===true;
+   if(row.sourceStateFound)stateRowsWithSourceState+=1;
+   if(!row.sourceStateFound&&row.assertionExecuted)stateRowsWithRound9Assertions+=1;
+   if(!registryResolved||!schemaPass){stateAssertionPass=false;stateRowsWithoutRealAssertion+=1;}
+   if(Object.prototype.hasOwnProperty.call(row,'browserAssertion'))generatedMarkerOnlyRows+=1;
+   }
   }
  }
-}
 check('all 73 state items are merged from real source artifacts',state.mergedItemCount===73&&state.items.length===73&&stateArtifactsActuallyMerged);
 check('implemented states have existing item-specific evidence',implementedRows>0&&stateEvidencePass,implementedRows);
-check('implemented states cite an existing test and exact item/state marker',stateAssertionPass);
+check('implemented states resolve an exact source-state or Round 9 assertion registry key',stateAssertionPass);
+check('state assertion schema and rollup counts are independently exact',state.stateRowsWithSourceState===stateRowsWithSourceState&&state.stateRowsWithRound9Assertions===stateRowsWithRound9Assertions&&state.stateRowsWithoutRealAssertion===stateRowsWithoutRealAssertion&&state.generatedMarkerOnlyRows===generatedMarkerOnlyRows&&state.broadTestTitleReuseViolations===broadTestTitleReuseViolations&&stateRowsWithoutRealAssertion===0&&generatedMarkerOnlyRows===0&&broadTestTitleReuseViolations===0&&state.stateAssertionRegistryPass===true);
 check('state rollup reports no gaps',state.invalid===0&&state.deferred===0&&state.missing===0&&state.missingEvidence===0&&state.directoryEvidence===0&&state.missingAssertion===0&&state.genericAssertion===0);
 check('fabricated uniform state rows are absent',state.fabricatedUniformStateRows===0,state.fabricatedUniformStateRows);
 check('unrelated duplicate evidence is absent',state.unrelatedDuplicateEvidence.length===0,JSON.stringify(state.unrelatedDuplicateEvidence));
@@ -85,6 +90,15 @@ check('prior validators are unchanged and no audit result is hardcoded',integrit
 check('integrity audit requires internal item evidence and independent validation',integrity.itemInternalPassRequired&&integrity.evidenceRelevanceRequired&&integrity.fabricatedStateDetection&&integrity.invalidRoundPathDetection&&integrity.independentValidation);
 check('responsive, role isolation, accessibility and public health internals pass',artifacts['responsive-layout-audit'].cases.length===60&&artifacts['responsive-layout-audit'].cases.every(item=>item.pass&&exists(item.evidence))&&artifacts['role-isolation-audit'].cases.length===60&&artifacts['role-isolation-audit'].cases.every(item=>item.pass)&&artifacts['accessibility-audit'].checks.every(item=>item.measured&&item.pass)&&artifacts['public-health'].consoleErrors.length===0&&artifacts['public-health'].pageErrors.length===0);
 
+const requiredReviewDocs=['full-inventory-review.md','public-freeze-review.md','ui-072-implementation-review.md','role-isolation-review.md','data-function-parity.md','state-coverage-review.md','accessibility-review.md','responsive-review.md','css-token-review.md','product-diff-review.md','validator-integrity-review.md','browser-health-review.md','ui-lab-review.md','verification-results.md','implementation-report.md','correction-report.md'],majorReviewDocs=new Set(['full-inventory-review.md','public-freeze-review.md','ui-072-implementation-review.md','state-coverage-review.md','validator-integrity-review.md','correction-report.md']);
+const docResults=requiredReviewDocs.map(name=>{
+ const file=`docs/redo/r09/${name}`,present=exists(file),content=present?read(file):'',lines=content.split(/\r?\n/).map(line=>line.trim()).filter(Boolean),headings=lines.filter(line=>/^#{1,6}\s/.test(line)).length,paragraphs=content.split(/\r?\n\s*\r?\n/).filter(block=>block.trim()&&!/^#{1,6}\s/.test(block.trim())).length,minimum=majorReviewDocs.has(name)?30:20,meaningfulLines=lines.filter(line=>line.length>=24&&!/^#{1,6}\s/.test(line)),frequencies=new Map();
+ for(const line of meaningfulLines){const normalized=line.toLowerCase().replace(/`[^`]+`/g,'<path>').replace(/\d+/g,'#');frequencies.set(normalized,(frequencies.get(normalized)||0)+1);}
+ const repeatedPlaceholderLines=[...frequencies].filter(([,count])=>count>=3).map(([line,count])=>({line,count})),hasSource=/(source|artifact|evidence|baseline|소스|근거)/i.test(content)&&/(artifacts\/|tests\/|evidence\/|commit|git)/i.test(content),hasMethod=/(methodology|method|방법론|검증 방법|방법)/i.test(content),hasCriteria=/(pass criteria|통과 기준|판정 기준|criteria)/i.test(content),hasResult=/(measured result|result|측정 결과|결과)/i.test(content),hasRisk=/(risks?|limitations?|위험|한계)/i.test(content),pass=present&&lines.length>=minimum&&(headings>=5||paragraphs>=5)&&hasSource&&hasMethod&&hasCriteria&&hasResult&&hasRisk&&repeatedPlaceholderLines.length===0;
+ return{name,file,present,nonEmptyLines:lines.length,minimum,headings,paragraphs,hasSource,hasMethod,hasCriteria,hasResult,hasRisk,repeatedPlaceholderLines,pass};
+});
+check('required review documents have substantive audit content',docResults.every(item=>item.pass),JSON.stringify(docResults.filter(item=>!item.pass)));
+
 const failures=checks.filter(item=>!item.pass),summary={
  generatedAt:new Date().toISOString(),
  inventoryItemsAllPass,
@@ -96,6 +110,7 @@ const failures=checks.filter(item=>!item.pass),summary={
  ui072MeasuredKeyboardFocusPass,
  browserHealthActuallyMeasured,
  uiLabActuallyMeasured,
+ documentContentValidation:docResults,
  hardcodedAuditResults,
  validatorIndependentPass:failures.length===0,
  checks,

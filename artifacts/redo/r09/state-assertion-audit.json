@@ -1,0 +1,930 @@
+{
+  "generatedAt": "2026-07-27T07:58:30.460Z",
+  "registryFile": "tests/redo/r09/state-assertion-registry.cjs",
+  "rows": [
+    {
+      "registryKey": "UI-001/default",
+      "inventoryId": "UI-001",
+      "state": "default",
+      "record": {
+        "scenario": "sidebar",
+        "mode": "default"
+      },
+      "actual": {
+        "linkCount": 5,
+        "style": {
+          "visible": true,
+          "focused": false,
+          "background": "oklch(0.18 0.005 260)",
+          "color": "oklch(0.95 0 0)",
+          "outline": "none",
+          "shadow": "oklch(0.76 0.18 145) 3px 0px 0px 0px inset",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-001-default.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-001/hover",
+      "inventoryId": "UI-001",
+      "state": "hover",
+      "record": {
+        "scenario": "sidebar",
+        "mode": "hover"
+      },
+      "actual": {
+        "before": {
+          "visible": true,
+          "focused": false,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "oklch(0.78 0 0)",
+          "outline": "none",
+          "shadow": "none",
+          "inside": true
+        },
+        "after": {
+          "visible": true,
+          "focused": false,
+          "background": "oklab(0.18 -0.000868241 -0.00492404 / 0.313815)",
+          "color": "oklch(0.78 0 0)",
+          "outline": "none",
+          "shadow": "none",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-001-hover.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-001/active",
+      "inventoryId": "UI-001",
+      "state": "active",
+      "record": {
+        "scenario": "sidebar",
+        "mode": "active"
+      },
+      "actual": {
+        "count": 1,
+        "href": "#admin-home",
+        "style": {
+          "visible": true,
+          "focused": false,
+          "background": "oklch(0.18 0.005 260)",
+          "color": "oklch(0.95 0 0)",
+          "outline": "none",
+          "shadow": "oklch(0.76 0.18 145) 3px 0px 0px 0px inset",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-001-active.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-001/badge",
+      "inventoryId": "UI-001",
+      "state": "badge",
+      "record": {
+        "scenario": "sidebar",
+        "mode": "badge"
+      },
+      "actual": {
+        "linkCount": 5,
+        "badgeCount": 1,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-001-badge.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-002/default",
+      "inventoryId": "UI-002",
+      "state": "default",
+      "record": {
+        "scenario": "topbar",
+        "mode": "default"
+      },
+      "actual": {
+        "style": {
+          "visible": true,
+          "focused": false,
+          "background": "oklch(0.12 0.005 260 / 0.96)",
+          "color": "oklch(0.95 0 0)",
+          "outline": "none",
+          "shadow": "none",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-002-default.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-002/dropdown open",
+      "inventoryId": "UI-002",
+      "state": "dropdown open",
+      "record": {
+        "scenario": "topbar",
+        "mode": "dropdown-open"
+      },
+      "actual": {
+        "expanded": "true",
+        "panelStyle": {
+          "visible": true,
+          "focused": true,
+          "background": "oklch(0.12 0.005 260)",
+          "color": "oklch(0.95 0 0)",
+          "outline": "none",
+          "shadow": "oklch(0 0 0 / 0.42) 0px 18px 48px 0px",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-002-dropdown-open.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-002/focus",
+      "inventoryId": "UI-002",
+      "state": "focus",
+      "record": {
+        "scenario": "topbar",
+        "mode": "focus"
+      },
+      "actual": {
+        "style": {
+          "visible": true,
+          "focused": true,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "oklch(0.95 0 0)",
+          "outline": "solid",
+          "shadow": "oklab(0.7 -0.147447 0.103244 / 0.0882686) 0px 0px 0px 0.945735px",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-002-focus.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-003/default",
+      "inventoryId": "UI-003",
+      "state": "default",
+      "record": {
+        "scenario": "mobile-header",
+        "mode": "default"
+      },
+      "actual": {
+        "style": {
+          "visible": true,
+          "focused": false,
+          "background": "oklch(0.12 0.005 260 / 0.96)",
+          "color": "oklch(0.95 0 0)",
+          "outline": "none",
+          "shadow": "none",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-003-default.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-003/focus",
+      "inventoryId": "UI-003",
+      "state": "focus",
+      "record": {
+        "scenario": "mobile-header",
+        "mode": "focus"
+      },
+      "actual": {
+        "style": {
+          "visible": true,
+          "focused": true,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "oklch(0.95 0 0)",
+          "outline": "solid",
+          "shadow": "oklab(0.7 -0.147447 0.103244 / 0.0284609) 0px 0px 0px 0.304938px",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-003-focus.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-004/closed/open",
+      "inventoryId": "UI-004",
+      "state": "closed/open",
+      "record": {
+        "scenario": "drawer",
+        "mode": "closed-open"
+      },
+      "actual": {
+        "closed": "true",
+        "opened": "false",
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-004-closed-open.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-004/backdrop",
+      "inventoryId": "UI-004",
+      "state": "backdrop",
+      "record": {
+        "scenario": "drawer",
+        "mode": "backdrop"
+      },
+      "actual": {
+        "hidden": "true",
+        "expanded": "false",
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-004-backdrop.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-004/Escape",
+      "inventoryId": "UI-004",
+      "state": "Escape",
+      "record": {
+        "scenario": "drawer",
+        "mode": "escape"
+      },
+      "actual": {
+        "hidden": "true",
+        "focused": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-004-escape.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-005/default",
+      "inventoryId": "UI-005",
+      "state": "default",
+      "record": {
+        "scenario": "mobile-tabs",
+        "mode": "default"
+      },
+      "actual": {
+        "tabCount": 5,
+        "style": {
+          "visible": true,
+          "focused": false,
+          "background": "oklch(0.2128 0.033 241.6)",
+          "color": "oklch(0.76 0.18 145)",
+          "outline": "none",
+          "shadow": "none",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-005-default.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-005/active",
+      "inventoryId": "UI-005",
+      "state": "active",
+      "record": {
+        "scenario": "mobile-tabs",
+        "mode": "active"
+      },
+      "actual": {
+        "count": 1,
+        "style": {
+          "visible": true,
+          "focused": false,
+          "background": "oklch(0.2128 0.033 241.6)",
+          "color": "oklch(0.76 0.18 145)",
+          "outline": "none",
+          "shadow": "none",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-005-active.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-005/badge",
+      "inventoryId": "UI-005",
+      "state": "badge",
+      "record": {
+        "scenario": "mobile-tabs",
+        "mode": "badge"
+      },
+      "actual": {
+        "tabCount": 5,
+        "badgeCount": 1,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-005-badge.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-006/closed/open",
+      "inventoryId": "UI-006",
+      "state": "closed/open",
+      "record": {
+        "scenario": "notification",
+        "mode": "closed-open"
+      },
+      "actual": {
+        "expanded": "true",
+        "panelStyle": {
+          "visible": true,
+          "focused": true,
+          "background": "oklch(0.12 0.005 260)",
+          "color": "oklch(0.95 0 0)",
+          "outline": "none",
+          "shadow": "oklch(0 0 0 / 0.42) 0px 18px 48px 0px",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-006-closed-open.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-006/unread/read",
+      "inventoryId": "UI-006",
+      "state": "unread/read",
+      "record": {
+        "scenario": "notification",
+        "mode": "unread-read"
+      },
+      "actual": {
+        "unread": 1,
+        "read": 4,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-006-unread-read.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-006/empty",
+      "inventoryId": "UI-006",
+      "state": "empty",
+      "record": {
+        "scenario": "notification",
+        "mode": "empty"
+      },
+      "actual": {
+        "name": "새 알림 없음",
+        "text": "새 알림이 없습니다\n      새로운 소식이 도착하면 여기에 표시됩니다.",
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-006-empty.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-007/default",
+      "inventoryId": "UI-007",
+      "state": "default",
+      "record": {
+        "scenario": "theme",
+        "mode": "default"
+      },
+      "actual": {
+        "count": 3,
+        "pressed": 1,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-007-default.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-007/hover",
+      "inventoryId": "UI-007",
+      "state": "hover",
+      "record": {
+        "scenario": "theme",
+        "mode": "hover"
+      },
+      "actual": {
+        "before": {
+          "visible": true,
+          "focused": false,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "oklch(0.95 0 0)",
+          "outline": "none",
+          "shadow": "none",
+          "inside": true
+        },
+        "after": {
+          "visible": true,
+          "focused": false,
+          "background": "rgba(130, 150, 220, 0.02)",
+          "color": "oklch(0.95 0 0)",
+          "outline": "none",
+          "shadow": "none",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-007-hover.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-007/selected",
+      "inventoryId": "UI-007",
+      "state": "selected",
+      "record": {
+        "scenario": "theme",
+        "mode": "selected"
+      },
+      "actual": {
+        "selected": "true",
+        "stored": "dark",
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-007-selected.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-008/default",
+      "inventoryId": "UI-008",
+      "state": "default",
+      "record": {
+        "scenario": "breadcrumb",
+        "mode": "default"
+      },
+      "actual": {
+        "text": "PM 홈",
+        "style": {
+          "visible": true,
+          "focused": false,
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "oklch(0.95 0 0)",
+          "outline": "none",
+          "shadow": "none",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-008-default.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-008/long title",
+      "inventoryId": "UI-008",
+      "state": "long title",
+      "record": {
+        "scenario": "breadcrumb",
+        "mode": "long-title"
+      },
+      "actual": {
+        "text": "매우 긴 프로젝트 운영 감사 제목 매우 긴 프로젝트 운영 감사 제목 매우 긴 프로젝트 운영 감사 제목 매우 긴 프로젝트 운영 감사 제목 매우 긴 프로젝트 운영 감사 제목 매우 긴 프로젝트 운영 감사 제목 매우 긴 프로젝트 운영 감사 제목 매우 긴 프로젝트 운영 감사 제목 매우 긴 프로젝트 운영 감사 제목 매우 긴 프로젝트 운영 감사 제목 매우 긴 프로젝트 운영 감사 제목 매우 긴 프로젝트 운영 감사 제목 매우 긴 프로젝트 운영 감사 제목 매우 긴 프로젝트 운영 감사 제목 ",
+        "wraps": true,
+        "inside": true,
+        "overflow": 0,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-008-long-title.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-009/default",
+      "inventoryId": "UI-009",
+      "state": "default",
+      "record": {
+        "scenario": "primary-cta",
+        "mode": "default"
+      },
+      "actual": {
+        "text": "승인 검토",
+        "style": {
+          "visible": true,
+          "focused": false,
+          "background": "rgba(16, 185, 129, 0.18)",
+          "color": "rgb(236, 253, 245)",
+          "outline": "none",
+          "shadow": "oklch(0 0 0 / 0.2) 0px 1px 2px 0px",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-009-default.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-009/hover",
+      "inventoryId": "UI-009",
+      "state": "hover",
+      "record": {
+        "scenario": "primary-cta",
+        "mode": "hover"
+      },
+      "actual": {
+        "before": {
+          "visible": true,
+          "focused": false,
+          "background": "rgba(16, 185, 129, 0.18)",
+          "color": "rgb(236, 253, 245)",
+          "outline": "none",
+          "shadow": "oklch(0 0 0 / 0.2) 0px 1px 2px 0px",
+          "inside": true
+        },
+        "after": {
+          "visible": true,
+          "focused": false,
+          "background": "rgba(39, 201, 144, 0.224)",
+          "color": "rgb(236, 253, 245)",
+          "outline": "none",
+          "shadow": "oklab(0 0 0 / 0.221504) 0px 4.76316px 13.8271px 0px",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-009-hover.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-009/focus",
+      "inventoryId": "UI-009",
+      "state": "focus",
+      "record": {
+        "scenario": "primary-cta",
+        "mode": "focus"
+      },
+      "actual": {
+        "style": {
+          "visible": true,
+          "focused": true,
+          "background": "rgba(16, 185, 129, 0.18)",
+          "color": "rgb(236, 253, 245)",
+          "outline": "solid",
+          "shadow": "oklch(0 0 0 / 0.2) 0px 1px 2px 0px",
+          "inside": true
+        },
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-009-focus.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-009/disabled",
+      "inventoryId": "UI-009",
+      "state": "disabled",
+      "record": {
+        "scenario": "primary-cta",
+        "mode": "disabled"
+      },
+      "actual": {
+        "ariaDisabled": "true",
+        "href": null,
+        "focusBefore": false,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-009-disabled.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-010/default",
+      "inventoryId": "UI-010",
+      "state": "default",
+      "record": {
+        "scenario": "status-badge",
+        "tone": "rej",
+        "label": "대기"
+      },
+      "actual": {
+        "scenario": "status-badge",
+        "text": "대기",
+        "toneClass": "ordo-c-status-badge inline-flex items-center gap-1.5 h-6 px-2 rounded-md border text-[11px] font-semibold bg-st-rejbg border-st-rejbd text-st-rejfg",
+        "visible": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-010-default.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-010/pending",
+      "inventoryId": "UI-010",
+      "state": "pending",
+      "record": {
+        "scenario": "status-badge",
+        "tone": "pend",
+        "label": "검토중"
+      },
+      "actual": {
+        "scenario": "status-badge",
+        "text": "검토중",
+        "toneClass": "ordo-c-status-badge inline-flex items-center gap-1.5 h-6 px-2 rounded-md border text-[11px] font-semibold bg-st-pendbg border-st-pendbd text-st-pendfg",
+        "visible": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-010-pending.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-010/warning",
+      "inventoryId": "UI-010",
+      "state": "warning",
+      "record": {
+        "scenario": "status-badge",
+        "tone": "warn",
+        "label": "주의"
+      },
+      "actual": {
+        "scenario": "status-badge",
+        "text": "주의",
+        "toneClass": "ordo-c-status-badge inline-flex items-center gap-1.5 h-6 px-2 rounded-md border text-[11px] font-semibold bg-st-warnbg border-st-warnbd text-st-warnfg",
+        "visible": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-010-warning.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-010/critical",
+      "inventoryId": "UI-010",
+      "state": "critical",
+      "record": {
+        "scenario": "status-badge",
+        "tone": "crit",
+        "label": "위험"
+      },
+      "actual": {
+        "scenario": "status-badge",
+        "text": "위험",
+        "toneClass": "ordo-c-status-badge inline-flex items-center gap-1.5 h-6 px-2 rounded-md border text-[11px] font-semibold bg-st-critbg border-st-critbd text-st-critfg",
+        "visible": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-010-critical.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-010/ok",
+      "inventoryId": "UI-010",
+      "state": "ok",
+      "record": {
+        "scenario": "status-badge",
+        "tone": "ok",
+        "label": "승인완료"
+      },
+      "actual": {
+        "scenario": "status-badge",
+        "text": "승인완료",
+        "toneClass": "ordo-c-status-badge inline-flex items-center gap-1.5 h-6 px-2 rounded-md border text-[11px] font-semibold bg-st-okbg border-st-okbd text-st-okfg",
+        "visible": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-010-ok.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-011/normal",
+      "inventoryId": "UI-011",
+      "state": "normal",
+      "record": {
+        "scenario": "metric-card",
+        "tone": "text-tx-primary",
+        "value": "12"
+      },
+      "actual": {
+        "scenario": "metric-card",
+        "text": "측정 KPI12Round 9 assertion",
+        "valueClass": "text-[24px] lg:text-[28px] font-semibold tabular mt-1 text-tx-primary",
+        "visible": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-011-normal.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-011/positive",
+      "inventoryId": "UI-011",
+      "state": "positive",
+      "record": {
+        "scenario": "metric-card",
+        "tone": "text-st-okfg",
+        "value": "+8%"
+      },
+      "actual": {
+        "scenario": "metric-card",
+        "text": "측정 KPI+8%Round 9 assertion",
+        "valueClass": "text-[24px] lg:text-[28px] font-semibold tabular mt-1 text-st-okfg",
+        "visible": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-011-positive.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-011/warning",
+      "inventoryId": "UI-011",
+      "state": "warning",
+      "record": {
+        "scenario": "metric-card",
+        "tone": "text-st-warnfg",
+        "value": "D-2"
+      },
+      "actual": {
+        "scenario": "metric-card",
+        "text": "측정 KPID-2Round 9 assertion",
+        "valueClass": "text-[24px] lg:text-[28px] font-semibold tabular mt-1 text-st-warnfg",
+        "visible": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-011-warning.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-011/critical",
+      "inventoryId": "UI-011",
+      "state": "critical",
+      "record": {
+        "scenario": "metric-card",
+        "tone": "text-st-critfg",
+        "value": "3"
+      },
+      "actual": {
+        "scenario": "metric-card",
+        "text": "측정 KPI3Round 9 assertion",
+        "valueClass": "text-[24px] lg:text-[28px] font-semibold tabular mt-1 text-st-critfg",
+        "visible": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-011-critical.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-012/0",
+      "inventoryId": "UI-012",
+      "state": "0",
+      "record": {
+        "scenario": "progress",
+        "approved": 0,
+        "total": 10,
+        "expected": 0
+      },
+      "actual": {
+        "scenario": "progress",
+        "width": 0,
+        "trackOverflow": "hidden",
+        "ariaText": "측정 진행률0/10 · 0%Round 9 assertion",
+        "contained": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-012-0.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-012/partial",
+      "inventoryId": "UI-012",
+      "state": "partial",
+      "record": {
+        "scenario": "progress",
+        "approved": 4,
+        "total": 10,
+        "expected": 40
+      },
+      "actual": {
+        "scenario": "progress",
+        "width": 40,
+        "trackOverflow": "hidden",
+        "ariaText": "측정 진행률4/10 · 40%Round 9 assertion",
+        "contained": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-012-partial.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-012/complete",
+      "inventoryId": "UI-012",
+      "state": "complete",
+      "record": {
+        "scenario": "progress",
+        "approved": 10,
+        "total": 10,
+        "expected": 100
+      },
+      "actual": {
+        "scenario": "progress",
+        "width": 100,
+        "trackOverflow": "hidden",
+        "ariaText": "측정 진행률10/10 · 100%Round 9 assertion",
+        "contained": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-012-complete.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    },
+    {
+      "registryKey": "UI-012/overflow-safe",
+      "inventoryId": "UI-012",
+      "state": "overflow-safe",
+      "record": {
+        "scenario": "progress",
+        "approved": 15,
+        "total": 10,
+        "expected": 150,
+        "overflowSafe": true
+      },
+      "actual": {
+        "scenario": "progress",
+        "width": 150,
+        "trackOverflow": "hidden",
+        "ariaText": "측정 진행률15/10 · 150%Round 9 assertion",
+        "contained": true,
+        "pass": true
+      },
+      "evidence": "evidence/redo/r09/state-registry/ui-012-overflow-safe.png",
+      "evidenceGeneratedByAssertion": true,
+      "assertionExecuted": true,
+      "pass": true
+    }
+  ],
+  "consoleErrors": [],
+  "pageErrors": [],
+  "registryCount": 40,
+  "executedCount": 40,
+  "pass": true
+}

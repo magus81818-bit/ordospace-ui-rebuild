@@ -1,16 +1,47 @@
 # Verification results
 
-Final command results are recorded in `artifacts/redo/r09/test-results.json`; the independent integration gate is `verification-summary.json`.
+## Source
 
-- Round 1~8 regression: PASS (4, Matrix validator, 4, 9, 4, 5, 3, 3 tests)
-- Round 9 browser: 5/5 PASS
-- Full inventory: 73/73 unique and every item internally PASS
-- Full state: 73 merged items; 549 implemented, 675 N/A, zero invalid/fabricated/missing
-- Public Round 1 baseline: 18/18 measured cases, zero differences
-- Authenticated responsive/role isolation: 60/60
-- UI-072: 4/4; UI Lab: 3/3
-- Root build, syntax, static component/lifecycle, Smoke 12 routes with runtime QA 20/20, and MVP: PASS
-- Backend: 4/4 suites, 18/18 tests, type, and build PASS after Prisma client generation
-- Production deployment: SKIPPED by Round 9 contract
+- Command ledger: `artifacts/redo/r09/test-results.json`.
+- Independent gate: `artifacts/redo/r09/verification-summary.json`.
+- Browser outputs: `artifacts/redo/r09/`.
 
-The initial backend type failure caused by the absent generated Prisma client and the final transient external-font classification failure are disclosed as resolved harness/environment issues. No product defect or product correction was found.
+## Methodology
+
+- Round 9 browser suites regenerate measured artifacts and screenshots.
+- The generator consolidates inventory, state, parity, health, and diff results.
+- The validator independently traverses item and state internals.
+- Round 1 through Round 8 validators are rerun in a disposable worktree.
+- Root build, syntax, static, smoke, and MVP checks are rerun.
+- Backend tests, type checking, and build are rerun after Prisma client generation.
+
+## Pass criteria
+
+- Every commanded test must exit successfully.
+- Full inventory must pass 73 of 73 item checks.
+- Full state must have zero real-assertion gaps.
+- Public and authenticated browser cases must pass.
+- Root and backend quality gates must pass.
+- Skipped Production deployment must be disclosed.
+
+## Measured result
+
+- Round 9 browser suites: 6 of 6 passed.
+- Full inventory: 73 of 73 passed.
+- Implemented state rows: 528.
+- Source-state rows: 488; new exact assertions: 40.
+- Missing real assertions: 0.
+- Public baseline: 18 of 18 passed.
+- Authenticated responsive and isolation cases: 60 of 60 each.
+- UI-072: 4 of 4; UI Lab: 3 of 3.
+- Production deployment: SKIPPED by contract.
+
+## Risks and limitations
+
+- Final Round 1 through Round 8 and backend rerun values are written to the ledger after completion.
+- Existing external-font availability is separated from new failures.
+- No production claim is made before Round 10.
+
+## Decision
+
+- The evidence set is suitable for the independent correction gate.

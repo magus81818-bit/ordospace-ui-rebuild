@@ -19,13 +19,24 @@
 - Hardcoded audit values: browser/source/hash measurements replace literals; detector count 0.
 - Validator defect: independent traversal now rejects failed/missing item internals even when a top-level flag passes.
 
+## B1. Methodology
+
+- Browser suites regenerate primary evidence before the generator runs.
+- The generator joins Matrix inventory to real source-state rows or exact executed registry keys.
+- The independent validator repeats item, state, document, and evidence checks without trusting top-level pass flags.
+
+## B2. Pass criteria
+
+- All inventory internals, exact state registry rows, public freeze cases, parity checks, and browser-health measurements must pass.
+- Required review documents must meet the source, method, criteria, result, risk, structure, and line-depth requirements.
+
 ## C. Full Inventory
 
 73 total and unique; counts 3/10/9/21/12/10/8. Every item has a passing completion artifact, found state item, existing/relevant browser evidence, and regression/accessibility linkage. Invalid paths, missing rows, duplicates, assignment errors, and unresolved rows: 0. PASS.
 
 ## D. Full State Coverage
 
-73 actual source items merged. Implemented 549; reasoned N/A 675; invalid/deferred/missing 0. Fabricated rows 0. Every implemented row has an existing evidence file and exact test-title plus item/state assertion marker. PASS.
+73 actual source items merged. Implemented 528; reasoned N/A 675; invalid/deferred/missing 0. Of the implemented rows, 488 resolve to primary source states and 40 resolve to newly executed Round 9 registry assertions. Missing real assertions, generated marker-only rows, broad title reuse, and fabricated rows are all 0. PASS.
 
 ## E. Public Round 1 Baseline
 
@@ -57,11 +68,11 @@ Routes, screen IDs, Korean copy, role guards, session, storage keys, API paths, 
 
 ## L. Validator Integrity
 
-Hardcoded results 0; every item internal pass/evidence relevance is required; fabricated-state and invalid-path detectors enabled; nine prior validator/test sources retain exact Round 8 hashes and test counts; final validator recomputes internals independently. PASS.
+Hardcoded results 0; every item internal pass/evidence relevance is required; fabricated-state and invalid-path detectors enabled; nine prior validator/test sources retain exact Round 8 hashes and test counts; exact registry keys are resolved independently; required review documents are content-validated. PASS.
 
 ## M. Regression and tests
 
-The command ledger is `artifacts/redo/r09/test-results.json`. Round 1~8 regression, root build/syntax/static/smoke/MVP, backend 4 suites/18 tests/type/build, Round 9 browser 5/5, and independent validator pass. The initial missing Prisma generation and transient external-font classification gate are recorded as resolved. Production deployment is skipped by contract.
+The command ledger is `artifacts/redo/r09/test-results.json`. Round 1~8 regression, root build/syntax/static/smoke/MVP, backend 4 suites/18 tests/type/build, Round 9 browser 6/6, and independent validator pass. The initial missing Prisma generation and transient external-font classification gate are recorded as resolved. Production deployment is skipped by contract.
 
 ## N. Changed files
 
@@ -70,7 +81,7 @@ The command ledger is `artifacts/redo/r09/test-results.json`. Round 1~8 regressi
 - Artifact: measured Round 9 JSON and command ledger
 - Evidence: item/state screenshots
 - Docs: corrected reviews and reports
-- Prompt: `round-9-correction-02.md`
+- Prompt: `round-9-correction-03.md`
 
 ## O. Scope compliance
 

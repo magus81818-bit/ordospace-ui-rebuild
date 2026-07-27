@@ -88,12 +88,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 75764,
+                  "duration": 77669,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-07-27T07:13:11.584Z",
+                  "startTime": "2026-07-27T07:55:17.979Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -130,12 +130,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 92310,
+                  "duration": 93259,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-07-27T07:14:27.620Z",
+                  "startTime": "2026-07-27T07:56:35.888Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -164,12 +164,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 12104,
+                  "duration": 13439,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-07-27T07:15:59.944Z",
+                  "startTime": "2026-07-27T07:58:09.161Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -206,12 +206,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3723,
+                  "duration": 3324,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-07-27T07:16:12.091Z",
+                  "startTime": "2026-07-27T07:58:22.639Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -240,12 +240,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6489,
+                  "duration": 4457,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-07-27T07:16:15.829Z",
+                  "startTime": "2026-07-27T07:58:25.975Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -259,13 +259,55 @@
           "column": 1
         }
       ]
+    },
+    {
+      "title": "state-registry-audit.spec.cjs",
+      "file": "state-registry-audit.spec.cjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Round 3 and Round 5 item-state assertion registry executes every key",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 33608,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-27T07:58:30.464Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8506528de3d1bff974bb-a6917c421d5c6da0a297",
+          "file": "state-registry-audit.spec.cjs",
+          "line": 86,
+          "column": 1
+        }
+      ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-27T07:13:10.380Z",
-    "duration": 193103.051,
-    "expected": 5,
+    "startTime": "2026-07-27T07:55:17.013Z",
+    "duration": 228100.28,
+    "expected": 6,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T07:21:15.242Z",
+  "generatedAt": "2026-07-27T07:59:40.294Z",
   "total": 73,
   "unique": 73,
   "roundCounts": {
@@ -34,7 +34,7 @@
         "app/layout/app-shell.js",
         "app/styles/dashboard-salesops.shell.css"
       ],
-      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageArtifact": "artifacts/redo/r09/state-assertion-audit.json",
       "stateCoverageItemFound": true,
       "browserEvidence": [
         "evidence/redo/r05/admin-1440x1000.png"
@@ -65,7 +65,7 @@
         "app/layout/app-shell.js",
         "app/styles/dashboard-salesops.shell.css"
       ],
-      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageArtifact": "artifacts/redo/r09/state-assertion-audit.json",
       "stateCoverageItemFound": true,
       "browserEvidence": [
         "evidence/redo/r05/client-1440x1000.png"
@@ -96,7 +96,7 @@
         "app/layout/app-shell.js",
         "app/styles/dashboard-salesops.shell.css"
       ],
-      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageArtifact": "artifacts/redo/r09/state-assertion-audit.json",
       "stateCoverageItemFound": true,
       "browserEvidence": [
         "evidence/redo/r05/worker-390x844.png"
@@ -127,7 +127,7 @@
         "app/layout/app-shell.js",
         "app/styles/dashboard-salesops.shell.css"
       ],
-      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageArtifact": "artifacts/redo/r09/state-assertion-audit.json",
       "stateCoverageItemFound": true,
       "browserEvidence": [
         "evidence/redo/r05/client-390x844.png"
@@ -158,7 +158,7 @@
         "app/layout/app-shell.js",
         "app/styles/dashboard-salesops.shell.css"
       ],
-      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageArtifact": "artifacts/redo/r09/state-assertion-audit.json",
       "stateCoverageItemFound": true,
       "browserEvidence": [
         "evidence/redo/r05/admin-390x844.png"
@@ -189,7 +189,7 @@
         "app/layout/app-shell.js",
         "app/styles/dashboard-salesops.shell.css"
       ],
-      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageArtifact": "artifacts/redo/r09/state-assertion-audit.json",
       "stateCoverageItemFound": true,
       "browserEvidence": [
         "evidence/redo/r05/shell-states/notification-empty-desktop-1440x1000.png"
@@ -220,7 +220,7 @@
         "app/layout/app-shell.js",
         "app/styles/dashboard-salesops.shell.css"
       ],
-      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageArtifact": "artifacts/redo/r09/state-assertion-audit.json",
       "stateCoverageItemFound": true,
       "browserEvidence": [
         "evidence/redo/r05/worker-1440x1000.png"
@@ -251,7 +251,7 @@
         "app/layout/app-shell.js",
         "app/styles/dashboard-salesops.shell.css"
       ],
-      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageArtifact": "artifacts/redo/r09/state-assertion-audit.json",
       "stateCoverageItemFound": true,
       "browserEvidence": [
         "evidence/redo/r05/admin-1280x900.png"
@@ -282,7 +282,7 @@
         "app/layout/app-shell.js",
         "app/styles/dashboard-salesops.shell.css"
       ],
-      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageArtifact": "artifacts/redo/r09/state-assertion-audit.json",
       "stateCoverageItemFound": true,
       "browserEvidence": [
         "evidence/redo/r05/shell-states/shell-disabled-desktop-1440x1000.png"
@@ -313,7 +313,7 @@
         "app/styles/dashboard-salesops.tokens.css",
         "app/styles/dashboard-salesops.primitives.css"
       ],
-      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageArtifact": "artifacts/redo/r09/state-assertion-audit.json",
       "stateCoverageItemFound": true,
       "browserEvidence": [
         "evidence/redo/r03/dashboard/shared/components-gallery-dev-desktop-1440x1000.png"
@@ -344,7 +344,7 @@
         "app/styles/dashboard-salesops.tokens.css",
         "app/styles/dashboard-salesops.primitives.css"
       ],
-      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageArtifact": "artifacts/redo/r09/state-assertion-audit.json",
       "stateCoverageItemFound": true,
       "browserEvidence": [
         "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
@@ -375,7 +375,7 @@
         "app/styles/dashboard-salesops.tokens.css",
         "app/styles/dashboard-salesops.primitives.css"
       ],
-      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageArtifact": "artifacts/redo/r09/state-assertion-audit.json",
       "stateCoverageItemFound": true,
       "browserEvidence": [
         "evidence/redo/r03/dashboard/worker/worker-home-desktop-1440x1000.png"

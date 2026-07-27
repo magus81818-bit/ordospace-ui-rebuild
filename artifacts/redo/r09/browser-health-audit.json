@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T07:21:15.242Z",
+  "generatedAt": "2026-07-27T07:59:40.294Z",
   "consoleErrors": [],
   "pageErrors": [],
   "baselineExternalFontContract": {
@@ -13,10 +13,10 @@
   "knownBaselineRequestFailures": [
     {
       "url": "https://fonts.gstatic.com/s/orbitron/v35/yMJRMIlzdpvBhQQL_Qq7dy0.woff2",
-      "baselineCount": 0,
+      "baselineCount": 1,
       "currentCount": 1,
       "actualMeasured": true,
-      "classification": "measured-current-failure-with-byte-identical-round8-external-font-contract",
+      "classification": "measured-baseline-failure",
       "sourceEquivalent": true
     }
   ],
