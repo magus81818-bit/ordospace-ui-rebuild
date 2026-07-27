@@ -1,0 +1,2407 @@
+{
+  "generatedAt": "2026-07-27T06:07:01.233Z",
+  "cases": [
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "1440x1000",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "topbar": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1440,
+          963.38
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-home-default-desktop1440-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "1440x1000",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "topbar": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1440,
+          1560.06
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-projects-default-desktop1440-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "1440x1000",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "topbar": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1440,
+          1185.13
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-cards-default-desktop1440-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "1440x1000",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "topbar": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1440,
+          1476.8
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-team-default-desktop1440-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "1440x1000",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "topbar": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1440,
+          3470.55
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-audit-default-desktop1440-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "1440x1000",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "topbar": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1440,
+          974.38
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-dashboard-default-desktop1440-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "1440x1000",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "topbar": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1440,
+          1413.92
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-project-default-desktop1440-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "1440x1000",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "topbar": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1440,
+          1004.25
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-approvals-default-desktop1440-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "1440x1000",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "topbar": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1440,
+          1037.66
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/worker/worker-worker-home-default-desktop1440-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "1440x1000",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1000
+        ],
+        "topbar": [
+          240,
+          0,
+          1200,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1440,
+          1151.75
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/worker/worker-worker-cards-default-desktop1440-1440x1000.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "1280x900",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "topbar": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1280,
+          963.38
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-home-default-desktop1280-1280x900.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "1280x900",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "topbar": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1280,
+          1560.06
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-projects-default-desktop1280-1280x900.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "1280x900",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "topbar": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1280,
+          1085.13
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-cards-default-desktop1280-1280x900.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "1280x900",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "topbar": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1280,
+          1560.8
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-team-default-desktop1280-1280x900.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "1280x900",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "topbar": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1280,
+          3470.55
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-audit-default-desktop1280-1280x900.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "1280x900",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "topbar": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1280,
+          974.38
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-dashboard-default-desktop1280-1280x900.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "1280x900",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "topbar": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1280,
+          1413.92
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-project-default-desktop1280-1280x900.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "1280x900",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "topbar": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1280,
+          1004.25
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-approvals-default-desktop1280-1280x900.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "1280x900",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "topbar": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1280,
+          1037.66
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/worker/worker-worker-home-default-desktop1280-1280x900.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "1280x900",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          900
+        ],
+        "topbar": [
+          240,
+          0,
+          1040,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1280,
+          1151.75
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/worker/worker-worker-cards-default-desktop1280-1280x900.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "1024x1366",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "topbar": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1024,
+          1311.5
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-home-default-tablet1024-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "1024x1366",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "topbar": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1024,
+          1560.06
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-projects-default-tablet1024-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "1024x1366",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "topbar": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1024,
+          1551.13
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-cards-default-tablet1024-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "1024x1366",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "topbar": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1024,
+          1660.8
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-team-default-tablet1024-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "1024x1366",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "topbar": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1024,
+          3487.55
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-audit-default-tablet1024-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "1024x1366",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "topbar": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1024,
+          974.38
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-dashboard-default-tablet1024-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "1024x1366",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "topbar": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1024,
+          1413.92
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-project-default-tablet1024-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "1024x1366",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "topbar": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1024,
+          1170.63
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-approvals-default-tablet1024-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "1024x1366",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "topbar": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1024,
+          1037.66
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/worker/worker-worker-home-default-tablet1024-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "1024x1366",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          240,
+          1366
+        ],
+        "topbar": [
+          240,
+          0,
+          784,
+          64
+        ],
+        "main": [
+          0,
+          0,
+          1024,
+          1382.03
+        ],
+        "mheader": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "mtab": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/worker/worker-worker-cards-default-tablet1024-1024x1366.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "768x1024",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          768,
+          1459.64
+        ],
+        "mheader": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "mtab": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-home-default-tablet768-768x1024.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "768x1024",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          768,
+          2280.09
+        ],
+        "mheader": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "mtab": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-projects-default-tablet768-768x1024.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "768x1024",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          768,
+          2281.2
+        ],
+        "mheader": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "mtab": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-cards-default-tablet768-768x1024.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "768x1024",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          768,
+          1716.77
+        ],
+        "mheader": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "mtab": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-team-default-tablet768-768x1024.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "768x1024",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          768,
+          3479.55
+        ],
+        "mheader": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "mtab": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-audit-default-tablet768-768x1024.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "768x1024",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          768,
+          1530.34
+        ],
+        "mheader": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "mtab": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-dashboard-default-tablet768-768x1024.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "768x1024",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          768,
+          2220.33
+        ],
+        "mheader": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "mtab": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-project-default-tablet768-768x1024.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "768x1024",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          768,
+          1430.39
+        ],
+        "mheader": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "mtab": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-approvals-default-tablet768-768x1024.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "768x1024",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          768,
+          1220.61
+        ],
+        "mheader": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "mtab": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/worker/worker-worker-home-default-tablet768-768x1024.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "768x1024",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          768,
+          2349.36
+        ],
+        "mheader": [
+          0,
+          0,
+          768,
+          56
+        ],
+        "mtab": [
+          0,
+          960,
+          768,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/worker/worker-worker-cards-default-tablet768-768x1024.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "390x844",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          390,
+          1528.33
+        ],
+        "mheader": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "mtab": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-home-default-mobile390-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "390x844",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          390,
+          2344.89
+        ],
+        "mheader": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "mtab": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-projects-default-mobile390-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "390x844",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          390,
+          2238.25
+        ],
+        "mheader": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "mtab": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-cards-default-mobile390-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "390x844",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          390,
+          2003.48
+        ],
+        "mheader": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "mtab": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-team-default-mobile390-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "390x844",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          390,
+          3735.73
+        ],
+        "mheader": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "mtab": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-audit-default-mobile390-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "390x844",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          390,
+          1659.45
+        ],
+        "mheader": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "mtab": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-dashboard-default-mobile390-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "390x844",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          390,
+          2328.31
+        ],
+        "mheader": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "mtab": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-project-default-mobile390-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "390x844",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          390,
+          1547.19
+        ],
+        "mheader": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "mtab": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-approvals-default-mobile390-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "390x844",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          390,
+          1241.73
+        ],
+        "mheader": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "mtab": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/worker/worker-worker-home-default-mobile390-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "390x844",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          390,
+          2591.27
+        ],
+        "mheader": [
+          0,
+          0,
+          390,
+          56
+        ],
+        "mtab": [
+          0,
+          780,
+          390,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/worker/worker-worker-cards-default-mobile390-390x844.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "360x800",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          360,
+          1528.33
+        ],
+        "mheader": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "mtab": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-home-default-mobile360-360x800.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "360x800",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          360,
+          2364.08
+        ],
+        "mheader": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "mtab": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-projects-default-mobile360-360x800.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "360x800",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          360,
+          2238.25
+        ],
+        "mheader": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "mtab": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-cards-default-mobile360-360x800.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "360x800",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          360,
+          2003.48
+        ],
+        "mheader": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "mtab": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-team-default-mobile360-360x800.png",
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "360x800",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          360,
+          4056.61
+        ],
+        "mheader": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "mtab": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/admin/admin-admin-audit-default-mobile360-360x800.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "360x800",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          360,
+          1736.2
+        ],
+        "mheader": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "mtab": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-dashboard-default-mobile360-360x800.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "360x800",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          360,
+          2497.81
+        ],
+        "mheader": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "mtab": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-project-default-mobile360-360x800.png",
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "360x800",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          360,
+          1547.19
+        ],
+        "mheader": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "mtab": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/client/client-approvals-default-mobile360-360x800.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "360x800",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          360,
+          1260.92
+        ],
+        "mheader": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "mtab": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/worker/worker-worker-home-default-mobile360-360x800.png",
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "360x800",
+      "shell": {
+        "sidebar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "topbar": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "main": [
+          0,
+          0,
+          360,
+          2652.38
+        ],
+        "mheader": [
+          0,
+          0,
+          360,
+          56
+        ],
+        "mtab": [
+          0,
+          736,
+          360,
+          64
+        ]
+      },
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/worker/worker-worker-cards-default-mobile360-360x800.png",
+      "pass": true
+    }
+  ],
+  "expected": 60,
+  "pass": true
+}

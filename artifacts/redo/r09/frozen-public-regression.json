@@ -1,0 +1,186 @@
+{
+  "generatedAt": "2026-07-27T06:07:01.233Z",
+  "cases": [
+    {
+      "route": "landing",
+      "viewport": "1440x1000",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "route": "auth",
+      "viewport": "1440x1000",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-auth-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "route": "terms",
+      "viewport": "1440x1000",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-terms-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "route": "privacy",
+      "viewport": "1440x1000",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-privacy-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "route": "support",
+      "viewport": "1440x1000",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-support-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "route": "select-workspace",
+      "viewport": "1440x1000",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-select-workspace-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "route": "landing",
+      "viewport": "1024x1366",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-landing-tablet-1024x1366.png",
+      "pass": true
+    },
+    {
+      "route": "auth",
+      "viewport": "1024x1366",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-auth-tablet-1024x1366.png",
+      "pass": true
+    },
+    {
+      "route": "terms",
+      "viewport": "1024x1366",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-terms-tablet-1024x1366.png",
+      "pass": true
+    },
+    {
+      "route": "privacy",
+      "viewport": "1024x1366",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-privacy-tablet-1024x1366.png",
+      "pass": true
+    },
+    {
+      "route": "support",
+      "viewport": "1024x1366",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-support-tablet-1024x1366.png",
+      "pass": true
+    },
+    {
+      "route": "select-workspace",
+      "viewport": "1024x1366",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-select-workspace-tablet-1024x1366.png",
+      "pass": true
+    },
+    {
+      "route": "landing",
+      "viewport": "390x844",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-landing-mobile-390x844.png",
+      "pass": true
+    },
+    {
+      "route": "auth",
+      "viewport": "390x844",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-auth-mobile-390x844.png",
+      "pass": true
+    },
+    {
+      "route": "terms",
+      "viewport": "390x844",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-terms-mobile-390x844.png",
+      "pass": true
+    },
+    {
+      "route": "privacy",
+      "viewport": "390x844",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-privacy-mobile-390x844.png",
+      "pass": true
+    },
+    {
+      "route": "support",
+      "viewport": "390x844",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-support-mobile-390x844.png",
+      "pass": true
+    },
+    {
+      "route": "select-workspace",
+      "viewport": "390x844",
+      "domSame": true,
+      "styleSame": true,
+      "boxSame": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/frozen-public/public-select-workspace-mobile-390x844.png",
+      "pass": true
+    }
+  ],
+  "pass": true
+}

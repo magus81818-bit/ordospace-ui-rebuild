@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-07-27T06:10:54.968Z",
+  "round3WorkerIsolation": true,
+  "round4WorkerIsolation": true,
+  "round6WorkerDescendant": true,
+  "round6BackendApiShellProhibition": true,
+  "expectationRelaxations": 0,
+  "hardcodedPassRows": 0,
+  "invalidCountAssertions": 0,
+  "evidenceDirectoriesAccepted": false,
+  "genericAssertions": 0,
+  "missingAssertions": 0,
+  "pass": true
+}

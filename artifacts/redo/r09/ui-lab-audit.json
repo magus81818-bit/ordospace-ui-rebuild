@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-07-27T06:07:01.233Z",
+  "devOnly": true,
+  "officialMenuExposed": false,
+  "apiCalls": 0,
+  "storageMutations": 0,
+  "specimens": true,
+  "keyboard": true,
+  "responsive": true,
+  "evidence": "evidence/redo/r09/ui-lab/shared-ui-lab-default-desktop-1440x1000.png",
+  "pass": true
+}

@@ -1,0 +1,786 @@
+{
+  "generatedAt": "2026-07-27T06:07:01.233Z",
+  "cases": [
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "1440x1000",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "1440x1000",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "1440x1000",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "1440x1000",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "1440x1000",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "1440x1000",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "1440x1000",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "1440x1000",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "1440x1000",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": 0,
+        "workerLeak": false,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "1440x1000",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": 0,
+        "workerLeak": false,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "1280x900",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "1280x900",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "1280x900",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "1280x900",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "1280x900",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "1280x900",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "1280x900",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "1280x900",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "1280x900",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": 0,
+        "workerLeak": false,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "1280x900",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": 0,
+        "workerLeak": false,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "1024x1366",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "1024x1366",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "1024x1366",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "1024x1366",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "1024x1366",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "1024x1366",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "1024x1366",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "1024x1366",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "1024x1366",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": 0,
+        "workerLeak": false,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "1024x1366",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": 0,
+        "workerLeak": false,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "768x1024",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "768x1024",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "768x1024",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "768x1024",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "768x1024",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "768x1024",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "768x1024",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "768x1024",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "768x1024",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": 0,
+        "workerLeak": false,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "768x1024",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": 0,
+        "workerLeak": false,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "390x844",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "390x844",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "390x844",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "390x844",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "390x844",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "390x844",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "390x844",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "390x844",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "390x844",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": 0,
+        "workerLeak": false,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "390x844",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": 0,
+        "workerLeak": false,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-home",
+      "viewport": "360x800",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-projects",
+      "viewport": "360x800",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-cards",
+      "viewport": "360x800",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-team",
+      "viewport": "360x800",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "admin",
+      "route": "admin-audit",
+      "viewport": "360x800",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": false,
+        "clientLeak": 0,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "dashboard",
+      "viewport": "360x800",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "project",
+      "viewport": "360x800",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "client",
+      "route": "approvals",
+      "viewport": "360x800",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": false,
+        "workerLeak": 0,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-home",
+      "viewport": "360x800",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": 0,
+        "workerLeak": false,
+        "authOn": true
+      },
+      "pass": true
+    },
+    {
+      "role": "worker",
+      "route": "worker-cards",
+      "viewport": "360x800",
+      "classLeaks": {
+        "overflow": 0,
+        "adminLeak": 0,
+        "clientLeak": 0,
+        "workerLeak": false,
+        "authOn": true
+      },
+      "pass": true
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-07-27T06:07:01.233Z",
+  "states": [
+    {
+      "inventoryId": "UI-067",
+      "state": "expanded-keyboard",
+      "interaction": true,
+      "actual": "open",
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-068",
+      "state": "open-escape-focus-return",
+      "interaction": true,
+      "actual": {
+        "modalOpen": true,
+        "modalClosed": true,
+        "focusReturned": true
+      },
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-065",
+      "state": "navigation",
+      "interaction": false,
+      "measured": true,
+      "actual": 4,
+      "expectedMinimum": 1,
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-066",
+      "state": "hero-narrative",
+      "interaction": false,
+      "measured": true,
+      "actual": 1,
+      "expectedMinimum": 1,
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-069",
+      "state": "auth",
+      "interaction": false,
+      "measured": true,
+      "actual": 1,
+      "expectedMinimum": 1,
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-070",
+      "state": "policies-support",
+      "interaction": false,
+      "measured": true,
+      "actual": 1,
+      "expectedMinimum": 1,
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-071",
+      "state": "workspace-selector",
+      "interaction": false,
+      "measured": true,
+      "actual": 1,
+      "expectedMinimum": 1,
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-067",
+      "state": "faq",
+      "interaction": false,
+      "measured": true,
+      "actual": 6,
+      "expectedMinimum": 1,
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-068",
+      "state": "inquiry",
+      "interaction": false,
+      "measured": true,
+      "actual": 1,
+      "expectedMinimum": 1,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

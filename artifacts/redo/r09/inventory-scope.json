@@ -1,0 +1,178 @@
+{
+  "generatedAt": "2026-07-27T06:10:54.968Z",
+  "source": "artifacts/redo/r02/component-migration-matrix.json",
+  "items": [
+    {
+      "inventoryId": "UI-065",
+      "route": "public/landing",
+      "component": "public floating header",
+      "salesopsId": "SO-HEADER-001",
+      "salesopsComponent": "Header",
+      "classification": "Derived",
+      "uncertainty": "None",
+      "implementationTarget": false,
+      "completionStatus": "Frozen regression only",
+      "preserveLayout": "Entire public layout frozen; regression only.",
+      "preserveData": "All Korean copy, counts, identifiers, fixtures and domain meaning.",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "verificationMethod": "Pixel/DOM comparison against Round 1 public evidence.",
+      "treatment": "frozen regression verified",
+      "evidence": [
+        "artifacts/redo/r09/frozen-public-regression.json",
+        "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+      ],
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-066",
+      "route": "public/landing",
+      "component": "hero and narrative sections",
+      "salesopsId": "SO-CARD-001",
+      "salesopsComponent": "Card",
+      "classification": "Derived",
+      "uncertainty": "None",
+      "implementationTarget": false,
+      "completionStatus": "Frozen regression only",
+      "preserveLayout": "Entire public layout frozen; regression only.",
+      "preserveData": "All Korean copy, counts, identifiers, fixtures and domain meaning.",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "verificationMethod": "Pixel/DOM comparison against Round 1 public evidence.",
+      "treatment": "frozen regression verified",
+      "evidence": [
+        "artifacts/redo/r09/frozen-public-regression.json",
+        "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+      ],
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-067",
+      "route": "public/landing",
+      "component": "FAQ accordion",
+      "salesopsId": "SO-CARD-001",
+      "salesopsComponent": "Card",
+      "classification": "Derived",
+      "uncertainty": "None",
+      "implementationTarget": false,
+      "completionStatus": "Frozen regression only",
+      "preserveLayout": "Entire public layout frozen; regression only.",
+      "preserveData": "All Korean copy, counts, identifiers, fixtures and domain meaning.",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "verificationMethod": "Pixel/DOM comparison against Round 1 public evidence.",
+      "treatment": "frozen regression verified",
+      "evidence": [
+        "artifacts/redo/r09/frozen-public-regression.json",
+        "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+      ],
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-068",
+      "route": "public",
+      "component": "inquiry modal/form",
+      "salesopsId": "SO-DIALOG-001",
+      "salesopsComponent": "Modal/Dialog",
+      "classification": "Derived",
+      "uncertainty": "Counterpart is code-only; visual state will be derived and verified in UI Lab.",
+      "implementationTarget": false,
+      "completionStatus": "Frozen regression only",
+      "preserveLayout": "Entire public layout frozen; regression only.",
+      "preserveData": "All Korean copy, counts, identifiers, fixtures and domain meaning.",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "verificationMethod": "Pixel/DOM comparison against Round 1 public evidence.",
+      "treatment": "frozen regression verified",
+      "evidence": [
+        "artifacts/redo/r09/frozen-public-regression.json",
+        "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+      ],
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-069",
+      "route": "public/auth",
+      "component": "authentication composition",
+      "salesopsId": "SO-SHELL-001",
+      "salesopsComponent": "Dashboard Shell",
+      "classification": "Derived",
+      "uncertainty": "None",
+      "implementationTarget": false,
+      "completionStatus": "Frozen regression only",
+      "preserveLayout": "Entire public layout frozen; regression only.",
+      "preserveData": "All Korean copy, counts, identifiers, fixtures and domain meaning.",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "verificationMethod": "Pixel/DOM comparison against Round 1 public evidence.",
+      "treatment": "frozen regression verified",
+      "evidence": [
+        "artifacts/redo/r09/frozen-public-regression.json",
+        "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+      ],
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-070",
+      "route": "public/policies",
+      "component": "terms/privacy/support content",
+      "salesopsId": "SO-INPUT-001",
+      "salesopsComponent": "Input",
+      "classification": "Derived",
+      "uncertainty": "None",
+      "implementationTarget": false,
+      "completionStatus": "Frozen regression only",
+      "preserveLayout": "Entire public layout frozen; regression only.",
+      "preserveData": "All Korean copy, counts, identifiers, fixtures and domain meaning.",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "verificationMethod": "Pixel/DOM comparison against Round 1 public evidence.",
+      "treatment": "frozen regression verified",
+      "evidence": [
+        "artifacts/redo/r09/frozen-public-regression.json",
+        "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+      ],
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-071",
+      "route": "shared",
+      "component": "workspace selector",
+      "salesopsId": "SO-INPUT-001",
+      "salesopsComponent": "Input",
+      "classification": "Derived",
+      "uncertainty": "None",
+      "implementationTarget": false,
+      "completionStatus": "Frozen regression only",
+      "preserveLayout": "Entire public layout frozen; regression only.",
+      "preserveData": "All Korean copy, counts, identifiers, fixtures and domain meaning.",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "verificationMethod": "Pixel/DOM comparison against Round 1 public evidence.",
+      "treatment": "frozen regression verified",
+      "evidence": [
+        "artifacts/redo/r09/frozen-public-regression.json",
+        "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+      ],
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-072",
+      "route": "shared",
+      "component": "403 screen",
+      "salesopsId": "SO-CARD-001",
+      "salesopsComponent": "Card",
+      "classification": "Derived",
+      "uncertainty": "None",
+      "implementationTarget": true,
+      "completionStatus": "Mapped for implementation",
+      "preserveLayout": "Current ORDOSPACE placement, section order, dimensions, route shell and responsive composition.",
+      "preserveData": "All Korean copy, counts, identifiers, fixtures and domain meaning.",
+      "preserveFunction": "All actions, role guards, session/localStorage/API/lifecycle behavior and selectors.",
+      "verificationMethod": "Visual + DOM selector + route/role/function regression at 1440/1024/390.",
+      "treatment": "existing implementation verified",
+      "evidence": [
+        "artifacts/redo/r09/ui-072-implementation-audit.json",
+        "evidence/redo/r09/shared/shared-forbidden-403-default-desktop-1440x1000.png"
+      ],
+      "pass": true
+    }
+  ],
+  "frozenCount": 7,
+  "implementationTargetCount": 1,
+  "matrixChanged": false,
+  "pass": true
+}

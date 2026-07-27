@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-07-27T06:07:01.233Z",
+  "states": [
+    {
+      "inventoryId": "UI-067",
+      "state": "expanded-keyboard",
+      "interaction": true,
+      "actual": "open",
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-068",
+      "state": "open-escape-focus-return",
+      "interaction": true,
+      "actual": {
+        "modalOpen": true,
+        "modalClosed": true,
+        "focusReturned": true
+      },
+      "pass": true
+    }
+  ],
+  "pass": true
+}

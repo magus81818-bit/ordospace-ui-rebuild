@@ -1,0 +1,258 @@
+{
+  "generatedAt": "2026-07-27T06:13:35.817Z",
+  "inventory73Pass": true,
+  "round9MatrixPass": true,
+  "round9FrozenInventoryPass": true,
+  "ui072ExistingImplementationPass": true,
+  "publicFrozenPass": true,
+  "publicInteractionPass": true,
+  "roleIsolationPass": true,
+  "dataFunctionParityPass": true,
+  "stateCoveragePass": true,
+  "accessibilityPass": true,
+  "responsivePass": true,
+  "cssTokenPass": true,
+  "productDiffPass": true,
+  "validatorIntegrityPass": true,
+  "browserHealthPass": true,
+  "uiLabPass": true,
+  "checks": [
+    {
+      "name": "branch",
+      "pass": true,
+      "detail": "redo/r09-integration-verification"
+    },
+    {
+      "name": "Round 8 merge base",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "git-prestate artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "inventory-scope artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "full-inventory-audit artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "full-state-coverage artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen-public-regression artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public-state-audit artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public-interaction-audit artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui-072-implementation-audit artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "role-isolation-audit artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "data-function-parity artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "accessibility-audit artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive-layout-audit artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "css-token-audit artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "product-diff-audit artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "validator-integrity-audit artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser-health-audit artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui-lab-audit artifact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "inventory-scope pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "full-inventory-audit pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "full-state-coverage pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "frozen-public-regression pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public-state-audit pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public-interaction-audit pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui-072-implementation-audit pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "role-isolation-audit pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "data-function-parity pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "accessibility-audit pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive-layout-audit pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "css-token-audit pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "product-diff-audit pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "validator-integrity-audit pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser-health-audit pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "ui-lab-audit pass",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Round 9 inventory 8",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "name": "Frozen 7",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-072 target true",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-072 mapped",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Matrix unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "inventory 73",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "round counts",
+      "pass": true,
+      "detail": "{\"Round 3\":3,\"Round 4\":10,\"Round 5\":9,\"Round 6\":21,\"Round 7\":12,\"Round 8\":10,\"Round 9\":8}"
+    },
+    {
+      "name": "inventory evidence complete",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "state valid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "validator integrity measured",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser health zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no product change",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "failures": [],
+  "pass": true
+}

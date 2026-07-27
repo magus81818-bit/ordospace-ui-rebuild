@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-07-27T06:10:54.968Z",
+  "checks": [
+    {
+      "file": "app/data/workspace.data.js",
+      "baselineSha": "b593930d73a8f0dc17ca65f43b16c309cb59e760130bebd06b152e85fc6b70b7",
+      "currentSha": "b593930d73a8f0dc17ca65f43b16c309cb59e760130bebd06b152e85fc6b70b7",
+      "pass": true
+    },
+    {
+      "file": "app/data/room.data.js",
+      "baselineSha": "a5e3863a2abb66167bca8c29e2fbed8a42c26e673b1902fa26c380ce5c77b4f8",
+      "currentSha": "a5e3863a2abb66167bca8c29e2fbed8a42c26e673b1902fa26c380ce5c77b4f8",
+      "pass": true
+    },
+    {
+      "file": "app/services/session.service.js",
+      "baselineSha": "afae371b76a5e875eda3bec69c00cdc0bc69735f5ed8ade954242b594028194b",
+      "currentSha": "afae371b76a5e875eda3bec69c00cdc0bc69735f5ed8ade954242b594028194b",
+      "pass": true
+    },
+    {
+      "file": "app/services/module-card-lifecycle.service.js",
+      "baselineSha": "41d7c7f1ce2a8fa8d2ccd36e46c34d08db093a2178a497e493e65c16603f7bb7",
+      "currentSha": "41d7c7f1ce2a8fa8d2ccd36e46c34d08db093a2178a497e493e65c16603f7bb7",
+      "pass": true
+    },
+    {
+      "file": "app/config/app.config.js",
+      "baselineSha": "178803199e7787e0f05bc7e04a7a7069c2d7768b6e857398068a1d647948558b",
+      "currentSha": "178803199e7787e0f05bc7e04a7a7069c2d7768b6e857398068a1d647948558b",
+      "pass": true
+    },
+    {
+      "file": "app/config/api.config.js",
+      "baselineSha": "9d52c8f4abe89ee97ff79180d4bbcb648c0269aafae1beffd12f325a5ed4dd1d",
+      "currentSha": "9d52c8f4abe89ee97ff79180d4bbcb648c0269aafae1beffd12f325a5ed4dd1d",
+      "pass": true
+    },
+    {
+      "file": "api/module-cards.js",
+      "baselineSha": "7f53f03eca5bc56541a5791cb93e7cdaac635c1e93ff6c916878addf7df16324",
+      "currentSha": "7f53f03eca5bc56541a5791cb93e7cdaac635c1e93ff6c916878addf7df16324",
+      "pass": true
+    },
+    {
+      "file": "backend/package.json",
+      "baselineSha": "e1e80721f859be8787d5bc062d6cb14c20ba467704e8404d7c2b3e31eb7cc554",
+      "currentSha": "e1e80721f859be8787d5bc062d6cb14c20ba467704e8404d7c2b3e31eb7cc554",
+      "pass": true
+    },
+    {
+      "file": "backend/prisma/schema.prisma",
+      "baselineSha": "72d861cef82a6efa8603b36321f5934eabd0e413acf046bb82db253fdf97e563",
+      "currentSha": "72d861cef82a6efa8603b36321f5934eabd0e413acf046bb82db253fdf97e563",
+      "pass": true
+    }
+  ],
+  "routeListUnchanged": true,
+  "screenIdsUnchanged": true,
+  "koreanCopyUnchanged": true,
+  "roleGuardsUnchanged": true,
+  "storageKeysUnchanged": true,
+  "apiPathsUnchanged": true,
+  "lifecycleTransitionsUnchanged": true,
+  "serviceArgumentsUnchanged": true,
+  "pass": true
+}

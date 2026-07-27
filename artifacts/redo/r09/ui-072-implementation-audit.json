@@ -1,0 +1,56 @@
+{
+  "generatedAt": "2026-07-27T06:07:01.233Z",
+  "cases": [
+    {
+      "viewport": "1440x1000",
+      "screen": true,
+      "renderer": true,
+      "routeGuard": true,
+      "attemptedRoute": "#admin-home",
+      "currentRole": "작업자",
+      "multiRoleHint": true,
+      "selectorCta": true,
+      "homeCta": true,
+      "keyboard": true,
+      "focus": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/shared/shared-forbidden-403-default-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "viewport": "1024x1366",
+      "screen": true,
+      "renderer": true,
+      "routeGuard": true,
+      "attemptedRoute": "#admin-home",
+      "currentRole": "작업자",
+      "multiRoleHint": true,
+      "selectorCta": true,
+      "homeCta": true,
+      "keyboard": true,
+      "focus": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/shared/shared-forbidden-403-default-tablet-1024x1366.png",
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "screen": true,
+      "renderer": true,
+      "routeGuard": true,
+      "attemptedRoute": "#admin-home",
+      "currentRole": "작업자",
+      "multiRoleHint": true,
+      "selectorCta": true,
+      "homeCta": true,
+      "keyboard": true,
+      "focus": true,
+      "overflow": 0,
+      "evidence": "evidence/redo/r09/shared/shared-forbidden-403-default-mobile-390x844.png",
+      "pass": true
+    }
+  ],
+  "existingImplementationVerified": true,
+  "productCorrection": false,
+  "pass": true
+}

@@ -1,0 +1,2716 @@
+{
+  "generatedAt": "2026-07-27T06:10:54.968Z",
+  "items": [
+    {
+      "inventoryId": "UI-001",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-001/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-001/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-001/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-001/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-002",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-002/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-002/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-002/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-002/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-003",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-003/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-003/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-003/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-003/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-004",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-004/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-004/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-004/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-004/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-005",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-005/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-005/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-005/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-005/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-006",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-006/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-006/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-006/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-006/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-007",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-007/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-007/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-007/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-007/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-008",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-008/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-008/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-008/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-008/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-009",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-009/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-009/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-009/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r05/admin-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r05/shell-audit.spec.cjs::shared shell preserves role IA across six viewports#UI-009/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-010",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r03/dashboard-token-audit.spec.cjs::dashboard foundation applies to required routes without layout or responsive drift#UI-010/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r03/dashboard-token-audit.spec.cjs::dashboard foundation applies to required routes without layout or responsive drift#UI-010/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r03/dashboard-token-audit.spec.cjs::dashboard foundation applies to required routes without layout or responsive drift#UI-010/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r03/dashboard-token-audit.spec.cjs::dashboard foundation applies to required routes without layout or responsive drift#UI-010/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-011",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r03/dashboard-token-audit.spec.cjs::dashboard foundation applies to required routes without layout or responsive drift#UI-011/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r03/dashboard-token-audit.spec.cjs::dashboard foundation applies to required routes without layout or responsive drift#UI-011/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r03/dashboard-token-audit.spec.cjs::dashboard foundation applies to required routes without layout or responsive drift#UI-011/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r03/dashboard-token-audit.spec.cjs::dashboard foundation applies to required routes without layout or responsive drift#UI-011/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-012",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r03/dashboard-token-audit.spec.cjs::dashboard foundation applies to required routes without layout or responsive drift#UI-012/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r03/dashboard-token-audit.spec.cjs::dashboard foundation applies to required routes without layout or responsive drift#UI-012/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r03/dashboard-token-audit.spec.cjs::dashboard foundation applies to required routes without layout or responsive drift#UI-012/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r03/dashboard-token-audit.spec.cjs::dashboard foundation applies to required routes without layout or responsive drift#UI-012/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-013",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-013/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-013/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-013/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-013/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-014",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-014/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-014/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-014/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-014/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-015",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-015/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-015/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-015/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-015/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-016",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-016/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-016/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-016/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-016/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-017",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-017/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-017/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-017/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-017/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-018",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-018/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-018/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-018/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-018/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-019",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-019/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-019/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-019/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-019/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-020",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-020/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-020/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-020/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-020/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-021",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-021/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-021/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-021/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-021/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-022",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-022/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-022/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-022/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-022/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-023",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-023/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-023/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-023/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-023/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-024",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-024/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-024/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-024/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-024/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-025",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-025/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-025/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-025/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-025/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-026",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-026/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-026/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-026/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-026/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-027",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-027/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-027/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-027/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-027/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-028",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-028/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-028/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-028/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-028/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-029",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-029/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-029/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-029/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-029/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-030",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-030/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-030/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-030/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-030/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-031",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-031/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-031/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-031/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-031/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-032",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-032/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-032/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-032/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r07/client-audit.spec.cjs::Client screens preserve shell and section structure across six viewports#UI-032/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-033",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-033/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-033/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-033/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-033/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-034",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-034/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-034/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-034/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-034/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-035",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-035/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-035/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-035/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-035/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-036",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-036/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-036/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-036/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-036/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-037",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-037/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-037/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-037/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-037/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-038",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-038/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-038/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-038/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-038/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-039",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-039/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-039/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-039/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-039/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-040",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-040/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-040/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-040/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-040/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-041",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-041/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-041/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-041/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-041/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-042",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-042/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-042/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-042/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-042/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-043",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-043/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-043/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-043/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-043/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-044",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-044/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-044/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-044/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-044/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-045",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-045/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-045/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-045/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-045/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-046",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-046/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-046/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-046/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-046/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-047",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-047/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-047/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-047/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-047/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-048",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-048/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-048/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-048/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-048/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-049",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-049/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-049/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-049/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-049/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-050",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-050/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-050/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-050/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-050/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-051",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-051/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-051/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-051/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-051/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-052",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-052/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-052/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-052/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-052/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-053",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-053/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-053/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-053/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-053/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-054",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-054/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-054/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-054/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-054/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-055",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-055/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-055/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-055/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-055/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-056",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-056/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-056/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-056/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-056/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-057",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-057/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-057/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-057/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-057/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-058",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-058/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-058/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-058/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-058/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-059",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-059/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-059/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-059/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-059/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-060",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-060/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-060/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-060/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-060/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-061",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-061/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-061/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-061/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-061/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-062",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-062/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-062/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-062/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-062/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-063",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-063/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-063/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-063/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r06/admin-audit.spec.cjs::five Admin screens preserve shell geometry across six viewports#UI-063/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-064",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-064/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-064/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-064/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-064/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-065",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-065/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-065/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-065/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-065/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-066",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-066/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-066/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-066/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-066/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-067",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-067/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-067/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-067/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-067/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-068",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-068/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-068/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-068/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-068/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-069",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-069/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-069/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-069/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-069/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-070",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-070/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-070/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-070/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-070/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-071",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-071/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-071/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-071/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-071/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-072",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-072/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-072/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-072/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r09/integration-audit.spec.cjs::Public 18-case freeze and interaction contracts#UI-072/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    },
+    {
+      "inventoryId": "UI-073",
+      "states": {
+        "default": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-073/default"
+        },
+        "Desktop": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-073/Desktop"
+        },
+        "Tablet": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-073/Tablet"
+        },
+        "Mobile": {
+          "status": "implemented",
+          "evidence": [
+            "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+          ],
+          "browserAssertion": "tests/redo/r04/ui-lab-audit.spec.cjs::UI Lab interactions exercise validation, tabs, feedback, dialog, sheet and long content#UI-073/Mobile"
+        },
+        "special": {
+          "status": "not_applicable",
+          "reason": "Component-specific interaction states remain covered by the approved primary-round state artifact and are not duplicated by the integration bridge."
+        }
+      }
+    }
+  ],
+  "implementedCount": 292,
+  "notApplicableCount": 73,
+  "invalidStatusCount": 0,
+  "missingEvidenceCount": 0,
+  "directoryEvidenceCount": 0,
+  "genericAssertionCount": 0,
+  "missingAssertionCount": 0,
+  "deferred": 0,
+  "missing": 0,
+  "pass": true
+}
