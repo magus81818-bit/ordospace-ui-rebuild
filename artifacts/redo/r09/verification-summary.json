@@ -1,254 +1,384 @@
 {
-  "generatedAt": "2026-07-27T06:13:35.817Z",
-  "inventory73Pass": true,
-  "round9MatrixPass": true,
-  "round9FrozenInventoryPass": true,
-  "ui072ExistingImplementationPass": true,
-  "publicFrozenPass": true,
-  "publicInteractionPass": true,
-  "roleIsolationPass": true,
-  "dataFunctionParityPass": true,
-  "stateCoveragePass": true,
-  "accessibilityPass": true,
-  "responsivePass": true,
-  "cssTokenPass": true,
-  "productDiffPass": true,
-  "validatorIntegrityPass": true,
-  "browserHealthPass": true,
-  "uiLabPass": true,
+  "generatedAt": "2026-07-27T07:03:06.188Z",
+  "inventoryItemsAllPass": true,
+  "invalidRoundArtifactPaths": [],
+  "inventorySpecificEvidencePass": true,
+  "stateArtifactsActuallyMerged": true,
+  "fabricatedUniformStateRows": 0,
+  "round1BaselineComparisonPass": true,
+  "ui072MeasuredKeyboardFocusPass": true,
+  "browserHealthActuallyMeasured": true,
+  "uiLabActuallyMeasured": true,
+  "hardcodedAuditResults": [],
+  "validatorIndependentPass": true,
   "checks": [
     {
-      "name": "branch",
+      "name": "branch is Round 9 correction branch",
       "pass": true,
       "detail": "redo/r09-integration-verification"
     },
     {
-      "name": "Round 8 merge base",
+      "name": "Round 8 is exact merge base",
+      "pass": true,
+      "detail": "2911cc85922bf32f31d051216aca9f29ed906564"
+    },
+    {
+      "name": "git-prestate exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/git-prestate.json"
+    },
+    {
+      "name": "git-prestate parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "git-prestate artifact",
+      "name": "inventory-scope exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/inventory-scope.json"
+    },
+    {
+      "name": "inventory-scope parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "inventory-scope artifact",
+      "name": "full-inventory-audit exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/full-inventory-audit.json"
+    },
+    {
+      "name": "full-inventory-audit parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "full-inventory-audit artifact",
+      "name": "full-state-coverage exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/full-state-coverage.json"
+    },
+    {
+      "name": "full-state-coverage parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "full-state-coverage artifact",
+      "name": "frozen-public-regression exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/frozen-public-regression.json"
+    },
+    {
+      "name": "frozen-public-regression parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "frozen-public-regression artifact",
+      "name": "public-state-audit exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/public-state-audit.json"
+    },
+    {
+      "name": "public-state-audit parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "public-state-audit artifact",
+      "name": "public-interaction-audit exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/public-interaction-audit.json"
+    },
+    {
+      "name": "public-interaction-audit parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "public-interaction-audit artifact",
+      "name": "public-health exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/public-health.json"
+    },
+    {
+      "name": "public-health parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "ui-072-implementation-audit artifact",
+      "name": "ui-072-implementation-audit exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/ui-072-implementation-audit.json"
+    },
+    {
+      "name": "ui-072-implementation-audit parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "role-isolation-audit artifact",
+      "name": "ui-072-source-audit exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/ui-072-source-audit.json"
+    },
+    {
+      "name": "ui-072-source-audit parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "data-function-parity artifact",
+      "name": "role-isolation-audit exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/role-isolation-audit.json"
+    },
+    {
+      "name": "role-isolation-audit parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "accessibility-audit artifact",
+      "name": "data-function-parity exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/data-function-parity.json"
+    },
+    {
+      "name": "data-function-parity parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "responsive-layout-audit artifact",
+      "name": "accessibility-audit exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/accessibility-audit.json"
+    },
+    {
+      "name": "accessibility-audit parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "css-token-audit artifact",
+      "name": "responsive-layout-audit exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/responsive-layout-audit.json"
+    },
+    {
+      "name": "responsive-layout-audit parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "product-diff-audit artifact",
+      "name": "css-token-audit exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/css-token-audit.json"
+    },
+    {
+      "name": "css-token-audit parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "validator-integrity-audit artifact",
+      "name": "product-diff-audit exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/product-diff-audit.json"
+    },
+    {
+      "name": "product-diff-audit parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "browser-health-audit artifact",
+      "name": "validator-integrity-audit exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/validator-integrity-audit.json"
+    },
+    {
+      "name": "validator-integrity-audit parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "ui-lab-audit artifact",
+      "name": "browser-health-audit exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/browser-health-audit.json"
+    },
+    {
+      "name": "browser-health-audit parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "inventory-scope pass",
+      "name": "ui-lab-audit exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/ui-lab-audit.json"
+    },
+    {
+      "name": "ui-lab-audit parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "full-inventory-audit pass",
+      "name": "authenticated-health exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/authenticated-health.json"
+    },
+    {
+      "name": "authenticated-health parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "full-state-coverage pass",
+      "name": "shared-health exists",
+      "pass": true,
+      "detail": "artifacts/redo/r09/shared-health.json"
+    },
+    {
+      "name": "shared-health parses",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "frozen-public-regression pass",
+      "name": "inventory has exactly 73 unique items",
+      "pass": true,
+      "detail": "73"
+    },
+    {
+      "name": "inventory IDs cover UI-001 through UI-073",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "public-state-audit pass",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "public-interaction-audit pass",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "ui-072-implementation-audit pass",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "role-isolation-audit pass",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "data-function-parity pass",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "accessibility-audit pass",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "responsive-layout-audit pass",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "css-token-audit pass",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "product-diff-audit pass",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "validator-integrity-audit pass",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "browser-health-audit pass",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "ui-lab-audit pass",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "Round 9 inventory 8",
-      "pass": true,
-      "detail": "8"
-    },
-    {
-      "name": "Frozen 7",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "UI-072 target true",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "UI-072 mapped",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "Matrix unchanged",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "inventory 73",
-      "pass": true,
-      "detail": ""
-    },
-    {
-      "name": "round counts",
+      "name": "inventory round counts are exact",
       "pass": true,
       "detail": "{\"Round 3\":3,\"Round 4\":10,\"Round 5\":9,\"Round 6\":21,\"Round 7\":12,\"Round 8\":10,\"Round 9\":8}"
     },
     {
-      "name": "inventory evidence complete",
+      "name": "every inventory item passes internal evidence checks",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "state valid",
+      "name": "inventory has no unresolved assignments",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "validator integrity measured",
+      "name": "inventory has no invalid round artifact paths",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "all 73 state items are merged from real source artifacts",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "browser health zero",
+      "name": "implemented states have existing item-specific evidence",
+      "pass": true,
+      "detail": "549"
+    },
+    {
+      "name": "implemented states cite an existing test and exact item/state marker",
       "pass": true,
       "detail": ""
     },
     {
-      "name": "no product change",
+      "name": "state rollup reports no gaps",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "fabricated uniform state rows are absent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unrelated duplicate evidence is absent",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Round 9 Matrix scope has eight exact items",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-065 through UI-071 remain frozen",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-072 is the single mapped implementation target",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Round 2 Matrix is unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "public screens match the approved Round 1 baseline in 18 measured cases",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-065 through UI-071 have measured interaction state rows",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-072 renderer route keyboard focus and responsive cases are measured",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI-072 source markers and exact CTA are independently located",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser health listeners and action spies are measured",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "browser health has no new runtime failures",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "known baseline request failures are separated from new failures",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UI Lab guard API storage specimens keyboard focus and D/T/M are measured",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "data and function parity has independent baseline/current values",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "CSS token definitions references leakage and order are clean",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Round 9 has no product dependency public data or backend changes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "prior validators are unchanged and no audit result is hardcoded",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "integrity audit requires internal item evidence and independent validation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "responsive, role isolation, accessibility and public health internals pass",
       "pass": true,
       "detail": ""
     }

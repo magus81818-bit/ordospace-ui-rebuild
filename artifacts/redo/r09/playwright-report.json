@@ -5,7 +5,8 @@
       "C:\\Users\\Admin\\Desktop\\K-디지털\\수업자료\\코덱스\\ordospace-ui-rebuild\\tests\\redo\\r04\\node_modules\\@playwright\\test\\cli.js",
       "test",
       "--config",
-      "playwright.config.cjs"
+      "playwright.config.cjs",
+      "integration-audit.spec.cjs"
     ],
     "configFile": "C:\\Users\\Admin\\Desktop\\K-디지털\\수업자료\\코덱스\\ordospace-ui-rebuild\\tests\\redo\\r09\\playwright.config.cjs",
     "rootDir": "C:/Users/Admin/Desktop/K-디지털/수업자료/코덱스/ordospace-ui-rebuild/tests/redo/r09",
@@ -63,13 +64,7 @@
     "updateSourceMethod": "patch",
     "version": "1.61.1",
     "workers": 1,
-    "webServer": {
-      "command": "node static-server.cjs",
-      "cwd": "C:\\Users\\Admin\\Desktop\\K-디지털\\수업자료\\코덱스\\ordospace-ui-rebuild\\tests\\redo\\r09",
-      "port": 4184,
-      "reuseExistingServer": false,
-      "timeout": 30000
-    }
+    "webServer": null
   },
   "suites": [
     {
@@ -78,40 +73,6 @@
       "column": 0,
       "line": 0,
       "specs": [
-        {
-          "title": "Public 18-case freeze and interaction contracts",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 180000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 13945,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-07-27T06:07:01.241Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "24de094fea25f14364e4-d08633e07e7e2610e5a6",
-          "file": "integration-audit.spec.cjs",
-          "line": 20,
-          "column": 1
-        },
         {
           "title": "Authenticated 60-case responsive and role isolation audit",
           "ok": true,
@@ -128,12 +89,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 58737,
+                  "duration": 77230,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-07-27T06:07:15.471Z",
+                  "startTime": "2026-07-27T06:57:45.969Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -143,75 +104,7 @@
           ],
           "id": "24de094fea25f14364e4-3a55e1309d99b1ddc61e",
           "file": "integration-audit.spec.cjs",
-          "line": 28,
-          "column": 1
-        },
-        {
-          "title": "UI-072 existing 403 implementation across D T M",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 180000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 3512,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-07-27T06:08:14.228Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "24de094fea25f14364e4-6bab8e54dde1001d5a72",
-          "file": "integration-audit.spec.cjs",
-          "line": 33,
-          "column": 1
-        },
-        {
-          "title": "UI Lab remains dev-only and storage/API neutral",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 180000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "",
-              "projectName": "",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "parallelIndex": 0,
-                  "status": "passed",
-                  "duration": 1214,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2026-07-27T06:08:17.757Z",
-                  "annotations": [],
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "24de094fea25f14364e4-0d5c3b18b590e7904e3d",
-          "file": "integration-audit.spec.cjs",
-          "line": 37,
+          "line": 9,
           "column": 1
         }
       ]
@@ -219,9 +112,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-27T06:07:00.447Z",
-    "duration": 79147.392,
-    "expected": 4,
+    "startTime": "2026-07-27T06:57:44.593Z",
+    "duration": 79791.218,
+    "expected": 1,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0

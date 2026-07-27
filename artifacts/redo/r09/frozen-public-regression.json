@@ -1,12 +1,34 @@
 {
-  "generatedAt": "2026-07-27T06:07:01.233Z",
+  "generatedAt": "2026-07-27T06:47:46.379Z",
+  "baselineRef": "f10779ef7dcb0e419c85497eebf45888303b557a",
+  "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
   "cases": [
     {
       "route": "landing",
       "viewport": "1440x1000",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-landing",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 1440,
+        "scrollHeight": 7129,
+        "clientWidth": 1440,
+        "clientHeight": 1000,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 1440,
+        "scrollHeight": 7129,
+        "clientWidth": 1440,
+        "clientHeight": 1000,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png",
       "pass": true
@@ -14,9 +36,29 @@
     {
       "route": "auth",
       "viewport": "1440x1000",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-auth",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 1440,
+        "scrollHeight": 1267,
+        "clientWidth": 1440,
+        "clientHeight": 1000,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 1440,
+        "scrollHeight": 1267,
+        "clientWidth": 1440,
+        "clientHeight": 1000,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-auth-desktop-1440x1000.png",
       "pass": true
@@ -24,9 +66,29 @@
     {
       "route": "terms",
       "viewport": "1440x1000",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-terms",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 1440,
+        "scrollHeight": 3888,
+        "clientWidth": 1440,
+        "clientHeight": 1000,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 1440,
+        "scrollHeight": 3888,
+        "clientWidth": 1440,
+        "clientHeight": 1000,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-terms-desktop-1440x1000.png",
       "pass": true
@@ -34,9 +96,29 @@
     {
       "route": "privacy",
       "viewport": "1440x1000",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-privacy",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 1440,
+        "scrollHeight": 4588,
+        "clientWidth": 1440,
+        "clientHeight": 1000,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 1440,
+        "scrollHeight": 4588,
+        "clientWidth": 1440,
+        "clientHeight": 1000,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-privacy-desktop-1440x1000.png",
       "pass": true
@@ -44,9 +126,29 @@
     {
       "route": "support",
       "viewport": "1440x1000",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-support",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 1440,
+        "scrollHeight": 2726,
+        "clientWidth": 1440,
+        "clientHeight": 1000,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 1440,
+        "scrollHeight": 2726,
+        "clientWidth": 1440,
+        "clientHeight": 1000,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-support-desktop-1440x1000.png",
       "pass": true
@@ -54,9 +156,29 @@
     {
       "route": "select-workspace",
       "viewport": "1440x1000",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-select-workspace",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "clientWidth": 1440,
+        "clientHeight": 1000,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "clientWidth": 1440,
+        "clientHeight": 1000,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-select-workspace-desktop-1440x1000.png",
       "pass": true
@@ -64,9 +186,29 @@
     {
       "route": "landing",
       "viewport": "1024x1366",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-landing",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 1024,
+        "scrollHeight": 6945,
+        "clientWidth": 1024,
+        "clientHeight": 1366,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 1024,
+        "scrollHeight": 6945,
+        "clientWidth": 1024,
+        "clientHeight": 1366,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-landing-tablet-1024x1366.png",
       "pass": true
@@ -74,9 +216,29 @@
     {
       "route": "auth",
       "viewport": "1024x1366",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-auth",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 1024,
+        "scrollHeight": 2115,
+        "clientWidth": 1024,
+        "clientHeight": 1366,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 1024,
+        "scrollHeight": 2115,
+        "clientWidth": 1024,
+        "clientHeight": 1366,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-auth-tablet-1024x1366.png",
       "pass": true
@@ -84,9 +246,29 @@
     {
       "route": "terms",
       "viewport": "1024x1366",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-terms",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 1024,
+        "scrollHeight": 3888,
+        "clientWidth": 1024,
+        "clientHeight": 1366,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 1024,
+        "scrollHeight": 3888,
+        "clientWidth": 1024,
+        "clientHeight": 1366,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-terms-tablet-1024x1366.png",
       "pass": true
@@ -94,9 +276,29 @@
     {
       "route": "privacy",
       "viewport": "1024x1366",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-privacy",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 1024,
+        "scrollHeight": 4588,
+        "clientWidth": 1024,
+        "clientHeight": 1366,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 1024,
+        "scrollHeight": 4588,
+        "clientWidth": 1024,
+        "clientHeight": 1366,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-privacy-tablet-1024x1366.png",
       "pass": true
@@ -104,9 +306,29 @@
     {
       "route": "support",
       "viewport": "1024x1366",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-support",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 1024,
+        "scrollHeight": 2726,
+        "clientWidth": 1024,
+        "clientHeight": 1366,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 1024,
+        "scrollHeight": 2726,
+        "clientWidth": 1024,
+        "clientHeight": 1366,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-support-tablet-1024x1366.png",
       "pass": true
@@ -114,9 +336,29 @@
     {
       "route": "select-workspace",
       "viewport": "1024x1366",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-select-workspace",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 1024,
+        "scrollHeight": 1366,
+        "clientWidth": 1024,
+        "clientHeight": 1366,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 1024,
+        "scrollHeight": 1366,
+        "clientWidth": 1024,
+        "clientHeight": 1366,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-select-workspace-tablet-1024x1366.png",
       "pass": true
@@ -124,9 +366,29 @@
     {
       "route": "landing",
       "viewport": "390x844",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-landing",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 390,
+        "scrollHeight": 8113,
+        "clientWidth": 390,
+        "clientHeight": 844,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 390,
+        "scrollHeight": 8113,
+        "clientWidth": 390,
+        "clientHeight": 844,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-landing-mobile-390x844.png",
       "pass": true
@@ -134,9 +396,29 @@
     {
       "route": "auth",
       "viewport": "390x844",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-auth",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 390,
+        "scrollHeight": 3610,
+        "clientWidth": 390,
+        "clientHeight": 844,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 390,
+        "scrollHeight": 3610,
+        "clientWidth": 390,
+        "clientHeight": 844,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-auth-mobile-390x844.png",
       "pass": true
@@ -144,9 +426,29 @@
     {
       "route": "terms",
       "viewport": "390x844",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-terms",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 390,
+        "scrollHeight": 6174,
+        "clientWidth": 390,
+        "clientHeight": 844,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 390,
+        "scrollHeight": 6174,
+        "clientWidth": 390,
+        "clientHeight": 844,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-terms-mobile-390x844.png",
       "pass": true
@@ -154,9 +456,29 @@
     {
       "route": "privacy",
       "viewport": "390x844",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-privacy",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 390,
+        "scrollHeight": 5867,
+        "clientWidth": 390,
+        "clientHeight": 844,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 390,
+        "scrollHeight": 5867,
+        "clientWidth": 390,
+        "clientHeight": 844,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-privacy-mobile-390x844.png",
       "pass": true
@@ -164,9 +486,29 @@
     {
       "route": "support",
       "viewport": "390x844",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-support",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 390,
+        "scrollHeight": 3710,
+        "clientWidth": 390,
+        "clientHeight": 844,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 390,
+        "scrollHeight": 3710,
+        "clientWidth": 390,
+        "clientHeight": 844,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-support-mobile-390x844.png",
       "pass": true
@@ -174,13 +516,35 @@
     {
       "route": "select-workspace",
       "viewport": "390x844",
+      "baselineSource": "git:f10779ef7dcb0e419c85497eebf45888303b557a",
+      "screenId": "screen-select-workspace",
       "domSame": true,
+      "textSame": true,
       "styleSame": true,
       "boxSame": true,
+      "formContractSame": true,
+      "differences": [],
+      "baselinePage": {
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "clientWidth": 390,
+        "clientHeight": 844,
+        "overflow": 0
+      },
+      "currentPage": {
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "clientWidth": 390,
+        "clientHeight": 844,
+        "overflow": 0
+      },
+      "dashboardStyleNonIntrusion": true,
       "overflow": 0,
       "evidence": "evidence/redo/r09/frozen-public/public-select-workspace-mobile-390x844.png",
       "pass": true
     }
   ],
+  "baselineRequestFailures": [],
+  "currentRequestFailures": [],
   "pass": true
 }

@@ -1,62 +1,38 @@
 {
-  "generatedAt": "2026-07-27T06:10:54.968Z",
+  "generatedAt": "2026-07-27T07:02:58.834Z",
   "files": [
-    {
-      "file": "app/styles/dashboard-salesops.tokens.css",
-      "sha": "3cdfc739d79a7ced5c94d7159d210c613f67fcc17f867414a8cf5fb266fc64a7",
-      "unresolved": [],
-      "remoteFont": false,
-      "important": 16
-    },
-    {
-      "file": "app/styles/dashboard-salesops.primitives.css",
-      "sha": "22844e047a36270b4e12c58c1fd309421ab6f38d3fd65df2b01f068e2a68504f",
-      "unresolved": [],
-      "remoteFont": false,
-      "important": 0
-    },
-    {
-      "file": "app/styles/dashboard-salesops.shell.css",
-      "sha": "ae5465edad316869be21a3e8ecbcb431b64283a74a3f1291f3302217d4f6b442",
-      "unresolved": [],
-      "remoteFont": false,
-      "important": 0
-    },
-    {
-      "file": "app/styles/dashboard-salesops.admin.css",
-      "sha": "9abe78a6c5d8185d7afe5492a25be93edca39ceac296222b9835083f94c03423",
-      "unresolved": [],
-      "remoteFont": false,
-      "important": 0
-    },
-    {
-      "file": "app/styles/dashboard-salesops.client.css",
-      "sha": "8107a9eecb9bdb47941cfd9ab70a56c40cc7558e1fd9c1c02015517a6f1590a4",
-      "unresolved": [],
-      "remoteFont": false,
-      "important": 0
-    },
-    {
-      "file": "app/styles/dashboard-salesops.worker.css",
-      "sha": "ebcab541857943206d87c03e5d0853c7fe30576bd5488adb641b78c9f6be10e1",
-      "unresolved": [],
-      "remoteFont": false,
-      "important": 0
-    }
+    "app/styles/dashboard-salesops.tokens.css",
+    "app/styles/dashboard-salesops.primitives.css",
+    "app/styles/dashboard-salesops.shell.css",
+    "app/styles/dashboard-salesops.admin.css",
+    "app/styles/dashboard-salesops.client.css",
+    "app/styles/dashboard-salesops.worker.css"
   ],
-  "unresolvedTokens": 0,
-  "newRawColors": 0,
-  "newImportant": 0,
-  "remoteFonts": 0,
-  "roleLeakage": 0,
-  "publicLeakage": 0,
+  "definitionCount": 259,
+  "referenceCount": 291,
+  "unresolvedTokens": [],
+  "newRawColors": [],
+  "newImportant": [],
+  "baselineImportantCount": 16,
+  "currentImportantCount": 16,
+  "roleLeakage": [],
+  "publicComputedInfluence": 0,
+  "remoteFonts": [],
   "stylesheetOrder": [
-    "tokens",
-    "primitives",
-    "shell",
-    "admin",
-    "client",
-    "worker"
+    "dashboard-salesops.tokens.css",
+    "dashboard-salesops.primitives.css",
+    "dashboard-salesops.shell.css",
+    "dashboard-salesops.admin.css",
+    "dashboard-salesops.client.css",
+    "dashboard-salesops.worker.css"
+  ],
+  "expectedStylesheetOrder": [
+    "dashboard-salesops.tokens.css",
+    "dashboard-salesops.primitives.css",
+    "dashboard-salesops.shell.css",
+    "dashboard-salesops.admin.css",
+    "dashboard-salesops.client.css",
+    "dashboard-salesops.worker.css"
   ],
   "fontPolicy": "DM Sans -> Pretendard Variable/Pretendard -> Inter/system",
   "pass": true

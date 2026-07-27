@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T06:10:54.968Z",
+  "generatedAt": "2026-07-27T07:02:58.834Z",
   "total": 73,
   "unique": 73,
   "roundCounts": {
@@ -16,6 +16,7 @@
   "roundAssignmentErrors": [],
   "evidenceMissing": [],
   "unresolved": [],
+  "invalidRoundArtifactPaths": [],
   "items": [
     {
       "inventoryId": "UI-001",
@@ -26,13 +27,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "browserEvidence": "evidence/redo/r05/admin-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r5/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r05/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/layout/app-shell.js",
+        "app/styles/dashboard-salesops.shell.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r05/admin-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r05/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r05/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-002",
@@ -43,13 +58,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "browserEvidence": "evidence/redo/r05/admin-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r5/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r05/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/layout/app-shell.js",
+        "app/styles/dashboard-salesops.shell.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r05/client-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r05/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r05/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-003",
@@ -60,13 +89,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "browserEvidence": "evidence/redo/r05/admin-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r5/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r05/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/layout/app-shell.js",
+        "app/styles/dashboard-salesops.shell.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r05/worker-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r05/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r05/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-004",
@@ -77,13 +120,27 @@
       "classification": "Derived",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "browserEvidence": "evidence/redo/r05/admin-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r5/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r05/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/layout/app-shell.js",
+        "app/styles/dashboard-salesops.shell.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r05/client-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r05/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r05/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-005",
@@ -94,13 +151,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "browserEvidence": "evidence/redo/r05/admin-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r5/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r05/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/layout/app-shell.js",
+        "app/styles/dashboard-salesops.shell.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r05/admin-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r05/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r05/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-006",
@@ -111,13 +182,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "browserEvidence": "evidence/redo/r05/admin-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r5/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r05/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/layout/app-shell.js",
+        "app/styles/dashboard-salesops.shell.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r05/shell-states/notification-empty-desktop-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r05/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r05/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-007",
@@ -128,13 +213,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "browserEvidence": "evidence/redo/r05/admin-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r5/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r05/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/layout/app-shell.js",
+        "app/styles/dashboard-salesops.shell.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r05/worker-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r05/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r05/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-008",
@@ -145,13 +244,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "browserEvidence": "evidence/redo/r05/admin-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r5/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r05/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/layout/app-shell.js",
+        "app/styles/dashboard-salesops.shell.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r05/admin-1280x900.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r05/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r05/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-009",
@@ -162,13 +275,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r5/verification-summary.json",
-      "browserEvidence": "evidence/redo/r05/admin-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r5/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r05/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/layout/app-shell.js",
+        "app/styles/dashboard-salesops.shell.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r05/shell-states/shell-disabled-desktop-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r05/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r05/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-010",
@@ -179,13 +306,27 @@
       "classification": "Exact",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r3/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r3/verification-summary.json",
-      "browserEvidence": "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r3/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r03/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/styles/dashboard-salesops.tokens.css",
+        "app/styles/dashboard-salesops.primitives.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r03/dashboard/shared/components-gallery-dev-desktop-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r03/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r03/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-011",
@@ -196,13 +337,27 @@
       "classification": "Exact",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r3/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r3/verification-summary.json",
-      "browserEvidence": "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r3/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r03/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/styles/dashboard-salesops.tokens.css",
+        "app/styles/dashboard-salesops.primitives.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r03/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r03/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-012",
@@ -213,13 +368,27 @@
       "classification": "Exact",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r3/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r3/verification-summary.json",
-      "browserEvidence": "evidence/redo/r03/dashboard/admin/admin-home-desktop-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r3/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r03/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/styles/dashboard-salesops.tokens.css",
+        "app/styles/dashboard-salesops.primitives.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r02/component-migration-matrix.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r03/dashboard/worker/worker-home-desktop-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r03/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r03/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-013",
@@ -230,13 +399,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "browserEvidence": "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r4/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r04/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/primitives.ui.js",
+        "app/qa/ui-lab.js"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r04/primitive-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r04/ui-lab/desktop/cards-filters-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r04/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r04/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-014",
@@ -247,13 +430,27 @@
       "classification": "Exact",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "browserEvidence": "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r4/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r04/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/primitives.ui.js",
+        "app/qa/ui-lab.js"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r04/primitive-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r04/ui-lab/desktop/disabled-loading-error-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r04/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r04/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-015",
@@ -264,13 +461,27 @@
       "classification": "Exact",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "browserEvidence": "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r4/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r04/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/primitives.ui.js",
+        "app/qa/ui-lab.js"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r04/primitive-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r04/ui-lab/desktop/cards-filters-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r04/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r04/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-016",
@@ -281,13 +492,27 @@
       "classification": "Exact",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "browserEvidence": "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r4/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r04/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/primitives.ui.js",
+        "app/qa/ui-lab.js"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r04/primitive-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r04/ui-lab/tablet/cards-filters-1024x1366.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r04/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r04/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-017",
@@ -298,13 +523,27 @@
       "classification": "Exact",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "browserEvidence": "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r4/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r04/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/primitives.ui.js",
+        "app/qa/ui-lab.js"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r04/primitive-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r04/ui-lab/desktop/dialog-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r04/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r04/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-018",
@@ -315,13 +554,27 @@
       "classification": "Exact",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "browserEvidence": "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r4/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r04/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/primitives.ui.js",
+        "app/qa/ui-lab.js"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r04/primitive-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r04/ui-lab/mobile/sheet-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r04/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r04/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-019",
@@ -332,13 +585,27 @@
       "classification": "Exact",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "browserEvidence": "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r4/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r04/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/primitives.ui.js",
+        "app/qa/ui-lab.js"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r04/primitive-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r04/ui-lab/desktop/long-content-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r04/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r04/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-020",
@@ -349,13 +616,27 @@
       "classification": "Exact",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "browserEvidence": "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r4/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r04/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/primitives.ui.js",
+        "app/qa/ui-lab.js"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r04/primitive-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r04/ui-lab/desktop/form-states-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r04/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r04/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-021",
@@ -366,13 +647,31 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "browserEvidence": "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r7/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r07/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/client.ui.js",
+        "app/styles/dashboard-salesops.client.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r07/client-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r07/client/dashboard/client-dashboard-default-desktop1440-1440x1000.png",
+        "evidence/redo/r07/client/states/client-dashboard-kpi-zero-warning-desktop-1440x1000.png",
+        "evidence/redo/r07/client/states/client-dashboard-long-mobile-390x844.png",
+        "evidence/redo/r07/client/dashboard/client-dashboard-default-tablet1024-1024x1366.png",
+        "evidence/redo/r07/client/dashboard/client-dashboard-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r07/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r07/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-022",
@@ -383,13 +682,30 @@
       "classification": "Derived",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "browserEvidence": "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r7/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r07/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/client.ui.js",
+        "app/styles/dashboard-salesops.client.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r07/client-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r07/client/dashboard/client-dashboard-default-desktop1440-1440x1000.png",
+        "evidence/redo/r07/client/states/client-dashboard-progress-states-desktop-1440x1000.png",
+        "evidence/redo/r07/client/dashboard/client-dashboard-default-tablet1024-1024x1366.png",
+        "evidence/redo/r07/client/dashboard/client-dashboard-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r07/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r07/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-023",
@@ -400,13 +716,30 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "browserEvidence": "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r7/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r07/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/client.ui.js",
+        "app/styles/dashboard-salesops.client.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r07/client-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r07/client/dashboard/client-dashboard-default-desktop1440-1440x1000.png",
+        "evidence/redo/r07/client/states/client-dashboard-progress-states-desktop-1440x1000.png",
+        "evidence/redo/r07/client/dashboard/client-dashboard-default-tablet1024-1024x1366.png",
+        "evidence/redo/r07/client/dashboard/client-dashboard-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r07/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r07/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-024",
@@ -417,13 +750,30 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "browserEvidence": "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r7/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r07/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/client.ui.js",
+        "app/styles/dashboard-salesops.client.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r07/client-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r07/client/dashboard/client-dashboard-default-desktop1440-1440x1000.png",
+        "evidence/redo/r07/client/states/client-dashboard-approval-empty-desktop-1440x1000.png",
+        "evidence/redo/r07/client/dashboard/client-dashboard-default-tablet1024-1024x1366.png",
+        "evidence/redo/r07/client/dashboard/client-dashboard-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r07/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r07/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-025",
@@ -434,13 +784,30 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "browserEvidence": "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r7/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r07/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/client.ui.js",
+        "app/styles/dashboard-salesops.client.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r07/client-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png",
+        "evidence/redo/r07/client/states/client-project-timeline-long-mobile-390x844.png",
+        "evidence/redo/r07/client/project/client-project-default-tablet1024-1024x1366.png",
+        "evidence/redo/r07/client/project/client-project-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r07/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r07/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-026",
@@ -451,13 +818,30 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "browserEvidence": "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r7/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r07/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/client.ui.js",
+        "app/styles/dashboard-salesops.client.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r07/client-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png",
+        "evidence/redo/r07/client/states/client-project-filter-no-result-desktop-1440x1000.png",
+        "evidence/redo/r07/client/project/client-project-default-tablet1024-1024x1366.png",
+        "evidence/redo/r07/client/project/client-project-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r07/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r07/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-027",
@@ -468,13 +852,31 @@
       "classification": "Derived",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "browserEvidence": "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r7/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r07/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/client.ui.js",
+        "app/styles/dashboard-salesops.client.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r07/client-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png",
+        "evidence/redo/r07/client/states/client-project-gate-pass-fail-desktop-1440x1000.png",
+        "evidence/redo/r07/client/states/client-project-timeline-long-mobile-390x844.png",
+        "evidence/redo/r07/client/project/client-project-default-tablet1024-1024x1366.png",
+        "evidence/redo/r07/client/project/client-project-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r07/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r07/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-028",
@@ -485,13 +887,31 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "browserEvidence": "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r7/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r07/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/client.ui.js",
+        "app/styles/dashboard-salesops.client.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r07/client-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png",
+        "evidence/redo/r07/client/states/client-project-assets-empty-desktop-1440x1000.png",
+        "evidence/redo/r07/client/states/client-project-assets-long-filename-mobile-390x844.png",
+        "evidence/redo/r07/client/project/client-project-default-tablet1024-1024x1366.png",
+        "evidence/redo/r07/client/project/client-project-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r07/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r07/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-029",
@@ -502,13 +922,32 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "browserEvidence": "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r7/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r07/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/client.ui.js",
+        "app/styles/dashboard-salesops.client.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r07/client-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r07/client/project/client-project-default-desktop1440-1440x1000.png",
+        "evidence/redo/r07/client/states/client-project-modal-error-desktop-1440x1000.png",
+        "evidence/redo/r07/client/states/client-project-modal-open-desktop-1440x1000.png",
+        "evidence/redo/r07/client/states/client-project-modal-focus-return-desktop-1440x1000.png",
+        "evidence/redo/r07/client/project/client-project-default-tablet1024-1024x1366.png",
+        "evidence/redo/r07/client/project/client-project-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r07/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r07/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-030",
@@ -519,13 +958,31 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "browserEvidence": "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r7/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r07/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/client.ui.js",
+        "app/styles/dashboard-salesops.client.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r07/client-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
+        "evidence/redo/r07/client/states/client-approvals-selected-controls-desktop-1440x1000.png",
+        "evidence/redo/r07/client/states/client-approvals-queue-empty-desktop-1440x1000.png",
+        "evidence/redo/r07/client/approvals/client-approvals-default-tablet1024-1024x1366.png",
+        "evidence/redo/r07/client/approvals/client-approvals-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r07/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r07/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-031",
@@ -536,13 +993,31 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "browserEvidence": "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r7/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r07/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/client.ui.js",
+        "app/styles/dashboard-salesops.client.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r07/client-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
+        "evidence/redo/r07/client/states/client-approvals-no-selection-desktop-1440x1000.png",
+        "evidence/redo/r07/client/states/client-approvals-long-detail-mobile-390x844.png",
+        "evidence/redo/r07/client/approvals/client-approvals-default-tablet1024-1024x1366.png",
+        "evidence/redo/r07/client/approvals/client-approvals-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r07/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r07/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-032",
@@ -553,13 +1028,31 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r7/verification-summary.json",
-      "browserEvidence": "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r7/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r07/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/client.ui.js",
+        "app/styles/dashboard-salesops.client.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r07/client-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r07/client/approvals/client-approvals-default-desktop1440-1440x1000.png",
+        "evidence/redo/r07/client/states/client-approvals-decision-disabled-desktop-1440x1000.png",
+        "evidence/redo/r07/client/states/client-approvals-validation-error-desktop-1440x1000.png",
+        "evidence/redo/r07/client/approvals/client-approvals-default-tablet1024-1024x1366.png",
+        "evidence/redo/r07/client/approvals/client-approvals-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r07/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r07/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-033",
@@ -570,13 +1063,32 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "browserEvidence": "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r8/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r08/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/worker.ui.js",
+        "app/styles/dashboard-salesops.worker.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r08/worker-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-home-kpi-zero-warning-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-home-long-mobile-390x844.png",
+        "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png",
+        "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png",
+        "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r08/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r08/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-034",
@@ -587,13 +1099,32 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "browserEvidence": "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r8/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r08/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/worker.ui.js",
+        "app/styles/dashboard-salesops.worker.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r08/worker-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-home-revision-empty-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-home-revision-populated-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png",
+        "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png",
+        "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r08/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r08/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-035",
@@ -604,13 +1135,32 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "browserEvidence": "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r8/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r08/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/worker.ui.js",
+        "app/styles/dashboard-salesops.worker.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r08/worker-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-home-in-progress-empty-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-home-long-mobile-390x844.png",
+        "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png",
+        "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png",
+        "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r08/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r08/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-036",
@@ -621,13 +1171,31 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "browserEvidence": "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r8/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r08/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/worker.ui.js",
+        "app/styles/dashboard-salesops.worker.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r08/worker-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-home-pending-empty-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png",
+        "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png",
+        "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r08/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r08/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-037",
@@ -638,13 +1206,31 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "browserEvidence": "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r8/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r08/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/worker.ui.js",
+        "app/styles/dashboard-salesops.worker.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r08/worker-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-cards-filter-no-result-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r08/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r08/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-038",
@@ -655,13 +1241,32 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "browserEvidence": "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r8/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r08/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/worker.ui.js",
+        "app/styles/dashboard-salesops.worker.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r08/worker-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-cards-filter-no-result-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-cards-long-detail-mobile-390x844.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r08/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r08/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-039",
@@ -672,13 +1277,32 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "browserEvidence": "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r8/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r08/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/worker.ui.js",
+        "app/styles/dashboard-salesops.worker.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r08/worker-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-cards-no-selection-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-cards-long-detail-mobile-390x844.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r08/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r08/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-040",
@@ -689,13 +1313,32 @@
       "classification": "Derived",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "browserEvidence": "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r8/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r08/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/worker.ui.js",
+        "app/styles/dashboard-salesops.worker.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r08/worker-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-qc-blocked-disabled-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-qc-unchecked-checked-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r08/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r08/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-041",
@@ -706,13 +1349,33 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "browserEvidence": "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r8/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r08/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/worker.ui.js",
+        "app/styles/dashboard-salesops.worker.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r08/worker-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-log-success-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-log-validation-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-log-long-mobile-390x844.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r08/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r08/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-042",
@@ -723,13 +1386,33 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r8/verification-summary.json",
-      "browserEvidence": "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r8/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r08/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/worker.ui.js",
+        "app/styles/dashboard-salesops.worker.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r08/worker-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-submit-disabled-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-submit-enabled-desktop-1440x1000.png",
+        "evidence/redo/r08/worker/states/worker-submit-submitting-mobile-390x844.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png",
+        "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r08/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r08/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-043",
@@ -740,13 +1423,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/home/admin-home-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-044",
@@ -757,13 +1454,27 @@
       "classification": "Derived",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/home/admin-home-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-045",
@@ -774,13 +1485,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/home/admin-home-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-046",
@@ -791,13 +1516,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/home/admin-home-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-047",
@@ -808,13 +1547,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/projects/admin-projects-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-048",
@@ -825,13 +1578,27 @@
       "classification": "Derived",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/projects/admin-projects-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-049",
@@ -842,13 +1609,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/projects/admin-projects-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-050",
@@ -859,13 +1640,27 @@
       "classification": "Derived",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/projects/admin-projects-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-051",
@@ -876,13 +1671,27 @@
       "classification": "Derived",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/cards/admin-cards-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-052",
@@ -893,13 +1702,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/cards/admin-cards-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-053",
@@ -910,13 +1733,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/cards/admin-cards-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-054",
@@ -927,13 +1764,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/cards/admin-cards-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-055",
@@ -944,13 +1795,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/cards/admin-cards-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-056",
@@ -961,13 +1826,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/team/admin-team-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-057",
@@ -978,13 +1857,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/team/admin-team-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-058",
@@ -995,13 +1888,27 @@
       "classification": "Derived",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/team/admin-team-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-059",
@@ -1012,13 +1919,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/team/admin-team-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-060",
@@ -1029,13 +1950,27 @@
       "classification": "Derived",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/team/admin-team-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-061",
@@ -1046,13 +1981,27 @@
       "classification": "Derived",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-062",
@@ -1063,13 +2012,27 @@
       "classification": "Derived",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-063",
@@ -1080,13 +2043,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r6/verification-summary.json",
-      "browserEvidence": "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r6/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r06/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/admin.ui.js",
+        "app/styles/dashboard-salesops.admin.css"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r06/admin-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r06/admin/audit/admin-audit-default-desktop1440-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r06/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r06/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-064",
@@ -1097,13 +2074,27 @@
       "classification": "Adapted",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "browserEvidence": "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r4/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r04/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/primitives.ui.js",
+        "app/qa/ui-lab.js"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r04/primitive-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r04/ui-lab/mobile/cards-filters-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r04/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r04/verification-summary.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-065",
@@ -1114,13 +2105,24 @@
       "classification": "Derived",
       "implementationTarget": false,
       "completionStatus": "Frozen regression only",
-      "completionArtifact": "artifacts/redo/0r9/verification-summary.json",
-      "productFile": "none; frozen verification",
-      "stateCoverageArtifact": "artifacts/redo/r09/full-state-coverage.json",
-      "browserEvidence": "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/r09/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [],
+      "stateCoverageArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r09/public-states/ui-065-navigation-desktop-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r09/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r09/frozen-public-regression.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-066",
@@ -1131,13 +2133,24 @@
       "classification": "Derived",
       "implementationTarget": false,
       "completionStatus": "Frozen regression only",
-      "completionArtifact": "artifacts/redo/0r9/verification-summary.json",
-      "productFile": "none; frozen verification",
-      "stateCoverageArtifact": "artifacts/redo/r09/full-state-coverage.json",
-      "browserEvidence": "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/r09/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [],
+      "stateCoverageArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r09/public-states/ui-066-hero-narrative-mobile-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r09/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r09/frozen-public-regression.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-067",
@@ -1148,13 +2161,24 @@
       "classification": "Derived",
       "implementationTarget": false,
       "completionStatus": "Frozen regression only",
-      "completionArtifact": "artifacts/redo/0r9/verification-summary.json",
-      "productFile": "none; frozen verification",
-      "stateCoverageArtifact": "artifacts/redo/r09/full-state-coverage.json",
-      "browserEvidence": "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/r09/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [],
+      "stateCoverageArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r09/public-states/ui-067-faq-keyboard-mobile-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r09/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r09/frozen-public-regression.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-068",
@@ -1165,13 +2189,24 @@
       "classification": "Derived",
       "implementationTarget": false,
       "completionStatus": "Frozen regression only",
-      "completionArtifact": "artifacts/redo/0r9/verification-summary.json",
-      "productFile": "none; frozen verification",
-      "stateCoverageArtifact": "artifacts/redo/r09/full-state-coverage.json",
-      "browserEvidence": "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/r09/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [],
+      "stateCoverageArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r09/public-states/ui-068-inquiry-validation-mobile-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r09/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r09/frozen-public-regression.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-069",
@@ -1182,13 +2217,24 @@
       "classification": "Derived",
       "implementationTarget": false,
       "completionStatus": "Frozen regression only",
-      "completionArtifact": "artifacts/redo/0r9/verification-summary.json",
-      "productFile": "none; frozen verification",
-      "stateCoverageArtifact": "artifacts/redo/r09/full-state-coverage.json",
-      "browserEvidence": "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/r09/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [],
+      "stateCoverageArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r09/public-states/ui-069-auth-validation-desktop-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r09/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r09/frozen-public-regression.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-070",
@@ -1199,13 +2245,24 @@
       "classification": "Derived",
       "implementationTarget": false,
       "completionStatus": "Frozen regression only",
-      "completionArtifact": "artifacts/redo/0r9/verification-summary.json",
-      "productFile": "none; frozen verification",
-      "stateCoverageArtifact": "artifacts/redo/r09/full-state-coverage.json",
-      "browserEvidence": "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/r09/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [],
+      "stateCoverageArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r09/public-states/ui-070-policies-support-mobile-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r09/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r09/frozen-public-regression.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-071",
@@ -1216,13 +2273,24 @@
       "classification": "Derived",
       "implementationTarget": false,
       "completionStatus": "Frozen regression only",
-      "completionArtifact": "artifacts/redo/0r9/verification-summary.json",
-      "productFile": "none; frozen verification",
-      "stateCoverageArtifact": "artifacts/redo/r09/full-state-coverage.json",
-      "browserEvidence": "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/r09/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [],
+      "stateCoverageArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r09/public-states/ui-071-workspace-selector-keyboard-mobile-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r09/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r09/frozen-public-regression.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-072",
@@ -1233,13 +2301,31 @@
       "classification": "Derived",
       "implementationTarget": true,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r9/verification-summary.json",
-      "productFile": "approved round product layer",
-      "stateCoverageArtifact": "artifacts/redo/r09/full-state-coverage.json",
-      "browserEvidence": "evidence/redo/r09/frozen-public/public-landing-desktop-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/r09/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r09/ui-072-implementation-audit.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "index.html",
+        "app/router/hash-router.js",
+        "app/layout/app-shell.js"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r09/public-state-audit.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r09/shared/shared-forbidden-403-default-desktop-1440x1000.png",
+        "evidence/redo/r09/shared/shared-forbidden-403-multi-role-tablet-1024x1366.png",
+        "evidence/redo/r09/shared/shared-forbidden-403-long-route-mobile-390x844.png",
+        "evidence/redo/r09/shared/shared-forbidden-403-focus-mobile-390x844.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r09/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r09/frozen-public-regression.json"
+      ],
+      "pass": true
     },
     {
       "inventoryId": "UI-073",
@@ -1250,13 +2336,27 @@
       "classification": "Derived",
       "implementationTarget": false,
       "completionStatus": "Mapped for implementation",
-      "completionArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "productFile": "none; frozen verification",
-      "stateCoverageArtifact": "artifacts/redo/0r4/verification-summary.json",
-      "browserEvidence": "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png",
-      "accessibilityEvidence": "artifacts/redo/0r4/accessibility-audit.json",
-      "regressionStatus": "pass",
-      "pass": false
+      "completionArtifact": "artifacts/redo/r04/verification-summary.json",
+      "completionArtifactExists": true,
+      "completionArtifactPass": true,
+      "productFiles": [
+        "app/ui/components/primitives.ui.js",
+        "app/qa/ui-lab.js"
+      ],
+      "stateCoverageArtifact": "artifacts/redo/r04/primitive-state-coverage.json",
+      "stateCoverageItemFound": true,
+      "browserEvidence": [
+        "evidence/redo/r04/ui-lab/desktop/full-1440x1000.png"
+      ],
+      "browserEvidenceExists": true,
+      "browserEvidenceRelevant": true,
+      "accessibilityEvidence": [
+        "artifacts/redo/r04/accessibility-audit.json"
+      ],
+      "regressionEvidence": [
+        "artifacts/redo/r04/verification-summary.json"
+      ],
+      "pass": true
     }
   ],
   "pass": true

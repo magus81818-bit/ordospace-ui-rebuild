@@ -1,14 +1,105 @@
 {
-  "generatedAt": "2026-07-27T06:10:54.968Z",
-  "round3WorkerIsolation": true,
-  "round4WorkerIsolation": true,
-  "round6WorkerDescendant": true,
-  "round6BackendApiShellProhibition": true,
-  "expectationRelaxations": 0,
-  "hardcodedPassRows": 0,
+  "generatedAt": "2026-07-27T07:02:58.834Z",
+  "priorValidators": [
+    {
+      "file": "tests/redo/r01/baseline-audit.spec.cjs",
+      "baselineSha": "6e6107e68538c6f3774c3ea03cf704588802ceb308f22e20d81ff5a5069a57de",
+      "currentSha": "6e6107e68538c6f3774c3ea03cf704588802ceb308f22e20d81ff5a5069a57de",
+      "baselineTestCount": 4,
+      "currentTestCount": 4,
+      "assertionDeleted": false,
+      "expectedValueChanged": false,
+      "pass": true
+    },
+    {
+      "file": "tests/redo/r02/validate.cjs",
+      "baselineSha": "c1da7564a1da85dbe96539130b684f4df4d5be40334e7e3dc64f797ff40decba",
+      "currentSha": "c1da7564a1da85dbe96539130b684f4df4d5be40334e7e3dc64f797ff40decba",
+      "baselineTestCount": 5,
+      "currentTestCount": 5,
+      "assertionDeleted": false,
+      "expectedValueChanged": false,
+      "pass": true
+    },
+    {
+      "file": "tests/redo/r03/dashboard-token-audit.spec.cjs",
+      "baselineSha": "c3d46a2fe8ec54766a5bf35f68f6511f1d305dda304a70c8271a51ac3fb184c4",
+      "currentSha": "c3d46a2fe8ec54766a5bf35f68f6511f1d305dda304a70c8271a51ac3fb184c4",
+      "baselineTestCount": 4,
+      "currentTestCount": 4,
+      "assertionDeleted": false,
+      "expectedValueChanged": false,
+      "pass": true
+    },
+    {
+      "file": "tests/redo/r04/dashboard-token-audit.spec.cjs",
+      "baselineSha": "a5fbaed68215fb646730259bd7ee600e2044bb3442cd970cab292b5254be47be",
+      "currentSha": "a5fbaed68215fb646730259bd7ee600e2044bb3442cd970cab292b5254be47be",
+      "baselineTestCount": 4,
+      "currentTestCount": 4,
+      "assertionDeleted": false,
+      "expectedValueChanged": false,
+      "pass": true
+    },
+    {
+      "file": "tests/redo/r04/ui-lab-audit.spec.cjs",
+      "baselineSha": "9b241e2dcc4b6a883d29036d60a34825e5f6c32bd7ff3f1bf8df0cd0e4ee1568",
+      "currentSha": "9b241e2dcc4b6a883d29036d60a34825e5f6c32bd7ff3f1bf8df0cd0e4ee1568",
+      "baselineTestCount": 3,
+      "currentTestCount": 3,
+      "assertionDeleted": false,
+      "expectedValueChanged": false,
+      "pass": true
+    },
+    {
+      "file": "tests/redo/r05/shell-audit.spec.cjs",
+      "baselineSha": "41429d121d03b5bf796422e5906962c62acc704c1d430fcb2f4ed2ecd4be0c62",
+      "currentSha": "41429d121d03b5bf796422e5906962c62acc704c1d430fcb2f4ed2ecd4be0c62",
+      "baselineTestCount": 4,
+      "currentTestCount": 4,
+      "assertionDeleted": false,
+      "expectedValueChanged": false,
+      "pass": true
+    },
+    {
+      "file": "tests/redo/r06/admin-audit.spec.cjs",
+      "baselineSha": "cafb6a142cfda4173c1a0a71ff69cd19b18ccddba0cb85ddc187e67edca3458b",
+      "currentSha": "cafb6a142cfda4173c1a0a71ff69cd19b18ccddba0cb85ddc187e67edca3458b",
+      "baselineTestCount": 5,
+      "currentTestCount": 5,
+      "assertionDeleted": false,
+      "expectedValueChanged": false,
+      "pass": true
+    },
+    {
+      "file": "tests/redo/r07/client-audit.spec.cjs",
+      "baselineSha": "5fe73602a5e80ecbb97b027fd3f74f1452d7df653afc699e1c9a84f15df2bb3d",
+      "currentSha": "5fe73602a5e80ecbb97b027fd3f74f1452d7df653afc699e1c9a84f15df2bb3d",
+      "baselineTestCount": 3,
+      "currentTestCount": 3,
+      "assertionDeleted": false,
+      "expectedValueChanged": false,
+      "pass": true
+    },
+    {
+      "file": "tests/redo/r08/worker-audit.spec.cjs",
+      "baselineSha": "a94d74e23faa41a715fade8265ccd4499e444c0d65ff37d9fc46587224e1e6ea",
+      "currentSha": "a94d74e23faa41a715fade8265ccd4499e444c0d65ff37d9fc46587224e1e6ea",
+      "baselineTestCount": 3,
+      "currentTestCount": 3,
+      "assertionDeleted": false,
+      "expectedValueChanged": false,
+      "pass": true
+    }
+  ],
+  "hardcodedResults": [],
   "invalidCountAssertions": 0,
-  "evidenceDirectoriesAccepted": false,
+  "evidenceDirectories": 0,
   "genericAssertions": 0,
-  "missingAssertions": 0,
+  "itemInternalPassRequired": true,
+  "evidenceRelevanceRequired": true,
+  "fabricatedStateDetection": true,
+  "invalidRoundPathDetection": true,
+  "independentValidation": true,
   "pass": true
 }

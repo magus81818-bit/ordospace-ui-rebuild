@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-07-27T07:02:58.834Z",
+  "sources": {
+    "screen": {
+      "file": "index.html",
+      "symbol": "screen-forbidden-403",
+      "line": 3055,
+      "marker": "<section id=\"screen-forbidden-403\" data-screen=\"forbidden-403\" class=\"screen hidden\">",
+      "measured": true,
+      "pass": true
+    },
+    "renderer": {
+      "file": "app/router/hash-router.js",
+      "symbol": "navigate",
+      "line": 164,
+      "marker": "function navigate(hash){",
+      "measured": true,
+      "pass": true
+    },
+    "routeGuard": {
+      "file": "app/router/hash-router.js",
+      "symbol": "isRoleAllowed -> forbidden-403",
+      "line": 180,
+      "marker": "if (!isRoleAllowed(id)) {",
+      "measured": true,
+      "pass": true
+    },
+    "attemptedRoute": {
+      "file": "app/router/hash-router.js",
+      "symbol": "forbiddenUrl assignment",
+      "line": 185,
+      "marker": "if (fu) fu.textContent = '#' + id;",
+      "measured": true,
+      "pass": true
+    },
+    "currentRole": {
+      "file": "app/router/hash-router.js",
+      "symbol": "current role label",
+      "line": 182,
+      "marker": "const roleLabel = ROLE_PROFILE[window.ORDO_ROLE]?.roleLabel || window.ORDO_ROLE || '-';",
+      "measured": true,
+      "pass": true
+    },
+    "multiRoleHint": {
+      "file": "app/router/hash-router.js",
+      "symbol": "multi-role hint toggle",
+      "line": 189,
+      "marker": "if (hint) hint.classList.toggle('hidden', rolesCount < 2);",
+      "measured": true,
+      "pass": true
+    },
+    "selectorCta": {
+      "file": "index.html",
+      "symbol": "exact workspace selector CTA",
+      "line": 3072,
+      "marker": "<a href=\"#select-workspace\" class=\"h-10 rounded-lg border border-bd-default px-4 text-[13px] font-semibold text-tx-primary hover:bg-bg-secondary inline-flex items-center justify-center\">워크스페이스 전환</a>",
+      "measured": true,
+      "pass": true
+    },
+    "homeCta": {
+      "file": "app/layout/app-shell.js",
+      "symbol": "forbiddenGoHome handler",
+      "line": 241,
+      "marker": "document.getElementById('forbiddenGoHome')?.addEventListener('click', () => {",
+      "measured": true,
+      "pass": true
+    }
+  },
+  "exactCtaCount": 1,
+  "browserArtifact": "artifacts/redo/r09/ui-072-implementation-audit.json",
+  "pass": true
+}

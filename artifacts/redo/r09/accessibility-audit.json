@@ -1,195 +1,59 @@
 {
-  "generatedAt": "2026-07-27T06:10:54.968Z",
+  "generatedAt": "2026-07-27T07:02:58.834Z",
   "checks": [
     {
-      "scenario": "shell-navigation",
-      "sourceRound": "Round 3",
-      "sourceArtifact": "artifacts/redo/r03/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
+      "file": "artifacts/redo/r03/accessibility-audit.json",
       "measured": true,
-      "pass": true
+      "pass": true,
+      "measuredResults": 6
     },
     {
-      "scenario": "mobile-drawer",
-      "sourceRound": "Round 5",
-      "sourceArtifact": "artifacts/redo/r05/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
+      "file": "artifacts/redo/r04/accessibility-audit.json",
       "measured": true,
-      "pass": true
+      "pass": true,
+      "measuredResults": 6
     },
     {
-      "scenario": "bottom-tabs",
-      "sourceRound": "Round 5",
-      "sourceArtifact": "artifacts/redo/r05/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
+      "file": "artifacts/redo/r05/accessibility-audit.json",
       "measured": true,
-      "pass": true
+      "pass": true,
+      "measuredResults": 4
     },
     {
-      "scenario": "notifications",
-      "sourceRound": "Round 5",
-      "sourceArtifact": "artifacts/redo/r05/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
+      "file": "artifacts/redo/r06/accessibility-audit.json",
       "measured": true,
-      "pass": true
+      "pass": true,
+      "measuredResults": 6
     },
     {
-      "scenario": "role-selector",
-      "sourceRound": "Round 3",
-      "sourceArtifact": "artifacts/redo/r03/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
+      "file": "artifacts/redo/r07/accessibility-audit.json",
       "measured": true,
-      "pass": true
+      "pass": true,
+      "measuredResults": 14
     },
     {
-      "scenario": "403-name-route",
-      "sourceRound": "Round 9",
-      "sourceArtifact": "artifacts/redo/r09/browser-health-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
+      "file": "artifacts/redo/r08/accessibility-audit.json",
       "measured": true,
-      "pass": true
+      "pass": true,
+      "measuredResults": 13
     },
     {
-      "scenario": "card-keyboard",
-      "sourceRound": "Round 8",
-      "sourceArtifact": "artifacts/redo/r08/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
+      "file": "artifacts/redo/r09/public-interaction-audit.json",
       "measured": true,
-      "pass": true
+      "pass": true,
+      "measuredResults": 8
     },
     {
-      "scenario": "selected-state",
-      "sourceRound": "Round 7",
-      "sourceArtifact": "artifacts/redo/r07/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
+      "file": "artifacts/redo/r09/ui-072-implementation-audit.json",
       "measured": true,
-      "pass": true
+      "pass": true,
+      "measuredResults": 5
     },
     {
-      "scenario": "focus-visible",
-      "sourceRound": "Round 3",
-      "sourceArtifact": "artifacts/redo/r03/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
+      "file": "artifacts/redo/r09/ui-lab-audit.json",
       "measured": true,
-      "pass": true
-    },
-    {
-      "scenario": "form-label",
-      "sourceRound": "Round 6",
-      "sourceArtifact": "artifacts/redo/r06/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
-      "measured": true,
-      "pass": true
-    },
-    {
-      "scenario": "form-invalid",
-      "sourceRound": "Round 6",
-      "sourceArtifact": "artifacts/redo/r06/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
-      "measured": true,
-      "pass": true
-    },
-    {
-      "scenario": "error-alert",
-      "sourceRound": "Round 7",
-      "sourceArtifact": "artifacts/redo/r07/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
-      "measured": true,
-      "pass": true
-    },
-    {
-      "scenario": "progress-name",
-      "sourceRound": "Round 8",
-      "sourceArtifact": "artifacts/redo/r08/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
-      "measured": true,
-      "pass": true
-    },
-    {
-      "scenario": "modal-name",
-      "sourceRound": "Round 7",
-      "sourceArtifact": "artifacts/redo/r07/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
-      "measured": true,
-      "pass": true
-    },
-    {
-      "scenario": "modal-focus",
-      "sourceRound": "Round 7",
-      "sourceArtifact": "artifacts/redo/r07/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
-      "measured": true,
-      "pass": true
-    },
-    {
-      "scenario": "modal-escape",
-      "sourceRound": "Round 9",
-      "sourceArtifact": "artifacts/redo/r09/browser-health-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
-      "measured": true,
-      "pass": true
-    },
-    {
-      "scenario": "table-headers",
-      "sourceRound": "Round 6",
-      "sourceArtifact": "artifacts/redo/r06/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
-      "measured": true,
-      "pass": true
-    },
-    {
-      "scenario": "mobile-containment",
-      "sourceRound": "Round 9",
-      "sourceArtifact": "artifacts/redo/r09/browser-health-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
-      "measured": true,
-      "pass": true
-    },
-    {
-      "scenario": "reduced-motion",
-      "sourceRound": "Round 3",
-      "sourceArtifact": "artifacts/redo/r03/accessibility-audit.json",
-      "measurement": "approved browser audit result",
-      "expected": "source audit pass",
-      "actual": true,
-      "measured": true,
-      "pass": true
+      "pass": true,
+      "measuredResults": 4
     }
   ],
   "pass": true

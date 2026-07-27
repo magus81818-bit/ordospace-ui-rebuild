@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-27T06:53:23.747Z",
+  "consoleErrors": [],
+  "pageErrors": [],
+  "requestFailures": [
+    "https://fonts.gstatic.com/s/orbitron/v35/yMJRMIlzdpvBhQQL_Qq7dy0.woff2"
+  ],
+  "httpFailures": [],
+  "unhandledRejections": [],
+  "observerLoopFailures": [],
+  "mutationSamples": [
+    {
+      "scenario": "UI Lab single tab action",
+      "actualMutations": 0,
+      "lowerBound": 0,
+      "upperBound": 25,
+      "pass": true
+    }
+  ],
+  "duplicateActions": [
+    {
+      "action": "UI-072 workspace selector Enter",
+      "actualCalls": 1,
+      "expectedCalls": 1,
+      "pass": true
+    },
+    {
+      "action": "UI Lab tab Enter",
+      "actualCalls": 1,
+      "expectedCalls": 1,
+      "pass": true
+    }
+  ],
+  "pass": false
+}

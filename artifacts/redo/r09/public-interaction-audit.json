@@ -1,22 +1,269 @@
 {
-  "generatedAt": "2026-07-27T06:07:01.233Z",
+  "generatedAt": "2026-07-27T06:47:46.379Z",
   "states": [
     {
+      "inventoryId": "UI-065",
+      "state": "navigation-keyboard-focus-reduced-motion",
+      "actual": {
+        "navCount": 4,
+        "hrefs": [
+          "#odds",
+          "#breaks",
+          "#how",
+          "#faq"
+        ],
+        "focused": true,
+        "focusVisible": true,
+        "activated": true,
+        "reducedMotion": true,
+        "mobileNavigation": "not_applicable:no mobile menu control in frozen contract"
+      },
+      "expected": {
+        "navCount": 4,
+        "hrefs": [
+          "#odds",
+          "#breaks",
+          "#how",
+          "#faq"
+        ],
+        "focused": true,
+        "focusVisible": true,
+        "activated": true,
+        "reducedMotion": true,
+        "mobileNavigation": "not_applicable:no mobile menu control in frozen contract"
+      },
+      "evidence": "evidence/redo/r09/public-states/ui-065-navigation-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-066",
+      "state": "cta-narrative-long-reduced-motion",
+      "actual": {
+        "ctaName": "도입 문의",
+        "ctaHref": "#inquiry",
+        "narrativeOrder": [
+          "odds",
+          "chain",
+          "gap",
+          "breaks",
+          "how",
+          "adoption",
+          "faq"
+        ],
+        "longContained": true,
+        "reducedMotion": true
+      },
+      "expected": {
+        "ctaName": "도입 문의",
+        "ctaHref": "#inquiry",
+        "narrativeOrder": [
+          "odds",
+          "chain",
+          "gap",
+          "breaks",
+          "how",
+          "adoption",
+          "faq"
+        ],
+        "longContained": true,
+        "reducedMotion": true
+      },
+      "evidence": "evidence/redo/r09/public-states/ui-066-hero-narrative-mobile-390x844.png",
+      "pass": true
+    },
+    {
       "inventoryId": "UI-067",
-      "state": "expanded-keyboard",
-      "interaction": true,
-      "actual": "open",
+      "state": "collapsed-enter-space-focus-long-mobile",
+      "actual": {
+        "initialCollapsed": true,
+        "enterExpanded": true,
+        "spaceCollapsed": true,
+        "focusAfterEnter": true,
+        "focusAfterSpace": true,
+        "answerContained": true
+      },
+      "expected": {
+        "initialCollapsed": true,
+        "enterExpanded": true,
+        "spaceCollapsed": true,
+        "focusAfterEnter": true,
+        "focusAfterSpace": true,
+        "answerContained": true
+      },
+      "evidence": "evidence/redo/r09/public-states/ui-067-faq-keyboard-mobile-390x844.png",
       "pass": true
     },
     {
       "inventoryId": "UI-068",
-      "state": "open-escape-focus-return",
-      "interaction": true,
+      "state": "modal-keyboard-focus-backdrop-validation-mobile",
       "actual": {
-        "modalOpen": true,
-        "modalClosed": true,
-        "focusReturned": true
+        "closedBefore": true,
+        "opened": true,
+        "dialogName": "ORDOSPACE 도입 문의",
+        "focusEntry": true,
+        "tabContained": true,
+        "shiftTabContained": true,
+        "escapeClosed": true,
+        "focusReturned": true,
+        "backdropClosed": true,
+        "scrollRestored": true,
+        "invalidField": "company",
+        "invalidSubmitEvents": 0,
+        "validSubmitEvents": 1,
+        "mobileContained": true,
+        "success": "not_applicable:no persisted success state in frozen contract"
       },
+      "expected": {
+        "closedBefore": true,
+        "opened": true,
+        "dialogName": "ORDOSPACE 도입 문의",
+        "focusEntry": true,
+        "tabContained": true,
+        "shiftTabContained": true,
+        "escapeClosed": true,
+        "focusReturned": true,
+        "backdropClosed": true,
+        "scrollRestored": true,
+        "invalidField": "company",
+        "invalidSubmitEvents": 0,
+        "validSubmitEvents": 1,
+        "mobileContained": true,
+        "success": "not_applicable:no persisted success state in frozen contract"
+      },
+      "evidence": "evidence/redo/r09/public-states/ui-068-inquiry-validation-mobile-390x844.png",
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-069",
+      "state": "auth-validation-forgot-reset-loading",
+      "actual": {
+        "loginFields": [
+          {
+            "id": "loginEmail",
+            "type": "email",
+            "accessibleName": "이메일"
+          },
+          {
+            "id": "loginPw",
+            "type": "password",
+            "accessibleName": "비밀번호"
+          }
+        ],
+        "loginInvalidFocus": "loginEmail",
+        "forgotInvalidFocus": "forgotEmail",
+        "forgotSent": true,
+        "mismatch": "비밀번호가 일치하지 않습니다.",
+        "match": "비밀번호가 일치합니다.",
+        "resetDone": true,
+        "loading": {
+          "disabled": true,
+          "label": "확인 중",
+          "spinnerHidden": false
+        }
+      },
+      "expected": {
+        "loginFields": [
+          {
+            "id": "loginEmail",
+            "type": "email",
+            "accessibleName": "이메일"
+          },
+          {
+            "id": "loginPw",
+            "type": "password",
+            "accessibleName": "비밀번호"
+          }
+        ],
+        "loginInvalidFocus": "loginEmail",
+        "forgotInvalidFocus": "forgotEmail",
+        "forgotSent": true,
+        "mismatch": "비밀번호가 일치하지 않습니다.",
+        "match": "비밀번호가 일치합니다.",
+        "resetDone": true,
+        "loading": {
+          "disabled": true,
+          "label": "확인 중",
+          "spinnerHidden": false
+        }
+      },
+      "evidence": "evidence/redo/r09/public-states/ui-069-auth-validation-desktop-1440x1000.png",
+      "pass": true
+    },
+    {
+      "inventoryId": "UI-070",
+      "state": "policies-support-links-long-mobile",
+      "actual": {
+        "routes": [
+          "terms",
+          "privacy",
+          "support"
+        ],
+        "headingsPresent": true,
+        "overflows": [
+          0,
+          0,
+          0
+        ],
+        "linksPresent": true,
+        "longContained": true,
+        "supportForm": "not_applicable:no support form in frozen contract"
+      },
+      "expected": {
+        "routes": [
+          "terms",
+          "privacy",
+          "support"
+        ],
+        "headingsPresent": true,
+        "overflows": [
+          0,
+          0,
+          0
+        ],
+        "linksPresent": true,
+        "longContained": true,
+        "supportForm": "not_applicable:no support form in frozen contract"
+      },
+      "evidence": "evidence/redo/r09/public-states/ui-070-policies-support-mobile-390x844.png",
+      "pass": true,
+      "headingCounts": [
+        14,
+        13,
+        11
+      ]
+    },
+    {
+      "inventoryId": "UI-071",
+      "state": "single-multi-keyboard-session-route-restore",
+      "actual": {
+        "single": {
+          "hintHidden": true,
+          "role": "클라이언트"
+        },
+        "multiHintVisible": true,
+        "keyboardRole": {
+          "role": "worker",
+          "stored": "worker",
+          "hash": "#worker-home"
+        },
+        "invalidBlocked": true,
+        "restored": true
+      },
+      "expected": {
+        "single": {
+          "hintHidden": true,
+          "role": "클라이언트"
+        },
+        "multiHintVisible": true,
+        "keyboardRole": {
+          "role": "worker",
+          "stored": "worker",
+          "hash": "#worker-home"
+        },
+        "invalidBlocked": true,
+        "restored": true
+      },
+      "evidence": "evidence/redo/r09/public-states/ui-071-workspace-selector-keyboard-mobile-390x844.png",
       "pass": true
     }
   ],

@@ -1,16 +1,77 @@
 {
-  "generatedAt": "2026-07-27T06:07:01.233Z",
+  "generatedAt": "2026-07-27T07:02:58.834Z",
   "consoleErrors": [],
   "pageErrors": [],
-  "requestFailures": [],
-  "isolatedFrozenFontFailures": [
-    "https://fonts.gstatic.com/s/orbitron/v35/yMJRMIlzdpvBhQQL_Qq7dy0.woff2",
-    "https://fonts.gstatic.com/s/orbitron/v35/yMJRMIlzdpvBhQQL_Qq7dy0.woff2"
+  "knownBaselineRequestFailures": [
+    {
+      "url": "https://fonts.gstatic.com/s/orbitron/v35/yMJRMIlzdpvBhQQL_Qq7dy0.woff2",
+      "baselineCount": 1,
+      "currentCount": 1
+    }
   ],
-  "httpFailures": [],
-  "unhandledRejections": 0,
-  "observerLoops": 0,
-  "duplicateActions": 0,
+  "newRequestFailures": [],
+  "newHttpFailures": [],
+  "unhandledRejections": [],
+  "observerLoopFailures": [],
+  "mutationSamples": [
+    {
+      "scenario": "UI Lab single tab action",
+      "actualMutations": 0,
+      "lowerBound": 0,
+      "upperBound": 25,
+      "pass": true
+    }
+  ],
+  "duplicateActionChecks": [
+    {
+      "action": "Client approval",
+      "actualCalls": 1,
+      "expectedCalls": 1,
+      "pass": true
+    },
+    {
+      "action": "Client revision",
+      "actualCalls": 1,
+      "expectedCalls": 1,
+      "pass": true
+    },
+    {
+      "action": "Worker work log",
+      "actualCalls": 1,
+      "expectedCalls": 1,
+      "pass": true
+    },
+    {
+      "action": "Worker submit review",
+      "actualCalls": 1,
+      "expectedCalls": 1,
+      "pass": true
+    },
+    {
+      "action": "Public inquiry submit",
+      "actualCalls": 1,
+      "expectedCalls": 1,
+      "pass": true
+    },
+    {
+      "action": "UI-072 workspace selector Enter",
+      "actualCalls": 1,
+      "expectedCalls": 1,
+      "pass": true
+    },
+    {
+      "action": "UI Lab tab Enter",
+      "actualCalls": 1,
+      "expectedCalls": 1,
+      "pass": true
+    }
+  ],
+  "duplicateActionFailures": [],
   "overflowCases": 0,
+  "listenerEvidence": {
+    "unhandled": "window.addEventListener(unhandledrejection)",
+    "observer": "console ResizeObserver/MutationObserver loop capture plus bounded mutation sample",
+    "duplicate": "approved R7/R8 service spies plus R9 event/hash measurements"
+  },
   "pass": true
 }

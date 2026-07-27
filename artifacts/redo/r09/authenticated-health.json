@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-07-27T06:57:45.961Z",
+  "round8BaselineRef": "2911cc85922bf32f31d051216aca9f29ed906564",
+  "consoleErrors": [],
+  "pageErrors": [],
+  "round8BaselineRequestFailures": [
+    "https://fonts.gstatic.com/s/orbitron/v35/yMJRMIlzdpvBhQQL_Qq7dy0.woff2"
+  ],
+  "requestFailures": [],
+  "newRequestFailures": [],
+  "round8BaselineHttpFailures": [],
+  "httpFailures": [],
+  "newHttpFailures": [],
+  "pass": true
+}
