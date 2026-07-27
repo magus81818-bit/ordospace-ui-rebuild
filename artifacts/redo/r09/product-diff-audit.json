@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T07:17:48.035Z",
+  "generatedAt": "2026-07-27T07:21:15.242Z",
   "approvedRound8Head": "2911cc85922bf32f31d051216aca9f29ed906564",
   "changedFiles": [
     "artifacts/redo/r09/accessibility-audit.json",
@@ -31,6 +31,7 @@
     "docs/redo/r09/accessibility-review.md",
     "docs/redo/r09/browser-health-review.md",
     "docs/redo/r09/change-manifest.md",
+    "docs/redo/r09/correction-report.md",
     "docs/redo/r09/css-token-review.md",
     "docs/redo/r09/data-function-parity.md",
     "docs/redo/r09/full-inventory-review.md",
