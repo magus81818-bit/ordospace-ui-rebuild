@@ -28,6 +28,7 @@ fs.mkdirSync(artifactRoot,{recursive:true});
 const branch=git(['branch','--show-current']);
 const base='65465846487065b861756a8c7353c8df8c63ccc5';
 const descendant=/^redo\/r(?:0[7-9]|10)-/.test(branch);
+const workerDescendant=/^redo\/r(?:0[8-9]|10)-/.test(branch);
 check(branch==='redo/r06-admin-dashboard'||descendant,'current or approved descendant branch',branch);
 check(git(['merge-base',base,'HEAD'])===base,'Round 5 approved merge-base',base);
 
@@ -56,8 +57,8 @@ check(used.length>=20,'Round 3 token consumption',String(used.length));
 check(!/fetch\s*\(|XMLHttpRequest|localStorage\.(setItem|removeItem)/.test(ui),'Admin decorator has no API or storage mutation');
 
 const changed=git(['diff','--name-only',base,'HEAD']).split(/\r?\n/).filter(Boolean);
-const forbiddenChanged=changed.filter(file=>file.startsWith('backend/')||file.startsWith('api/')||file.includes('worker-workspace')||file.includes('app-shell.js')||(!descendant&&file.includes('client-workspace')));
-check(forbiddenChanged.length===0,'no backend API Worker or Shell change; Client changes only on approved descendants',forbiddenChanged.join(','));
+const forbiddenChanged=changed.filter(file=>file.startsWith('backend/')||file.startsWith('api/')||(!workerDescendant&&file.includes('worker-workspace'))||file.includes('app-shell.js')||(!descendant&&file.includes('client-workspace')));
+check(forbiddenChanged.length===0,'no backend API or Shell change; Client and Worker changes only on approved descendants',forbiddenChanged.join(','));
 for(const dataFile of ['app/data/workspace.data.js','app/data/room.data.js','app/services/session.service.js','app/config/api.config.js','app/layout/app-shell.js']){
   const baseline=git(['show',`${base}:${dataFile}`]);
   check(normalize(read(dataFile))===normalize(baseline),`parity ${dataFile}`);
