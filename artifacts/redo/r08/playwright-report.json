@@ -94,12 +94,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 8974,
+                  "duration": 8845,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-07-27T04:39:23.390Z",
+                  "startTime": "2026-07-27T05:29:10.441Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -109,7 +109,7 @@
           ],
           "id": "cec0c14cab8fe3dda462-56e378550940833ce597",
           "file": "worker-audit.spec.cjs",
-          "line": 86,
+          "line": 111,
           "column": 1
         },
         {
@@ -128,12 +128,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 5980,
+                  "duration": 12722,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-07-27T04:39:32.733Z",
+                  "startTime": "2026-07-27T05:29:19.739Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -143,7 +143,7 @@
           ],
           "id": "cec0c14cab8fe3dda462-a66bbd30a5752ddcce45",
           "file": "worker-audit.spec.cjs",
-          "line": 109,
+          "line": 134,
           "column": 1
         },
         {
@@ -162,12 +162,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 16506,
+                  "duration": 16403,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-07-27T04:39:38.731Z",
+                  "startTime": "2026-07-27T05:29:32.478Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -177,7 +177,7 @@
           ],
           "id": "cec0c14cab8fe3dda462-30873658fef94f30ac6a",
           "file": "worker-audit.spec.cjs",
-          "line": 138,
+          "line": 533,
           "column": 1
         }
       ]
@@ -185,8 +185,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-07-27T04:39:22.667Z",
-    "duration": 33135.106,
+    "startTime": "2026-07-27T05:29:09.759Z",
+    "duration": 39679.12,
     "expected": 3,
     "skipped": 0,
     "unexpected": 0,

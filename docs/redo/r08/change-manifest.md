@@ -9,7 +9,7 @@
 
 - `app/screens/worker-workspace.screen.js`: consumes Worker factories; inline log form; Promise-compatible lifecycle busy/success/failure handling; lifecycle-guarded submit busy state
 - `index.html`: registers Worker stylesheet and script
-- `package.json`: includes Worker UI file in JavaScript syntax validation
+- `package.json`: restored to the protected pre-Round-8 validation contract
 
 ## Verification and evidence
 
@@ -21,6 +21,9 @@
 - `references/prompts/round-8-correction-01.md`
 - `artifacts/redo/r08/worker-product-diff-audit.json`
 - `docs/redo/r08/correction-report.md`
+- `tests/redo/r03/dashboard-token-audit.spec.cjs`: isolates the Round 8 Worker stylesheet in the legacy token-only comparison
+- `tests/redo/r04/dashboard-token-audit.spec.cjs`: isolates the Round 8 Worker stylesheet in the primitive comparison
+- `tests/redo/r06/validate.cjs`: recognizes Round 8+ as an approved Worker descendant while retaining backend/API/Shell prohibitions
 
 The correction replaces declared interaction booleans with measured values, strengthens required-key validation, records deep-equality fixture restoration, and regenerates Worker/non-Worker/public screenshots from the correction HEAD.
 

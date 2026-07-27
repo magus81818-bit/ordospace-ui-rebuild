@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T04:39:56.449Z",
+  "generatedAt": "2026-07-27T05:29:50.521Z",
   "branch": "redo/r08-worker-dashboard",
   "mergeBase": "cd70a536a34e5bb23f1ebfd5a6df512893a0b9a6",
   "matrixMappingPass": true,
@@ -9,6 +9,13 @@
   "logContractPass": true,
   "submitContractPass": true,
   "qaFixtureIsolationPass": true,
+  "qcAssertionsComplete": true,
+  "workLogAssertionsComplete": true,
+  "submitAssertionsComplete": true,
+  "requiredInteractionKeysMissing": 0,
+  "hardcodedInteractionPassCount": 0,
+  "fixtureRestoreMeasured": true,
+  "workerProductDiffAdditive": true,
   "invalidAssertionsFound": 0,
   "invalidStatusCount": 0,
   "missingEvidenceCount": 0,
@@ -687,6 +694,16 @@
       "detail": "0"
     },
     {
+      "name": "generic browser assertion zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "state assertion mapping is specific",
+      "pass": true,
+      "detail": "87 == 87"
+    },
+    {
       "name": "deferred zero",
       "pass": true,
       "detail": "0"
@@ -742,6 +759,16 @@
       "detail": ""
     },
     {
+      "name": "required interaction keys missing zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
+      "name": "hardcoded interaction pass zero",
+      "pass": true,
+      "detail": "0"
+    },
+    {
       "name": "UI-040 QC contract",
       "pass": true,
       "detail": ""
@@ -765,6 +792,11 @@
       "name": "QA fixture isolation",
       "pass": true,
       "detail": ""
+    },
+    {
+      "name": "fixture restore measured",
+      "pass": true,
+      "detail": "4"
     },
     {
       "name": "data function parity",
@@ -855,6 +887,11 @@
       "name": "forbidden product diff zero",
       "pass": true,
       "detail": ""
+    },
+    {
+      "name": "Worker product diff additive",
+      "pass": true,
+      "detail": "0"
     },
     {
       "name": "invalid count assertions zero",
@@ -963,6 +1000,11 @@
     },
     {
       "name": "document implementation-report.md",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "document correction-report.md",
       "pass": true,
       "detail": ""
     },

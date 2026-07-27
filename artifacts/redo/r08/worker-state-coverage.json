@@ -9,7 +9,7 @@
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-033/default"
         },
         "hover": {
           "status": "not_applicable",
@@ -60,14 +60,14 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-home-kpi-zero-warning-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-033/zero"
         },
         "warning": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/states/worker-home-kpi-zero-warning-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-033/warning"
         },
         "revision": {
           "status": "not_applicable",
@@ -110,42 +110,42 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-home-long-mobile-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-033/long content"
         },
         "overflow": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-033/overflow"
         },
         "Desktop": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-033/Desktop"
         },
         "Tablet": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-033/Tablet"
         },
         "Mobile": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-033/Mobile"
         },
         "reduced motion": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-033/reduced motion"
         }
       }
     },
@@ -157,7 +157,7 @@
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-034/default"
         },
         "hover": {
           "status": "not_applicable",
@@ -188,7 +188,7 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-home-revision-empty-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-034/empty"
         },
         "no-result": {
           "status": "not_applicable",
@@ -219,7 +219,7 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-home-revision-populated-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-034/revision"
         },
         "overdue": {
           "status": "not_applicable",
@@ -262,35 +262,35 @@
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-034/overflow"
         },
         "Desktop": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-034/Desktop"
         },
         "Tablet": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-034/Tablet"
         },
         "Mobile": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-034/Mobile"
         },
         "reduced motion": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-034/reduced motion"
         }
       }
     },
@@ -302,7 +302,7 @@
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-035/default"
         },
         "hover": {
           "status": "not_applicable",
@@ -333,7 +333,7 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-home-in-progress-empty-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-035/empty"
         },
         "no-result": {
           "status": "not_applicable",
@@ -368,7 +368,7 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-home-long-mobile-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-035/overdue"
         },
         "pending": {
           "status": "not_applicable",
@@ -379,7 +379,7 @@
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-035/in-progress"
         },
         "unchecked": {
           "status": "not_applicable",
@@ -410,35 +410,35 @@
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-035/overflow"
         },
         "Desktop": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-035/Desktop"
         },
         "Tablet": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-035/Tablet"
         },
         "Mobile": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-035/Mobile"
         },
         "reduced motion": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-035/reduced motion"
         }
       }
     },
@@ -450,7 +450,7 @@
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-036/default"
         },
         "hover": {
           "status": "not_applicable",
@@ -481,7 +481,7 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-home-pending-empty-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-036/empty"
         },
         "no-result": {
           "status": "not_applicable",
@@ -520,7 +520,7 @@
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-036/pending"
         },
         "in-progress": {
           "status": "not_applicable",
@@ -555,35 +555,35 @@
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-mobile360-360x800.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-036/overflow"
         },
         "Desktop": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-036/Desktop"
         },
         "Tablet": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-tablet1024-1024x1366.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-036/Tablet"
         },
         "Mobile": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-mobile390-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-036/Mobile"
         },
         "reduced motion": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/home/worker-home-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker Home and Cards preserve shell and structure across six viewports#UI-036/reduced motion"
         }
       }
     },
@@ -595,7 +595,7 @@
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-037/default"
         },
         "hover": {
           "status": "not_applicable",
@@ -614,7 +614,7 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-cards-filter-no-result-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-037/selected"
         },
         "disabled": {
           "status": "not_applicable",
@@ -633,7 +633,7 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-cards-filter-no-result-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-037/no-result"
         },
         "error": {
           "status": "not_applicable",
@@ -700,35 +700,35 @@
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-037/overflow"
         },
         "Desktop": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-037/Desktop"
         },
         "Tablet": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-037/Tablet"
         },
         "Mobile": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-037/Mobile"
         },
         "reduced motion": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-037/reduced motion"
         }
       }
     },
@@ -740,7 +740,7 @@
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-038/default"
         },
         "hover": {
           "status": "not_applicable",
@@ -759,7 +759,7 @@
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-038/selected"
         },
         "disabled": {
           "status": "not_applicable",
@@ -802,14 +802,14 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-cards-filter-no-result-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-038/revision"
         },
         "overdue": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/states/worker-cards-long-detail-mobile-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-038/overdue"
         },
         "pending": {
           "status": "not_applicable",
@@ -848,35 +848,35 @@
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-038/overflow"
         },
         "Desktop": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-038/Desktop"
         },
         "Tablet": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-038/Tablet"
         },
         "Mobile": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-038/Mobile"
         },
         "reduced motion": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-038/reduced motion"
         }
       }
     },
@@ -888,7 +888,7 @@
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-039/default"
         },
         "hover": {
           "status": "not_applicable",
@@ -979,49 +979,49 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-cards-no-selection-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-039/no-selection"
         },
         "long content": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/states/worker-cards-long-detail-mobile-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-039/long content"
         },
         "overflow": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-039/overflow"
         },
         "Desktop": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-039/Desktop"
         },
         "Tablet": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-039/Tablet"
         },
         "Mobile": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-039/Mobile"
         },
         "reduced motion": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-039/reduced motion"
         }
       }
     },
@@ -1033,7 +1033,7 @@
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-040/default"
         },
         "hover": {
           "status": "not_applicable",
@@ -1056,7 +1056,7 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-qc-blocked-disabled-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-040/disabled"
         },
         "loading": {
           "status": "not_applicable",
@@ -1111,21 +1111,21 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-qc-unchecked-checked-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-040/unchecked"
         },
         "checked": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/states/worker-qc-unchecked-checked-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-040/checked"
         },
         "blocked": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/states/worker-qc-blocked-disabled-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-040/blocked"
         },
         "submitting": {
           "status": "not_applicable",
@@ -1144,35 +1144,35 @@
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-040/overflow"
         },
         "Desktop": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-040/Desktop"
         },
         "Tablet": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-040/Tablet"
         },
         "Mobile": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-040/Mobile"
         },
         "reduced motion": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-040/reduced motion"
         }
       }
     },
@@ -1184,7 +1184,7 @@
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-041/default"
         },
         "hover": {
           "status": "not_applicable",
@@ -1227,14 +1227,14 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-log-success-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-041/success"
         },
         "validation error": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/states/worker-log-validation-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-041/validation error"
         },
         "zero": {
           "status": "not_applicable",
@@ -1285,42 +1285,42 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-log-long-mobile-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-041/long content"
         },
         "overflow": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-041/overflow"
         },
         "Desktop": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-041/Desktop"
         },
         "Tablet": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-041/Tablet"
         },
         "Mobile": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-041/Mobile"
         },
         "reduced motion": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-041/reduced motion"
         }
       }
     },
@@ -1332,7 +1332,7 @@
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-042/default"
         },
         "hover": {
           "status": "not_applicable",
@@ -1355,7 +1355,7 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-submit-disabled-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-042/disabled"
         },
         "loading": {
           "status": "not_applicable",
@@ -1378,7 +1378,7 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-submit-enabled-desktop-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-042/success"
         },
         "validation error": {
           "status": "not_applicable",
@@ -1425,7 +1425,7 @@
           "evidence": [
             "evidence/redo/r08/worker/states/worker-submit-submitting-mobile-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-042/submitting"
         },
         "no-selection": {
           "status": "not_applicable",
@@ -1440,35 +1440,35 @@
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-mobile360-360x800.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-042/overflow"
         },
         "Desktop": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-042/Desktop"
         },
         "Tablet": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-tablet1024-1024x1366.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-042/Tablet"
         },
         "Mobile": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-mobile390-390x844.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-042/Mobile"
         },
         "reduced motion": {
           "status": "implemented",
           "evidence": [
             "evidence/redo/r08/worker/cards/worker-cards-default-desktop1440-1440x1000.png"
           ],
-          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs"
+          "browserAssertion": "tests/redo/r08/worker-audit.spec.cjs::Worker states, QC, work log, and submit lifecycle remain operable#UI-042/reduced motion"
         }
       }
     }

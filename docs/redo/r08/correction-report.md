@@ -31,6 +31,8 @@ Worker Home, QC, Work Log, and Submit fixtures contain before and after snapshot
 
 The correction suite regenerates Worker state evidence plus 16 Admin/Client/Profile cases and 18 public cases. It measures console errors, page errors, failed requests, HTTP failures, Shell geometry, 360px overflow, and 12 independent accessibility scenarios.
 
+The complete Round 1–8 regression exposed two stale legacy-harness assumptions rather than product defects. Round 3/4 now disable the Round 8 Worker stylesheet during their token/primitive isolation comparisons, and Round 6 permits Worker product changes only on approved Round 8+ descendants. All legacy gates then passed in a clean regression worktree.
+
 ## Remaining risk
 
 Dependency audit findings remain report-only. No force fix or dependency downgrade is performed.

@@ -1,63 +1,138 @@
 {
-  "generatedAt": "2026-07-27T04:39:23.368Z",
+  "generatedAt": "2026-07-27T05:29:10.418Z",
   "checks": [
     {
-      "name": "filterPressed",
+      "scenario": "QC blocked",
+      "measurement": "disabled checkbox tab order",
+      "expected": "disabled and unchanged",
+      "actual": {
+        "disabled": true,
+        "before": false,
+        "after": false
+      },
       "measured": true,
       "pass": true
     },
     {
-      "name": "cardSelection",
+      "scenario": "QC group",
+      "measurement": "legend, labels, and described-by",
+      "expected": "named group with 3 associated labels",
+      "actual": {
+        "groupName": "QC 체크리스트",
+        "labels": [
+          "ERD 작성",
+          "마이그레이션",
+          "시드 데이터"
+        ],
+        "describedBy": "workerQcHelp-mc-005"
+      },
       "measured": true,
       "pass": true
     },
     {
-      "name": "qcGroup",
+      "scenario": "Work Log invalid",
+      "measurement": "hours aria-invalid and error association",
+      "expected": "invalid=true, focus=hours, linked error",
+      "actual": {
+        "invalid": "true",
+        "errorId": "workerLogError",
+        "message": "작업 시간은 0.5~24 MH 범위로 입력하세요."
+      },
       "measured": true,
       "pass": true
     },
     {
-      "name": "qcLabels",
+      "scenario": "Work Log success",
+      "measurement": "live success feedback and cleared busy",
+      "expected": "success status, aria-busy removed",
+      "actual": {
+        "message": "작업 기록이 추가되었습니다.",
+        "busy": false
+      },
       "measured": true,
       "pass": true
     },
     {
-      "name": "logLabels",
+      "scenario": "Submit disabled",
+      "measurement": "native disabled and described reason",
+      "expected": "disabled=true and QC reason",
+      "actual": {
+        "disabled": true,
+        "reason": "QC 체크리스트를 모두 완료하면 리뷰 요청할 수 있습니다."
+      },
       "measured": true,
       "pass": true
     },
     {
-      "name": "submitReason",
+      "scenario": "Submit submitting",
+      "measurement": "busy, disabled, and loading text",
+      "expected": "aria-busy=true, disabled=true, 제출 중",
+      "actual": {
+        "busy": true,
+        "loadingText": true
+      },
       "measured": true,
       "pass": true
     },
     {
-      "name": "busy",
+      "scenario": "Mobile controls",
+      "measurement": "390px review button containment",
+      "expected": "inside viewport",
+      "actual": true,
       "measured": true,
       "pass": true
     },
     {
-      "name": "focusVisible",
+      "scenario": "Worker Home KPI/progress",
+      "measurement": "KPI count plus visible QC progress",
+      "expected": "4 KPI cards and QC 1/3 · 33%",
+      "actual": {
+        "kpis": 4,
+        "progressText": "QC 진행률1/3 · 33%검토 요청 전 QC 완료 기준"
+      },
       "measured": true,
       "pass": true
     },
     {
-      "name": "reducedMotion",
+      "scenario": "Worker Cards filter",
+      "measurement": "aria-pressed filter states",
+      "expected": "6 boolean states",
+      "actual": [
+        "true",
+        "false",
+        "false",
+        "false",
+        "false",
+        "false"
+      ],
       "measured": true,
       "pass": true
     },
     {
-      "name": "longWrap",
+      "scenario": "Work-card selected",
+      "measurement": "selected card aria-pressed",
+      "expected": "true",
+      "actual": "true",
       "measured": true,
       "pass": true
     },
     {
-      "name": "heading",
+      "scenario": "Reduced motion",
+      "measurement": "media query",
+      "expected": "true",
+      "actual": true,
       "measured": true,
       "pass": true
     },
     {
-      "name": "live",
+      "scenario": "Focus visible",
+      "measurement": "keyboard focus styling",
+      "expected": "filter focus with outline or shadow",
+      "actual": {
+        "target": "all",
+        "outline": "solid",
+        "shadow": "oklch(0.7 0.18 145 / 0.28) 0px 0px 0px 3px"
+      },
       "measured": true,
       "pass": true
     }

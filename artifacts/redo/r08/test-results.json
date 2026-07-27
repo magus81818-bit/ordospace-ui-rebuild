@@ -1,6 +1,6 @@
 {
   "round": 8,
-  "generatedAt": "2026-07-27T04:45:00+09:00",
+  "generatedAt": "2026-07-27T14:31:07+09:00",
   "commands": [
     {
       "name": "root npm ci",
@@ -21,7 +21,7 @@
       "command": "npm.cmd run check:js",
       "exitCode": 0,
       "status": "PASS",
-      "detail": "Includes app/ui/components/worker.ui.js."
+      "detail": "Existing protected root syntax-check contract passed; Worker UI is exercised by the Round 8 browser suite and validator."
     },
     {
       "name": "static component contract",
@@ -70,14 +70,14 @@
       "command": "npm.cmd --prefix tests/redo/r03 run validate",
       "exitCode": 0,
       "status": "PASS",
-      "detail": "Dashboard foundations, public isolation, token and layout gates passed."
+      "detail": "4/4 browser tests; 219 tokens; 18 public comparisons; 12 desktop routes; 6 responsive checks. The descendant stylesheet isolation list now includes the Round 8 Worker layer."
     },
     {
       "name": "Round 4 gate",
       "command": "npm.cmd --prefix tests/redo/r04 run validate",
       "exitCode": 0,
       "status": "PASS",
-      "detail": "Primitive/UI Lab, state, public isolation, token and layout gates passed."
+      "detail": "9/9 browser tests; 10 inventory rows; 18 public comparisons; 12 routes; 21 UI Lab screenshots. The descendant stylesheet isolation list now includes the Round 8 Worker layer."
     },
     {
       "name": "Round 5 gate",
@@ -91,21 +91,21 @@
       "command": "npm.cmd --prefix tests/redo/r06 run validate",
       "exitCode": 0,
       "status": "PASS",
-      "detail": "5/5 browser tests; Admin 30, non-Admin 11, public 18, browser errors 0."
+      "detail": "5/5 browser tests; Admin 30, non-Admin 11, public 18, browser errors 0. The descendant scope gate explicitly permits Worker changes beginning in Round 8."
     },
     {
       "name": "Round 7 gate",
       "command": "npm.cmd --prefix tests/redo/r07 run validate",
       "exitCode": 0,
       "status": "PASS",
-      "detail": "3/3 browser tests and independent validator PASS on local regression branch redo/r08-regression-clean."
+      "detail": "3/3 browser tests and independent validator PASS on clean local regression branch redo/r08-correction-regression."
     },
     {
-      "name": "Round 8 browser gate",
-      "command": "npm.cmd --prefix tests/redo/r08 run audit",
+      "name": "Round 8 full gate",
+      "command": "npm.cmd --prefix tests/redo/r08 run validate",
       "exitCode": 0,
       "status": "PASS",
-      "detail": "3/3; 12 Worker route/viewports, lifecycle states, 16 non-Worker cases and 18 public cases."
+      "detail": "3/3 browser tests plus validator PASS; all UI-040/041/042 contracts, measured restore, additive product diff, 16 non-Worker cases, and 18 public cases."
     },
     {
       "name": "backend clean install",

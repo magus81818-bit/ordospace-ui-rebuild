@@ -20,3 +20,5 @@ Machine-readable results confirm:
 Correction-specific gates also require every UI-040/041/042 key, exact numeric call counts, zero hardcoded interaction PASS rows, measured fixture restoration, specific state assertion names, and an additive Worker product diff. Missing required keys, string substitutes, generic assertion paths, or declared-only restoration fail the validator.
 
 The aggregate Round 1–8 and backend command ledger is stored in `artifacts/redo/r08/test-results.json`.
+
+Round 3 and Round 4 descendant-style isolation now explicitly disables the Round 8 Worker stylesheet during their token-only comparisons. Round 6's descendant scope gate explicitly permits Worker implementation changes beginning in Round 8 while continuing to reject backend, API, and shared Shell changes.
