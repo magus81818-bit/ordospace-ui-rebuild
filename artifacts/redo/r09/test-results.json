@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-27T16:18:28.0682292+09:00",
+  "generatedAt": "2026-07-27T17:07:42.8599955+09:00",
   "branch": "redo/r09-integration-verification",
   "approvedRound8Head": "2911cc85922bf32f31d051216aca9f29ed906564",
-  "correctionEvidenceCommit": "533c6c1dabbd68020fd1d8e1a761ee2c9eedef7f",
-  "testedTree": "final correction tree containing this ledger",
+  "correctionEvidenceCommit": "10304751cdeae4c156b6e1d46d311567aa777dd6",
+  "testedTree": "10304751cdeae4c156b6e1d46d311567aa777dd6 in disposable branch redo/r09-regression-correction03",
   "commands": [
     {
       "name": "Round 1 browser regression",
@@ -166,6 +166,39 @@
       "artifact": "artifacts/redo/r09/verification-summary.json"
     },
     {
+      "name": "Round 9 correction 03 full browser",
+      "command": "node ../r04/node_modules/@playwright/test/cli.js test --config playwright.config.cjs",
+      "cwd": "tests/redo/r09",
+      "exitCode": 0,
+      "status": "PASS",
+      "result": "6/6 Playwright tests passed, including the 40-key Round 3 and Round 5 exact state assertion registry."
+    },
+    {
+      "name": "Round 9 correction 03 independent final gate",
+      "command": "node generate.cjs && node validate.cjs",
+      "cwd": "tests/redo/r09",
+      "exitCode": 0,
+      "status": "PASS",
+      "result": "73/73 inventory items passed; 488 source-state rows plus 40 executed Round 9 assertions; zero missing real assertions; 16 required review documents passed substantive-content validation.",
+      "artifact": "artifacts/redo/r09/verification-summary.json"
+    },
+    {
+      "name": "Correction 03 Round 1 through Round 8 fresh regression",
+      "command": "per-round validate commands in disposable worktree",
+      "cwd": "redo/r09-regression-correction03",
+      "exitCode": 0,
+      "status": "PASS",
+      "result": "Round results: 4/4, 73 Matrix rows, 4/4, 9/9, 4/4, 5/5, 3/3, and 3/3."
+    },
+    {
+      "name": "Correction 03 root and backend gates",
+      "command": "root build/check/static/smoke/MVP plus backend Prisma generate/test/type/build",
+      "cwd": "redo/r09-regression-correction03",
+      "exitCode": 0,
+      "status": "PASS",
+      "result": "Root build, JavaScript syntax, component and lifecycle static validators, 12-route smoke with runtime QA 20/20, MVP checks/build, backend 4/4 suites and 18/18 tests, type, and build passed."
+    },
+    {
       "name": "Production deployment mutation",
       "command": "not run",
       "cwd": ".",
@@ -182,13 +215,13 @@
   "summary": {
     "status": "PASS",
     "round1ThroughRound8Regression": "PASS",
-    "round9BrowserTests": "5/5",
+    "round9BrowserTests": "6/6",
     "publicRound1Cases": "18/18",
     "authenticatedCases": "60/60",
     "ui072Cases": "4/4",
     "uiLabCases": "3/3",
     "fullInventory": "73/73 unique and internally passing",
-    "stateCoverage": "73 merged; 549 implemented; 675 N/A; zero invalid/fabricated/missing",
+    "stateCoverage": "73 merged; 528 implemented; 675 N/A; 488 source-state plus 40 executed registry assertions; zero invalid/fabricated/missing-real-assertion",
     "backendSuites": "4/4",
     "backendTests": "18/18",
     "skipped": [

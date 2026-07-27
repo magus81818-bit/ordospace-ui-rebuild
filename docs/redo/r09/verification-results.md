@@ -38,7 +38,7 @@
 
 ## Risks and limitations
 
-- Final Round 1 through Round 8 and backend rerun values are written to the ledger after completion.
+- Round 1 through Round 8 outputs were generated in a disposable verification branch and were not merged into the result branch.
 - Existing external-font availability is separated from new failures.
 - No production claim is made before Round 10.
 
