@@ -90,7 +90,7 @@ function renderTopbarCTA(role){
   const wrap = document.getElementById('topbarPrimaryCta');
   if (!wrap) return;
   const c = ROLE_CTA[role] || ROLE_CTA.client;
-  const btnClass = 'ordo-shell-cta h-9 px-3.5 text-[13px] font-semibold bg-brand-primary hover:bg-brand-hover text-white rounded-lg inline-flex items-center gap-1.5 whitespace-nowrap shrink-0';
+  const btnClass = 'ordo-shell-cta ordo-liquid-button h-9 px-3.5 text-[13px] font-semibold rounded-lg inline-flex items-center gap-1.5 whitespace-nowrap shrink-0';
   if (c.href) {
     wrap.innerHTML = `<a href="${c.href}" class="${btnClass}" aria-label="${c.aria}"><i data-lucide="${c.icon}" class="w-4 h-4"></i><span>${c.label}</span></a>`;
   } else {

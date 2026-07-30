@@ -138,14 +138,14 @@ function DetailSection(title, bodyHtml, opts){
 // Tailwind 빌드 안전을 위해 모든 조합을 리터럴로 정의.
 const ORDO_ACTION_BUTTON_CLASSES = {
   wrap: {
-    default: 'h-10 px-4 rounded-lg border border-bd-default hover:bg-bg-secondary text-[13px] font-semibold inline-flex items-center gap-1.5',
-    warn: 'h-10 px-4 rounded-lg border border-st-warnbd bg-st-warnbg text-st-warnfg hover:bg-bg-secondary text-[13px] font-semibold inline-flex items-center gap-1.5',
-    primary: 'h-10 px-4 rounded-lg bg-brand-primary text-white hover:bg-brand-hover text-[13px] font-semibold inline-flex items-center gap-1.5'
+    default: 'justify-center',
+    warn: 'justify-center',
+    primary: 'justify-center'
   },
   stack: {
-    default: 'h-10 px-4 rounded-lg border border-bd-default hover:bg-bg-secondary text-[13px] font-semibold inline-flex items-center justify-center gap-1.5',
-    warn: 'h-10 px-4 rounded-lg border border-st-warnbd bg-st-warnbg text-st-warnfg hover:bg-bg-secondary text-[13px] font-semibold inline-flex items-center justify-center gap-1.5',
-    primary: 'h-10 px-4 rounded-lg bg-brand-primary hover:bg-brand-hover text-white text-[13px] font-semibold inline-flex items-center justify-center gap-1.5'
+    default: 'justify-center',
+    warn: 'justify-center',
+    primary: 'justify-center'
   }
 };
 const ORDO_ACTION_TOOLBAR_CLASSES = {
@@ -161,10 +161,11 @@ function ActionToolbar(buttons, opts){
   const esc = window.ORDO_UI_COMPONENTS.escapeHtml;
   const layout = o.layout === 'stack' ? 'stack' : 'wrap';
   const items = (buttons || []).map(function(btn){
-    const cls = ORDO_ACTION_BUTTON_CLASSES[layout][btn.variant || 'default'] || ORDO_ACTION_BUTTON_CLASSES[layout].default;
+    const variant = btn.variant || 'default';
+    const cls = ORDO_ACTION_BUTTON_CLASSES[layout][variant] || ORDO_ACTION_BUTTON_CLASSES[layout].default;
     const attr = btn.attr ? ' ' + btn.attr + '="' + esc(btn.value) + '"' : '';
     const icon = btn.icon ? '<i data-lucide="' + esc(btn.icon) + '" class="w-4 h-4"></i>' : '';
-    return '<button type="button"' + attr + ' class="' + cls + '">' + icon + esc(btn.label) + '</button>';
+    return '<button type="button"' + attr + ' class="ordo-c-button ordo-liquid-button h-10 px-4 text-[13px] font-semibold inline-flex items-center gap-1.5 ' + cls + '" data-variant="' + esc(variant) + '">' + icon + '<span>' + esc(btn.label) + '</span></button>';
   }).join('');
   return '<div class="' + ORDO_ACTION_TOOLBAR_CLASSES[layout] + '">' + items + '</div>';
 }

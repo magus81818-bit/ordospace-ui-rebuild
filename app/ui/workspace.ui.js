@@ -57,10 +57,25 @@ function setHtml(id,html){const el=document.getElementById(id);if(el)el.innerHTM
 /* WORKSPACE TOAST HELPER */
 function ordoToast(msg, tone){
   const el = document.createElement('div');
-  const bg = tone==='crit'?'#EF4444':(tone==='ok'?'#10B981':'#1F2937');
-  el.style.cssText = `position:fixed;left:50%;bottom:100px;transform:translateX(-50%);background:${bg};color:#fff;padding:10px 16px;border-radius:10px;font-size:13px;font-weight:600;z-index:140;box-shadow:0 10px 25px rgba(0,0,0,0.2);max-width:90vw;`;
+  if (!document.body.classList.contains('auth-on')) {
+    const bg = tone==='crit'?'#EF4444':(tone==='ok'?'#10B981':'#1F2937');
+    el.style.cssText = `position:fixed;left:50%;bottom:100px;transform:translateX(-50%);background:${bg};color:#fff;padding:10px 16px;border-radius:10px;font-size:13px;font-weight:600;z-index:140;box-shadow:0 10px 25px rgba(0,0,0,0.2);max-width:90vw;`;
+    el.textContent = msg;
+    document.body.appendChild(el);
+    setTimeout(()=>{ el.style.transition='opacity .3s'; el.style.opacity='0'; setTimeout(()=>el.remove(),300); }, 2600);
+    return;
+  }
+  const normalizedTone = tone === 'crit' ? 'critical' : (tone === 'ok' ? 'success' : 'neutral');
+  el.className = 'ordo-c-toast';
+  el.dataset.tone = normalizedTone;
+  el.setAttribute('role', normalizedTone === 'critical' ? 'alert' : 'status');
+  el.setAttribute('aria-live', normalizedTone === 'critical' ? 'assertive' : 'polite');
   el.textContent = msg;
   document.body.appendChild(el);
-  setTimeout(()=>{ el.style.transition='opacity .3s'; el.style.opacity='0'; setTimeout(()=>el.remove(),300); }, 2600);
+  requestAnimationFrame(()=>el.dataset.state='open');
+  setTimeout(()=>{
+    el.dataset.state='closed';
+    setTimeout(()=>el.remove(),220);
+  }, 2600);
 }
 window.ordoToast = ordoToast;
