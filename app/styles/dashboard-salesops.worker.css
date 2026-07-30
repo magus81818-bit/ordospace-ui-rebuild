@@ -18,7 +18,7 @@ body.auth-on #screen-worker-home .ordo-worker-revision-item { padding: var(--ord
 body.auth-on #screen-worker-home .ordo-worker-revision-note { border-color: var(--ordo-so-tone-critical-border); background: var(--ordo-so-tone-critical-bg); color: var(--ordo-so-tone-critical-fg); }
 body.auth-on #screen-worker-home .ordo-worker-progress { margin-top: var(--ordo-c-gap-sm); padding: var(--ordo-c-padding-sm); border: 1px solid var(--ordo-worker-border); border-radius: var(--ordo-so-radius-control); background: var(--ordo-worker-surface-subtle); }
 body.auth-on #screen-worker-home .progress-track { background: var(--ordo-so-bg-surface-muted); }
-body.auth-on #screen-worker-home .progress-fill { background: var(--ordo-so-chart-1); }
+body.auth-on #screen-worker-home .progress-fill { background: var(--ordo-so-progress-fill); }
 body.auth-on #screen-worker-home #workerHomePending { background: var(--ordo-worker-surface); }
 body.auth-on #screen-worker-home .ordo-worker-pending-row { min-width: 0; color: var(--ordo-so-text-primary); transition: var(--ordo-so-state-default-transition); }
 body.auth-on #screen-worker-home .ordo-worker-pending-row:hover { background: var(--ordo-so-bg-hover); }

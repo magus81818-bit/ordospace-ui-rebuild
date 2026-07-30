@@ -20,7 +20,7 @@ body.auth-on :is(#screen-dashboard, #screen-project) .ordo-client-step-card[data
 body.auth-on :is(#screen-dashboard, #screen-project) .ordo-client-step-card[data-state='current'] { border-color: var(--ordo-client-border-strong); background: var(--ordo-so-bg-selected); }
 body.auth-on :is(#screen-dashboard, #screen-project) .ordo-client-step-card[data-state='pending'] { border-color: var(--ordo-so-border-subtle); background: var(--ordo-client-surface-subtle); }
 body.auth-on :is(#screen-dashboard, #screen-project) .progress-track { background: var(--ordo-so-bg-surface-muted); }
-body.auth-on :is(#screen-dashboard, #screen-project) .progress-fill { background: var(--ordo-so-chart-1); }
+body.auth-on :is(#screen-dashboard, #screen-project) .progress-fill { background: var(--ordo-so-progress-fill); }
 body.auth-on #screen-project [data-project-tab] { border-color: transparent; color: var(--ordo-so-text-muted); transition: var(--ordo-so-state-default-transition); }
 body.auth-on #screen-project [data-project-tab]:hover { color: var(--ordo-so-text-primary); background: var(--ordo-so-bg-hover); }
 body.auth-on #screen-project [data-project-tab][aria-selected='true'] { border-bottom-color: var(--ordo-so-text-primary); color: var(--ordo-so-text-primary); background: transparent; }
