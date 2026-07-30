@@ -94,8 +94,7 @@ body.auth-on #screen-admin-home .ordo-c-action-card {
 body.auth-on #screen-admin-home .ordo-c-action-card:hover {
   background: var(--ordo-so-bg-hover);
   border-color: var(--ordo-admin-border-strong);
-  box-shadow: var(--ordo-so-shadow-raised);
-  transform: translateY(-1px);
+  box-shadow: var(--ordo-so-shadow-surface);
 }
 
 body.auth-on #screen-admin-home :where(
@@ -122,9 +121,9 @@ body.auth-on #screen-admin-projects [data-admin-project-detail-tab] {
 
 body.auth-on #screen-admin-projects [data-admin-project-view][aria-selected='true'],
 body.auth-on #screen-admin-team [data-admin-team-tab][aria-selected='true'] {
-  border-color: var(--ordo-so-border-selected);
+  border-color: var(--ordo-admin-border-strong);
   background: var(--ordo-so-bg-selected);
-  color: var(--ordo-admin-accent);
+  color: var(--ordo-so-text-primary);
   box-shadow: var(--ordo-so-shadow-surface);
 }
 
@@ -146,13 +145,13 @@ body.auth-on #screen-admin-projects .ordo-admin-project-card {
 body.auth-on #screen-admin-projects .ordo-admin-project-card:hover {
   border-color: var(--ordo-admin-border-strong);
   background: var(--ordo-so-bg-hover);
-  box-shadow: var(--ordo-so-shadow-raised);
-  transform: translateY(-1px);
+  box-shadow: var(--ordo-so-shadow-surface);
 }
 
 body.auth-on #screen-admin-projects .ordo-admin-project-card[data-state='selected'] {
-  border-color: var(--ordo-so-border-selected);
-  box-shadow: var(--ordo-so-shadow-focus);
+  border-color: var(--ordo-admin-border-strong);
+  background: var(--ordo-so-bg-selected);
+  box-shadow: var(--ordo-so-shadow-surface);
 }
 
 body.auth-on #screen-admin-projects .ordo-admin-project-empty {
@@ -168,8 +167,8 @@ body.auth-on #screen-admin-projects #adminProjectBoard > section > div:last-chil
 }
 
 body.auth-on #screen-admin-projects [data-admin-project-detail-tab][aria-selected='true'] {
-  border-bottom-color: var(--ordo-admin-accent);
-  color: var(--ordo-admin-accent);
+  border-bottom-color: var(--ordo-so-text-primary);
+  color: var(--ordo-so-text-primary);
 }
 
 body.auth-on #screen-admin-cards .ordo-c-list-detail {
@@ -200,9 +199,9 @@ body.auth-on #screen-admin-cards [data-admin-card-filter]:hover {
 }
 
 body.auth-on #screen-admin-cards [data-admin-card-filter][aria-pressed='true'] {
-  border-color: var(--ordo-so-border-selected);
+  border-color: var(--ordo-admin-border-strong);
   background: var(--ordo-so-bg-selected);
-  color: var(--ordo-admin-accent);
+  color: var(--ordo-so-text-primary);
 }
 
 body.auth-on #screen-admin-cards .ordo-admin-state-banner {
@@ -252,8 +251,7 @@ body.auth-on #screen-admin-team .ordo-admin-heat-cell {
 
 body.auth-on #screen-admin-team .ordo-admin-heat-cell:hover {
   border-color: var(--ordo-admin-border-strong);
-  box-shadow: var(--ordo-so-shadow-focus);
-  transform: translateY(-1px);
+  box-shadow: var(--ordo-so-shadow-surface);
 }
 
 body.auth-on #screen-admin-audit .ordo-admin-audit-toolbar {

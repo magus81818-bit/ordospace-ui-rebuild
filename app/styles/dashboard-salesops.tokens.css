@@ -6,65 +6,65 @@
 
 body.auth-on {
   /* Background and surface */
-  --ordo-so-bg-dashboard: oklch(0.09 0.005 260);
-  --ordo-so-bg-sidebar: oklch(0.11 0.005 260);
-  --ordo-so-bg-header: oklch(0.12 0.005 260 / 0.92);
-  --ordo-so-bg-surface: oklch(0.12 0.005 260);
-  --ordo-so-bg-surface-secondary: oklch(0.15 0.005 260);
-  --ordo-so-bg-surface-muted: oklch(0.18 0.005 260);
-  --ordo-so-bg-surface-elevated: oklch(0.16 0.005 260);
-  --ordo-so-bg-overlay: oklch(0.12 0.005 260 / 0.96);
-  --ordo-so-bg-hover: oklch(0.18 0.005 260);
-  --ordo-so-bg-selected: color-mix(in oklch, oklch(0.7 0.18 145) 16%, oklch(0.12 0.005 260));
-  --ordo-so-bg-disabled: oklch(0.15 0.005 260);
+  --ordo-so-bg-dashboard: oklch(0.115 0.006 255);
+  --ordo-so-bg-sidebar: oklch(0.13 0.006 255);
+  --ordo-so-bg-header: oklch(0.145 0.006 255 / 0.96);
+  --ordo-so-bg-surface: oklch(0.145 0.006 255);
+  --ordo-so-bg-surface-secondary: oklch(0.165 0.006 255);
+  --ordo-so-bg-surface-muted: oklch(0.19 0.006 255);
+  --ordo-so-bg-surface-elevated: oklch(0.18 0.006 255);
+  --ordo-so-bg-overlay: oklch(0.145 0.006 255 / 0.98);
+  --ordo-so-bg-hover: oklch(0.19 0.006 255);
+  --ordo-so-bg-selected: oklch(0.195 0.007 255);
+  --ordo-so-bg-disabled: oklch(0.16 0.006 255);
 
   /* Text */
-  --ordo-so-text-primary: oklch(0.95 0 0);
-  --ordo-so-text-secondary: oklch(0.78 0 0);
-  --ordo-so-text-muted: oklch(0.65 0 0);
-  --ordo-so-text-inverse: oklch(0.09 0.005 260);
-  --ordo-so-text-accent: oklch(0.76 0.18 145);
-  --ordo-so-text-success: oklch(0.76 0.18 145);
-  --ordo-so-text-warning: oklch(0.8 0.18 55);
-  --ordo-so-text-critical: oklch(0.72 0.2 25);
-  --ordo-so-text-informational: oklch(0.76 0.18 220);
-  --ordo-so-text-disabled: oklch(0.52 0 0);
-  --ordo-so-text-link: oklch(0.76 0.18 220);
-  --ordo-so-text-link-hover: oklch(0.84 0.14 220);
+  --ordo-so-text-primary: oklch(0.91 0.004 255);
+  --ordo-so-text-secondary: oklch(0.7 0.004 255);
+  --ordo-so-text-muted: oklch(0.6 0.004 255);
+  --ordo-so-text-inverse: oklch(0.12 0.006 255);
+  --ordo-so-text-accent: oklch(0.73 0.15 145);
+  --ordo-so-text-success: oklch(0.73 0.15 145);
+  --ordo-so-text-warning: oklch(0.76 0.14 65);
+  --ordo-so-text-critical: oklch(0.69 0.17 25);
+  --ordo-so-text-informational: oklch(0.7 0.12 220);
+  --ordo-so-text-disabled: oklch(0.48 0.004 255);
+  --ordo-so-text-link: oklch(0.72 0.11 220);
+  --ordo-so-text-link-hover: oklch(0.8 0.09 220);
 
   /* Border and divider */
-  --ordo-so-border-default: oklch(0.22 0.005 260);
-  --ordo-so-border-subtle: oklch(0.19 0.005 260);
-  --ordo-so-border-strong: oklch(0.34 0.005 260);
-  --ordo-so-border-interactive: oklch(0.38 0.02 260);
-  --ordo-so-border-focus: oklch(0.7 0.18 145);
-  --ordo-so-border-selected: oklch(0.7 0.18 145 / 0.72);
-  --ordo-so-border-error: oklch(0.65 0.2 25);
-  --ordo-so-border-divider: oklch(0.22 0.005 260);
-  --ordo-so-border-overlay: oklch(0.3 0.008 260);
+  --ordo-so-border-default: oklch(0.235 0.006 255);
+  --ordo-so-border-subtle: oklch(0.195 0.006 255);
+  --ordo-so-border-strong: oklch(0.31 0.007 255);
+  --ordo-so-border-interactive: oklch(0.35 0.008 255);
+  --ordo-so-border-focus: oklch(0.68 0.01 255);
+  --ordo-so-border-selected: oklch(0.33 0.008 255);
+  --ordo-so-border-error: oklch(0.62 0.16 25);
+  --ordo-so-border-divider: oklch(0.22 0.006 255);
+  --ordo-so-border-overlay: oklch(0.29 0.008 255);
 
   /* ORDOSPACE lifecycle tones — meanings remain unchanged. */
-  --ordo-so-tone-neutral-fg: oklch(0.72 0 0);
-  --ordo-so-tone-neutral-bg: oklch(0.22 0.005 260 / 0.55);
-  --ordo-so-tone-neutral-border: oklch(0.42 0.005 260 / 0.72);
-  --ordo-so-tone-informational-fg: oklch(0.76 0.18 220);
-  --ordo-so-tone-informational-bg: oklch(0.7 0.18 220 / 0.12);
-  --ordo-so-tone-informational-border: oklch(0.7 0.18 220 / 0.34);
-  --ordo-so-tone-pending-fg: oklch(0.76 0.18 220);
-  --ordo-so-tone-pending-bg: oklch(0.7 0.18 220 / 0.12);
-  --ordo-so-tone-pending-border: oklch(0.7 0.18 220 / 0.34);
-  --ordo-so-tone-warning-fg: oklch(0.8 0.18 55);
-  --ordo-so-tone-warning-bg: oklch(0.75 0.18 55 / 0.12);
-  --ordo-so-tone-warning-border: oklch(0.75 0.18 55 / 0.34);
-  --ordo-so-tone-success-fg: oklch(0.76 0.18 145);
-  --ordo-so-tone-success-bg: oklch(0.7 0.18 145 / 0.12);
-  --ordo-so-tone-success-border: oklch(0.7 0.18 145 / 0.34);
-  --ordo-so-tone-critical-fg: oklch(0.72 0.2 25);
-  --ordo-so-tone-critical-bg: oklch(0.65 0.2 25 / 0.12);
-  --ordo-so-tone-critical-border: oklch(0.65 0.2 25 / 0.34);
-  --ordo-so-tone-disabled-fg: oklch(0.56 0 0);
-  --ordo-so-tone-disabled-bg: oklch(0.18 0.005 260 / 0.7);
-  --ordo-so-tone-disabled-border: oklch(0.3 0.005 260 / 0.6);
+  --ordo-so-tone-neutral-fg: oklch(0.67 0.004 255);
+  --ordo-so-tone-neutral-bg: var(--ordo-so-bg-surface-secondary);
+  --ordo-so-tone-neutral-border: var(--ordo-so-border-default);
+  --ordo-so-tone-informational-fg: oklch(0.7 0.12 220);
+  --ordo-so-tone-informational-bg: oklch(0.18 0.018 220);
+  --ordo-so-tone-informational-border: oklch(0.34 0.045 220);
+  --ordo-so-tone-pending-fg: oklch(0.7 0.12 220);
+  --ordo-so-tone-pending-bg: oklch(0.18 0.018 220);
+  --ordo-so-tone-pending-border: oklch(0.34 0.045 220);
+  --ordo-so-tone-warning-fg: oklch(0.76 0.14 65);
+  --ordo-so-tone-warning-bg: oklch(0.18 0.018 65);
+  --ordo-so-tone-warning-border: oklch(0.36 0.055 65);
+  --ordo-so-tone-success-fg: oklch(0.73 0.15 145);
+  --ordo-so-tone-success-bg: var(--ordo-so-bg-surface-secondary);
+  --ordo-so-tone-success-border: var(--ordo-so-border-default);
+  --ordo-so-tone-critical-fg: oklch(0.69 0.17 25);
+  --ordo-so-tone-critical-bg: oklch(0.18 0.018 25);
+  --ordo-so-tone-critical-border: oklch(0.36 0.055 25);
+  --ordo-so-tone-disabled-fg: oklch(0.5 0.004 255);
+  --ordo-so-tone-disabled-bg: var(--ordo-so-bg-surface-secondary);
+  --ordo-so-tone-disabled-border: var(--ordo-so-border-subtle);
 
   /* Typography — local/system fallback only; no font download is introduced. */
   --ordo-so-font-sans: 'DM Sans', 'Pretendard Variable', Pretendard, Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -110,10 +110,10 @@ body.auth-on {
 
   /* Shadow — border-led elevation */
   --ordo-so-shadow-none: none;
-  --ordo-so-shadow-surface: 0 1px 2px oklch(0 0 0 / 0.2);
-  --ordo-so-shadow-raised: 0 8px 24px oklch(0 0 0 / 0.24);
-  --ordo-so-shadow-overlay: 0 18px 48px oklch(0 0 0 / 0.42);
-  --ordo-so-shadow-focus: 0 0 0 3px oklch(0.7 0.18 145 / 0.28);
+  --ordo-so-shadow-surface: 0 1px 1px oklch(0 0 0 / 0.16);
+  --ordo-so-shadow-raised: 0 4px 14px oklch(0 0 0 / 0.2);
+  --ordo-so-shadow-overlay: 0 18px 48px oklch(0 0 0 / 0.38);
+  --ordo-so-shadow-focus: 0 0 0 2px oklch(0.72 0.01 255 / 0.22);
 
   /* Geometry and density — reserved; Round 3 does not change layout. */
   --ordo-so-control-height-sm: 2rem;
@@ -163,9 +163,9 @@ body.auth-on {
   --ordo-so-state-active-cursor: pointer;
   --ordo-so-state-active-transition: var(--ordo-so-state-default-transition);
   --ordo-so-state-selected-bg: var(--ordo-so-bg-selected);
-  --ordo-so-state-selected-fg: var(--ordo-so-text-accent);
+  --ordo-so-state-selected-fg: var(--ordo-so-text-primary);
   --ordo-so-state-selected-border: var(--ordo-so-border-selected);
-  --ordo-so-state-selected-ring: inset 3px 0 0 var(--ordo-so-text-accent);
+  --ordo-so-state-selected-ring: none;
   --ordo-so-state-selected-opacity: 1;
   --ordo-so-state-selected-cursor: pointer;
   --ordo-so-state-selected-transition: var(--ordo-so-state-default-transition);
@@ -221,7 +221,7 @@ body.auth-on {
 
   /* Chart */
   --ordo-so-chart-1: oklch(0.7 0.18 220);
-  --ordo-so-chart-2: oklch(0.7 0.18 145);
+  --ordo-so-chart-2: oklch(0.68 0.13 145);
   --ordo-so-chart-3: oklch(0.75 0.18 55);
   --ordo-so-chart-4: oklch(0.65 0.2 25);
   --ordo-so-chart-5: oklch(0.7 0.15 300);
@@ -286,6 +286,20 @@ body.auth-on :where(button, a, input, select, textarea, [tabindex]):focus-visibl
   box-shadow: var(--ordo-so-state-focus-visible-ring);
 }
 
+/* Authenticated primary controls use emerald as a fine accent, not a filled panel. */
+body.auth-on .bg-brand-primary {
+  border: 1px solid var(--ordo-so-text-accent);
+  background: var(--ordo-so-bg-surface-muted);
+  color: var(--ordo-so-text-primary);
+}
+
+body.auth-on .bg-brand-primary:hover,
+body.auth-on .hover\:bg-brand-hover:hover {
+  border-color: var(--ordo-so-text-accent);
+  background: var(--ordo-so-bg-hover);
+  color: var(--ordo-so-text-primary);
+}
+
 body.auth-on :where(button, input, select, textarea):disabled,
 body.auth-on [aria-disabled='true'] {
   opacity: var(--ordo-so-state-disabled-opacity);
@@ -344,7 +358,7 @@ body.auth-on .ordo-c-progress-track {
   border-radius: var(--ordo-so-radius-pill);
 }
 body.auth-on .progress-fill {
-  background: var(--ordo-so-chart-2);
+  background: var(--ordo-so-chart-1);
   border-radius: var(--ordo-so-radius-pill);
 }
 
