@@ -225,7 +225,6 @@ body.auth-on {
   --ordo-so-chart-3: oklch(0.75 0.18 55);
   --ordo-so-chart-4: oklch(0.65 0.2 25);
   --ordo-so-chart-5: oklch(0.7 0.15 300);
-  --ordo-so-progress-fill: oklch(0.67 0.1 150);
   --ordo-so-chart-axis: var(--ordo-so-text-muted);
   --ordo-so-chart-grid: var(--ordo-so-border-divider);
   --ordo-so-chart-legend: var(--ordo-so-text-secondary);
@@ -359,7 +358,7 @@ body.auth-on .ordo-c-progress-track {
   border-radius: var(--ordo-so-radius-pill);
 }
 body.auth-on .progress-fill {
-  background: var(--ordo-so-progress-fill);
+  background: var(--ordo-so-chart-2);
   border-radius: var(--ordo-so-radius-pill);
 }
 
